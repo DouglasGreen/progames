@@ -31,8 +31,7 @@ pick_subject(Name, Desc) :-
     setof((Name1, Desc1), subject(Name1, Desc1), Subjects),
     length(Subjects, N),
     R is random(N),
-    nth0(R, Subjects, (Name, Desc)),
-    subject(Name, Desc).
+    nth0(R, Subjects, (Name, Desc)).
 pick_subject(Name, Desc) :-
     atom(Name),
     subject(Name, Desc).
