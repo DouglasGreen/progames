@@ -123,7 +123,7 @@ word("ablution", 'n.', "The ritual consumption by the deacon or priest of leftov
 word("abnegate", 'v.', "To deny (oneself something); to renounce or give up (a right, a power, a claim, a privilege, a convenience).").
 word("abnegate", 'v.', "To relinquish; to surrender; to abjure.").
 word("abnormal", 'adj.', "Not conforming to rule or system; deviating from the usual or normal type.").
-word("abnormal", 'adj.', "Of or pertaining to that which is irregular, in particular, behaviour that deviates from norms of social propriety or accepted standards of mental health.").
+word("abnormal", 'adj.', "Of or pertaining to that which is irregular, in particular, behavior that deviates from norms of social propriety or accepted standards of mental health.").
 word("abominable", 'adj.', "Worthy of, or causing, abhorrence, as a thing of evil omen; odious in the utmost degree; very hateful; detestable; loathsome; execrable.").
 word("abominable", 'adj.', "Very bad or inferior.").
 word("abominate", 'v.', "To feel disgust towards; to loathe or detest thoroughly; to hate in the highest degree, as if with religious dread.").
@@ -138,7 +138,7 @@ word("abrade", 'v.', "To rub or wear off; erode.").
 word("abrade", 'v.', "To wear down or exhaust, as a person; irritate.").
 word("abrasion", 'n.', "The substance thus rubbed off; debris.").
 word("abrasion", 'n.', "The effect of mechanical erosion of rock, especially a river bed, by rock fragments scratching and scraping it.").
-word("abridge", 'v.', "To shorten or contract by using fewer words, yet retaining the sense; to epitomize; to condense .").
+word("abridge", 'v.', "To shorten or contract by using fewer words, yet retaining the sense; to epitomize; to condense.").
 word("abridge", 'v.', "To make shorter; to shorten in duration or extent.").
 word("abridgment", 'n.', "Any of various brief statements of case law made before modern reporting of legal cases.").
 word("abridgment", 'n.', "An epitome or compend, as of a book; a shortened or abridged form; an abbreviation.").
@@ -165,8 +165,8 @@ word("abstain", 'v.', "Refrain from (something or doing something); keep from do
 word("abstain", 'v.', "Hinder; keep back; withhold.").
 word("abstemious", 'adj.', "Refraining from freely consuming food or strong drink; sparing in diet; abstinent, temperate.").
 word("abstemious", 'adj.', "Marked by, or spent in, abstinence.").
-word("abstinence", 'n.', "The practice of self-denial; self-restraint; forebearance from anything.").
-word("abstinence", 'n.', "Self-denial; abstaining; or forebearance of anything.").
+word("abstinence", 'n.', "The practice of self-denial; self-restraint; forbearance from anything.").
+word("abstinence", 'n.', "Self-denial; abstaining; or forbearance of anything.").
 word("abstruse", 'adj.', "Difficult to comprehend or understand.").
 word("abstruse", 'adj.', "Concealed or hidden out of the way; secret.").
 word("absurd", 'adj.', "Contrary to reason or propriety; obviously and flatly opposed to manifest truth; inconsistent with the plain dictates of common sense; logically contradictory; nonsensical; ridiculous; silly.").
@@ -232,7 +232,7 @@ word("accursed", 'adj.', "Hateful; detestable, loathsome.").
 word("accusation", 'n.', "A formal charge brought against a person in a court of law.").
 word("accusation", 'n.', "An allegation.").
 word("accusatory", 'adj.', "Pertaining to, or containing, an accusation.").
-word("accuse", 'v.', "To charge with having committed a crime or offence").
+word("accuse", 'v.', "To charge with having committed a crime or offense").
 word("accuse", 'v.', "To find fault with, blame, censure").
 word("accustom", 'v.', "To make familiar by use; to cause to accept; to habituate, familiarize, or inure.").
 word("accustom", 'v.', "To be wont.").
@@ -296,7 +296,7 @@ word("adamant", 'n.', "An imaginary rock or mineral of impenetrable hardness; a 
 word("adamant", 'n.', "An embodiment of impregnable hardness.").
 word("addendum", 'n.', "The height by which the tooth of a gear projects beyond (outside for external, or inside for internal) the standard pitch circle or pitch line.").
 word("addendum", 'n.', "Something to be added; especially text added as an appendix or supplement to a document.").
-word("addle", 'v.', "To cause fertilised eggs to lose viability, by killing the developing embryo within through shaking, piercing, freezing or oiling, without breaking the shell.").
+word("addle", 'v.', "To cause fertilized eggs to lose viability, by killing the developing embryo within through shaking, piercing, freezing or oiling, without breaking the shell.").
 word("addle", 'v.', "To earn, earn by labor; earn money or one's living.").
 word("adduce", 'v.', "To bring forward or offer, as an argument, passage, or consideration which bears on a statement or case; to cite; to allege.").
 word("adhere", 'v.', "To stick fast or cleave, as a glutinous substance does; to become joined or united.").
@@ -345,7 +345,7 @@ word("advertiser", 'n.', "A periodical in which advertisements can be published 
 word("advertiser", 'n.', "One who advertises.").
 word("advisory", 'adj.', "Able to give advice.").
 word("advisory", 'adj.', "Containing advice; advising.").
-word("advocacy", 'n.', "The act of arguing in favour of, or supporting someone or something").
+word("advocacy", 'n.', "The act of arguing in favor of, or supporting someone or something").
 word("advocacy", 'n.', "The practice of supporting someone to make their voice heard").
 word("advocate", 'n.', "Anyone who argues the case of another; an intercessor.").
 word("advocate", 'n.', "A person who supports others to make their voices heard, or ideally for them to speak up for themselves.").
@@ -381,7 +381,7 @@ word("afterthought", 'n.', "Something additional to the original plan or concept
 word("agglomerate", 'v.', "To wind or collect into a ball; hence, to gather into a mass or anything like a mass.").
 word("aggrandize", 'v.', "To make great or greater in power, rank, honor, or wealth (applied to persons, countries, etc.).").
 word("aggrandize", 'v.', "To make appear great or greater; to exalt.").
-word("aggravate", 'v.', "To make (an offence) worse or more severe; to increase in offensiveness or heinousness.").
+word("aggravate", 'v.', "To make (an offense) worse or more severe; to increase in offensiveness or heinousness.").
 word("aggravate", 'v.', "To make worse; to exacerbate.").
 word("aggravation", 'n.', "An extrinsic circumstance or accident which increases the guilt of a crime or the misery of a calamity.").
 word("aggravation", 'n.', "The act of aggravating, or making worse; used of evils, natural or moral; the act of increasing in severity or heinousness; something additional to a crime or wrong and enhancing its guilt or injurious consequences.").
@@ -395,7 +395,7 @@ word("aggrieve", 'v.', "To grieve; to lament.").
 word("aggrieve", 'v.', "To cause someone to feel pain or sorrow to; to afflict").
 word("aghast", 'adj.', "Terrified; struck with amazement; showing signs of terror or horror.").
 word("agile", 'adj.', "Having the faculty of quick motion in the limbs; apt or ready to move").
-word("agile", 'adj.', "Characterised by quick motion").
+word("agile", 'adj.', "Characterized by quick motion").
 word("agitate", 'v.', "To set in motion; to actuate.").
 word("agitate", 'v.', "To revolve in the mind, or view in all its aspects; to consider, to devise.").
 word("agrarian", 'adj.', "Of, or relating to, the ownership, tenure and cultivation of land.").
@@ -403,7 +403,7 @@ word("agrarian", 'adj.', "Agricultural or rural.").
 word("ailment", 'n.', "Something which ails one; a disease; sickness.").
 word("airy", 'adj.', "Relating to the spirit or soul; delicate; graceful.").
 word("airy", 'adj.', "Not based on reality; having no solid foundation").
-word("akin", 'adj.', "}} Allied by nature; similar; partaking of the same properties; of the same kind.").
+word("akin", 'adj.', "Allied by nature; similar; partaking of the same properties; of the same kind.").
 word("akin", 'adj.', "Of the same kin; related by blood.").
 word("alabaster", 'n.', "A fine-grained white or lightly-tinted variety of gypsum, used ornamentally.").
 word("alabaster", 'n.', "A variety of calcite, translucent and sometimes banded.").
@@ -442,9 +442,9 @@ word("allay", 'v.', "To make worse by the introduction of inferior elements.").
 word("allay", 'v.', "To make quiet or put at rest; to pacify or appease; to quell; to calm.").
 word("allege", 'v.', "To make a claim as justification or proof; to make an assertion without proof.").
 word("allege", 'v.', "To adduce (something) as a reason, excuse, support etc.").
-word("allegory", 'n.', "A category that retains some of the structure of the category of binary relations between sets, representing a high-level generalisation of that category.").
+word("allegory", 'n.', "A category that retains some of the structure of the category of binary relations between sets, representing a high-level generalization of that category.").
 word("allegory", 'n.', "A picture, book, or other form of communication using such representation.").
-word("alleviate", 'v.', "To reduce or lessen the severity of a pain or difficulty .").
+word("alleviate", 'v.', "To reduce or lessen the severity of a pain or difficulty.").
 word("alley", 'n.', "A narrow street or passageway, especially one through the middle of a block giving access to the rear of lots or buildings.").
 word("alley", 'n.', "A walk or passage in a garden or park, bordered by rows of trees or bushes.").
 word("alliance", 'n.', "A union or connection of interests between families, states, parties, etc., especially between families by marriage and states by compact, treaty, or league.").
@@ -462,7 +462,7 @@ word("almanac", 'n.', "A book or table listing nautical, astronomical, astrologi
 word("almanac", 'n.', "A GPS signal consisting of coarse orbit and status information for each satellite in the constellation.").
 word("aloof", 'adv.', "At or from a distance, but within view, or at a small distance; apart; away.").
 word("aloof", 'adv.', "Without sympathy; unfavorably.").
-word("altar", 'n.', "Any (real or notional) place where something is worshipped or sacrificed to.").
+word("altar", 'n.', "Any (real or notional) place where something is worshiped or sacrificed to.").
 word("altar", 'n.', "A table or similar flat-topped structure used for religious rites.").
 word("alter", 'v.', "To become different.").
 word("alter", 'v.', "To change the form or structure of.").
@@ -478,7 +478,7 @@ word("altitude", 'n.', "The absolute height of a location, usually measured from
 word("alto", 'n.', "A musical part or section higher than tenor and lower than soprano, formerly the part that performed a countermelody above the tenor or main melody.").
 word("alto", 'n.', "A person or musical instrument that performs the alto part.").
 word("altruism", 'n.', "Regard for others, both natural and moral without regard for oneself; devotion to the interests of others; brotherly kindness.").
-word("altruism", 'n.', "Action or behaviour that benefits another or others at some cost to the performer.").
+word("altruism", 'n.', "Action or behavior that benefits another or others at some cost to the performer.").
 word("altruist", 'n.', "A person showing altruism.").
 word("amalgam", 'n.', "An alloy containing mercury.").
 word("amalgam", 'n.', "One of the ingredients in an alloy.").
@@ -488,7 +488,7 @@ word("amateur", 'adj.', "Showing a lack of professionalism, experience or talent
 word("amateur", 'adj.', "Non-professional.").
 word("amatory", 'adj.', "Of or relating to love, especially sexual love.").
 word("ambidextrous", 'adj.', "Having equal ability in both hands; in particular, able to write equally well with both hands.").
-word("ambidextrous", 'adj.', "Equally usable by left-handed and right-handed people .").
+word("ambidextrous", 'adj.', "Equally usable by left-handed and right-handed people.").
 word("ambiguous", 'adj.', "Open to multiple interpretations.").
 word("ambiguous", 'adj.', "Hesitant; uncertain; not taking sides.").
 word("ambitious", 'adj.', "Very desirous").
@@ -517,7 +517,7 @@ word("ampere", 'n.', "A unit of electrical current, the standard base unit in th
 word("ampersand", 'n.', "The symbol \"&\".").
 word("amphibious", 'adj.', "Occurring on both land and water.").
 word("amphibious", 'adj.', "Capable of functioning on land or in water.").
-word("amphitheater", 'n.', "An open, outdoor theatre (which may be a theatre in the round, or have a stage with seating on only one side), especially one from the classical period of ancient Greece or Rome, or a modern venue of similar design.").
+word("amphitheater", 'n.', "An open, outdoor theater (which may be a theater in the round, or have a stage with seating on only one side), especially one from the classical period of ancient Greece or Rome, or a modern venue of similar design.").
 word("amplitude", 'n.', "The measure of something's size, especially in terms of width or breadth; largeness, magnitude.").
 word("amplitude", 'n.', "The arc of the horizon between the true east or west point and the foot of the vertical circle passing through any star or object.").
 word("amply", 'adv.', "In an ample manner.").
@@ -525,7 +525,7 @@ word("amputate", 'v.', "To surgically remove a part of the body, especially a li
 word("amputate", 'v.', "To cut off, to prune.").
 word("amusement", 'n.', "An activity that is entertaining or amusing, such as dancing, gunning, or fishing.").
 word("amusement", 'n.', "Entertainment.").
-word("anachronism", 'n.', "A person or thing which seems to belong to a different time or period of time. .").
+word("anachronism", 'n.', "A person or thing which seems to belong to a different time or period of time.").
 word("anachronism", 'n.', "A chronological mistake; the erroneous dating of an event, circumstance, or object.").
 word("anagram", 'n.', "A word or phrase that is created by rearranging the letters of another word or phrase.").
 word("analogous", 'adj.', "Having analogy; corresponding to something else; bearing some resemblance or proportion (often followed by \"to\".)").
@@ -563,12 +563,12 @@ word("anhydrous", 'adj.', "Having little or no water.").
 word("anhydrous", 'adj.', "Having no water of crystallization.").
 word("animadversion", 'n.', "A criticism, a critical remark.").
 word("animadversion", 'n.', "The state or characteristic of being animadversive.").
-word("animadvert", 'v.', "To turn judicial attention (to); to criticise or punish.").
-word("animadvert", 'v.', "To criticise, to censure.").
+word("animadvert", 'v.', "To turn judicial attention (to); to criticize or punish.").
+word("animadvert", 'v.', "To criticize, to censure.").
 word("animalcule", 'n.', "A microscopic aquatic animal or protozoan.").
 word("animalcule", 'n.', "A spermatozoon.").
 word("animate", 'v.', "To impart motion or the appearance of motion to.").
-word("animate", 'v.', "To give spirit or vigour to; to stimulate or enliven; to inspirit.").
+word("animate", 'v.', "To give spirit or vigor to; to stimulate or enliven; to inspirit.").
 word("animosity", 'n.', "Violent hatred leading to active opposition; active enmity; energetic dislike.").
 word("annalist", 'n.', "A writer of annals; a chronicler; a historian.").
 word("annals", 'n.', "A relation of events in chronological order, each event being recorded under the year in which it happened.").
@@ -579,10 +579,10 @@ word("annihilate", 'v.', "To reduce to nothing, to destroy, to eradicate.").
 word("annihilate", 'v.', "To treat as worthless, to vilify.").
 word("annotate", 'v.', "To add annotation to.").
 word("annual", 'adj.', "Happening once every year.").
-word("annual", 'adj.', "Of, for, or relating to a whole year, often as a recurring cycle; determined or reckoned by the year; accumulating in the course of a year; performed, executed, or completed over the course of a year. See also .").
+word("annual", 'adj.', "Of, for, or relating to a whole year, often as a recurring cycle; determined or reckoned by the year; accumulating in the course of a year; performed, executed, or completed over the course of a year.").
 word("annuity", 'n.', "A right to receive amounts of money regularly over a certain fixed period, in perpetuity, or, especially, over the remaining life or lives of one or more beneficiaries.").
 word("annunciation", 'n.', "The act of annunciating.").
-word("anode", 'n.', "An electrode, of a cell or other electrically polarized device, through which a positive current of electricity flows inwards (and thus, electrons flow outwards). It can have either a negative or a positive voltage .").
+word("anode", 'n.', "An electrode, of a cell or other electrically polarized device, through which a positive current of electricity flows inwards (and thus, electrons flow outwards). It can have either a negative or a positive voltage.").
 word("anode", 'n.', "The electrode at which chemical oxidation of anions takes place, usually resulting in the erosion of metal from the electrode.").
 word("anonymous", 'adj.', "Of unknown name; whose name is withheld").
 word("anonymous", 'adj.', "Without any name acknowledged of a person responsible").
@@ -608,15 +608,15 @@ word("anteroom", 'n.', "A room before, or forming an entrance to, another; a wai
 word("anthology", 'n.', "A collection of literary works, such as poems or short stories, especially a collection from various authors.").
 word("anthology", 'n.', "A work or series containing various stories with no direct relation to one another.").
 word("anthracite", 'n.', "A form of carbonized ancient plants; the hardest and cleanest-burning of all the coals.").
-word("anthracite", 'n.', "A dark grey colour.").
+word("anthracite", 'n.', "A dark gray color.").
 word("anthropology", 'n.', "The holistic scientific and social study of humanity, mainly using ethnography as its method.").
 word("anthropomorphous", 'adj.', "Resembling a human being.").
 word("anthropomorphous", 'adj.', "Describing an animal or inanimate object using human characteristics; employing anthropomorphism.").
 word("antic", 'n.', "A grotesque representation of a figure; a gargoyle.").
-word("antic", 'n.', "A ludicrous gesture or act; ridiculous behaviour; caper.").
+word("antic", 'n.', "A ludicrous gesture or act; ridiculous behavior; caper.").
 word("antichrist", 'n.', "One who works against the teachings of Christ.").
 word("anticlimax", 'n.', "A failed or reverse climax.").
-word("anticyclone", 'n.', "A system of winds that spiral out from a centre of high pressure").
+word("anticyclone", 'n.', "A system of winds that spiral out from a center of high pressure").
 word("antidote", 'n.', "A remedy to counteract the effects of poison (often followed by \"against,\" \"for,\" or \"to\").").
 word("antidote", 'n.', "Something that counteracts or prevents something harmful.").
 word("antilogy", 'n.', "A contradiction in related terms or ideas. Usually an inconsistency in syllogisms, of a person or group supposedly of one set of ideals.").
@@ -637,7 +637,7 @@ word("antislavery", 'adj.', "Opposed to the practice of slavery.").
 word("antispasmodic", 'adj.', "Referring to something that suppresses spasms, generally a drug.").
 word("antistrophe", 'n.', "In Greek choruses and dances, the returning of the chorus, exactly answering to a previous strophe or movement from right to left.").
 word("antistrophe", 'n.', "The repetition of words in an inverse order.").
-word("antitoxin", 'n.', "An antibody that is capable of neutralising specific toxins that are causative agents of disease.").
+word("antitoxin", 'n.', "An antibody that is capable of neutralizing specific toxins that are causative agents of disease.").
 word("antonym", 'n.', "A word which has the opposite meaning of another word.").
 word("anxious", 'adj.', "Earnestly desirous.").
 word("anxious", 'adj.', "Nervous and worried.").
@@ -651,7 +651,7 @@ word("apiary", 'n.', "A place where bees and their hives are kept.").
 word("apogee", 'n.', "The highest point.").
 word("apogee", 'n.', "The point, in any trajectory of an object in space, where it is farthest from the Earth.").
 word("apology", 'n.', "Anything provided as a substitute; a makeshift.").
-word("apology", 'n.', "A formal justification, defence.").
+word("apology", 'n.', "A formal justification, defense.").
 word("apostasy", 'n.', "Specifically, the renunciation of one's religion or faith.").
 word("apostasy", 'n.', "The renunciation of a belief or set of beliefs.").
 word("apostate", 'adj.', "Guilty of apostasy.").
@@ -689,7 +689,7 @@ word("appropriate", 'adj.', "Suitable or fit; proper.").
 word("aqueduct", 'n.', "An artificial channel that is constructed to convey water from one location to another.").
 word("aqueduct", 'n.', "A structure carrying water over a river or depression, especially in regards to ancient aqueducts.").
 word("aqueous", 'adj.', "Consisting mostly of water.").
-word("arbiter", 'n.', "}} A person or object having the power of judging and determining, or ordaining, without control; one whose power of deciding and governing is not limited.").
+word("arbiter", 'n.', "A person or object having the power of judging and determining, or ordaining, without control; one whose power of deciding and governing is not limited.").
 word("arbiter", 'n.', "A person appointed, or chosen, by parties to determine a controversy between them; an arbitrator.").
 word("arbitrary", 'adj.', "Not representative or symbolic; not iconic.").
 word("arbitrary", 'adj.', "Any, out of all that are possible.").
@@ -713,7 +713,7 @@ word("archaism", 'n.', "The adoption or imitation of archaic words or style.").
 word("archangel", 'n.', "A powerful angel that leads many other angels, but is still loyal to a deity, and often seen as belonging to a particular archangelical rank or order within a greater hierarchy of angels. (Judeo-Christian examples: Gabriel, Michael, Raphael, Uriel).").
 word("archbishop", 'n.', "A senior bishop who is in charge of an archdiocese, and presides over a group of dioceses called a 'province' (in Catholicism, Eastern Orthodoxy, Anglicanism, etc.)").
 word("archdeacon", 'n.', "A senior administrative official in a diocese, just under the bishop, often in charge of an archdeaconry. As a title, it can be filled by either a deacon or priest.").
-word("archetype", 'n.', "A .").
+word("archetype", 'n.', "A character, object, or story that is based on a known character, object, or story.").
 word("archetype", 'n.', "An original model of which all other similar concepts, objects, or persons are merely copied, derivative, emulated, or patterned; a prototype.").
 word("archipelago", 'n.', "A group of islands.").
 word("archipelago", 'n.', "The Aegean Sea.").
@@ -892,7 +892,7 @@ word("awaken", 'v.', "To bring into action (something previously dormant); to st
 word("aye", 'adv.', "Ever, always").
 word("azalea", 'n.', "A plant of the obsolete genus Azalea.").
 word("azure", 'n.', "The clear blue colour of the sky; also, a pigment or dye of this colour.").
-word("azure", 'n.', "Any of various Australasian lycaenid butterflies of the genus .").
+word("azure", 'n.', "Any of various Australasian lycaenid butterflies of the genus.").
 word("bacterium", 'n.', "A single-celled organism with cell walls but no nucleus or organelles.").
 word("badger", 'v.', "To pester, to annoy persistently; press.").
 word("badger", 'v.', "To pass gas; to fart.").
@@ -1010,7 +1010,7 @@ word("bestial", 'adj.', "Beast-like").
 word("bestrew", 'v.', "To strew anything upon; strew over or about; cover or partially cover with things strewn; cover with straw or strewing.").
 word("bestrew", 'v.', "To strew or scatter about; throw or drop here and there.").
 word("bestride", 'v.', "To be astride something, to stand over or sit on with legs on either side, especially to sit on a horse.").
-word("bestride", 'v.', "To stride over, or across.}}").
+word("bestride", 'v.', "To stride over, or across.").
 word("bethink", 'v.', "To think (something or somebody) or (followed by clause); to remind oneself, to consider, to reflect upon.").
 word("bethink", 'v.', "To determine, resolve.").
 word("betide", 'v.', "Chiefly in the : to happen; to take place; to bechance, to befall.").
@@ -1035,7 +1035,7 @@ word("bide", 'v.', "To wait for; to await.").
 word("bide", 'v.', "To dwell or reside in a location; to abide.").
 word("biennial", 'n.', "A plant that requires two years to complete its life-cycle, germinating and growing in its first year, then producing its flowers and fruit in its second year, after which it usually dies.").
 word("biennial", 'n.', "An event that happens every two years.").
-word("bier", 'n.', "A count of forty threads in the warp or chain of woollen cloth .").
+word("bier", 'n.', "A count of forty threads in the warp or chain of woollen cloth.").
 word("bier", 'n.', "A litter to transport the corpse of a dead person.").
 word("bigamist", 'n.', "One who practices bigamy.").
 word("bigamy", 'n.', "The state of having two (legal or illegal) spouses simultaneously.").
@@ -1368,7 +1368,7 @@ word("choleric", 'adj.', "(according to theories of the four humours or temperam
 word("choral", 'adj.', "Of, relating to, written for, or performed by a choir or a chorus.").
 word("christen", 'v.', "To douse or wet with blood, urine, tears, or other liquid.").
 word("christen", 'v.', "To name.").
-word("chromatic", 'adj.', "Relating to .").
+word("chromatic", 'adj.', "Relating to color.").
 word("chronology", 'n.', "The science of determining the order in which events occurred.").
 word("chronology", 'n.', "An arrangement of events into chronological order; called a timeline when involving graphical elements.").
 word("chronometer", 'n.', "A device for measuring time, such as a watch or clock.").
@@ -1376,7 +1376,7 @@ word("cipher", 'v.', "Of an organ pipe: to sound independent of the organ.").
 word("cipher", 'v.', "To calculate.").
 word("circulate", 'v.', "To spread or disseminate").
 word("circulate", 'v.', "To become widely known").
-word("circumference", 'n.', "The line that bounds a circle or other two-dimensional figure Category:en:Curves").
+word("circumference", 'n.', "The line that bounds a circle or other two-dimensional figure.").
 word("circumference", 'n.', "The length of such a line").
 word("circumlocution", 'n.', "An instance of such usage; a roundabout expression, whether an inadvisable one or a necessary one.").
 word("circumlocution", 'n.', "A roundabout or indirect way of speaking; thus:").
@@ -1409,7 +1409,7 @@ word("clearance", 'n.', "A sale of merchandise, especially at significantly redu
 word("clemency", 'n.', "The gentle or kind exercise of power; leniency, mercy; compassion in judging or punishing.").
 word("clemency", 'n.', "A pardon, commutation, or similar reduction, removal, or postponement of legal penalties by an executive officer of a state.").
 word("clement", 'adj.', "Lenient or merciful; charitable.").
-word("clement", 'adj.', "Mild .").
+word("clement", 'adj.', "Mild.").
 word("clothier", 'n.', "A person who makes or sells cloth or clothing.").
 word("clumsy", 'adj.', "Awkward or inefficient in use or construction, difficult to handle or manage especially because of shape.").
 word("clumsy", 'adj.', "Not elegant or well-planned, lacking tact or subtlety.").
@@ -1426,7 +1426,7 @@ word("codicil", 'n.', "An addition or supplement modifying any official document
 word("coerce", 'v.', "To force an attribute, normally of a data type, to take on the attribute of another data type.").
 word("coerce", 'v.', "To restrain by force, especially by law or authority; to repress; to curb.").
 word("coercion", 'n.', "Use of physical or moral force to compel a person to do something, or to abstain from doing something, thereby depriving that person of the exercise of free will.").
-word("coercion", 'n.', "The process by which the meaning of a or other linguistic element is reinterpreted to match the grammatical .").
+word("coercion", 'n.', "The process by which the meaning of a or other linguistic element is reinterpreted to match the grammatical.").
 word("coercive", 'adj.', "Such that the ratio of |F(x)| to x approaches infinity as x approaches infinity.").
 word("coercive", 'adj.', "Displaying a tendency or intent to coerce.").
 word("cogent", 'adj.', "Appealing to the intellect or powers of reasoning.").
@@ -1643,7 +1643,7 @@ word("congregate", 'v.', "To collect into an assembly or assemblage; to bring in
 word("coniferous", 'adj.', "Bearing cones, as the pine and cypress.").
 word("coniferous", 'adj.', "Of, or pertaining to, a conifer.").
 word("conjecture", 'n.', "A statement or an idea which is unproven, but is thought to be true; a guess.").
-word("conjecture", 'n.', "A statement likely to be true based on available evidence, but which has not been formally .").
+word("conjecture", 'n.', "A statement likely to be true based on available evidence, but which has not been formally.").
 word("conjoin", 'v.', "To unite, to join, to league.").
 word("conjoin", 'v.', "To join together; to unite; to combine.").
 word("conjugal", 'adj.', "Of or relating to marriage, or the relationship of spouses; connubial.").
@@ -2067,7 +2067,7 @@ word("defiant", 'adj.', "Boldly resisting opposition.").
 word("defiant", 'adj.', "Defying.").
 word("deficiency", 'n.', "An insufficiency, especially of something essential to health.").
 word("deficiency", 'n.', "The codimension of a linear system in the corresponding complete linear system.").
-word("deficient", 'adj.', "Of a number n, Having the sum of divisors σ(n) , or, equivalently, the sum of proper divisors (or aliquot sum) s(n) .").
+word("deficient", 'adj.', "Of a number n, Having the sum of divisors σ(n) , or, equivalently, the sum of proper divisors (or aliquot sum) s(n).").
 word("deficient", 'adj.', "Insufficient or inadequate in amount.").
 word("definite", 'adj.', "Designating an identified or immediately identifiable person or thing, or group of persons or things").
 word("definite", 'adj.', "Free from any doubt.").
@@ -2083,7 +2083,7 @@ word("defraud", 'v.', "To obtain money or property from (a person) by fraud; to 
 word("defray", 'v.', "To pay for (something).").
 word("defray", 'v.', "To pay or discharge (a debt, expense etc.); to meet (the cost of something).").
 word("degeneracy", 'n.', "The ability of one part of the brain to take over another's function without being overexerted.").
-word("degeneracy", 'n.', "The state of being degenerate .").
+word("degeneracy", 'n.', "The state of being degenerate.").
 word("degenerate", 'v.', "To lose good or desirable qualities.").
 word("degenerate", 'v.', "To cause to lose good or desirable qualities.").
 word("degradation", 'n.', "Diminution or reduction of strength, efficacy, or value; degeneration; deterioration.").
@@ -2198,7 +2198,7 @@ word("depth", 'n.', "Lowness").
 word("derelict", 'adj.', "Abandoned, forsaken; given up by the natural owner or guardian; (of a ship) abandoned at sea, dilapidated, neglected; (of a spacecraft) abandoned in outer space.").
 word("derelict", 'adj.', "Lost; adrift; hence, wanting; careless; neglectful; unfaithful.").
 word("deride", 'v.', "To harshly mock; ridicule.").
-word("derisible", 'adj.', "Deserving .").
+word("derisible", 'adj.', "Deserving.").
 word("derision", 'n.', "Act of treating with disdain.").
 word("derision", 'n.', "Something to be derided; a laughing stock.").
 word("derivation", 'n.', "Forming a new word by changing the base of another word or by adding affixes to it.").
@@ -2221,7 +2221,7 @@ word("desert", 'v.', "To leave one's duty or post, especially to leave a militar
 word("desiccant", 'n.', "A substance (such as calcium oxide or silica gel) that is used as a drying agent because of its high affinity for water.").
 word("designate", 'v.', "To mark out and make known; to point out; to indicate; to show; to distinguish by marks or description").
 word("designate", 'v.', "To call by a distinctive title; to name.").
-word("desist", 'v.', "To cease to proceed or act; to stop .").
+word("desist", 'v.', "To cease to proceed or act; to stop.").
 word("desistance", 'n.', "The act or state of desisting; cessation.").
 word("despair", 'n.', "Loss of hope; utter hopelessness; complete despondency.").
 word("despair", 'n.', "That which causes despair.").
@@ -2440,8 +2440,8 @@ word("disrobe", 'v.', "To undress someone or something.").
 word("disrupt", 'v.', "To interrupt or impede.").
 word("disrupt", 'v.', "To throw into confusion or disorder.").
 word("dissatisfy", 'v.', "To fail to satisfy; to displease.").
-word("dissect", 'v.', "To study an 's anatomy by ting it apart; to perform a necropsy or an autopsy.").
-word("dissect", 'v.', "To separate s, s, and so on without cutting into them or disrupting their .").
+word("dissect", 'v.', "To study an animal's anatomy by ting it apart; to perform a necropsy or an autopsy.").
+word("dissect", 'v.', "To separate muscles, organs, and so on without cutting into them or disrupting their.").
 word("dissection", 'n.', "A minute and detailed examination or analysis").
 word("dissection", 'n.', "The act of dissecting, or something dissected").
 word("dissemble", 'v.', "To deliberately ignore something; to pretend not to notice.").
@@ -2564,7 +2564,7 @@ word("donee", 'n.', "Someone who receives a gift from a donor.").
 word("donor", 'n.', "One who makes a donation.").
 word("donor", 'n.', "A group or molecule that donates either a radical, electrons or a moiety in a chemical reaction. Compare acceptor.").
 word("dormant", 'adj.', "Inactive, sleeping, asleep, suspended.").
-word("dormant", 'adj.', "In a sleeping posture; distinguished from .").
+word("dormant", 'adj.', "In a sleeping posture").
 word("doublet", 'n.', "One of two or more different words in a language derived from the same etymological root but having different phonological forms (e.g., and in French or and in English).").
 word("doublet", 'n.', "A pair of two similar or equal things; couple.").
 word("doubly", 'adv.', "In two ways").
@@ -2677,12 +2677,12 @@ word("effusion", 'n.', "An outpouring of speech or emotion.").
 word("effusion", 'n.', "A liquid outpouring.").
 word("egoism", 'n.', "The belief that moral behavior should be directed toward one's self-interest only.").
 word("egoism", 'n.', "The tendency to think selfishly with exclusive self-interest in mind.").
-word("egoist", 'n.', "An egotist .").
+word("egoist", 'n.', "An egotist.").
 word("egoist", 'n.', "An advocate of egoism.").
-word("egotism", 'n.', "Egoism .").
+word("egotism", 'n.', "Egoism.").
 word("egotism", 'n.', "A belief that one is superior to or more important than others.").
 word("egotist", 'n.', "A person who believes in his or her own importance or superiority.").
-word("egotist", 'n.', "An egoist .").
+word("egotist", 'n.', "An egoist.").
 word("egregious", 'adj.', "Conspicuous, exceptional, outstanding; usually in a negative sense.").
 word("egregious", 'adj.', "Outrageously bad; shocking.").
 word("egress", 'n.', "An exit or way out.").
@@ -2747,7 +2747,7 @@ word("emergent", 'adj.', "Having properties as a whole that are more complex tha
 word("emergent", 'adj.', "Having gameplay that arises from its mechanics, rather than a linear storyline.").
 word("emeritus", 'adj.', "Retired, but retaining an honorific version of a previous title.").
 word("emigrant", 'n.', "Someone who leaves a country to settle in a new country.").
-word("emigrant", 'n.', "Any of various pierid butterflies of the genus . Also called a migrant.").
+word("emigrant", 'n.', "Any of various pierid butterflies of the genus.").
 word("emigrate", 'v.', "To leave the country in which one lives, especially one's native country, in order to reside elsewhere.").
 word("eminence", 'n.', "An elevated land area or a hill.").
 word("eminence", 'n.', "Someone of high rank, reputation or social status.").
@@ -2866,8 +2866,8 @@ word("epicure", 'n.', "A person who takes particular pleasure in fine food and d
 word("epicurean", 'adj.', "Pursuing pleasure, especially in reference to food or comfort.").
 word("epicurean", 'adj.', "Devoted to luxurious living.").
 word("epicycle", 'n.', "A small circle whose centre is on the circumference of a larger circle; in Ptolemaic astronomy it was seen as the basis of revolution of the \"seven planets\", given a fixed central Earth.").
-word("epicycle", 'n.', "Any circle whose circumference rolls around that of another circle, thus creating a hypocycloid or epicycloid. Category:en:Curves").
-word("epicycloid", 'n.', "The locus of a point on the circumference of a circle that rolls without slipping on the circumference of another circle. Category:en:Curves").
+word("epicycle", 'n.', "Any circle whose circumference rolls around that of another circle, thus creating a hypocycloid or epicycloid.").
+word("epicycloid", 'n.', "The locus of a point on the circumference of a circle that rolls without slipping on the circumference of another circle.").
 word("epidemic", 'n.', "A widespread disease that affects many individuals in a population.").
 word("epidemic", 'n.', "The spreading of an idea or belief amongst a population.").
 word("epidermis", 'n.', "The outer, protective layer of the skin of vertebrates, covering the dermis").
@@ -3130,7 +3130,6 @@ word("extravagance", 'n.', "Prodigality, as of anger, love, expression, imaginat
 word("extravagant", 'adj.', "Profuse in expenditure; prodigal; wasteful.").
 word("extravagant", 'adj.', "Exceeding the bounds of something; roving; hence, foreign.").
 word("extremist", 'n.', "A person who holds extreme views, especially one who advocates such views; a radical or fanatic.").
-word("extremity", 'n.', "A .").
 word("extremity", 'n.', "A hand or foot.").
 word("extricate", 'v.', "To free from intricacies or perplexity").
 word("extricate", 'v.', "To free, disengage, loosen, or untangle.").
@@ -3183,7 +3182,7 @@ word("fatuous", 'adj.', "Obnoxiously stupid, vacantly silly, content in one's fo
 word("faulty", 'adj.', "Having or displaying faults; not perfect; not adequate or acceptable.").
 word("faulty", 'adj.', "At fault, to blame; guilty.").
 word("faun", 'n.', "A woodland creature with pointed ears, legs, and short horns of a goat and a fondness for unrestrained revelry.").
-word("faun", 'n.', "Any of various nymphalid butterflies of the genus .").
+word("faun", 'n.', "Any of various nymphalid butterflies of the genus.").
 word("fawn", 'n.', "A young deer.").
 word("fawn", 'n.', "The young of an animal; a whelp.").
 word("fealty", 'n.', "Fidelity to one's lord or master; the feudal obligation by which the tenant or vassal was bound to be faithful to his lord.").
@@ -3251,7 +3250,7 @@ word("finesse", 'n.', "An adroit manoeuvre.").
 word("finite", 'adj.', "Having an end or limit; constrained by bounds; whose number of elements is a natural number.").
 word("finite", 'adj.', "Limited by (i.e. inflected for) person or number.").
 word("fiscal", 'adj.', "Related to the of a , , or , particularly to government spending and revenue.").
-word("fiscal", 'adj.', "Pertaining to and money in general; .").
+word("fiscal", 'adj.', "Pertaining to and money in general.").
 word("fishmonger", 'n.', "A person who sells fish.").
 word("fishmonger", 'n.', "A pimp.").
 word("fissure", 'n.', "A long, narrow crack or opening made by breaking or splitting, especially in rock or earth.").
@@ -3390,8 +3389,8 @@ word("frailty", 'n.', "The condition quality of being frail, physically, mentall
 word("frankincense", 'n.', "A type of incense obtained from the tree.").
 word("frantic", 'adj.', "In a state of panic, worry, frenzy or rush.").
 word("frantic", 'adj.', "Extremely energetic").
-word("fraternal", 'adj.', "Of or pertaining to a or .").
-word("fraternal", 'adj.', "Platonic or .").
+word("fraternal", 'adj.', "Of or pertaining to a or brother or brothers.").
+word("fraternal", 'adj.', "Platonic or friendly.").
 word("fraudulence", 'n.', "The condition of being fraudulent; deceitfulness.").
 word("fraudulent", 'adj.', "Dishonest; based on fraud or deception.").
 word("fraudulent", 'adj.', "False, phony.").
@@ -3401,7 +3400,7 @@ word("free trade", 'n.', "International trade without government interference, e
 word("freemason", 'n.', "A member of a guild of skilled itinerant masons during the Middle Ages and early modern times.").
 word("freethinker", 'n.', "A person who has formed his or her opinions using reason and rational enquiry; somebody who has rejected dogma, especially with regard to religion.").
 word("frequency", 'n.', "The rate of occurrence of anything; the relationship between incidence and time period.").
-word("frequency", 'n.', "The quotient of the number of times n a periodic phenomenon occurs over the time t in which it occurs: f = n / t .").
+word("frequency", 'n.', "The quotient of the number of times n a periodic phenomenon occurs over the time t in which it occurs: f = n / t.").
 word("fresco", 'n.', "A cool, refreshing state of the air; coolness, duskiness, shade.").
 word("fresco", 'n.', "An artwork made by applying water-based pigment to wet or fresh lime mortar or plaster.").
 word("freshness", 'n.', "The state or quality of being fresh.").
@@ -3493,7 +3492,7 @@ word("garrote", 'v.', "To execute by strangulation").
 word("garrote", 'v.', "To kill using a garrote").
 word("garrulous", 'adj.', "Excessively or tiresomely talkative.").
 word("garrulous", 'adj.', "Excessively wordy and rambling.").
-word("gaseous", 'adj.', "Relating to, or existing as gas .").
+word("gaseous", 'adj.', "Relating to, or existing as gas.").
 word("gaseous", 'adj.', "Of a liquid containing bubbles: gassy.").
 word("gastric", 'adj.', "Of or relating to the stomach.").
 word("gastritis", 'n.', "Inflammation of the lining of the stomach, characterised by nausea, loss of appetite, and upper abdominal discomfort or pain.").
@@ -3720,7 +3719,7 @@ word("hexagon", 'n.', "A polygon with six sides and six angles.").
 word("hexangular", 'adj.', "Having six angles or corners.").
 word("hexapod", 'adj.', "Having six feet, six-footed; belonging to the subphylum Hexapoda; hexapodous.").
 word("hiatus", 'n.', "An interruption, break or pause.").
-word("hiatus", 'n.', "A syllable break between two vowels, without an intervening consonant. (Compare .)").
+word("hiatus", 'n.', "A syllable break between two vowels, without an intervening consonant.").
 word("hibernal", 'adj.', "Of or pertaining to winter; brumal or hiemal").
 word("hideous", 'adj.', "Extremely or shockingly ugly.").
 word("hideous", 'adj.', "Hateful; shocking.").
@@ -4193,7 +4192,7 @@ word("ingenuous", 'adj.', "Unable to mask one's feelings.").
 word("inglorious", 'adj.', "Not famous; obscure.").
 word("inglorious", 'adj.', "Ignominious; disgraceful.").
 word("ingratiate", 'v.', "To bring oneself into favour with someone by flattering or trying to please him or her.").
-word("ingratiate", 'v.', "}} To recommend; to render easy or agreeable.").
+word("ingratiate", 'v.', "To recommend; to render easy or agreeable.").
 word("ingratitude", 'n.', "A lack or absence of gratitude; thanklessness.").
 word("ingredient", 'n.', "One of the substances present in a mixture, especially food.").
 word("inherence", 'n.', "The state of being inherent or permanently present in something; indwelling.").
@@ -4425,7 +4424,7 @@ word("invasion", 'n.', "A military action consisting of armed forces of one geop
 word("invasion", 'n.', "The spread of cancer cells, bacteries and such to the organism.").
 word("invective", 'n.', "Something spoken or written, intended to cast shame, disgrace, censure, or reproach on another.").
 word("invective", 'n.', "A harsh or reproachful accusation.").
-word("inveigh", 'v.', "Or occasionally , formerly also with , , }} To complain loudly, to give voice to one's censure or criticism").
+word("inveigh", 'v.', "To complain loudly, to give voice to one's censure or criticism").
 word("inveigh", 'v.', "To draw in or away; to entice, inveigle.").
 word("inventive", 'adj.', "Purposefully fictive").
 word("inventive", 'adj.', "Of, or relating to invention; pertaining to the act of devising new mechanisms or processes.").
@@ -4511,7 +4510,7 @@ word("irritate", 'v.', "To provoke impatience, anger, or displeasure in.").
 word("irritate", 'v.', "To induce pain in (all or part of a body or organism).").
 word("irruption", 'n.', "An abrupt increase of an animal population.").
 word("irruption", 'n.', "An abrupt increase in the size of a movement or organization.").
-word("isle", 'n.', "A (small) island, compare with .").
+word("isle", 'n.', "A (small) island.").
 word("islet", 'n.', "An isolated piece of tissue that has a specific function").
 word("islet", 'n.', "A small island").
 word("isobar", 'n.', "A set of points or conditions at constant pressure.").
@@ -4584,8 +4583,8 @@ word("kernel", 'n.', "The set of members of a fuzzy set that are fully included 
 word("kernel", 'n.', "A single seed or grain, especially of corn or wheat.").
 word("kiln", 'n.', "An oven or furnace or a heated chamber, for the purpose of hardening, burning, calcining or drying anything; for example, firing ceramics, curing or preserving tobacco, or drying grain.").
 word("kiloliter", 'n.', "One thousand liters.").
-word("kilometer", 'n.', "In the USA.").
-word("kilowatt", 'n.', "One thousand (10 3 ) watts.").
+word("kilometer", 'n.', "SI unit of length.").
+word("kilowatt", 'n.', "One thousand (10^3) watts.").
 word("kimono", 'n.', "A long robe-like garment in Western fashion, which may be open at the front, loosely inspired by the Japanese garment.").
 word("kimono", 'n.', "A traditional Japanese T-shaped, wrapped-front garment with square sleeves and a rectangular body, now generally worn only on formal occasions.").
 word("kingling", 'n.', "A kinglet; a petty king or ruler.").
@@ -4691,7 +4690,7 @@ word("levee", 'n.', "The border of an irrigated field.").
 word("lever", 'n.', "A rigid piece which is capable of turning about one point, or axis (the fulcrum), and in which are two or more other points where forces are applied; &mdash; used for transmitting and modifying force and motion.").
 word("lever", 'n.', "An arm on a rock shaft, to give motion to the shaft or to obtain motion from it.").
 word("leviathan", 'n.', "A vast sea monster of tremendous strength, described as the most powerful and dangerous creature in the ocean.").
-word("leviathan", 'n.', "The political state, especially a domineering and totalitarian one as theorized by .").
+word("leviathan", 'n.', "The political state, especially a domineering and totalitarian one as theorized by Thomas Hobbes.").
 word("levity", 'n.', "Lightness of manner or speech, frivolity; lack of appropriate seriousness; inclination to make a joke of serious matters.").
 word("levity", 'n.', "A lighthearted or frivolous act.").
 word("levy", 'v.', "To raise; to collect; said of troops, to form into an army by enrollment, conscription. etc.").
@@ -4715,7 +4714,7 @@ word("licentious", 'adj.', "Lacking restraint, or ignoring societal standards, p
 word("licentious", 'adj.', "Disregarding accepted rules.").
 word("licit", 'adj.', "Not forbidden by formal or informal rules.").
 word("licit", 'adj.', "Explicitly established or constituted by law.").
-word("liege", 'adj.', "Serving an independent sovereign or master; bound by a feudal tenure; obliged to be faithful and loyal to a superior, such as a vassal to his lord; faithful.}}").
+word("liege", 'adj.', "Serving an independent sovereign or master; bound by a feudal tenure; obliged to be faithful and loyal to a superior, such as a vassal to his lord; faithful.").
 word("liege", 'adj.', "Sovereign; independent; having authority or right to allegiance.").
 word("lien", 'n.', "A right to take possession of a debtor’s property as security until a debt or duty is discharged.").
 word("lien", 'n.', "A tendon.").
@@ -4738,7 +4737,7 @@ word("liking", 'n.', "Approval.").
 word("liking", 'n.', "A like; a predilection.").
 word("limitation", 'n.', "A restriction; a boundary, real or metaphorical, caused by some thing or some circumstance.").
 word("limitation", 'n.', "A time period after which some legal action may no longer be brought.").
-word("linear", 'adj.', "Of or relating to a class of polynomial of the form y = ax + b . Category:en:Polynomials").
+word("linear", 'adj.', "Of or relating to a class of polynomial of the form y = ax + b").
 word("linear", 'adj.', "Long and narrow, with nearly parallel sides.").
 word("liner", 'n.', "The pamphlet which is contained inside an album of music or movie").
 word("liner", 'n.', "A slab on which small pieces of marble, tile, etc., are fastened for grinding.").
@@ -4751,8 +4750,8 @@ word("linguist", 'n.', "A human translator; an interpreter, especially in the ar
 word("linguistics", 'n.', "The scientific study of language.").
 word("liniment", 'n.', "A topical medical preparation intended to be rubbed into the skin with friction, as for example to relieve symptoms of arthritis.").
 word("liquefacient", 'adj.', "That liquefies.").
-word("liquefy", 'v.', "|transitive}} To distort and warp an image.").
-word("liquefy", 'v.', "To become .").
+word("liquefy", 'v.', "To distort and warp an image.").
+word("liquefy", 'v.', "To become liquid.").
 word("liqueur", 'n.', "A flavoured alcoholic beverage that is usually very sweet and contains a high percentage of alcohol. Cordials are a type of liqueur manufactured using the infusion process as opposed to the essence and distillation processes.").
 word("liquidate", 'v.', "To determine by agreement or by litigation the precise amount of (indebtedness); to make the amount of (a debt) clear and certain.").
 word("liquidate", 'v.', "To settle (a debt) by paying the outstanding amount.").
@@ -5015,7 +5014,7 @@ word("medicine", 'n.', "Among the Native Americans, any object supposed to give 
 word("medicine", 'n.', "The study of the cause, diagnosis, prognosis and treatment of disease or illness.").
 word("medieval", 'adj.', "Of or relating to the Middle Ages, the period from approximately 500 to 1500 AD.").
 word("medieval", 'adj.', "Having characteristics associated with the Middle Ages in popular, modern cultural perception:").
-word("mediocre", 'adj.', "Having no peculiar or outstanding features; not extraordinary, special, exceptional, or great; of medium quality, almost always with a negative connotation .").
+word("mediocre", 'adj.', "Having no peculiar or outstanding features; not extraordinary, special, exceptional, or great; of medium quality, almost always with a negative connotation.").
 word("meditation", 'n.', "A contemplative discourse, often on a religious or philosophical subject.").
 word("meditation", 'n.', "Careful and thorough thought.").
 word("medley", 'n.', "A collection of related songs played or mixed together as a single piece.").
@@ -5049,7 +5048,7 @@ word("meretricious", 'adj.', "Tastelessly gaudy; superficially attractive but ha
 word("meretricious", 'adj.', "Involving unlawful sexual connection or lack of consent by at least one party (said of a romantic relationship).").
 word("mesmerize", 'v.', "To spellbind; to enthrall.").
 word("mesmerize", 'v.', "To exercise mesmerism on; to affect another person, such as to heal or soothe, through the use of animal magnetism.").
-word("metal", 'n.', "Molten glass that is to be blown or moulded to form objects .").
+word("metal", 'n.', "Molten glass that is to be blown or moulded to form objects.").
 word("metal", 'n.', "Chemical elements or alloys, and the mines where their ores come from.").
 word("metallurgy", 'n.', "The science of metals; their extraction from ores, purification and alloying, heat treatment, and working.").
 word("metamorphosis", 'n.', "A change in the form and often habits of an animal after the embryonic stage during normal development. (e.g. the transformation of a caterpillar into a butterfly or a tadpole into a frog.)").
@@ -5240,8 +5239,7 @@ word("monotony", 'n.', "The quality of having an unvarying tone or pitch.").
 word("monsieur", 'n.', "A man, especially a French gentleman.").
 word("monstrosity", 'n.', "An organism showing abnormal development or deformity.").
 word("monstrosity", 'n.', "A monstrous person, thing, or act.").
-word("moonbeam", 'n.', "Any of various Australasian lycaenid butterflies of the genus .").
-word("moonbeam", 'n.', "(definition needed)").
+word("moonbeam", 'n.', "A shaft of moonlight.").
 word("morale", 'n.', "The capacity of people to maintain belief in an institution or a goal, or even in oneself and others.").
 word("moralist", 'n.', "One who bases all decisions on perceived morals, especially one who enforces them with censorship.").
 word("moralist", 'n.', "A teacher of morals; a person who studies morality; a moral philosopher.").
@@ -5474,7 +5472,7 @@ word("oakum", 'n.', "A material, consisting of tarred fibres, used to caulk or p
 word("obdurate", 'adj.', "Physically hardened, toughened.").
 word("obdurate", 'adj.', "Stubbornly persistent, generally in wrongdoing; refusing to reform or repent.").
 word("obelisk", 'n.', "A tall, square, tapered, stone monolith topped with a pyramidal point, frequently used as a monument.").
-word("obese", 'adj.', "Extremely overweight, especially: weighing more than 20% (for men) or 25% (for women) over their ideal weight determined by height and build; or, having a body mass index over 30 kg/m 2 .").
+word("obese", 'adj.', "Extremely overweight, especially: weighing more than 20% (for men) or 25% (for women) over their ideal weight determined by height and build; or, having a body mass index over 30 kg/m 2.").
 word("obesity", 'n.', "The state of being obese due to an excess of body fat.").
 word("obituary", 'adj.', "Relating to the death of a person.").
 word("objective", 'adj.', "Based on observed facts; without subjective assessment.").
@@ -5959,7 +5957,7 @@ word("penetration", 'n.', "Specifically, the insertion of the penis (or similar 
 word("penetration", 'n.', "A number or fraction that represents how many cards/decks will be dealt before shuffling, in contrast to the total number of cards/decks in play.").
 word("peninsular", 'adj.', "Exhibiting a narrow provincialism; parochial.").
 word("peninsular", 'adj.', "Of, pertaining to, resembling, or connected with a peninsula.").
-word("penitence", 'n.', "The of being ; a of or for doing or .").
+word("penitence", 'n.', "The condition of being penitent; a feeling of regret or remorse for doing wrong or sinning.").
 word("penitential", 'adj.', "Pertaining to penance or penitence").
 word("pennant", 'n.', "A flag normally used by naval vessels to represent a special condition.").
 word("pennant", 'n.', "Either of two species of libellulid dragonfly of the genus , of the tropics and subtropics.").
@@ -6012,7 +6010,7 @@ word("perform", 'v.', "To do (something) in front of an audience, such as acting
 word("perform", 'v.', "To behave theatrically so as to give the impression of (a quality, character trait, etc.); to feign.").
 word("perfumery", 'n.', "The manufacture of perfume.").
 word("perfumery", 'n.', "A factory where perfume is made.").
-word("perfunctory", 'adj.', "Done only or merely to conform to a minimal standard or to fulfill a protocol or presumptive duty .").
+word("perfunctory", 'adj.', "Done only or merely to conform to a minimal standard or to fulfill a protocol or presumptive duty.").
 word("perfunctory", 'adj.', "Performed in a careless or indifferent manner as a thing of rote.").
 word("perhaps", 'adv.', "By chance.").
 word("perigee", 'n.', "The point, in any trajectory of an object in space, where it is closest to the Earth.").
@@ -6348,7 +6346,7 @@ word("precise", 'adj.', "Exact, accurate").
 word("precise", 'adj.', "Adhering too much to rules; prim or punctilious").
 word("precision", 'n.', "The ability of a measurement to be reproduced consistently.").
 word("precision", 'n.', "The number of significant digits to which a value may be measured reliably.").
-word("preclude", 'v.', "Remove the possibility of; ; prevent or exclude; to make .").
+word("preclude", 'v.', "Remove the possibility of; ; prevent or exclude; to make impossible.").
 word("precocious", 'adj.', "Characterized by exceptionally early development or maturity.").
 word("precocious", 'adj.', "Exhibiting advanced skills and aptitudes at an abnormally early age.").
 word("precursor", 'n.', "One of the compounds that participates in the chemical reaction that produces another compound.").
@@ -6655,7 +6653,7 @@ word("psychopathic", 'adj.', "Exhibiting the behaviors and personality traits of
 word("psychotherapy", 'n.', "The treatment of people diagnosed with mental and emotional disorders using dialogue and a variety of psychological techniques.").
 word("pudgy", 'adj.', "Fat, overweight (pertaining particularly to children), plump; chubby.").
 word("puerile", 'adj.', "Childish; trifling; silly.").
-word("puerile", 'adj.', "Characteristic of, or pertaining to, a boy or boys; compare .").
+word("puerile", 'adj.', "Characteristic of, or pertaining to, a boy or boys.").
 word("pugnacious", 'adj.', "Naturally aggressive or hostile; combative; belligerent; bellicose.").
 word("puissant", 'adj.', "Powerful, mighty, having authority.").
 word("pulmonary", 'adj.', "Pertaining to, having, or affecting the lungs.").
@@ -6943,7 +6941,7 @@ word("rejuvenate", 'v.', "To render young again.").
 word("rejuvenate", 'v.', "To give new energy or vigour to; to revitalise.").
 word("rejuvenescence", 'n.', "A renewal of youthful characteristics or vitality.").
 word("rejuvenescence", 'n.', "The escape of the protoplasm of a cell and its conversion into a cell of a different character, as in certain algae.").
-word("relapse", 'v.', "To recur; to worsen, be aggravated .").
+word("relapse", 'v.', "To recur; to worsen, be aggravated.").
 word("relapse", 'v.', "To return to a vice, especially self-harm or alcoholism, failing to maintain abstinence.").
 word("relegate", 'v.', "Consign or assign.").
 word("relegate", 'v.', "Exile, banish, remove, or send away.").
@@ -6968,7 +6966,7 @@ word("remembrance", 'n.', "The act of remembering; a holding in mind, or bringin
 word("remembrance", 'n.', "The state of being remembered, or held in mind; memory, recollection.").
 word("reminiscence", 'n.', "An act of remembering long-past experiences, especially positive or pleasant ones, often fondly.").
 word("reminiscence", 'n.', "A mental image thus remembered.").
-word("reminiscent", 'adj.', "Tending to bring some memory etc. to mind }}").
+word("reminiscent", 'adj.', "Tending to bring some memory etc. to mind").
 word("reminiscent", 'adj.', "Suggestive of an earlier event or times").
 word("remiss", 'adj.', "At fault; failing to fulfill responsibility, duty, or obligations.").
 word("remiss", 'adj.', "Not energetic or exact in duty or business; careless; tardy; slack; hence, lacking earnestness or activity; languid; slow.").
@@ -7198,7 +7196,7 @@ word("ruminate", 'v.', "To chew cud. (Said of ruminants.) Involves regurgitating
 word("rupture", 'v.', "To burst, break through, or split, as under pressure.").
 word("rupture", 'v.', "To dehisce irregularly.").
 word("rustic", 'adj.', "Country-styled or pastoral; rural.").
-word("rustic", 'adj.', "Unfinished or roughly finished.}}").
+word("rustic", 'adj.', "Unfinished or roughly finished.").
 word("ruth", 'n.', "Sorrow for the misery of another; pity, compassion; mercy.").
 word("ruth", 'n.', "Sorrow; misery; distress. [https://books.google.com.au/books?id=O3sSAAAAIAAJ&pg=PR1&lpg=PR1&dq=dictionary+of+the+edinburgh+james+leslie&source=bl&ots=f5U9DzPqBm&sig=c1II0xlM5z7BRdhI5cbnyXdhhCA&hl=en&sa=X&ved=0ahUKEwjpivny7ZDOAhVBs5QKHdaoCnoQ6AEILzAE#v=onepage&q=dictionary%20of%20the%20edinburgh%20james%20leslie&f Dictionary of the Edinburgh]").
 word("sacrifice", 'v.', "To offer (something) as a gift to a deity.").
@@ -7337,7 +7335,7 @@ word("selective", 'adj.', "Of or relating to the social work approach called sel
 word("semblance", 'n.', "The way something looks; appearance; form").
 word("semblance", 'n.', "Likeness, similarity; the quality of being similar.").
 word("semiannual", 'adj.', "Biannual: occurring twice a year").
-word("semicircle", 'n.', "Half of a circle. Category:en:Curves").
+word("semicircle", 'n.', "Half of a circle.").
 word("semicircle", 'n.', "An instrument for measuring angles.").
 word("semicivilized", 'adj.', "Somewhat or partially civilized.").
 word("semiconscious", 'adj.', "Neither fully conscious nor unconscious, partially aware but confused or distracted.").
@@ -7384,7 +7382,7 @@ word("sequel", 'n.', "A narrative that is written after another narrative set in
 word("sequence", 'n.', "A series of musical phrases where a theme or melody is repeated, with some change each time, such as in pitch or length (example: opening of Beethoven's Fifth Symphony).").
 word("sequence", 'n.', "A set of things next to each other in a set order; a series").
 word("sequent", 'adj.', "That comes after in time or order; subsequent.").
-word("sequent", 'adj.', "That follows on as a result, conclusion etc.; consequent , , .").
+word("sequent", 'adj.', "That follows on as a result, conclusion etc.; consequent.").
 word("sequester", 'v.', "To temporarily remove (property) from the possession of its owner and hold it as security against legal claims.").
 word("sequester", 'v.', "To set apart; to put aside; to remove; to separate from other things.").
 word("sequestrate", 'v.', "To sequester.").
@@ -7454,7 +7452,7 @@ word("sinuous", 'adj.', "Having curves in alternate directions; meandering.").
 word("sinuous", 'adj.', "Moving gracefully and in a supple manner.").
 word("sinus", 'n.', "An irregular venous or lymphatic cavity, reservoir, or dilated vessel.").
 word("sinus", 'n.', "An abnormal cavity or passage such as a fistula, leading from a deep-seated infection and discharging pus to the surface.").
-word("siren", 'n.', "Any of various nymphalid butterflies of the genus .").
+word("siren", 'n.', "Any of various nymphalid butterflies of the genus.").
 word("siren", 'n.', "An instrument for demonstrating the laws of beats and combination tones.").
 word("sirocco", 'n.', "A hot and often strong southerly to southeasterly wind on the Mediterranean that originates in the Sahara and adjacent North African regions.").
 word("sirocco", 'n.', "A draft of hot air from an artificial source of heat.").
@@ -7541,7 +7539,7 @@ word("specialty", 'n.', "Particularity.").
 word("specie", 'n.', "Money, especially in the form of coins made from precious metal, that has an intrinsic value; coinage.").
 word("specie", 'n.', "Type or kind, in various uses of the phrase 'in specie'.").
 word("species", 'n.', "Either of the two elements of the Eucharist after they have been consecrated.").
-word("species", 'n.', "Type or kind. .}}").
+word("species", 'n.', "Type or kind.").
 word("specimen", 'n.', "A sample, especially one used for diagnostic analysis.").
 word("specimen", 'n.', "An individual instance that represents a class; an example.").
 word("specious", 'adj.', "Employing fallacious but deceptively plausible arguments; deceitful.").
@@ -7557,7 +7555,7 @@ word("speculator", 'n.', "One who speculates; as in investing, one who is willin
 word("speculator", 'n.', "One who forms theories; a theorist.").
 word("sphericity", 'n.', "The quality of being spherical, being a sphere.").
 word("sphericity", 'n.', "The ratio of the surface area of a given particle to the surface area of a sphere with the same volume.").
-word("spheroid", 'n.', "A solid of revolution generated by rotating an ellipse about its major (prolate), or minor (oblate) axis. Category:en:Surfaces").
+word("spheroid", 'n.', "A solid of revolution generated by rotating an ellipse about its major (prolate), or minor (oblate) axis.").
 word("spherometer", 'n.', "A device used to measure the curvature of a surface, such as a lens.").
 word("spinous", 'adj.', "Having a sharp projection.").
 word("spinous", 'adj.', "Of a person: difficult to deal with, prickly.").
@@ -7641,7 +7639,7 @@ word("streamlet", 'n.', "A small stream.").
 word("stringency", 'n.', "A rigorous imposition of standards.").
 word("stringency", 'n.', "A scarcity of money or credit.").
 word("stringent", 'adj.', "Strict; binding strongly; making strict requirements; restrictive; rigid; severe").
-word("stripling", 'n.', "A young man in the state of adolescence, or just passing from boyhood to manhood; a lad. .").
+word("stripling", 'n.', "A young man in the state of adolescence, or just passing from boyhood to manhood; a lad.").
 word("stripling", 'n.', "A seedling with most of the leaves stripped off.").
 word("studious", 'adj.', "Dedicated to study; devoted to the acquisition of knowledge from books").
 word("studious", 'adj.', "Given to thought, or to the examination of subjects by contemplation; contemplative.").
@@ -7849,7 +7847,7 @@ word("tack", 'n.', "A small nail with a flat head.").
 word("tact", 'n.', "Sensitive mental touch; special skill or faculty; keen perception or discernment; ready power of appreciating and doing what is required by circumstances; the ability to say the right thing.").
 word("tact", 'n.', "A verbal operant which is controlled by a nonverbal stimulus (such as an object, event, or property of an object) and is maintained by nonspecific social reinforcement (praise).").
 word("tactician", 'n.', "A person skilled in the planning and execution of tactics.").
-word("tactics", 'n.', "The employment and ordered arrangement of forces in relation to each other Joint Publication 1-02 U.S. Department of Defense Dictionary of Military and Associated Terms; 12 April 2001 (As Amended Through 14 April 2006). .").
+word("tactics", 'n.', "The employment and ordered arrangement of forces in relation to each other.").
 word("tactics", 'n.', "The military science that deals with achieving the objectives set by strategy.").
 word("tangency", 'n.', "The state of being tangent; an instance of (something) being tangent.").
 word("tangent", 'adj.', "Touching a curve at a single point but not crossing it at that point.").
@@ -7894,7 +7892,7 @@ word("temporal", 'adj.', "Of or situated in the temples of the head or the sides
 word("temporary", 'adj.', "Existing only for a short time or short times; transient, ephemeral.").
 word("temporary", 'adj.', "Not permanent; existing only for a period or periods of time.").
 word("temporize", 'v.', "To deliberately act evasively or prolong a discussion in order to gain time or postpone a decision, sometimes so that a compromise can be reached or simply to make a conversation more temperate; to stall for time.").
-word("temporize", 'v.', "To comply with the occasion or time; to humour, or yield to, current circumstances or opinion; also, to .").
+word("temporize", 'v.', "To comply with the occasion or time; to humour, or yield to, current circumstances or opinion.").
 word("tempt", 'v.', "To provoke someone to do wrong, especially by promising a reward; to entice.").
 word("tempt", 'v.', "To attract; to allure.").
 word("tempter", 'n.', "A seducer, especially a man who seduces.").
@@ -8432,7 +8430,7 @@ word("viceroy", 'n.', "An orange and black North American butterfly ( ), so name
 word("vicissitude", 'n.', "Regular change or succession from one thing to another, or one part of a cycle to the next; alternation; mutual succession; interchange.").
 word("vicissitude", 'n.', "A change, especially in one's life or fortunes.").
 word("vie", 'v.', "To fight for superiority; to contend; to compete eagerly so as to gain something.").
-word("vie", 'v.', "To stake a sum of money upon a hand of cards, as in the old game of gleek. See .").
+word("vie", 'v.', "To stake a sum of money upon a hand of cards, as in the old game of gleek.").
 word("vigilance", 'n.', "Alert watchfulness.").
 word("vigilance", 'n.', "Close and continuous attention.").
 word("vigilant", 'adj.', "Watchful, especially for danger or disorder; alert; wary").
@@ -8442,7 +8440,7 @@ word("vincible", 'adj.', "Capable of being defeated or overcome; assailable or v
 word("vindicate", 'v.', "To avenge; to punish").
 word("vindicate", 'v.', "To liberate; to set free; to deliver.").
 word("vindicative", 'adj.', "Vindictive, excessively vengeful.").
-word("vindicative", 'adj.', "Vindicating, having a tendency to vindicate .").
+word("vindicative", 'adj.', "Vindicating, having a tendency to vindicate.").
 word("vindicatory", 'adj.', "Promoting or producing retribution or punishment.").
 word("vindicatory", 'adj.', "Promoting or producing vindication.").
 word("vinery", 'n.', "A structure, usually enclosed with glass, for rearing and protecting vines; a grapery.").
@@ -8467,7 +8465,7 @@ word("virulence", 'n.', "The state of being virulent.").
 word("virulent", 'adj.', "Of animals, plants, or substances: extremely venomous or poisonous.").
 word("virulent", 'adj.', "Extremely hostile or malicious; intensely acrimonious.").
 word("visage", 'n.', "Countenance; appearance; one's face.").
-word("viscount", 'n.', "Any of various nymphalid butterflies of the genus . Other butterflies in this genus are called earls and counts.").
+word("viscount", 'n.', "Any of various nymphalid butterflies of the genus. Other butterflies in this genus are called earls and counts.").
 word("viscount", 'n.', "A member of the peerage, above a baron but below a count or earl.").
 word("vista", 'n.', "A distant view or prospect, especially one seen through some opening, avenue or passage.").
 word("vista", 'n.', "A site offering such a view.").
