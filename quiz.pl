@@ -5,17 +5,17 @@
 */
 module(quiz,
     [
-        go/0,
-        go/1
+        play/0,
+        play/1
     ]).
 
-%! go
+%! play
 % Pick a random deck to study.
-go :- go(_).
+play :- play(_).
 
-%! go(?Name:atom)
+%! play(?Name:atom)
 % Provide the name of a deck or one will be picked at random. Ask all of the questions in the deck. Press Q to quit.
-go(Name) :-
+play(Name) :-
     format("Quiz Program. Use Q to quit.~n~n"),
     pick_subject(Name, Desc),
     setof((Term, Def), card(Name, Term, Def), Defs),
@@ -23,7 +23,7 @@ go(Name) :-
     format("Subject: ~w~nCards: ~d~n~n", [Desc, N]),
     random_permutation(Defs, ShuffledDefs),
     ask(ShuffledDefs).
-go(_) :- !.
+play(_) :- !.
 
 %! pick_subject(Name:atom, Desc:string)
 pick_subject(Name, Desc) :-
