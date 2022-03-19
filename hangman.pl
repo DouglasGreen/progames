@@ -1139,7 +1139,6 @@ word("brigade", 'n.', "Coordinated online harassment, disruption or influencing,
 word("brigadier", 'n.', "An army rank; an officer commanding a brigade.").
 word("brigadier", 'n.', "A field officer of the highest grade, below general officers, NATO grade O7.").
 word("brigand", 'n.', "An outlaw or bandit.").
-word("brimstone", 'n.', "Sulfur / sulphur.").
 word("brimstone", 'n.', "The sulfur / sulphur of Hell; Hell, damnation.").
 word("brine", 'n.', "Salt water; water saturated or strongly impregnated with salt; a salt-and-water solution for pickling.").
 word("brine", 'n.', "The sea or ocean; the water of the sea.").
