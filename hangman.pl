@@ -6,6 +6,7 @@ The definitions are taken from Wiktionary.
 @license GPL
 @see https://en.wiktionary.org/wiki/Wiktionary:Main_Page
 */
+module(quiz, [play/0]).
 
 %! play
 % Play the game
