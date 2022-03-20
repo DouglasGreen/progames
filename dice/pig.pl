@@ -50,17 +50,19 @@ computer(HumanScore, ComputerScore, Round) :-
         !;
         % If the human is winning in the last round, the computer must keep on rolling.
         HumanScore >= 100,
-        ComputerScore =< HumanScore,
+        ComputerScore + Round =< HumanScore,
         ShouldRoll = true,
         !;
         % If the computer is winning in the last round, the computer must stop rolling.
         HumanScore >= 100,
-        ComputerScore > HumanScore,
+        ComputerScore + Round > HumanScore,
         ShouldRoll = false,
         !;
-        % Otherwise the computer should keep rolling 3/4 of the time.
+        % Otherwise the computer should go to 10 and keep rolling 3/4 of the time.
         random_between(1, 4, R),
         (
+            Round < 10,
+            ShouldRoll = true;
             R > 3,
             ShouldRoll = true;
             R =< 3,

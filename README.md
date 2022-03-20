@@ -8,7 +8,7 @@ To run a game, load it in Prolog and type: `<module>:play.`
 
 The dice games are in the dice subdirectory.
 
-* [Pig](https://en.wikipedia.org/wiki/Pig_(dice_game)).
+* [Pig](https://en.wikipedia.org/wiki/Pig_(dice_game))
 
 ## Logic games
 
