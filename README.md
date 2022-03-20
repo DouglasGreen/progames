@@ -2,7 +2,7 @@
 
 Here are a few simple text games written for SWI Prolog.
 
-To run a game, load it in Prolog and type: `play.`
+To run a game, load it in Prolog and type: `<module>:play.`
 
 ## Dice games
 

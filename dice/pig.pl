@@ -6,7 +6,7 @@ a pig.
 @author Douglas S. Green
 @license GPL
 */
-module(quiz, [play/0]).
+module(pig, [play/0]).
 
 %! play.
 play :-
