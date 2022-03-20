@@ -8,16 +8,19 @@ To run a game, load it in Prolog and type: `play.`
 
 The dice games are in the dice subdirectory.
 
-### Pig
+* [Pig](https://en.wikipedia.org/wiki/Pig_(dice_game)).
 
-There's a game of [Pig](https://en.wikipedia.org/wiki/Pig_(dice_game)).
+## Logic games
+
+The logic games are in the logic subdirectory.
+
+* [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game))
 
 ## Word games
 
-### Hangman
-
-Dictionary definitions of words are provided from [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page).
-Guess the word in six tries or less.
+* [Hangman](https://en.wikipedia.org/wiki/Hangman_(game)). Dictionary definitions of words are provided from
+    [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page).
+    Guess the word in six tries or less.
 
 ## Quiz
 
