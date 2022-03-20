@@ -45,13 +45,16 @@ pick_subject(Name, Desc) :-
 ask([(Q, A)|Qs]) :-
     writeln(Q),
     get_single_char(Code),
-    char_code(Char, Code),
-    Char \= 'q',
-    Char \= 'Q',
-    !,
-    writeln(A),
-    nl,
-    ask(Qs).
+    to_lower(Code, LowCode),
+    char_code(LowChar, LowCode),
+    (
+        LowChar = 'q',
+        writeln("Bye!"),
+        !;
+        writeln(A),
+        nl,
+        ask(Qs)
+    ).
 
 %! list_decks.
 list_decks :-

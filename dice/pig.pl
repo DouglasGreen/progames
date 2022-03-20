@@ -35,6 +35,7 @@ human(HumanScore, ComputerScore, Round) :-
         computer(NewHumanScore, ComputerScore, 0),
         !;
         Low = 'q',
+        writeln("Bye!"),
         !;
         human(HumanScore, ComputerScore, Round)
     ).
