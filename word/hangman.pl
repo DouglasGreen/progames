@@ -15,6 +15,7 @@ play :-
     string_chars(Word, WordChars),
     length(WordChars, WordLen),
     format("(~w) ~w\n\n", [Cat, Def]),
+    write_word(WordChars, [], false),
     make_guess(WordChars, WordLen, [], 6).
 
 %! make_guess(WordChars:list, WordLen:int, Guesses:list, GuessCount:int)
