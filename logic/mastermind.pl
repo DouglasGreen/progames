@@ -59,14 +59,14 @@ pick_color(Color) :-
     R is random(N),
     nth0(R, Colors, Color).
 
-%! guess(ChosenColors)
+%! guess(ChosenColors:list)
 % Ask the user for their guess.
 guess(ChosenColors) :-
     read_line_to_string(user_input, Input),
     string_lower(Input, LowInput),
     handle_guess(ChosenColors, LowInput).
 
-%! handle_guess(ChosenColors, LowInput)
+%! handle_guess(ChosenColors:list, LowInput:string)
 % Handle the alternative outcomes of a guess.
 handle_guess(_, "q") :-
     writeln("Bye!").
