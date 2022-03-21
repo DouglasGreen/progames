@@ -18,7 +18,7 @@ play :-
     write_word(WordChars, [], false),
     make_guess(WordChars, WordLen, [], 6).
 
-%! make_guess(WordChars:list, WordLen:int, Guesses:list, GuessCount:int)
+%! make_guess(WordChars:chars, WordLen:int, Guesses:chars, GuessCount:int)
 % Make the current guess and determine if it's correct and if the user won or lost.
 make_guess(WordChars, _, _, 0) :-
     string_chars(Word, WordChars),
@@ -46,7 +46,7 @@ make_guess(WordChars, WordLen, Guesses, GuessCount) :-
         make_guess(WordChars, WordLen, NewGuesses, GuessCount1)
     ).
 
-%! write_word(Chars:list, NewGuesses:list, Win:bool)
+%! write_word(Chars:chars, NewGuesses:chars, Win:bool)
 % Write the current word with correct letters or blanks.
 write_word([Char|Chars], NewGuesses, Win) :-
     memberchk(Char, NewGuesses),

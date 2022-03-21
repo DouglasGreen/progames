@@ -172,6 +172,7 @@ card(acronyms, "CES", "Consumer Electronics Show").
 card(acronyms, "CF", "CompactFlash").
 card(acronyms, "CGI", "computer-generated imagery").
 card(acronyms, "Char", "character").
+card(acronyms, "CI", "continuous integration").
 card(acronyms, "CIA", "Central Intelligence Agency").
 card(acronyms, "CIDR", "classless inter-domain routing").
 card(acronyms, "CIFS", "common Internet file system").
