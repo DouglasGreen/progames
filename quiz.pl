@@ -101,6 +101,7 @@ ask([(Q, A)|Qs]) :-
 
 %! subject(Name:atom, Desc:string)
 subject(art, baroque_paintings, "List of Baroque paintings and the artists who created them").
+subject(art, paintings, "List of paintings and the artists who created them").
 subject(art, sculptures, "List of sculptures and the artists who created them").
 subject(astronomy, moons, "List of moons and the planets that they orbit around").
 subject(literature, fiction_books, "List of fictional books and authors").
@@ -3208,6 +3209,242 @@ card(nonfiction_books, "Words", "Jean Paul Sartre").
 card(nonfiction_books, "Zeitoun", "Dave Eggers").
 card(nonfiction_books, "Zen and the Art of Motorcycle Maintenance", "Robert M. Pirsig").
 card(nonfiction_books, "[author]'s Elements", "Euclid").
+card(paintings, "A Bar at the Folies-Bergère", "Édouard Manet").
+card(paintings, "A Cotton Office in New Orleans", "Edgar Degas").
+card(paintings, "A Friend in Need", "Cassius Marcellus Coolidge").
+card(paintings, "A Sunday Afternoon on the Island of La Grande Jatte", "Georges Seurat").
+card(paintings, "Adam and Eve", "Lucas Cranach the Elder").
+card(paintings, "Adoration of the Magi", "Gentile da Fabriano").
+card(paintings, "Allegory of Art", "Georg Baselitz").
+card(paintings, "Ambassadors", "Hans Holbein the Younger").
+card(paintings, "American Gothic", "Grant Wood").
+card(paintings, "An Englishman in Moscow", "Kazimir Malevich").
+card(paintings, "An Experiment on a Bird in the Air Pump", "Joseph Wright of Derby").
+card(paintings, "Annunciation", "Leonardo da Vinci").
+card(paintings, "Arnolfini Portrait", "Jan van Eyck").
+card(paintings, "Artist in his Atelier", "Johannes Vermeer").
+card(paintings, "Ashes", "Edvard Munch").
+card(paintings, "Astronomer", "Johannes Vermeer").
+card(paintings, "At 4 O'Clock in the Summer, Hope", "Yves Tanguy").
+card(paintings, "Autumn Rhythm", "Jackson Pollock").
+card(paintings, "Bacchanals", "Titian").
+card(paintings, "Bacchus and Ariadne", "Titian").
+card(paintings, "Backlit Nude", "Pierre Bonnard").
+card(paintings, "Bal du moulin de la Galette", "Pierre-Auguste Renoir").
+card(paintings, "Barge Haulers on the Volga", "Ilya Repin").
+card(paintings, "Bath", "Jean-Léon Gérôme").
+card(paintings, "Bather at the River", "Henri Matisse").
+card(paintings, "Battle of San Romano", "Paolo Uccello").
+card(paintings, "Beta-Kappa", "Morris Louis").
+card(paintings, "Bird Garden", "Paul Klee").
+card(paintings, "Birth of Venus", "Alexandre Cabanel").
+card(paintings, "Black Skin", "Gotthard Graubner").
+card(paintings, "Blue Nude", "Henri Matisse").
+card(paintings, "Boulevard Montmartre Spring", "Camille Pissarro").
+card(paintings, "Breakfast Table", "Juan Gris").
+card(paintings, "Breakfast at the Hunt", "Gustave Courbet").
+card(paintings, "Breezing Up", "Winslow Homer").
+card(paintings, "Burning Giraffe", "Salvador Dalí").
+card(paintings, "Burning of the Houses of Parliament", "William Turner").
+card(paintings, "C & O", "Franz Kline").
+card(paintings, "Café Terrace at Night", "Vincent van Gogh").
+card(paintings, "Charles I in Three Positions", "Anthony van Dyck").
+card(paintings, "Chateau de Steen with Hunter", "Peter Paul Rubens").
+card(paintings, "Child's Bath", "Mary Cassatt").
+card(paintings, "Christ Healing a Blind Man", "Duccio").
+card(paintings, "Christina's World", "Andrew Wyeth").
+card(paintings, "Colossus", "Francisco Goya").
+card(paintings, "Composition VIII", "Wassily Kandinsky").
+card(paintings, "Concetto Spaziale", "Lucio Fontana").
+card(paintings, "Crucifixion from the Isenheim Altarpiece", "Matthias Grünewald").
+card(paintings, "Crucifixion of Christ", "Andrea Mantegna").
+card(paintings, "Cut with the Kitchen Knife", "Hannah Hoch").
+card(paintings, "Dance at the Moulin De La Galette", "Pierre-Auguste Renoir").
+card(paintings, "Dante and Virgil in Hell", "William-Adolphe Bouguereau").
+card(paintings, "Diana and Callisto", "Titian").
+card(paintings, "Dream Landscape", "Paul Nash").
+card(paintings, "Dream of St. Joseph", "Georges de La Tour").
+card(paintings, "Dutch Interior I", "Joan Miró").
+card(paintings, "Ecce Homo", "Honoré Daumier").
+card(paintings, "Empire of Light", "René Magritte").
+card(paintings, "Encounter", "Johannes Itten").
+card(paintings, "Equestrian Portrait of Prince Balthasar Charles", "Diego Velázquez").
+card(paintings, "Farewells", "Umberto Boccioni").
+card(paintings, "Feast of the Rosary", "Albrecht Dürer").
+card(paintings, "Fire", "Giuseppe Arcimboldo").
+card(paintings, "Five Women on the Street", "Ernst Ludwig Kirchner").
+card(paintings, "Flag", "Jasper Johns").
+card(paintings, "Flaming June", "Frederic Leighton").
+card(paintings, "Flanders", "Otto Dix").
+card(paintings, "Flower Carrier", "Diego Rivera").
+card(paintings, "Fort Vimieux", "J. M. W. Turner").
+card(paintings, "Fortune Teller", "Georges de La Tour").
+card(paintings, "Four Girls on the Bridge", "Edvard Munch").
+card(paintings, "Fox Hunt", "Winslow Homer").
+card(paintings, "Foxes", "Franz Marc").
+card(paintings, "Franz von Lenbach with Wife and Daughters", "Franz von Lenbach").
+card(paintings, "Garden of Earthly Delights", "Hieronymus Bosch").
+card(paintings, "Girl with Hair Band", "Roy Lichtenstein").
+card(paintings, "Girl with a Pearl Earring", "Johannes Vermeer").
+card(paintings, "Gleaners", "Jean-François Millet").
+card(paintings, "Grande Odalisque", "Jean-Auguste-Dominique Ingres").
+card(paintings, "Great Friends", "Georg Baselitz").
+card(paintings, "Great Wave Off Kanagawa", "Katsushika Hokusai").
+card(paintings, "Gross Clinic", "Thomas Eakins").
+card(paintings, "Grosvenor Hunt", "George Stubbs").
+card(paintings, "Guernica", "Pablo Picasso").
+card(paintings, "Hay Wain", "John Constable").
+card(paintings, "Hireling Shepherd", "William Holman Hunt").
+card(paintings, "Homage to the Square: Against Deep Blue", "Josef Albers").
+card(paintings, "Hunters in the Snow; Return of the Hunters", "Pieter Bruegel the Elder").
+card(paintings, "I and the Village", "Marc Chagall").
+card(paintings, "Impression, Sunrise", "Claude Monet").
+card(paintings, "Improvisation 6", "Wassily Kandinsky").
+card(paintings, "Interior of Grote Kerk in Haarlem", "Pieter Jansz. Saenredam").
+card(paintings, "Irises", "Vincent van Gogh").
+card(paintings, "Japanese Footbridge", "Claude Monet").
+card(paintings, "Jewish Bride", "Rembrandt").
+card(paintings, "Kiss", "Gustav Klimt").
+card(paintings, "LIS", "László Moholy-Nagy").
+card(paintings, "La Vie", "Pablo Picasso").
+card(paintings, "Lady with an Ermine", "Leonardo da Vinci").
+card(paintings, "Lamentation of Christ", "Andrea Mantegna").
+card(paintings, "Landscape with the Fall of Icarus", "Pieter Bruegel the Elder").
+card(paintings, "Las Meninas (The Ladies-in-waiting)", "Diego Velázquez").
+card(paintings, "Last Supper", "Leonardo da Vinci").
+card(paintings, "Laughing Cavalier", "Frans Hals").
+card(paintings, "Le Déjeuner sur l'herbe (The Luncheon on the Grass)", "Édouard Manet").
+card(paintings, "Leda and the Swan", "Correggio").
+card(paintings, "Les Demoiselles d'Avignon", "Pablo Picasso").
+card(paintings, "Liberty Leading the People", "Eugène Delacroix").
+card(paintings, "Lictors Bring to Brutus the Bodies of His Sons", "Jacques-Louis David").
+card(paintings, "Luncheon of the Boating Party", "Pierre-Auguste Renoir").
+card(paintings, "Madonna del Prato (Madonna of the Meadow)", "Raphael").
+card(paintings, "Madonna of the Chancellor Rolin", "Jan van Eyck").
+card(paintings, "Mahana no atua (Day of God)", "Paul Gauguin").
+card(paintings, "Marie-Louise O'Murphey", "Francois Boucher").
+card(paintings, "Massacre of the Innocents", "Peter Paul Rubens").
+card(paintings, "Medieval City on a River", "Karl Friedrich Schinkel").
+card(paintings, "Meditation", "Alexej von Jawlensky").
+card(paintings, "Meeting", "Richard Lindner").
+card(paintings, "Mercury and Argus", "Peter Paul Rubens").
+card(paintings, "Miss America", "Wolf Vostell").
+card(paintings, "Mona Lisa", "Leonardo da Vinci").
+card(paintings, "Mont Sainte-Victoire", "Paul Cézanne").
+card(paintings, "Mountains and Sea", "Helen Frankenthaler").
+card(paintings, "Mourning of Christ", "Giotto").
+card(paintings, "Mr and Mrs Andrews", "Thomas Gainsborough").
+card(paintings, "Naked Maja", "Francisco Goya").
+card(paintings, "Napoleon Crossing The Alps", "Jacques-Louis David").
+card(paintings, "Night Cafe", "Vincent van Gogh").
+card(paintings, "Nighthawks", "Edward Hopper").
+card(paintings, "Ninth Wave", "Ivan Aivazovsky").
+card(paintings, "No. 5, 1948", "Jackson Pollock").
+card(paintings, "Nocturne in Black and Gold - The Falling Rocket", "James Abbott McNeill Whistler").
+card(paintings, "Nude Descending a Staircase, No. 2", "Marcel Duchamp").
+card(paintings, "Oath of Horatii", "Jacques-Louis David").
+card(paintings, "Odalisque", "Francois Boucher").
+card(paintings, "Olympia", "Édouard Manet").
+card(paintings, "Ophelia", "John Everett Millais").
+card(paintings, "Paris Street; Rainy Day", "Gustave Caillebotte").
+card(paintings, "Pastoral Concert", "Giorgione").
+card(paintings, "Peaceable Kingdom", "Edward Hicks").
+card(paintings, "Persistence of Memory", "Salvador Dalí").
+card(paintings, "Pollice Verso", "Jean-Léon Gérôme").
+card(paintings, "Pont du Gard", "Hubert Robert").
+card(paintings, "Portrait of Adele-Bloch Bauer I", "Gustav Klimt").
+card(paintings, "Portrait of Louis XIV.", "Hyacinthe Rigaud").
+card(paintings, "Portrait of Madame Récamier", "Jacques-Louis David").
+card(paintings, "Portrait of a Gentleman Skating", "Gilbert Stuart").
+card(paintings, "Portrait of a Lady", "Rogier van der Weyden").
+card(paintings, "Portrait of a Young Man", "Raphael").
+card(paintings, "Prayer of Christ in the Garden of Gethsemane", "Giovanni Bellini").
+card(paintings, "Primavera", "Sandro Botticelli").
+card(paintings, "Procession of the Magi", "Benozzo Gozzoli").
+card(paintings, "Pyramus and Thisbe", "Niklaus Manuel Deutsch").
+card(paintings, "Red Balloon", "Paul Klee").
+card(paintings, "Red, Brown and Black", "Mark Rothko").
+card(paintings, "Resurrection of Christ", "Piero della Francesca").
+card(paintings, "Resurrection, Cookham", "Stanley Spencer").
+card(paintings, "Rev. Robert Walker Skating", "Henry Raeburn").
+card(paintings, "Sad Young Man in a Train", "Marcel Duchamp").
+card(paintings, "Saint Johns Altarpiece", "Rogier van der Weyden").
+card(paintings, "Salisbury Cathedral", "John Constable").
+card(paintings, "Salome", "Franz von Stuck").
+card(paintings, "Saturn Devouring His Son", "Francisco Goya").
+card(paintings, "Scream", "Edvard Munch").
+card(paintings, "Self-Portrait with Daughter", "Élisabeth Vigée Le Brun").
+card(paintings, "Self-portrait as Paul", "Rembrandt").
+card(paintings, "Self-portrait", "Albrecht Dürer; Vincent van Gogh").
+card(paintings, "Sleepers", "Gustave Courbet").
+card(paintings, "Sleeping Gypsy", "Henri Rousseau").
+card(paintings, "Sleeping Venus", "Giorgione; Titian").
+card(paintings, "Son of Man", "René Magritte").
+card(paintings, "St. George and The Dragon", "Paolo Uccello").
+card(paintings, "St. John's Altarpiece", "Hans Memling").
+card(paintings, "St. Mary of Egypt", "Emil Nolde").
+card(paintings, "Stag Night at Sharkeys", "George Bellows").
+card(paintings, "Starry Night", "Vincent van Gogh").
+card(paintings, "Still Life: Lemons, Oranges and a Rose", "Francisco de Zurbarán").
+card(paintings, "Storm", "William McTaggart").
+card(paintings, "Sunday", "Frits Van den Berghe").
+card(paintings, "Supper at Emmaus", "Caravaggio").
+card(paintings, "Susanna and The Elders", "Artemisia Gentileschi").
+card(paintings, "Swing", "Jean-Honoré Fragonard").
+card(paintings, "The Actors - Triptych", "Max Beckmann").
+card(paintings, "The Anatomy Lesson of Dr. Nicolaes Tulp", "Rembrandt").
+card(paintings, "The Avenue in the Rain", "Childe Hassam").
+card(paintings, "The Bathers; Large Bathers", "Paul Cézanne").
+card(paintings, "The Beheading of St John the Baptist", "Caravaggio").
+card(paintings, "The Birth of Christ", "Piero della Francesca").
+card(paintings, "The Birth of Venus", "Sandro Botticelli").
+card(paintings, "The Boating Party", "Mary Cassatt").
+card(paintings, "The Burial of the Count of Orgaz", "El Greco").
+card(paintings, "The Card Players", "Paul Cézanne").
+card(paintings, "The Cardsharps", "Caravaggio").
+card(paintings, "The Creation of Adam", "Michelangelo").
+card(paintings, "The Embarkation for Cythera", "Jean-Antoine Watteau").
+card(paintings, "The Fall of the Damned; The Fall of the Rebel Angels", "Peter Paul Rubens").
+card(paintings, "The Hat Shop", "August Macke").
+card(paintings, "The Kiss", "Francesco Hayez").
+card(paintings, "The Lady of Shalott", "John William Waterhouse").
+card(paintings, "The Lute Player", "Caravaggio").
+card(paintings, "The Massacre at Chios", "Eugène Delacroix").
+card(paintings, "The Musicians", "Caravaggio").
+card(paintings, "The Night Watch", "Rembrandt").
+card(paintings, "The Potato Eaters", "Vincent van Gogh").
+card(paintings, "The Raft of the Medusa", "Théodore Géricault").
+card(paintings, "The School of Athens", "Raphael").
+card(paintings, "The Storm on the Sea of Galilee", "Rembrandt").
+card(paintings, "The Surrender of Breda", "Diego Velázquez").
+card(paintings, "The Third of May 1808", "Francisco Goya").
+card(paintings, "The Virgin and Child with St. Anne", "Leonardo da Vinci").
+card(paintings, "The Wedding at Cana", "Paolo Veronese").
+card(paintings, "Three Studies for Figures at the Base of a Crucifixion", "Francis Bacon").
+card(paintings, "Tiger", "Franz Marc").
+card(paintings, "Tower of Babel", "Pieter Bruegel the Elder").
+card(paintings, "Tribute Money", "Masaccio").
+card(paintings, "Triumph of Death", "Pieter Bruegel the Elder").
+card(paintings, "Triumph of Galatea", "Raphael").
+card(paintings, "Turkish Bath", "Jean-Auguste-Dominique Ingres").
+card(paintings, "Venice - La Dogana and Santa Maria della Salute", "William Turner").
+card(paintings, "Very Rare Picture of Earth", "Francis Picabia").
+card(paintings, "View of Delft", "Johannes Vermeer").
+card(paintings, "View of Toledo", "El Greco").
+card(paintings, "Virgin and Child and the Young John", "Giulio Romano").
+card(paintings, "Wanderer above the Sea of Fog", "Caspar David Friedrich").
+card(paintings, "War", "Konrad Klapheck").
+card(paintings, "Washington Crossing the Delaware", "Emanuel Leutze").
+card(paintings, "Watson and The Shark", "John Singleton Copley").
+card(paintings, "Wave", "William-Adolphe Bouguereau").
+card(paintings, "Wedding", "Fernand Léger").
+card(paintings, "Whistler's Mother", "James Abbott McNeill Whistler").
+card(paintings, "White Calico Flower", "Georgia O'Keeffe").
+card(paintings, "William Bethune with Wife and Daughter", "David Wilkie").
+card(paintings, "Winter Scene on a Canal", "Hendrick Avercamp").
+card(paintings, "Woman in the Bath", "Edgar Degas").
+card(paintings, "Woman in the Garden", "Claude Monet").
+card(paintings, "Young Schoolmistress", "Jean-Baptiste-Siméon Chardin").
 card(permutations, "P(1, 1)", "1").
 card(permutations, "P(10, 1)", "10").
 card(permutations, "P(10, 10)", "3628800").
