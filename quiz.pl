@@ -82,6 +82,8 @@ ask([(Q, A)|Qs]) :-
 
 %! subject(Name:atom, Desc:string)
 subject(acronyms, "Acronyms and the terms that they expand into").
+subject(actor_roles, "List of movie roles and the actors who played them").
+subject(actress_roles, "List of movie roles and the actresses who played them").
 subject(baroque_paintings, "List of Baroque paintings and the artists who created them").
 subject(ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
 subject(fiction_books, "List of fictional books and authors").
@@ -804,6 +806,882 @@ card(acronyms, "sync", "synchronize").
 card(acronyms, "synth", "synthesizer").
 card(acronyms, "sysgen", "system generation").
 card(acronyms, "sysop", "system operator").
+card(actor_roles, "10 Cloverfield Lane", "John Goodman").
+card(actor_roles, "12 Angry Men", "Ed Begley; Henry Fonda; Lee J. Cobb").
+card(actor_roles, "12 Years a Slave", "Chiwetel Ejiofor").
+card(actor_roles, "127 Hours", "James Franco").
+card(actor_roles, "1917", "Mark Strong").
+card(actor_roles, "21 Jump Street", "Channing Tatum; Jonah Hill").
+card(actor_roles, "24", "Kiefer Sutherland").
+card(actor_roles, "28 Days Later...", "Cillian Murphy").
+card(actor_roles, "300", "Gerard Butler").
+card(actor_roles, "45 Years", "Tom Courtenay").
+card(actor_roles, "A Clockwork Orange", "Malcolm McDowell").
+card(actor_roles, "A Fish Called Wanda", "John Cleese").
+card(actor_roles, "A History of Violence", "William Hurt").
+card(actor_roles, "A Man for All Seasons", "Paul Scofield; Robert Shaw").
+card(actor_roles, "A Night at the Opera", "Groucho Marx").
+card(actor_roles, "A Quiet Place", "John Krasinski").
+card(actor_roles, "A Single Man", "Colin Firth").
+card(actor_roles, "A Star Is Born", "Bradley Cooper; Sam Elliott").
+card(actor_roles, "Ad Astra (Producer)", "Brad Pitt").
+card(actor_roles, "Adaptation.", "Chris Cooper").
+card(actor_roles, "Airplane!", "Leslie Nielsen").
+card(actor_roles, "Alexis Zorbas", "Anthony Quinn").
+card(actor_roles, "Aliens", "Bill Paxton").
+card(actor_roles, "All About Eve", "George Sanders").
+card(actor_roles, "All the King's Men", "Broderick Crawford").
+card(actor_roles, "All the President's Men", "Jason Robards; Martin Balsam").
+card(actor_roles, "Almost Famous", "Billy Crudup").
+card(actor_roles, "Amadeus", "Tom Hulce").
+card(actor_roles, "Amour", "Jean-Louis Trintignant").
+card(actor_roles, "An Officer and a Gentleman", "Louis Gossett Jr.").
+card(actor_roles, "Anatomy of a Murder", "James Stewart").
+card(actor_roles, "Anchorman 2: The Legend Continues (Producer)", "Will Ferrell").
+card(actor_roles, "Angels with Dirty Faces", "James Cagney").
+card(actor_roles, "Ant-Man", "Paul Rudd").
+card(actor_roles, "Apocalypse Now", "Marlon Brando").
+card(actor_roles, "Appaloosa", "Ed Harris").
+card(actor_roles, "Argo (Producer)", "Ben Affleck").
+card(actor_roles, "Argo", "Alan Arkin").
+card(actor_roles, "Arrested Development", "Jason Bateman").
+card(actor_roles, "Arthur", "Dudley Moore; John Gielgud; Russell Brand").
+card(actor_roles, "As Good as It Gets", "Greg Kinnear").
+card(actor_roles, "Austin Powers: The Spy Who Shagged Me", "Mike Myers").
+card(actor_roles, "Avatar", "Sam Worthington").
+card(actor_roles, "Avengers: Endgame", "Josh Brolin").
+card(actor_roles, "Baby Boy", "Tyrese Gibson").
+card(actor_roles, "Back to the Future", "Christopher Lloyd; Michael J. Fox").
+card(actor_roles, "Barbershop", "Michael Ealy").
+card(actor_roles, "Barton Fink", "John Turturro; Michael Lerner").
+card(actor_roles, "Batman & Robin", "Chris O'Donnell").
+card(actor_roles, "Battlestar Galactica", "Edward James Olmos").
+card(actor_roles, "Beasts of No Nation", "Idris Elba").
+card(actor_roles, "Beginners", "Christopher Plummer").
+card(actor_roles, "Behind the Candelabra", "Michael Douglas").
+card(actor_roles, "Being John Malkovich", "John Malkovich").
+card(actor_roles, "Being There", "Melvyn Douglas; Peter Sellers").
+card(actor_roles, "Ben-Hur", "Charlton Heston; Hugh Griffith").
+card(actor_roles, "Big Night", "Stanley Tucci").
+card(actor_roles, "Billy Elliot", "Jamie Bell").
+card(actor_roles, "Birdman or (The Unexpected Virtue of Ignorance)", "Michael Keaton").
+card(actor_roles, "Black Panther", "Chadwick Boseman; Michael B. Jordan").
+card(actor_roles, "Black Swan", "Vincent Cassel").
+card(actor_roles, "Blade Runner", "Rutger Hauer").
+card(actor_roles, "Blade", "Wesley Snipes").
+card(actor_roles, "Blood Diamond", "Djimon Hounsou").
+card(actor_roles, "Blue Valentine", "Ryan Gosling").
+card(actor_roles, "Boiler Room", "Giovanni Ribisi").
+card(actor_roles, "Bonnie and Clyde", "Warren Beatty").
+card(actor_roles, "Boogie Nights", "Burt Reynolds").
+card(actor_roles, "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan", "Sacha Baron Cohen").
+card(actor_roles, "Braveheart", "Mel Gibson").
+card(actor_roles, "Breaking Bad", "Aaron Paul; Bryan Cranston").
+card(actor_roles, "Bride of Frankenstein", "Boris Karloff").
+card(actor_roles, "Bridge of Spies", "Mark Rylance").
+card(actor_roles, "Brokeback Mountain", "Heath Ledger; Randy Quaid").
+card(actor_roles, "Brothers", "Tobey Maguire").
+card(actor_roles, "Bruce Almighty", "Jim Carrey").
+card(actor_roles, "Buffalo '66", "Vincent Gallo").
+card(actor_roles, "C'era una volta il West", "Charles Bronson").
+card(actor_roles, "Calvary", "Brendan Gleeson").
+card(actor_roles, "Casablanca", "Claude Rains; Humphrey Bogart; Peter Lorre").
+card(actor_roles, "Casino Royale", "Daniel Craig").
+card(actor_roles, "Cast Away (Producer)", "Tom Hanks").
+card(actor_roles, "Charade", "Cary Grant").
+card(actor_roles, "Chef (Producer)", "Jon Favreau").
+card(actor_roles, "Chicago", "John C. Reilly; Richard Gere").
+card(actor_roles, "Children of Men", "Clive Owen").
+card(actor_roles, "Chinatown", "Jack Nicholson").
+card(actor_roles, "Citizen Kane", "Orson Welles").
+card(actor_roles, "City Slickers", "Jack Palance").
+card(actor_roles, "Coach", "Craig T. Nelson").
+card(actor_roles, "Cocoon", "Don Ameche").
+card(actor_roles, "Colossal", "Jason Sudeikis").
+card(actor_roles, "Congo", "Tim Curry").
+card(actor_roles, "Cool Hand Luke", "George Kennedy").
+card(actor_roles, "Crank", "Jason Statham").
+card(actor_roles, "Crash", "Don Cheadle; Ryan Phillippe").
+card(actor_roles, "Cyrano de Bergerac", "Gérard Depardieu").
+card(actor_roles, "Dallas Buyers Club", "Jared Leto; Matthew McConaughey").
+card(actor_roles, "Dark City", "Rufus Sewell").
+card(actor_roles, "Dasharatham", "Mohanlal").
+card(actor_roles, "De battre mon coeur s'est arrêté", "Romain Duris").
+card(actor_roles, "Dead Man's Shoes", "Paddy Considine").
+card(actor_roles, "Dead Ringers", "Jeremy Irons").
+card(actor_roles, "Deadpool 2", "Ryan Reynolds").
+card(actor_roles, "Den 12. mann", "Jonathan Rhys Meyers").
+card(actor_roles, "Der Untergang", "Bruno Ganz").
+card(actor_roles, "Deuce Bigalow: European Gigolo", "Rob Schneider").
+card(actor_roles, "Dexter", "Michael C. Hall").
+card(actor_roles, "Diary of a Mad Black Woman (Writer)", "Tyler Perry").
+card(actor_roles, "Die Hard", "Alan Rickman; Bruce Willis").
+card(actor_roles, "Dinner at Eight", "Wallace Beery").
+card(actor_roles, "Dirty Dancing", "Patrick Swayze").
+card(actor_roles, "Django Unchained", "Christoph Waltz").
+card(actor_roles, "Do the Right Thing", "Danny Aiello").
+card(actor_roles, "Dog Day Afternoon", "John Cazale").
+card(actor_roles, "Don 2", "Shah Rukh Khan").
+card(actor_roles, "Double Impact", "Jean-Claude Van Damme").
+card(actor_roles, "Double Indemnity", "Edward G. Robinson").
+card(actor_roles, "Drive", "Albert Brooks").
+card(actor_roles, "Dune", "José Ferrer").
+card(actor_roles, "East of Eden", "James Dean").
+card(actor_roles, "Eastern Promises", "Armin Mueller-Stahl").
+card(actor_roles, "Easy Rider", "Dennis Hopper; Peter Fonda").
+card(actor_roles, "Ed Wood", "Martin Landau").
+card(actor_roles, "Erin Brockovich", "Albert Finney").
+card(actor_roles, "Ex Machina", "Oscar Isaac").
+card(actor_roles, "Face/Off", "Nicolas Cage").
+card(actor_roles, "Family Guy (Writer)", "Seth MacFarlane").
+card(actor_roles, "Fantastic Four", "Ioan Gruffudd").
+card(actor_roles, "Fargo", "Steve Buscemi; William H. Macy").
+card(actor_roles, "Fences", "Denzel Washington").
+card(actor_roles, "Filth", "James McAvoy").
+card(actor_roles, "Finding Neverland", "Freddie Highmore").
+card(actor_roles, "Flash Gordon", "Max von Sydow").
+card(actor_roles, "Footloose", "Kevin Bacon").
+card(actor_roles, "Foreign Correspondent", "Joel McCrea").
+card(actor_roles, "Forget Paris", "Billy Crystal").
+card(actor_roles, "Forgetting Sarah Marshall", "Jason Segel").
+card(actor_roles, "Forrest Gump", "Gary Sinise").
+card(actor_roles, "Friday (Soundtrack)", "Ice Cube").
+card(actor_roles, "From Here to Eternity", "Burt Lancaster; Frank Sinatra; Montgomery Clift").
+card(actor_roles, "Frost/Nixon", "Frank Langella").
+card(actor_roles, "Frozen", "Josh Gad").
+card(actor_roles, "Funny Face (Soundtrack)", "Fred Astaire").
+card(actor_roles, "Furious 6", "Sung Kang").
+card(actor_roles, "Game of Thrones", "Peter Dinklage").
+card(actor_roles, "Ghost Busters (Writer)", "Dan Aykroyd").
+card(actor_roles, "Girls! Girls! Girls! (Soundtrack)", "Elvis Presley").
+card(actor_roles, "Gone Baby Gone", "Casey Affleck").
+card(actor_roles, "Good Night, and Good Luck.", "David Strathairn").
+card(actor_roles, "Good Will Hunting", "Matt Damon; Stellan Skarsgård").
+card(actor_roles, "Goodfellas", "Joe Pesci; Ray Liotta").
+card(actor_roles, "Goon", "Jay Baruchel").
+card(actor_roles, "Gosford Park", "Richard E. Grant").
+card(actor_roles, "Grosse Pointe Blank", "John Cusack").
+card(actor_roles, "Guardians of the Galaxy", "Chris Pratt; Michael Rooker; Vin Diesel").
+card(actor_roles, "Guess Who's Coming to Dinner", "Sidney Poitier; Spencer Tracy").
+card(actor_roles, "Hacksaw Ridge", "Andrew Garfield").
+card(actor_roles, "Hairspray", "Christopher Walken; James Marsden").
+card(actor_roles, "Hannibal", "Mads Mikkelsen").
+card(actor_roles, "Hard Target", "Lance Henriksen").
+card(actor_roles, "Harry Potter and the Deathly Hallows: Part 2", "Daniel Radcliffe").
+card(actor_roles, "Harry and Tonto", "Art Carney").
+card(actor_roles, "Hell or High Water", "Ben Foster").
+card(actor_roles, "Henry V", "Kenneth Branagh").
+card(actor_roles, "High Noon", "Gary Cooper").
+card(actor_roles, "Home Alone", "Macaulay Culkin").
+card(actor_roles, "Honey Boy", "Shia LaBeouf").
+card(actor_roles, "House M.D.", "Hugh Laurie").
+card(actor_roles, "House of Cards", "Mahershala Ali").
+card(actor_roles, "How Green Was My Valley", "Donald Crisp").
+card(actor_roles, "How I Met Your Mother", "Neil Patrick Harris").
+card(actor_roles, "Huo Yuan Jia", "Jet Li").
+card(actor_roles, "Hustle & Flow", "Terrence Howard").
+card(actor_roles, "In Good Company", "Topher Grace").
+card(actor_roles, "In the Heat of the Night", "Rod Steiger").
+card(actor_roles, "Inception", "Joseph Gordon-Levitt; Leonardo DiCaprio; Tom Hardy").
+card(actor_roles, "Independence Day", "Bill Pullman").
+card(actor_roles, "Into the Wild", "Hal Holbrook").
+card(actor_roles, "Iron Man", "Robert Downey Jr.").
+card(actor_roles, "It Happened One Night", "Clark Gable").
+card(actor_roles, "It's Always Sunny in Philadelphia (Producer)", "Charlie Day").
+card(actor_roles, "Jackie Brown", "Robert Forster").
+card(actor_roles, "Jaws", "Roy Scheider").
+card(actor_roles, "Jerry Maguire", "Cuba Gooding Jr.").
+card(actor_roles, "Joe Dirt", "David Spade").
+card(actor_roles, "Judgment at Nuremberg", "Maximilian Schell").
+card(actor_roles, "Jumanji: Welcome to the Jungle", "Dwayne Johnson").
+card(actor_roles, "Juno", "Elliot Page").
+card(actor_roles, "Jurassic Park", "Jeff Goldblum; Richard Attenborough").
+card(actor_roles, "Justified", "Timothy Olyphant").
+card(actor_roles, "Key Largo", "Lionel Barrymore").
+card(actor_roles, "Kick-Ass", "Aaron Taylor-Johnson").
+card(actor_roles, "Kingsman: The Secret Service", "Taron Egerton").
+card(actor_roles, "Kinsey", "Liam Neeson").
+card(actor_roles, "L.A. Confidential", "Kevin Spacey").
+card(actor_roles, "La dolce vita", "Marcello Mastroianni").
+card(actor_roles, "La vita è bella", "Roberto Benigni").
+card(actor_roles, "Law & Order", "Sam Waterston").
+card(actor_roles, "Lawrence of Arabia", "Omar Sharif; Peter O'Toole").
+card(actor_roles, "Les Misérables", "Eddie Redmayne; Hugh Jackman; Russell Crowe").
+card(actor_roles, "Lethal Weapon", "Danny Glover").
+card(actor_roles, "Life of Pi", "Suraj Sharma").
+card(actor_roles, "Live Free or Die Hard", "Justin Long").
+card(actor_roles, "Logan", "Patrick Stewart").
+card(actor_roles, "Lolita", "James Mason").
+card(actor_roles, "Lost in Translation", "Bill Murray").
+card(actor_roles, "Love Actually", "Hugh Grant").
+card(actor_roles, "Lucky Number Slevin", "Josh Hartnett").
+card(actor_roles, "Léon", "Jean Reno").
+card(actor_roles, "M*A*S*H", "Alan Alda").
+card(actor_roles, "Mad Max: Fury Road", "Nicholas Hoult").
+card(actor_roles, "Mad Men", "Jon Hamm").
+card(actor_roles, "Man of Steel", "Henry Cavill").
+card(actor_roles, "Manhattan (Writer)", "Woody Allen").
+card(actor_roles, "Martin", "Martin Lawrence").
+card(actor_roles, "Marty", "Ernest Borgnine").
+card(actor_roles, "Mary Poppins", "Dick Van Dyke").
+card(actor_roles, "Master and Commander: The Far Side of the World", "Paul Bettany").
+card(actor_roles, "Masters of Sex", "Michael Sheen").
+card(actor_roles, "Matilda", "Danny DeVito").
+card(actor_roles, "Memento", "Guy Pearce").
+card(actor_roles, "Meng long guo jiang", "Bruce Lee").
+card(actor_roles, "Merry Christmas Mr. Lawrence", "Tom Conti").
+card(actor_roles, "Michael Clayton", "George Clooney; Tom Wilkinson").
+card(actor_roles, "Midnight Cowboy", "Jon Voight").
+card(actor_roles, "Million Dollar Baby", "Clint Eastwood").
+card(actor_roles, "Miracle on 34th Street", "Edmund Gwenn").
+card(actor_roles, "Miss Congeniality", "Benjamin Bratt").
+card(actor_roles, "Moon", "Sam Rockwell").
+card(actor_roles, "Motherless Brooklyn", "Edward Norton").
+card(actor_roles, "Moulin Rouge!", "Ewan McGregor; Jim Broadbent; John Leguizamo").
+card(actor_roles, "Mozart in the Jungle", "Gael García Bernal").
+card(actor_roles, "Mrs. Doubtfire", "Robin Williams").
+card(actor_roles, "Murder by Death", "David Niven").
+card(actor_roles, "My Fair Lady", "Rex Harrison").
+card(actor_roles, "My Own Private Idaho", "River Phoenix").
+card(actor_roles, "Mystic River", "Sean Penn; Tim Robbins").
+card(actor_roles, "Naked", "David Thewlis").
+card(actor_roles, "Napoleon Dynamite", "Jon Heder").
+card(actor_roles, "Nebraska", "Bruce Dern").
+card(actor_roles, "Neighbors", "Dave Franco").
+card(actor_roles, "Network", "Ned Beatty; Peter Finch").
+card(actor_roles, "Ngo si seoi", "Jackie Chan").
+card(actor_roles, "Nightcrawler", "Jake Gyllenhaal").
+card(actor_roles, "Nineteen Eighty-Four", "John Hurt").
+card(actor_roles, "Nosferatu: Phantom der Nacht", "Klaus Kinski").
+card(actor_roles, "Ocean's Eleven", "Andy Garcia").
+card(actor_roles, "Oh, God!", "George Burns").
+card(actor_roles, "Old School", "Luke Wilson").
+card(actor_roles, "Oldeuboi", "Choi Min-sik").
+card(actor_roles, "Ordinary People", "Timothy Hutton").
+card(actor_roles, "Out of the Past", "Robert Mitchum").
+card(actor_roles, "Patton", "George C. Scott").
+card(actor_roles, "Paul Blart: Mall Cop", "Kevin James").
+card(actor_roles, "Paul", "Nick Frost").
+card(actor_roles, "Penthouse", "Warner Baxter").
+card(actor_roles, "Philomena", "Steve Coogan").
+card(actor_roles, "Pierrot le Fou", "Jean-Paul Belmondo").
+card(actor_roles, "Pineapple Express", "Danny McBride").
+card(actor_roles, "Pirates of the Caribbean: Dead Man's Chest", "Jack Davenport").
+card(actor_roles, "Planes, Trains & Automobiles", "John Candy").
+card(actor_roles, "Predator", "Arnold Schwarzenegger").
+card(actor_roles, "Psycho", "Anthony Perkins").
+card(actor_roles, "Pulp Fiction", "John Travolta; Samuel L. Jackson").
+card(actor_roles, "Quantum Leap", "Dean Stockwell").
+card(actor_roles, "Raging Bull", "Robert De Niro").
+card(actor_roles, "Random Harvest", "Ronald Colman").
+card(actor_roles, "Ray", "Jamie Foxx").
+card(actor_roles, "Red River", "Walter Brennan").
+card(actor_roles, "Reservoir Dogs", "Harvey Keitel").
+card(actor_roles, "Ride Along", "Kevin Hart").
+card(actor_roles, "Rob Roy", "Tim Roth").
+card(actor_roles, "Robot Chicken", "Seth Green").
+card(actor_roles, "Rocky", "Sylvester Stallone").
+card(actor_roles, "Roxanne (Writer)", "Steve Martin").
+card(actor_roles, "Rush Hour 2", "Chris Tucker").
+card(actor_roles, "Rush", "Daniel Brühl").
+card(actor_roles, "Rushmore", "Jason Schwartzman").
+card(actor_roles, "Saturday Night Live", "Andy Samberg").
+card(actor_roles, "Saving Private Ryan", "Barry Pepper").
+card(actor_roles, "Saw", "Cary Elwes").
+card(actor_roles, "Scarface: The Shame of the Nation", "Paul Muni").
+card(actor_roles, "Se7en", "Morgan Freeman").
+card(actor_roles, "Selma", "David Oyelowo").
+card(actor_roles, "Serpico", "Al Pacino").
+card(actor_roles, "Sexy Beast", "Ben Kingsley").
+card(actor_roles, "Shaft", "Jeffrey Wright").
+card(actor_roles, "Shame", "Michael Fassbender").
+card(actor_roles, "Shane", "Van Heflin").
+card(actor_roles, "Shattered Glass", "Peter Sarsgaard").
+card(actor_roles, "Shaun of the Dead", "Simon Pegg").
+card(actor_roles, "Shichinin no samurai", "Takashi Shimura").
+card(actor_roles, "Sicario", "Benicio Del Toro").
+card(actor_roles, "Sideways", "Paul Giamatti; Thomas Haden Church").
+card(actor_roles, "Singin' in the Rain (Soundtrack)", "Gene Kelly").
+card(actor_roles, "Skyfall", "Javier Bardem").
+card(actor_roles, "Sleuth", "Laurence Olivier").
+card(actor_roles, "Sling Blade", "Billy Bob Thornton").
+card(actor_roles, "Sons of Anarchy", "Charlie Hunnam").
+card(actor_roles, "Spaceballs", "Mel Brooks").
+card(actor_roles, "Spartacus", "Kirk Douglas; Peter Ustinov").
+card(actor_roles, "Spider-Man 2", "Alfred Molina").
+card(actor_roles, "Spider-Man", "Cliff Robertson; Willem Dafoe").
+card(actor_roles, "Spotlight", "Liev Schreiber; Mark Ruffalo").
+card(actor_roles, "St. Elmo's Fire", "Rob Lowe").
+card(actor_roles, "Stagecoach", "Thomas Mitchell").
+card(actor_roles, "Stalag 17", "William Holden").
+card(actor_roles, "Star Trek V: The Final Frontier", "William Shatner").
+card(actor_roles, "Star Trek", "Chris Pine; Eric Bana; Karl Urban").
+card(actor_roles, "Star Wars", "Alec Guinness; Mark Hamill").
+card(actor_roles, "Star Wars: Episode II - Attack of the Clones", "Christopher Lee; Hayden Christensen").
+card(actor_roles, "Star Wars: Episode VII - The Force Awakens", "Adam Driver").
+card(actor_roles, "Sunset Blvd.", "Erich von Stroheim").
+card(actor_roles, "Superbad", "Michael Cera").
+card(actor_roles, "Superman", "Christopher Reeve").
+card(actor_roles, "Sweeney Todd: The Demon Barber of Fleet Street", "Johnny Depp").
+card(actor_roles, "That '70s Show", "Ashton Kutcher").
+card(actor_roles, "The 39 Steps", "Robert Donat").
+card(actor_roles, "The Adventures of Robin Hood", "Errol Flynn").
+card(actor_roles, "The Amazing Spider-Man", "Rhys Ifans").
+card(actor_roles, "The Apartment", "Jack Lemmon").
+card(actor_roles, "The Apostle", "Robert Duvall").
+card(actor_roles, "The Artist", "Jean Dujardin").
+card(actor_roles, "The Avengers", "Chris Evans; Chris Hemsworth; Tom Hiddleston").
+card(actor_roles, "The Bernie Mac Show", "Bernie Mac").
+card(actor_roles, "The Best Years of Our Lives", "Fredric March; Harold Russell").
+card(actor_roles, "The Big Country", "Burl Ives").
+card(actor_roles, "The Big Lebowski", "Jeff Bridges").
+card(actor_roles, "The Blacklist", "James Spader").
+card(actor_roles, "The Break-Up (Producer)", "Vince Vaughn").
+card(actor_roles, "The Buddy Holly Story", "Gary Busey").
+card(actor_roles, "The Crying Game", "Stephen Rea").
+card(actor_roles, "The Daily Show", "Rob Riggle").
+card(actor_roles, "The Dark Knight", "Aaron Eckhart; Christian Bale; Michael Caine").
+card(actor_roles, "The Day After Tomorrow", "Dennis Quaid").
+card(actor_roles, "The Departed", "Alec Baldwin; Martin Sheen; Ray Winstone").
+card(actor_roles, "The Dirty Dozen", "Lee Marvin").
+card(actor_roles, "The Doors", "Val Kilmer").
+card(actor_roles, "The Family Way", "John Mills").
+card(actor_roles, "The Fast and the Furious", "Paul Walker").
+card(actor_roles, "The Fighter (Producer)", "Mark Wahlberg").
+card(actor_roles, "The French Connection", "Gene Hackman").
+card(actor_roles, "The Fresh Prince of Bel-Air (Music_department)", "Will Smith").
+card(actor_roles, "The Fugitive", "Harrison Ford; Tommy Lee Jones").
+card(actor_roles, "The General", "Buster Keaton").
+card(actor_roles, "The Godfather", "James Caan").
+card(actor_roles, "The Goodbye Girl", "Richard Dreyfuss").
+card(actor_roles, "The Grand Budapest Hotel", "F. Murray Abraham; Ralph Fiennes").
+card(actor_roles, "The Great Dictator (Writer)", "Charles Chaplin").
+card(actor_roles, "The Great Escape", "James Coburn; Steve McQueen").
+card(actor_roles, "The Green Mile", "Graham Greene; James Cromwell; Michael Clarke Duncan").
+card(actor_roles, "The Hangover", "Ed Helms; Zach Galifianakis").
+card(actor_roles, "The Hateful Eight", "Kurt Russell").
+card(actor_roles, "The Hunger Games", "Liam Hemsworth").
+card(actor_roles, "The Hunger Games: Catching Fire", "Donald Sutherland").
+card(actor_roles, "The Hurt Locker", "Anthony Mackie; Jeremy Renner").
+card(actor_roles, "The Hustler", "Paul Newman").
+card(actor_roles, "The Imitation Game", "Benedict Cumberbatch").
+card(actor_roles, "The Killing Fields", "Haing S. Ngor").
+card(actor_roles, "The King's Speech", "Geoffrey Rush").
+card(actor_roles, "The Last Command", "Emil Jannings").
+card(actor_roles, "The Last King of Scotland", "Forest Whitaker").
+card(actor_roles, "The Last Picture Show", "Ben Johnson").
+card(actor_roles, "The Last Samurai", "Ken Watanabe").
+card(actor_roles, "The Last of Us", "Troy Baker").
+card(actor_roles, "The Legend of Tarzan", "Alexander Skarsgård").
+card(actor_roles, "The Lobster", "Colin Farrell").
+card(actor_roles, "The Long Good Friday", "Bob Hoskins").
+card(actor_roles, "The Lord of the Rings: The Fellowship of the Ring", "Elijah Wood; Ian McKellen; Orlando Bloom; Sean Bean").
+card(actor_roles, "The Lord of the Rings: The Return of the King", "Hugo Weaving; Ian Holm; John Rhys-Davies; Sean Astin; Viggo Mortensen").
+card(actor_roles, "The Lost Weekend", "Ray Milland").
+card(actor_roles, "The Lunchbox", "Irrfan Khan").
+card(actor_roles, "The Madness of King George", "Nigel Hawthorne").
+card(actor_roles, "The Man Who Shot Liberty Valance", "Edmond O'Brien").
+card(actor_roles, "The Mask of Zorro", "Antonio Banderas").
+card(actor_roles, "The Master", "Philip Seymour Hoffman").
+card(actor_roles, "The Matrix", "Keanu Reeves; Laurence Fishburne").
+card(actor_roles, "The More the Merrier", "Charles Coburn").
+card(actor_roles, "The Mummy", "Brendan Fraser").
+card(actor_roles, "The Natural", "Robert Redford").
+card(actor_roles, "The Notebook", "James Garner").
+card(actor_roles, "The Nutty Professor", "Eddie Murphy; Jerry Lewis").
+card(actor_roles, "The Odd Couple", "Walter Matthau").
+card(actor_roles, "The Office", "Steve Carell").
+card(actor_roles, "The Passion of the Christ", "Jim Caviezel").
+card(actor_roles, "The Perks of Being a Wallflower", "Ezra Miller; Logan Lerman").
+card(actor_roles, "The Phantom of the Opera", "Patrick Wilson").
+card(actor_roles, "The Pianist", "Adrien Brody").
+card(actor_roles, "The Poseidon Adventure", "Red Buttons").
+card(actor_roles, "The Postman", "Kevin Costner").
+card(actor_roles, "The Producers", "Matthew Broderick; Nathan Lane").
+card(actor_roles, "The Quiet Man", "Barry Fitzgerald; Victor McLaglen").
+card(actor_roles, "The Royal Tenenbaums", "Owen Wilson").
+card(actor_roles, "The School of Rock", "Jack Black").
+card(actor_roles, "The Sessions", "John Hawkes").
+card(actor_roles, "The Shape of Water", "Michael Shannon; Richard Jenkins").
+card(actor_roles, "The Shop Around the Corner", "Joseph Schildkraut").
+card(actor_roles, "The Silence of the Lambs", "Anthony Hopkins").
+card(actor_roles, "The Sixth Sense", "Haley Joel Osment").
+card(actor_roles, "The Skeleton Twins", "Bill Hader").
+card(actor_roles, "The Social Network", "Jesse Eisenberg").
+card(actor_roles, "The Sopranos", "James Gandolfini").
+card(actor_roles, "The Spectacular Now", "Miles Teller").
+card(actor_roles, "The Squid and the Whale", "Jeff Daniels").
+card(actor_roles, "The Straight Story", "Richard Farnsworth").
+card(actor_roles, "The Talented Mr. Ripley", "Jude Law").
+card(actor_roles, "The Ten Commandments", "Yul Brynner").
+card(actor_roles, "The Thin Man", "William Powell").
+card(actor_roles, "The Third Man", "Joseph Cotten").
+card(actor_roles, "The Three Musketeers", "Ray Stevenson").
+card(actor_roles, "The Treasure of the Sierra Madre", "Walter Huston").
+card(actor_roles, "The Two Popes", "Jonathan Pryce").
+card(actor_roles, "The Untouchables", "Sean Connery").
+card(actor_roles, "The Usual Suspects", "Chazz Palminteri; Pete Postlethwaite").
+card(actor_roles, "The Walking Dead", "Andrew Lincoln; Norman Reedus").
+card(actor_roles, "The Waterboy", "Adam Sandler").
+card(actor_roles, "The Way", "Emilio Estevez").
+card(actor_roles, "The World Is Not Enough", "Pierce Brosnan").
+card(actor_roles, "The Wrestler", "Mickey Rourke").
+card(actor_roles, "There Will Be Blood", "Daniel Day-Lewis; Paul Dano").
+card(actor_roles, "There's Something About Mary", "Matt Dillon").
+card(actor_roles, "They Shoot Horses, Don't They?", "Gig Young").
+card(actor_roles, "This Is Spinal Tap", "Christopher Guest").
+card(actor_roles, "This Is the End", "Craig Robinson; Seth Rogen").
+card(actor_roles, "Three Days of the Condor", "John Houseman").
+card(actor_roles, "Tinker Tailor Soldier Spy", "Gary Oldman").
+card(actor_roles, "Titanic", "Billy Zane").
+card(actor_roles, "To Kill a Mockingbird", "Gregory Peck").
+card(actor_roles, "Tootsie", "Dustin Hoffman").
+card(actor_roles, "Top Five", "Chris Rock").
+card(actor_roles, "Top Gun", "Tom Cruise").
+card(actor_roles, "Toy Story", "Tim Allen").
+card(actor_roles, "Training Day", "Ethan Hawke").
+card(actor_roles, "Transformers", "Josh Duhamel").
+card(actor_roles, "Tron", "Garrett Hedlund").
+card(actor_roles, "True Detective", "Woody Harrelson").
+card(actor_roles, "True Grit", "John Wayne").
+card(actor_roles, "Twentieth Century", "John Barrymore").
+card(actor_roles, "Twilight", "Billy Burke; Cam Gigandet; Robert Pattinson").
+card(actor_roles, "Two and a Half Men", "Charlie Sheen").
+card(actor_roles, "Unforgiven", "Richard Harris").
+card(actor_roles, "Vampires", "James Woods").
+card(actor_roles, "Walk the Line", "Joaquin Phoenix").
+card(actor_roles, "Walker, Texas Ranger", "Chuck Norris").
+card(actor_roles, "Wanted", "Common").
+card(actor_roles, "War for the Planet of the Apes", "Andy Serkis").
+card(actor_roles, "Warrior", "Nick Nolte").
+card(actor_roles, "Watch on the Rhine", "Paul Lukas").
+card(actor_roles, "Watchmen", "Jackie Earle Haley").
+card(actor_roles, "West Side Story", "George Chakiris").
+card(actor_roles, "Whiplash", "J.K. Simmons").
+card(actor_roles, "White Chicks", "Marlon Wayans").
+card(actor_roles, "White Christmas", "Bing Crosby; Dean Jagger").
+card(actor_roles, "Who Framed Roger Rabbit", "Mel Blanc").
+card(actor_roles, "Who's Afraid of Virginia Woolf?", "Richard Burton").
+card(actor_roles, "Wild Wild West", "Kevin Kline").
+card(actor_roles, "Willy Wonka & the Chocolate Factory", "Gene Wilder; Jack Albertson").
+card(actor_roles, "Witness for the Prosecution", "Charles Laughton").
+card(actor_roles, "Wo hu cang long", "Yun-Fat Chow").
+card(actor_roles, "X-Men Origins: Wolverine", "Taylor Kitsch").
+card(actor_roles, "X-Men", "Bruce Davison").
+card(actor_roles, "X2", "Brian Cox").
+card(actor_roles, "Yôjinbô", "Toshirô Mifune").
+card(actor_roles, "Zoolander (Producer)", "Ben Stiller").
+card(actress_roles, "10 Cloverfield Lane", "Mary Elizabeth Winstead").
+card(actress_roles, "10 Things I Hate About You", "Julia Stiles").
+card(actress_roles, "12 Years a Slave", "Lupita Nyong'o").
+card(actress_roles, "2012", "Amanda Peet").
+card(actress_roles, "30 Rock (Writer)", "Tina Fey").
+card(actress_roles, "300", "Lena Headey").
+card(actress_roles, "45 Years", "Charlotte Rampling").
+card(actress_roles, "8 femmes", "Catherine Deneuve").
+card(actress_roles, "A Beautiful Mind", "Jennifer Connelly").
+card(actress_roles, "A Cinderella Story", "Hilary Duff; Jennifer Coolidge").
+card(actress_roles, "A History of Violence", "Maria Bello").
+card(actress_roles, "A Passage to India", "Peggy Ashcroft").
+card(actress_roles, "A Series of Unfortunate Events", "Emily Browning").
+card(actress_roles, "A Star Is Born", "Janet Gaynor").
+card(actress_roles, "A Streetcar Named Desire", "Kim Hunter; Vivien Leigh").
+card(actress_roles, "A Walk to Remember", "Mandy Moore").
+card(actress_roles, "Airport", "Helen Hayes").
+card(actress_roles, "Albert Nobbs", "Janet McTeer").
+card(actress_roles, "Alias", "Jennifer Garner").
+card(actress_roles, "Alien: Resurrection", "Sigourney Weaver").
+card(actress_roles, "All About Eve", "Anne Baxter; Bette Davis; Celeste Holm").
+card(actress_roles, "Almost Famous", "Kate Hudson").
+card(actress_roles, "American Beauty", "Annette Bening").
+card(actress_roles, "American Crime", "Lili Taylor").
+card(actress_roles, "American Gangster", "Ruby Dee").
+card(actress_roles, "Amour", "Emmanuelle Riva").
+card(actress_roles, "Anna", "Sally Kirkland").
+card(actress_roles, "Annie Hall", "Diane Keaton").
+card(actress_roles, "Another Earth", "Brit Marling").
+card(actress_roles, "Ant-Man", "Evangeline Lilly").
+card(actress_roles, "Apollo 13", "Kathleen Quinlan").
+card(actress_roles, "Aquaman", "Amber Heard").
+card(actress_roles, "Arrival", "Amy Adams").
+card(actress_roles, "As Good as It Gets", "Helen Hunt").
+card(actress_roles, "Atonement", "Vanessa Redgrave").
+card(actress_roles, "Auntie Mame", "Rosalind Russell").
+card(actress_roles, "Avatar", "Michelle Rodriguez; Zoe Saldana").
+card(actress_roles, "Babel", "Adriana Barraza; Rinko Kikuchi").
+card(actress_roles, "Bad Times at the El Royale", "Cynthia Erivo").
+card(actress_roles, "Banshun", "Setsuko Hara").
+card(actress_roles, "Basic Instinct", "Sharon Stone").
+card(actress_roles, "Batman Begins", "Katie Holmes").
+card(actress_roles, "Battlestar Galactica", "Mary McDonnell").
+card(actress_roles, "Baywatch", "Alexandra Daddario; Priyanka Chopra").
+card(actress_roles, "Before We Go", "Alice Eve").
+card(actress_roles, "Being John Malkovich", "Catherine Keener").
+card(actress_roles, "Big Hero 6", "Jamie Chung").
+card(actress_roles, "Big Love", "Ginnifer Goodwin").
+card(actress_roles, "Big Momma's House", "Nia Long").
+card(actress_roles, "Billy Elliot", "Julie Walters").
+card(actress_roles, "Birdman or (The Unexpected Virtue of Ignorance)", "Amy Ryan; Andrea Riseborough").
+card(actress_roles, "Black Swan", "Mila Kunis; Natalie Portman").
+card(actress_roles, "Bombshell", "Jean Harlow").
+card(actress_roles, "Bonnie and Clyde", "Estelle Parsons").
+card(actress_roles, "Born Yesterday", "Judy Holliday").
+card(actress_roles, "Breakfast at Tiffany's", "Audrey Hepburn").
+card(actress_roles, "Breaking the Waves", "Emily Watson").
+card(actress_roles, "Bridesmaids", "Jill Clayburgh; Kristen Wiig; Maya Rudolph").
+card(actress_roles, "Bridge to Terabithia", "AnnaSophia Robb").
+card(actress_roles, "Bright Star", "Abbie Cornish").
+card(actress_roles, "Bring It On", "Eliza Dushku").
+card(actress_roles, "Buffy the Vampire Slayer", "Michelle Trachtenberg; Sarah Michelle Gellar").
+card(actress_roles, "C'era una volta il West", "Claudia Cardinale").
+card(actress_roles, "Cabaret (Soundtrack)", "Liza Minnelli").
+card(actress_roles, "Carol", "Cate Blanchett; Rooney Mara").
+card(actress_roles, "Casablanca", "Ingrid Bergman").
+card(actress_roles, "Casino Royale", "Eva Green").
+card(actress_roles, "Casper", "Christina Ricci").
+card(actress_roles, "Catwoman", "Halle Berry").
+card(actress_roles, "Central do Brasil", "Fernanda Montenegro").
+card(actress_roles, "Chicago", "Catherine Zeta-Jones; Renée Zellweger").
+card(actress_roles, "Children of a Lesser God", "Marlee Matlin").
+card(actress_roles, "Close Encounters of the Third Kind", "Teri Garr").
+card(actress_roles, "Cloverfield", "Jessica Lucas").
+card(actress_roles, "Clueless", "Alicia Silverstone").
+card(actress_roles, "Come Back, Little Sheba", "Shirley Booth").
+card(actress_roles, "Coquette", "Mary Pickford").
+card(actress_roles, "Coyote Ugly", "Piper Perabo").
+card(actress_roles, "Crash", "Thandie Newton").
+card(actress_roles, "Dancer in the Dark (Soundtrack)", "Björk").
+card(actress_roles, "Dawn of the Dead", "Sarah Polley").
+card(actress_roles, "Deadwood", "Robin Weigert").
+card(actress_roles, "Divergent", "Shailene Woodley").
+card(actress_roles, "Django Unchained", "Kerry Washington").
+card(actress_roles, "Doctor Zhivago", "Julie Christie").
+card(actress_roles, "Dodgeball: A True Underdog Story", "Christine Taylor").
+card(actress_roles, "Don't Tell Mom the Babysitter's Dead", "Christina Applegate").
+card(actress_roles, "Double Indemnity", "Barbara Stanwyck").
+card(actress_roles, "Double Jeopardy", "Ashley Judd").
+card(actress_roles, "Dreamgirls (Soundtrack)", "Beyoncé; Jennifer Hudson").
+card(actress_roles, "Driving Miss Daisy", "Jessica Tandy").
+card(actress_roles, "East of Eden", "Jo Van Fleet").
+card(actress_roles, "Edge of Tomorrow", "Emily Blunt").
+card(actress_roles, "Elle", "Isabelle Huppert").
+card(actress_roles, "Elmer Gantry", "Shirley Jones").
+card(actress_roles, "Eternal Sunshine of the Spotless Mind", "Kate Winslet").
+card(actress_roles, "Ex Machina", "Alicia Vikander").
+card(actress_roles, "Falcon Crest", "Jane Wyman").
+card(actress_roles, "Fantastic Four", "Jessica Alba; Kate Mara").
+card(actress_roles, "Far from Heaven", "Julianne Moore").
+card(actress_roles, "Fargo", "Frances McDormand").
+card(actress_roles, "Fatal Attraction", "Glenn Close").
+card(actress_roles, "Fences", "Viola Davis").
+card(actress_roles, "Fifty Shades of Grey", "Dakota Johnson").
+card(actress_roles, "First Man", "Claire Foy").
+card(actress_roles, "Forrest Gump", "Robin Wright; Sally Field").
+card(actress_roles, "Frida", "Salma Hayek").
+card(actress_roles, "Friends", "Courteney Cox; Jennifer Aniston; Lisa Kudrow").
+card(actress_roles, "Frozen", "Kristen Bell").
+card(actress_roles, "Funny Girl (Soundtrack)", "Barbra Streisand").
+card(actress_roles, "G.I. Jane", "Demi Moore").
+card(actress_roles, "G.I. Joe: Retaliation", "Adrianne Palicki").
+card(actress_roles, "Game of Thrones", "Emilia Clarke; Natalie Dormer").
+card(actress_roles, "Ghost World", "Thora Birch").
+card(actress_roles, "Ghost", "Whoopi Goldberg").
+card(actress_roles, "Giant", "Mercedes McCambridge").
+card(actress_roles, "Gigli", "Jennifer Lopez").
+card(actress_roles, "Gilda", "Rita Hayworth").
+card(actress_roles, "Gods and Monsters", "Lynn Redgrave").
+card(actress_roles, "Going Hollywood", "Marion Davies").
+card(actress_roles, "Gone Girl", "Rosamund Pike").
+card(actress_roles, "Gone with the Wind", "Hattie McDaniel").
+card(actress_roles, "Gosford Park", "Maggie Smith").
+card(actress_roles, "Gossip Girl", "Blake Lively").
+card(actress_roles, "Grease (Soundtrack)", "Olivia Newton-John").
+card(actress_roles, "Grease", "Stockard Channing").
+card(actress_roles, "Grosse Pointe Blank", "Minnie Driver").
+card(actress_roles, "Hairspray", "Amanda Bynes; Queen Latifah").
+card(actress_roles, "Hanna", "Saoirse Ronan").
+card(actress_roles, "Hannah Montana (Soundtrack)", "Miley Cyrus").
+card(actress_roles, "Hannah and Her Sisters", "Dianne Wiest").
+card(actress_roles, "Harry Potter and the Order of the Phoenix", "Imelda Staunton").
+card(actress_roles, "Hidden Figures", "Octavia Spencer").
+card(actress_roles, "High School Musical 3: Senior Year", "Vanessa Hudgens").
+card(actress_roles, "High Sierra", "Ida Lupino").
+card(actress_roles, "Hitch", "Eva Mendes").
+card(actress_roles, "Hot Pursuit", "Sofía Vergara").
+card(actress_roles, "Hotel Rwanda", "Sophie Okonedo").
+card(actress_roles, "House of Sand and Fog", "Shohreh Aghdashloo").
+card(actress_roles, "Hud", "Patricia Neal").
+card(actress_roles, "Husbands and Wives", "Judy Davis").
+card(actress_roles, "I Know What You Did Last Summer", "Jennifer Love Hewitt").
+card(actress_roles, "I Love Lucy", "Lucille Ball").
+card(actress_roles, "If I Stay", "Mireille Enos").
+card(actress_roles, "In a Lonely Place", "Gloria Grahame").
+card(actress_roles, "In a World...", "Lake Bell").
+card(actress_roles, "In the Bedroom", "Sissy Spacek").
+card(actress_roles, "In the Heat of the Night", "Lee Grant").
+card(actress_roles, "Inglourious Basterds", "Mélanie Laurent").
+card(actress_roles, "Inside Out", "Amy Poehler").
+card(actress_roles, "It Happened One Night", "Claudette Colbert").
+card(actress_roles, "It's a Wonderful Life", "Donna Reed").
+card(actress_roles, "Jackie Brown", "Pam Grier").
+card(actress_roles, "Jules et Jim", "Jeanne Moreau").
+card(actress_roles, "Jumanji", "Bonnie Hunt").
+card(actress_roles, "Juno", "Olivia Thirlby").
+card(actress_roles, "Jurassic Park", "Laura Dern").
+card(actress_roles, "Key Largo", "Claire Trevor").
+card(actress_roles, "Kill Bill: Vol. 1", "Lucy Liu; Uma Thurman").
+card(actress_roles, "Kill Bill: Vol. 2", "Daryl Hannah").
+card(actress_roles, "Killing Eve", "Sandra Oh").
+card(actress_roles, "Kiss Kiss Bang Bang", "Michelle Monaghan").
+card(actress_roles, "Klute", "Jane Fonda").
+card(actress_roles, "Knocked Up", "Leslie Mann").
+card(actress_roles, "Kramer vs. Kramer", "Jane Alexander").
+card(actress_roles, "L.A. Confidential", "Kim Basinger").
+card(actress_roles, "La La Land", "Emma Stone").
+card(actress_roles, "La Môme", "Marion Cotillard").
+card(actress_roles, "La boum", "Sophie Marceau").
+card(actress_roles, "La passion de Jeanne d'Arc", "Maria Falconetti").
+card(actress_roles, "La vie d'Adèle", "Léa Seydoux").
+card(actress_roles, "Lady Bird (Writer)", "Greta Gerwig").
+card(actress_roles, "Last Vegas", "Mary Steenburgen").
+card(actress_roles, "Le fabuleux destin d'Amélie Poulain", "Audrey Tautou").
+card(actress_roles, "Leaving Las Vegas", "Elisabeth Shue").
+card(actress_roles, "Les Misérables", "Amanda Seyfried; Anne Hathaway").
+card(actress_roles, "Les diaboliques", "Simone Signoret").
+card(actress_roles, "Let Me In", "Chloë Grace Moretz").
+card(actress_roles, "Lights Out", "Teresa Palmer").
+card(actress_roles, "Little Miss Sunshine", "Abigail Breslin").
+card(actress_roles, "Little Women", "Winona Ryder").
+card(actress_roles, "Live and Let Die", "Jane Seymour").
+card(actress_roles, "Lola rennt", "Franka Potente").
+card(actress_roles, "Lolita", "Sue Lyon").
+card(actress_roles, "Lost in Translation", "Scarlett Johansson").
+card(actress_roles, "Maleficent", "Angelina Jolie").
+card(actress_roles, "Maria Full of Grace", "Catalina Sandino Moreno").
+card(actress_roles, "Martha Marcy May Marlene", "Elizabeth Olsen").
+card(actress_roles, "Mighty Aphrodite", "Mira Sorvino").
+card(actress_roles, "Million Dollar Baby", "Hilary Swank").
+card(actress_roles, "Min and Bill", "Marie Dressler").
+card(actress_roles, "Minority Report", "Samantha Morton").
+card(actress_roles, "Misery", "Kathy Bates").
+card(actress_roles, "Miss Congeniality (Producer)", "Sandra Bullock").
+card(actress_roles, "Mission: Impossible - Ghost Protocol", "Paula Patton").
+card(actress_roles, "Monster (Producer)", "Charlize Theron").
+card(actress_roles, "Monte Carlo", "Selena Gomez").
+card(actress_roles, "Moonstruck", "Cher; Olympia Dukakis").
+card(actress_roles, "Moulin Rouge!", "Nicole Kidman").
+card(actress_roles, "Mr. Smith Goes to Washington", "Jean Arthur").
+card(actress_roles, "Mrs. Miniver", "Greer Garson").
+card(actress_roles, "Mulholland Dr.", "Naomi Watts").
+card(actress_roles, "Murder on the Orient Express", "Wendy Hiller").
+card(actress_roles, "My Cousin Vinny", "Marisa Tomei").
+card(actress_roles, "My Left Foot: The Story of Christy Brown", "Brenda Fricker").
+card(actress_roles, "My So-Called Life", "Claire Danes").
+card(actress_roles, "My Week with Marilyn", "Michelle Williams").
+card(actress_roles, "Mystic River", "Marcia Gay Harden").
+card(actress_roles, "Män som hatar kvinnor", "Noomi Rapace").
+card(actress_roles, "Nashville", "Lily Tomlin").
+card(actress_roles, "Natural Born Killers", "Juliette Lewis").
+card(actress_roles, "Nebraska", "June Squibb").
+card(actress_roles, "Network", "Beatrice Straight; Faye Dunaway").
+card(actress_roles, "Never Been Kissed (Producer)", "Drew Barrymore").
+card(actress_roles, "Never Let Me Go", "Carey Mulligan").
+card(actress_roles, "New Girl", "Zooey Deschanel").
+card(actress_roles, "Nick and Norah's Infinite Playlist", "Kat Dennings").
+card(actress_roles, "Nightcrawler", "Rene Russo").
+card(actress_roles, "Ninotchka", "Greta Garbo").
+card(actress_roles, "None But the Lonely Heart", "Ethel Barrymore").
+card(actress_roles, "On the Waterfront", "Eva Marie Saint").
+card(actress_roles, "One Flew Over the Cuckoo's Nest", "Louise Fletcher").
+card(actress_roles, "One for the Money", "Katherine Heigl").
+card(actress_roles, "Ordinary People", "Mary Tyler Moore").
+card(actress_roles, "Out of Africa", "Meryl Streep").
+card(actress_roles, "Overboard", "Goldie Hawn").
+card(actress_roles, "Paper Moon", "Tatum O'Neal").
+card(actress_roles, "Parks and Recreation", "Rashida Jones").
+card(actress_roles, "Phantom Thread", "Lesley Manville").
+card(actress_roles, "Pillow Talk (Soundtrack)", "Doris Day").
+card(actress_roles, "Pirates of the Caribbean: The Curse of the Black Pearl", "Keira Knightley").
+card(actress_roles, "Pitch Perfect", "Brittany Snow; Rebel Wilson").
+card(actress_roles, "Possession", "Isabelle Adjani").
+card(actress_roles, "Precious", "Gabourey Sidibe; Mo'Nique").
+card(actress_roles, "Pretty Woman", "Julia Roberts").
+card(actress_roles, "Pride & Prejudice", "Brenda Blethyn").
+card(actress_roles, "Prince of Persia: The Sands of Time", "Gemma Arterton").
+card(actress_roles, "Psycho", "Janet Leigh").
+card(actress_roles, "RED", "Helen Mirren").
+card(actress_roles, "Rachel, Rachel", "Joanne Woodward").
+card(actress_roles, "Ray", "Regina King").
+card(actress_roles, "Rear Window", "Grace Kelly").
+card(actress_roles, "Rebel Without a Cause", "Natalie Wood").
+card(actress_roles, "Reds", "Maureen Stapleton").
+card(actress_roles, "Rent", "Rosario Dawson").
+card(actress_roles, "Requiem for a Dream", "Ellen Burstyn").
+card(actress_roles, "Rock of Ages", "Julianne Hough").
+card(actress_roles, "Rocky", "Talia Shire").
+card(actress_roles, "Rogue One", "Felicity Jones").
+card(actress_roles, "Roma città aperta", "Anna Magnani").
+card(actress_roles, "Romancing the Stone", "Kathleen Turner").
+card(actress_roles, "Room", "Brie Larson; Joan Allen").
+card(actress_roles, "Rosemary's Baby", "Mia Farrow; Ruth Gordon").
+card(actress_roles, "Sayonara", "Miyoshi Umeki").
+card(actress_roles, "Scream 3", "Parker Posey").
+card(actress_roles, "Scream", "Neve Campbell").
+card(actress_roles, "Secretary", "Maggie Gyllenhaal").
+card(actress_roles, "Seinfeld", "Julia Louis-Dreyfus").
+card(actress_roles, "Sense and Sensibility", "Emma Thompson").
+card(actress_roles, "Sex and the City", "Sarah Jessica Parker").
+card(actress_roles, "Shadow of a Doubt", "Teresa Wright").
+card(actress_roles, "Shakespeare in Love", "Gwyneth Paltrow").
+card(actress_roles, "She Done Him Wrong", "Mae West").
+card(actress_roles, "Shirley Valentine", "Pauline Collins").
+card(actress_roles, "Sideways", "Virginia Madsen").
+card(actress_roles, "Silver Linings Playbook", "Jacki Weaver").
+card(actress_roles, "Singin' in the Rain", "Debbie Reynolds").
+card(actress_roles, "Six Feet Under", "Rachel Griffiths").
+card(actress_roles, "Sixteen Candles", "Molly Ringwald").
+card(actress_roles, "Skyfall", "Judi Dench").
+card(actress_roles, "Slumdog Millionaire", "Freida Pinto").
+card(actress_roles, "Snow White and the Huntsman", "Kristen Stewart").
+card(actress_roles, "Some Like It Hot", "Marilyn Monroe").
+card(actress_roles, "Spider-Man", "Kirsten Dunst").
+card(actress_roles, "Spy", "Rose Byrne").
+card(actress_roles, "Star Wars: Episode VIII - The Last Jedi", "Carrie Fisher").
+card(actress_roles, "Stoker", "Mia Wasikowska").
+card(actress_roles, "Strange Days", "Angela Bassett").
+card(actress_roles, "Suicide Squad", "Margot Robbie").
+card(actress_roles, "Sunset Blvd.", "Gloria Swanson").
+card(actress_roles, "Superman Returns", "Kate Bosworth").
+card(actress_roles, "Superman", "Margot Kidder").
+card(actress_roles, "Suspicion", "Joan Fontaine").
+card(actress_roles, "Sweeney Todd: The Demon Barber of Fleet Street", "Helena Bonham Carter").
+card(actress_roles, "Sweet Bird of Youth", "Geraldine Page").
+card(actress_roles, "Taken", "Maggie Grace").
+card(actress_roles, "Terminator 2: Judgment Day", "Linda Hamilton").
+card(actress_roles, "Terms of Endearment", "Debra Winger; Shirley MacLaine").
+card(actress_roles, "Tess", "Nastassja Kinski").
+card(actress_roles, "The Act", "Joey King").
+card(actress_roles, "The Artist", "Bérénice Bejo").
+card(actress_roles, "The Avengers", "Cobie Smulders").
+card(actress_roles, "The Bad Seed", "Eileen Heckart").
+card(actress_roles, "The Big Bang Theory", "Kaley Cuoco").
+card(actress_roles, "The Big C", "Laura Linney").
+card(actress_roles, "The Bodyguard (Soundtrack)", "Whitney Houston").
+card(actress_roles, "The Carol Burnett Show (Soundtrack)", "Carol Burnett").
+card(actress_roles, "The Constant Gardener", "Rachel Weisz").
+card(actress_roles, "The Craft", "Fairuza Balk").
+card(actress_roles, "The Crying Game", "Miranda Richardson").
+card(actress_roles, "The Curious Case of Benjamin Button", "Taraji P. Henson").
+card(actress_roles, "The Divorcee", "Norma Shearer").
+card(actress_roles, "The English Patient", "Juliette Binoche; Kristin Scott Thomas").
+card(actress_roles, "The Falling", "Florence Pugh").
+card(actress_roles, "The Family Man", "Téa Leoni").
+card(actress_roles, "The Farmer's Daughter", "Loretta Young").
+card(actress_roles, "The Favourite", "Olivia Colman").
+card(actress_roles, "The Fifth Element", "Milla Jovovich").
+card(actress_roles, "The Fighter", "Melissa Leo").
+card(actress_roles, "The First Wives Club (Soundtrack)", "Bette Midler").
+card(actress_roles, "The Fisher King", "Mercedes Ruehl").
+card(actress_roles, "The Gang's All Here", "Carmen Miranda").
+card(actress_roles, "The Goodbye Girl", "Marsha Mason").
+card(actress_roles, "The Graduate", "Anne Bancroft").
+card(actress_roles, "The Grapes of Wrath", "Jane Darwell").
+card(actress_roles, "The Great Ziegfeld", "Luise Rainer").
+card(actress_roles, "The Grifters", "Anjelica Huston").
+card(actress_roles, "The Hateful Eight", "Jennifer Jason Leigh").
+card(actress_roles, "The Heat", "Melissa McCarthy").
+card(actress_roles, "The Heiress", "Olivia de Havilland").
+card(actress_roles, "The Help", "Allison Janney").
+card(actress_roles, "The House Bunny", "Anna Faris").
+card(actress_roles, "The Hunger Games", "Elizabeth Banks; Jennifer Lawrence").
+card(actress_roles, "The Hunger Games: Mockingjay - Part 2", "Jena Malone").
+card(actress_roles, "The Hustler", "Piper Laurie").
+card(actress_roles, "The Illusionist", "Jessica Biel").
+card(actress_roles, "The Invisible Man", "Elisabeth Moss").
+card(actress_roles, "The King and I", "Deborah Kerr").
+card(actress_roles, "The Last Picture Show", "Cloris Leachman").
+card(actress_roles, "The Last Seduction", "Linda Fiorentino").
+card(actress_roles, "The Lion in Winter", "Katharine Hepburn").
+card(actress_roles, "The Little Colonel", "Shirley Temple").
+card(actress_roles, "The Lord of the Rings: The Return of the King", "Liv Tyler").
+card(actress_roles, "The Major and the Minor", "Ginger Rogers").
+card(actress_roles, "The Maltese Falcon", "Mary Astor").
+card(actress_roles, "The Man from Earth", "Alexis Thorpe").
+card(actress_roles, "The Manchurian Candidate", "Angela Lansbury").
+card(actress_roles, "The Mark of Zorro", "Gale Sondergaard").
+card(actress_roles, "The Matrix Revolutions", "Jada Pinkett Smith").
+card(actress_roles, "The Matrix", "Carrie-Anne Moss").
+card(actress_roles, "The Mortal Instruments: City of Bones", "Lily Collins").
+card(actress_roles, "The Night of the Hunter", "Lillian Gish").
+card(actress_roles, "The Night of the Iguana", "Ava Gardner").
+card(actress_roles, "The Notebook", "Gena Rowlands; Rachel McAdams").
+card(actress_roles, "The Office", "Mindy Kaling").
+card(actress_roles, "The Parent Trap", "Lindsay Lohan").
+card(actress_roles, "The Perks of Being a Wallflower", "Emma Watson").
+card(actress_roles, "The Phantom of the Opera", "Emmy Rossum").
+card(actress_roles, "The Piano", "Anna Paquin; Holly Hunter").
+card(actress_roles, "The Poseidon Adventure", "Shelley Winters").
+card(actress_roles, "The Proposal", "Betty White").
+card(actress_roles, "The Quiet Man", "Maureen O'Hara").
+card(actress_roles, "The Roommate", "Leighton Meester").
+card(actress_roles, "The Shape of Water", "Sally Hawkins").
+card(actress_roles, "The Silence of the Lambs", "Jodie Foster").
+card(actress_roles, "The Sixth Sense", "Toni Collette").
+card(actress_roles, "The Sound of Music", "Julie Andrews").
+card(actress_roles, "The Station Agent", "Patricia Clarkson").
+card(actress_roles, "The Thin Man", "Myrna Loy").
+card(actress_roles, "The Three Musketeers", "Raquel Welch").
+card(actress_roles, "The Towering Inferno", "Jennifer Jones").
+card(actress_roles, "The Wizard of Oz", "Judy Garland").
+card(actress_roles, "The X Files", "Gillian Anderson").
+card(actress_roles, "The Year of Living Dangerously", "Linda Hunt").
+card(actress_roles, "Thelma & Louise", "Geena Davis; Susan Sarandon").
+card(actress_roles, "Thirteen", "Evan Rachel Wood").
+card(actress_roles, "Titanic", "Gloria Stuart").
+card(actress_roles, "To Be or Not to Be", "Carole Lombard").
+card(actress_roles, "To Have and Have Not", "Lauren Bacall").
+card(actress_roles, "Tootsie", "Jessica Lange").
+card(actress_roles, "Transamerica", "Felicity Huffman").
+card(actress_roles, "Transformers", "Megan Fox").
+card(actress_roles, "Trois couleurs: Blanc", "Julie Delpy").
+card(actress_roles, "Tron", "Olivia Wilde").
+card(actress_roles, "True Grit", "Hailee Steinfeld").
+card(actress_roles, "True Lies", "Jamie Lee Curtis").
+card(actress_roles, "True Romance", "Patricia Arquette").
+card(actress_roles, "Una giornata particolare", "Sophia Loren").
+card(actress_roles, "Underworld: Evolution", "Kate Beckinsale").
+card(actress_roles, "Unfaithful", "Diane Lane").
+card(actress_roles, "Up in the Air", "Anna Kendrick; Vera Farmiga").
+card(actress_roles, "Valley of the Dolls", "Patty Duke").
+card(actress_roles, "Vanilla Sky", "Cameron Diaz").
+card(actress_roles, "Vertigo", "Kim Novak").
+card(actress_roles, "Vicky Cristina Barcelona", "Penélope Cruz; Rebecca Hall").
+card(actress_roles, "Viskningar och rop", "Liv Ullmann").
+card(actress_roles, "Waitress", "Keri Russell").
+card(actress_roles, "War of the Worlds", "Dakota Fanning").
+card(actress_roles, "We Are Who We Are", "Chloë Sevigny").
+card(actress_roles, "We Need to Talk About Kevin", "Tilda Swinton").
+card(actress_roles, "We're the Millers", "Emma Roberts").
+card(actress_roles, "Wedding Crashers", "Isla Fisher").
+card(actress_roles, "West Side Story", "Rita Moreno").
+card(actress_roles, "Whale Rider", "Keisha Castle-Hughes").
+card(actress_roles, "What Ever Happened to Baby Jane?", "Joan Crawford").
+card(actress_roles, "What Lies Beneath", "Michelle Pfeiffer").
+card(actress_roles, "When Harry Met Sally...", "Meg Ryan").
+card(actress_roles, "Who's Afraid of Virginia Woolf?", "Elizabeth Taylor; Sandy Dennis").
+card(actress_roles, "Wild (Producer)", "Reese Witherspoon").
+card(actress_roles, "With a Song in My Heart", "Susan Hayward").
+card(actress_roles, "Witness for the Prosecution (Soundtrack)", "Marlene Dietrich").
+card(actress_roles, "Wo hu cang long", "Michelle Yeoh").
+card(actress_roles, "Women in Love", "Glenda Jackson").
+card(actress_roles, "Wonder Woman", "Gal Gadot").
+card(actress_roles, "Working Girl", "Melanie Griffith").
+card(actress_roles, "Written on the Wind", "Dorothy Malone").
+card(actress_roles, "X-Men: The Last Stand", "Famke Janssen").
+card(actress_roles, "X: First Class", "January Jones").
+card(actress_roles, "Yi dai zong shi", "Ziyi Zhang").
+card(actress_roles, "Zero Dark Thirty", "Jessica Chastain").
+card(actress_roles, "À bout de souffle", "Jean Seberg").
 card(baroque_paintings, "A Fantastic Cave with Odysseus and Calypso", "Jan Brueghel the Elder").
 card(baroque_paintings, "Ahimelech Giving the Sword of Goliath to David", "Aert de Gelder").
 card(baroque_paintings, "Alethea Talbot with her Husband", "Peter Paul Rubens").
