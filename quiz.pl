@@ -106,6 +106,13 @@ subject(astronomy, moons, "List of moons and the planets that they orbit around"
 subject(literature, fiction_books, "List of fictional books and authors").
 subject(literature, nonfiction_books, "List of nonfictional books and authors").
 subject(literature, poets, "List of poems and the poets who wrote them").
+subject(math, combinations, "A table of calculated values of combinations").
+subject(math, factorials, "A table of calculated values of factorials").
+subject(math, permutations, "A table of calculated values of permutations").
+subject(math, powers, "A table of calculated values of powers").
+subject(math, products, "A table of calculated values of products").
+subject(math, square_roots, "A table of calculated values of square_roots").
+subject(math, sums, "A table of calculated values of sums").
 subject(movies, actor_roles, "List of movie roles and the actors who played them").
 subject(movies, actress_roles, "List of movie roles and the actresses who played them").
 subject(music, song_titles, "Pop and rock song titles and bands").
@@ -1758,6 +1765,61 @@ card(baroque_paintings, "Prometheus Being Chained by Vulcan", "Dirck van Baburen
 card(baroque_paintings, "Sleeping Cupid", "Battistello Caracciolo").
 card(baroque_paintings, "The Flagellation of Christ", "Caravaggio").
 card(baroque_paintings, "The Rape of the Daughters of Leucippus", "Peter Paul Rubens").
+card(combinations, "C(1, 1)", "1").
+card(combinations, "C(10, 1)", "10").
+card(combinations, "C(10, 10)", "1").
+card(combinations, "C(10, 2)", "45").
+card(combinations, "C(10, 3)", "120").
+card(combinations, "C(10, 4)", "210").
+card(combinations, "C(10, 5)", "252").
+card(combinations, "C(10, 6)", "210").
+card(combinations, "C(10, 7)", "120").
+card(combinations, "C(10, 8)", "45").
+card(combinations, "C(10, 9)", "10").
+card(combinations, "C(2, 1)", "2").
+card(combinations, "C(2, 2)", "1").
+card(combinations, "C(3, 1)", "3").
+card(combinations, "C(3, 2)", "3").
+card(combinations, "C(3, 3)", "1").
+card(combinations, "C(4, 1)", "4").
+card(combinations, "C(4, 2)", "6").
+card(combinations, "C(4, 3)", "4").
+card(combinations, "C(4, 4)", "1").
+card(combinations, "C(5, 1)", "5").
+card(combinations, "C(5, 2)", "10").
+card(combinations, "C(5, 3)", "10").
+card(combinations, "C(5, 4)", "5").
+card(combinations, "C(5, 5)", "1").
+card(combinations, "C(6, 1)", "6").
+card(combinations, "C(6, 2)", "15").
+card(combinations, "C(6, 3)", "20").
+card(combinations, "C(6, 4)", "15").
+card(combinations, "C(6, 5)", "6").
+card(combinations, "C(6, 6)", "1").
+card(combinations, "C(7, 1)", "7").
+card(combinations, "C(7, 2)", "21").
+card(combinations, "C(7, 3)", "35").
+card(combinations, "C(7, 4)", "35").
+card(combinations, "C(7, 5)", "21").
+card(combinations, "C(7, 6)", "7").
+card(combinations, "C(7, 7)", "1").
+card(combinations, "C(8, 1)", "8").
+card(combinations, "C(8, 2)", "28").
+card(combinations, "C(8, 3)", "56").
+card(combinations, "C(8, 4)", "70").
+card(combinations, "C(8, 5)", "56").
+card(combinations, "C(8, 6)", "28").
+card(combinations, "C(8, 7)", "8").
+card(combinations, "C(8, 8)", "1").
+card(combinations, "C(9, 1)", "9").
+card(combinations, "C(9, 2)", "36").
+card(combinations, "C(9, 3)", "84").
+card(combinations, "C(9, 4)", "126").
+card(combinations, "C(9, 5)", "126").
+card(combinations, "C(9, 6)", "84").
+card(combinations, "C(9, 7)", "36").
+card(combinations, "C(9, 8)", "9").
+card(combinations, "C(9, 9)", "1").
 card(ethics, "A Theory of Justice", "Book of political philosophy and ethics by John Rawls on problem of distributive justice").
 card(ethics, "Amnesty International", "London-based non-governmental organization focused on human rights").
 card(ethics, "Belmont Report", "Summary of ethical principles and areas of application for research involving human subjects").
@@ -2099,6 +2161,16 @@ card(ethics, "whistleblower", "Person who exposes any kind of activity or inform
 card(ethics, "wisdom", "Mature understanding and sound judgement derived from knowledge and experience").
 card(ethics, "women and children first", "Code of conduct for who to save first when abandoning ship").
 card(ethics, "wrong", "Action that is illegal or immoral").
+card(factorials, "1!", "1").
+card(factorials, "10!", "3628800").
+card(factorials, "2!", "2").
+card(factorials, "3!", "6").
+card(factorials, "4!", "24").
+card(factorials, "5!", "120").
+card(factorials, "6!", "720").
+card(factorials, "7!", "5040").
+card(factorials, "8!", "40320").
+card(factorials, "9!", "362880").
 card(fiction_books, "2001: A Space Odyssey", "Arthur C. Clarke").
 card(fiction_books, "2666", "Roberto Bolaño").
 card(fiction_books, "A Bend in the River", "V. S. Naipaul").
@@ -3136,6 +3208,61 @@ card(nonfiction_books, "Words", "Jean Paul Sartre").
 card(nonfiction_books, "Zeitoun", "Dave Eggers").
 card(nonfiction_books, "Zen and the Art of Motorcycle Maintenance", "Robert M. Pirsig").
 card(nonfiction_books, "[author]'s Elements", "Euclid").
+card(permutations, "P(1, 1)", "1").
+card(permutations, "P(10, 1)", "10").
+card(permutations, "P(10, 10)", "3628800").
+card(permutations, "P(10, 2)", "90").
+card(permutations, "P(10, 3)", "720").
+card(permutations, "P(10, 4)", "5040").
+card(permutations, "P(10, 5)", "30240").
+card(permutations, "P(10, 6)", "151200").
+card(permutations, "P(10, 7)", "604800").
+card(permutations, "P(10, 8)", "1814400").
+card(permutations, "P(10, 9)", "3628800").
+card(permutations, "P(2, 1)", "2").
+card(permutations, "P(2, 2)", "2").
+card(permutations, "P(3, 1)", "3").
+card(permutations, "P(3, 2)", "6").
+card(permutations, "P(3, 3)", "6").
+card(permutations, "P(4, 1)", "4").
+card(permutations, "P(4, 2)", "12").
+card(permutations, "P(4, 3)", "24").
+card(permutations, "P(4, 4)", "24").
+card(permutations, "P(5, 1)", "5").
+card(permutations, "P(5, 2)", "20").
+card(permutations, "P(5, 3)", "60").
+card(permutations, "P(5, 4)", "120").
+card(permutations, "P(5, 5)", "120").
+card(permutations, "P(6, 1)", "6").
+card(permutations, "P(6, 2)", "30").
+card(permutations, "P(6, 3)", "120").
+card(permutations, "P(6, 4)", "360").
+card(permutations, "P(6, 5)", "720").
+card(permutations, "P(6, 6)", "720").
+card(permutations, "P(7, 1)", "7").
+card(permutations, "P(7, 2)", "42").
+card(permutations, "P(7, 3)", "210").
+card(permutations, "P(7, 4)", "840").
+card(permutations, "P(7, 5)", "2520").
+card(permutations, "P(7, 6)", "5040").
+card(permutations, "P(7, 7)", "5040").
+card(permutations, "P(8, 1)", "8").
+card(permutations, "P(8, 2)", "56").
+card(permutations, "P(8, 3)", "336").
+card(permutations, "P(8, 4)", "1680").
+card(permutations, "P(8, 5)", "6720").
+card(permutations, "P(8, 6)", "20160").
+card(permutations, "P(8, 7)", "40320").
+card(permutations, "P(8, 8)", "40320").
+card(permutations, "P(9, 1)", "9").
+card(permutations, "P(9, 2)", "72").
+card(permutations, "P(9, 3)", "504").
+card(permutations, "P(9, 4)", "3024").
+card(permutations, "P(9, 5)", "15120").
+card(permutations, "P(9, 6)", "60480").
+card(permutations, "P(9, 7)", "181440").
+card(permutations, "P(9, 8)", "362880").
+card(permutations, "P(9, 9)", "362880").
 card(phonetic_alphabet, "A", "Alfa").
 card(phonetic_alphabet, "B", "Bravo").
 card(phonetic_alphabet, "C", "Charlie").
@@ -3638,6 +3765,516 @@ card(poets, "i carry your heart with me", "e.e. cummings").
 card(poets, "i like my body when it is with your", "e.e. cummings").
 card(poets, "maggie and milly and molly and may", "e.e. cummings").
 card(poets, "may i feel said he", "e.e. cummings").
+card(powers, "10^2", "100").
+card(powers, "10^3", "1000").
+card(powers, "10^4", "10000").
+card(powers, "11^2", "121").
+card(powers, "11^3", "1331").
+card(powers, "12^2", "144").
+card(powers, "12^3", "1728").
+card(powers, "13^2", "169").
+card(powers, "13^3", "2197").
+card(powers, "14^2", "196").
+card(powers, "14^3", "2744").
+card(powers, "15^2", "225").
+card(powers, "15^3", "3375").
+card(powers, "16^2", "256").
+card(powers, "16^3", "4096").
+card(powers, "17^2", "289").
+card(powers, "17^3", "4913").
+card(powers, "18^2", "324").
+card(powers, "18^3", "5832").
+card(powers, "19^2", "361").
+card(powers, "19^3", "6859").
+card(powers, "20^2", "400").
+card(powers, "20^3", "8000").
+card(powers, "21^2", "441").
+card(powers, "21^3", "9261").
+card(powers, "22^2", "484").
+card(powers, "23^2", "529").
+card(powers, "24^2", "576").
+card(powers, "25^2", "625").
+card(powers, "26^2", "676").
+card(powers, "27^2", "729").
+card(powers, "28^2", "784").
+card(powers, "29^2", "841").
+card(powers, "2^10", "1024").
+card(powers, "2^11", "2048").
+card(powers, "2^12", "4096").
+card(powers, "2^13", "8192").
+card(powers, "2^2", "4").
+card(powers, "2^3", "8").
+card(powers, "2^4", "16").
+card(powers, "2^5", "32").
+card(powers, "2^6", "64").
+card(powers, "2^7", "128").
+card(powers, "2^8", "256").
+card(powers, "2^9", "512").
+card(powers, "30^2", "900").
+card(powers, "3^2", "9").
+card(powers, "3^3", "27").
+card(powers, "3^4", "81").
+card(powers, "3^5", "243").
+card(powers, "3^6", "729").
+card(powers, "3^7", "2187").
+card(powers, "3^8", "6561").
+card(powers, "4^2", "16").
+card(powers, "4^3", "64").
+card(powers, "4^4", "256").
+card(powers, "4^5", "1024").
+card(powers, "4^6", "4096").
+card(powers, "5^2", "25").
+card(powers, "5^3", "125").
+card(powers, "5^4", "625").
+card(powers, "5^5", "3125").
+card(powers, "6^2", "36").
+card(powers, "6^3", "216").
+card(powers, "6^4", "1296").
+card(powers, "6^5", "7776").
+card(powers, "7^2", "49").
+card(powers, "7^3", "343").
+card(powers, "7^4", "2401").
+card(powers, "8^2", "64").
+card(powers, "8^3", "512").
+card(powers, "8^4", "4096").
+card(powers, "9^2", "81").
+card(powers, "9^3", "729").
+card(powers, "9^4", "6561").
+card(products, "10 * 10", "100").
+card(products, "10 * 11", "110").
+card(products, "10 * 12", "120").
+card(products, "10 * 13", "130").
+card(products, "10 * 14", "140").
+card(products, "10 * 15", "150").
+card(products, "10 * 16", "160").
+card(products, "10 * 17", "170").
+card(products, "10 * 18", "180").
+card(products, "10 * 19", "190").
+card(products, "10 * 20", "200").
+card(products, "10 * 21", "210").
+card(products, "10 * 22", "220").
+card(products, "10 * 23", "230").
+card(products, "10 * 24", "240").
+card(products, "10 * 25", "250").
+card(products, "10 * 26", "260").
+card(products, "10 * 27", "270").
+card(products, "10 * 28", "280").
+card(products, "10 * 29", "290").
+card(products, "10 * 30", "300").
+card(products, "11 * 11", "121").
+card(products, "11 * 12", "132").
+card(products, "11 * 13", "143").
+card(products, "11 * 14", "154").
+card(products, "11 * 15", "165").
+card(products, "11 * 16", "176").
+card(products, "11 * 17", "187").
+card(products, "11 * 18", "198").
+card(products, "11 * 19", "209").
+card(products, "11 * 20", "220").
+card(products, "11 * 21", "231").
+card(products, "11 * 22", "242").
+card(products, "11 * 23", "253").
+card(products, "11 * 24", "264").
+card(products, "11 * 25", "275").
+card(products, "11 * 26", "286").
+card(products, "11 * 27", "297").
+card(products, "11 * 28", "308").
+card(products, "11 * 29", "319").
+card(products, "11 * 30", "330").
+card(products, "12 * 12", "144").
+card(products, "12 * 13", "156").
+card(products, "12 * 14", "168").
+card(products, "12 * 15", "180").
+card(products, "12 * 16", "192").
+card(products, "12 * 17", "204").
+card(products, "12 * 18", "216").
+card(products, "12 * 19", "228").
+card(products, "12 * 20", "240").
+card(products, "12 * 21", "252").
+card(products, "12 * 22", "264").
+card(products, "12 * 23", "276").
+card(products, "12 * 24", "288").
+card(products, "12 * 25", "300").
+card(products, "12 * 26", "312").
+card(products, "12 * 27", "324").
+card(products, "12 * 28", "336").
+card(products, "12 * 29", "348").
+card(products, "12 * 30", "360").
+card(products, "13 * 13", "169").
+card(products, "13 * 14", "182").
+card(products, "13 * 15", "195").
+card(products, "13 * 16", "208").
+card(products, "13 * 17", "221").
+card(products, "13 * 18", "234").
+card(products, "13 * 19", "247").
+card(products, "13 * 20", "260").
+card(products, "13 * 21", "273").
+card(products, "13 * 22", "286").
+card(products, "13 * 23", "299").
+card(products, "13 * 24", "312").
+card(products, "13 * 25", "325").
+card(products, "13 * 26", "338").
+card(products, "13 * 27", "351").
+card(products, "13 * 28", "364").
+card(products, "13 * 29", "377").
+card(products, "13 * 30", "390").
+card(products, "14 * 14", "196").
+card(products, "14 * 15", "210").
+card(products, "14 * 16", "224").
+card(products, "14 * 17", "238").
+card(products, "14 * 18", "252").
+card(products, "14 * 19", "266").
+card(products, "14 * 20", "280").
+card(products, "14 * 21", "294").
+card(products, "14 * 22", "308").
+card(products, "14 * 23", "322").
+card(products, "14 * 24", "336").
+card(products, "14 * 25", "350").
+card(products, "14 * 26", "364").
+card(products, "14 * 27", "378").
+card(products, "14 * 28", "392").
+card(products, "14 * 29", "406").
+card(products, "14 * 30", "420").
+card(products, "15 * 15", "225").
+card(products, "15 * 16", "240").
+card(products, "15 * 17", "255").
+card(products, "15 * 18", "270").
+card(products, "15 * 19", "285").
+card(products, "15 * 20", "300").
+card(products, "15 * 21", "315").
+card(products, "15 * 22", "330").
+card(products, "15 * 23", "345").
+card(products, "15 * 24", "360").
+card(products, "15 * 25", "375").
+card(products, "15 * 26", "390").
+card(products, "15 * 27", "405").
+card(products, "15 * 28", "420").
+card(products, "15 * 29", "435").
+card(products, "15 * 30", "450").
+card(products, "16 * 16", "256").
+card(products, "16 * 17", "272").
+card(products, "16 * 18", "288").
+card(products, "16 * 19", "304").
+card(products, "16 * 20", "320").
+card(products, "16 * 21", "336").
+card(products, "16 * 22", "352").
+card(products, "16 * 23", "368").
+card(products, "16 * 24", "384").
+card(products, "16 * 25", "400").
+card(products, "16 * 26", "416").
+card(products, "16 * 27", "432").
+card(products, "16 * 28", "448").
+card(products, "16 * 29", "464").
+card(products, "16 * 30", "480").
+card(products, "17 * 17", "289").
+card(products, "17 * 18", "306").
+card(products, "17 * 19", "323").
+card(products, "17 * 20", "340").
+card(products, "17 * 21", "357").
+card(products, "17 * 22", "374").
+card(products, "17 * 23", "391").
+card(products, "17 * 24", "408").
+card(products, "17 * 25", "425").
+card(products, "17 * 26", "442").
+card(products, "17 * 27", "459").
+card(products, "17 * 28", "476").
+card(products, "17 * 29", "493").
+card(products, "17 * 30", "510").
+card(products, "18 * 18", "324").
+card(products, "18 * 19", "342").
+card(products, "18 * 20", "360").
+card(products, "18 * 21", "378").
+card(products, "18 * 22", "396").
+card(products, "18 * 23", "414").
+card(products, "18 * 24", "432").
+card(products, "18 * 25", "450").
+card(products, "18 * 26", "468").
+card(products, "18 * 27", "486").
+card(products, "18 * 28", "504").
+card(products, "18 * 29", "522").
+card(products, "18 * 30", "540").
+card(products, "19 * 19", "361").
+card(products, "19 * 20", "380").
+card(products, "19 * 21", "399").
+card(products, "19 * 22", "418").
+card(products, "19 * 23", "437").
+card(products, "19 * 24", "456").
+card(products, "19 * 25", "475").
+card(products, "19 * 26", "494").
+card(products, "19 * 27", "513").
+card(products, "19 * 28", "532").
+card(products, "19 * 29", "551").
+card(products, "19 * 30", "570").
+card(products, "2 * 10", "20").
+card(products, "2 * 11", "22").
+card(products, "2 * 12", "24").
+card(products, "2 * 13", "26").
+card(products, "2 * 14", "28").
+card(products, "2 * 15", "30").
+card(products, "2 * 16", "32").
+card(products, "2 * 17", "34").
+card(products, "2 * 18", "36").
+card(products, "2 * 19", "38").
+card(products, "2 * 2", "4").
+card(products, "2 * 20", "40").
+card(products, "2 * 21", "42").
+card(products, "2 * 22", "44").
+card(products, "2 * 23", "46").
+card(products, "2 * 24", "48").
+card(products, "2 * 25", "50").
+card(products, "2 * 26", "52").
+card(products, "2 * 27", "54").
+card(products, "2 * 28", "56").
+card(products, "2 * 29", "58").
+card(products, "2 * 3", "6").
+card(products, "2 * 30", "60").
+card(products, "2 * 4", "8").
+card(products, "2 * 5", "10").
+card(products, "2 * 6", "12").
+card(products, "2 * 7", "14").
+card(products, "2 * 8", "16").
+card(products, "2 * 9", "18").
+card(products, "20 * 20", "400").
+card(products, "20 * 21", "420").
+card(products, "20 * 22", "440").
+card(products, "20 * 23", "460").
+card(products, "20 * 24", "480").
+card(products, "20 * 25", "500").
+card(products, "20 * 26", "520").
+card(products, "20 * 27", "540").
+card(products, "20 * 28", "560").
+card(products, "20 * 29", "580").
+card(products, "20 * 30", "600").
+card(products, "21 * 21", "441").
+card(products, "21 * 22", "462").
+card(products, "21 * 23", "483").
+card(products, "21 * 24", "504").
+card(products, "21 * 25", "525").
+card(products, "21 * 26", "546").
+card(products, "21 * 27", "567").
+card(products, "21 * 28", "588").
+card(products, "21 * 29", "609").
+card(products, "21 * 30", "630").
+card(products, "22 * 22", "484").
+card(products, "22 * 23", "506").
+card(products, "22 * 24", "528").
+card(products, "22 * 25", "550").
+card(products, "22 * 26", "572").
+card(products, "22 * 27", "594").
+card(products, "22 * 28", "616").
+card(products, "22 * 29", "638").
+card(products, "22 * 30", "660").
+card(products, "23 * 23", "529").
+card(products, "23 * 24", "552").
+card(products, "23 * 25", "575").
+card(products, "23 * 26", "598").
+card(products, "23 * 27", "621").
+card(products, "23 * 28", "644").
+card(products, "23 * 29", "667").
+card(products, "23 * 30", "690").
+card(products, "24 * 24", "576").
+card(products, "24 * 25", "600").
+card(products, "24 * 26", "624").
+card(products, "24 * 27", "648").
+card(products, "24 * 28", "672").
+card(products, "24 * 29", "696").
+card(products, "24 * 30", "720").
+card(products, "25 * 25", "625").
+card(products, "25 * 26", "650").
+card(products, "25 * 27", "675").
+card(products, "25 * 28", "700").
+card(products, "25 * 29", "725").
+card(products, "25 * 30", "750").
+card(products, "26 * 26", "676").
+card(products, "26 * 27", "702").
+card(products, "26 * 28", "728").
+card(products, "26 * 29", "754").
+card(products, "26 * 30", "780").
+card(products, "27 * 27", "729").
+card(products, "27 * 28", "756").
+card(products, "27 * 29", "783").
+card(products, "27 * 30", "810").
+card(products, "28 * 28", "784").
+card(products, "28 * 29", "812").
+card(products, "28 * 30", "840").
+card(products, "29 * 29", "841").
+card(products, "29 * 30", "870").
+card(products, "3 * 10", "30").
+card(products, "3 * 11", "33").
+card(products, "3 * 12", "36").
+card(products, "3 * 13", "39").
+card(products, "3 * 14", "42").
+card(products, "3 * 15", "45").
+card(products, "3 * 16", "48").
+card(products, "3 * 17", "51").
+card(products, "3 * 18", "54").
+card(products, "3 * 19", "57").
+card(products, "3 * 20", "60").
+card(products, "3 * 21", "63").
+card(products, "3 * 22", "66").
+card(products, "3 * 23", "69").
+card(products, "3 * 24", "72").
+card(products, "3 * 25", "75").
+card(products, "3 * 26", "78").
+card(products, "3 * 27", "81").
+card(products, "3 * 28", "84").
+card(products, "3 * 29", "87").
+card(products, "3 * 3", "9").
+card(products, "3 * 30", "90").
+card(products, "3 * 4", "12").
+card(products, "3 * 5", "15").
+card(products, "3 * 6", "18").
+card(products, "3 * 7", "21").
+card(products, "3 * 8", "24").
+card(products, "3 * 9", "27").
+card(products, "30 * 30", "900").
+card(products, "4 * 10", "40").
+card(products, "4 * 11", "44").
+card(products, "4 * 12", "48").
+card(products, "4 * 13", "52").
+card(products, "4 * 14", "56").
+card(products, "4 * 15", "60").
+card(products, "4 * 16", "64").
+card(products, "4 * 17", "68").
+card(products, "4 * 18", "72").
+card(products, "4 * 19", "76").
+card(products, "4 * 20", "80").
+card(products, "4 * 21", "84").
+card(products, "4 * 22", "88").
+card(products, "4 * 23", "92").
+card(products, "4 * 24", "96").
+card(products, "4 * 25", "100").
+card(products, "4 * 26", "104").
+card(products, "4 * 27", "108").
+card(products, "4 * 28", "112").
+card(products, "4 * 29", "116").
+card(products, "4 * 30", "120").
+card(products, "4 * 4", "16").
+card(products, "4 * 5", "20").
+card(products, "4 * 6", "24").
+card(products, "4 * 7", "28").
+card(products, "4 * 8", "32").
+card(products, "4 * 9", "36").
+card(products, "5 * 10", "50").
+card(products, "5 * 11", "55").
+card(products, "5 * 12", "60").
+card(products, "5 * 13", "65").
+card(products, "5 * 14", "70").
+card(products, "5 * 15", "75").
+card(products, "5 * 16", "80").
+card(products, "5 * 17", "85").
+card(products, "5 * 18", "90").
+card(products, "5 * 19", "95").
+card(products, "5 * 20", "100").
+card(products, "5 * 21", "105").
+card(products, "5 * 22", "110").
+card(products, "5 * 23", "115").
+card(products, "5 * 24", "120").
+card(products, "5 * 25", "125").
+card(products, "5 * 26", "130").
+card(products, "5 * 27", "135").
+card(products, "5 * 28", "140").
+card(products, "5 * 29", "145").
+card(products, "5 * 30", "150").
+card(products, "5 * 5", "25").
+card(products, "5 * 6", "30").
+card(products, "5 * 7", "35").
+card(products, "5 * 8", "40").
+card(products, "5 * 9", "45").
+card(products, "6 * 10", "60").
+card(products, "6 * 11", "66").
+card(products, "6 * 12", "72").
+card(products, "6 * 13", "78").
+card(products, "6 * 14", "84").
+card(products, "6 * 15", "90").
+card(products, "6 * 16", "96").
+card(products, "6 * 17", "102").
+card(products, "6 * 18", "108").
+card(products, "6 * 19", "114").
+card(products, "6 * 20", "120").
+card(products, "6 * 21", "126").
+card(products, "6 * 22", "132").
+card(products, "6 * 23", "138").
+card(products, "6 * 24", "144").
+card(products, "6 * 25", "150").
+card(products, "6 * 26", "156").
+card(products, "6 * 27", "162").
+card(products, "6 * 28", "168").
+card(products, "6 * 29", "174").
+card(products, "6 * 30", "180").
+card(products, "6 * 6", "36").
+card(products, "6 * 7", "42").
+card(products, "6 * 8", "48").
+card(products, "6 * 9", "54").
+card(products, "7 * 10", "70").
+card(products, "7 * 11", "77").
+card(products, "7 * 12", "84").
+card(products, "7 * 13", "91").
+card(products, "7 * 14", "98").
+card(products, "7 * 15", "105").
+card(products, "7 * 16", "112").
+card(products, "7 * 17", "119").
+card(products, "7 * 18", "126").
+card(products, "7 * 19", "133").
+card(products, "7 * 20", "140").
+card(products, "7 * 21", "147").
+card(products, "7 * 22", "154").
+card(products, "7 * 23", "161").
+card(products, "7 * 24", "168").
+card(products, "7 * 25", "175").
+card(products, "7 * 26", "182").
+card(products, "7 * 27", "189").
+card(products, "7 * 28", "196").
+card(products, "7 * 29", "203").
+card(products, "7 * 30", "210").
+card(products, "7 * 7", "49").
+card(products, "7 * 8", "56").
+card(products, "7 * 9", "63").
+card(products, "8 * 10", "80").
+card(products, "8 * 11", "88").
+card(products, "8 * 12", "96").
+card(products, "8 * 13", "104").
+card(products, "8 * 14", "112").
+card(products, "8 * 15", "120").
+card(products, "8 * 16", "128").
+card(products, "8 * 17", "136").
+card(products, "8 * 18", "144").
+card(products, "8 * 19", "152").
+card(products, "8 * 20", "160").
+card(products, "8 * 21", "168").
+card(products, "8 * 22", "176").
+card(products, "8 * 23", "184").
+card(products, "8 * 24", "192").
+card(products, "8 * 25", "200").
+card(products, "8 * 26", "208").
+card(products, "8 * 27", "216").
+card(products, "8 * 28", "224").
+card(products, "8 * 29", "232").
+card(products, "8 * 30", "240").
+card(products, "8 * 8", "64").
+card(products, "8 * 9", "72").
+card(products, "9 * 10", "90").
+card(products, "9 * 11", "99").
+card(products, "9 * 12", "108").
+card(products, "9 * 13", "117").
+card(products, "9 * 14", "126").
+card(products, "9 * 15", "135").
+card(products, "9 * 16", "144").
+card(products, "9 * 17", "153").
+card(products, "9 * 18", "162").
+card(products, "9 * 19", "171").
+card(products, "9 * 20", "180").
+card(products, "9 * 21", "189").
+card(products, "9 * 22", "198").
+card(products, "9 * 23", "207").
+card(products, "9 * 24", "216").
+card(products, "9 * 25", "225").
+card(products, "9 * 26", "234").
+card(products, "9 * 27", "243").
+card(products, "9 * 28", "252").
+card(products, "9 * 29", "261").
+card(products, "9 * 30", "270").
+card(products, "9 * 9", "81").
 card(prolog_library, "dcg/basics", "Various general DCG utilities").
 card(prolog_library, "dcg/high_order", "High order grammar operations").
 card(prolog_library, aggregate, "Aggregation operators on backtrackable predicates").
@@ -4749,6 +5386,36 @@ card(song_titles, "You've Got a Friend", "James Taylor").
 card(song_titles, "You've Lost That Lovin' Feelin'", "The Righteous Brothers").
 card(song_titles, "Your Cheatin' Heart", "Hank Williams").
 card(song_titles, "Your Song", "Elton John").
+card(square_roots, "sqrt(1)", "1").
+card(square_roots, "sqrt(10)", "3.16227").
+card(square_roots, "sqrt(11)", "3.31662").
+card(square_roots, "sqrt(12)", "3.46410").
+card(square_roots, "sqrt(13)", "3.60555").
+card(square_roots, "sqrt(14)", "3.74165").
+card(square_roots, "sqrt(15)", "3.87298").
+card(square_roots, "sqrt(16)", "4").
+card(square_roots, "sqrt(17)", "4.12310").
+card(square_roots, "sqrt(18)", "4.24264").
+card(square_roots, "sqrt(19)", "4.35889").
+card(square_roots, "sqrt(2)", "1.41421").
+card(square_roots, "sqrt(20)", "4.47213").
+card(square_roots, "sqrt(21)", "4.58257").
+card(square_roots, "sqrt(22)", "4.69041").
+card(square_roots, "sqrt(23)", "4.79583").
+card(square_roots, "sqrt(24)", "4.89897").
+card(square_roots, "sqrt(25)", "5").
+card(square_roots, "sqrt(26)", "5.09901").
+card(square_roots, "sqrt(27)", "5.19615").
+card(square_roots, "sqrt(28)", "5.29150").
+card(square_roots, "sqrt(29)", "5.38516").
+card(square_roots, "sqrt(3)", "1.73205").
+card(square_roots, "sqrt(30)", "5.47722").
+card(square_roots, "sqrt(4)", "2").
+card(square_roots, "sqrt(5)", "2.23606").
+card(square_roots, "sqrt(6)", "2.44948").
+card(square_roots, "sqrt(7)", "2.64575").
+card(square_roots, "sqrt(8)", "2.82842").
+card(square_roots, "sqrt(9)", "3").
 card(state_abbreviations, "AK", "Alaska").
 card(state_abbreviations, "AL", "Alabama").
 card(state_abbreviations, "AR", "Arkansas").
@@ -4799,3 +5466,438 @@ card(state_abbreviations, "WA", "Washington").
 card(state_abbreviations, "WI", "Wisconsin").
 card(state_abbreviations, "WV", "West Virginia").
 card(state_abbreviations, "WY", "Wyoming").
+card(sums, "10 + 10", "20").
+card(sums, "10 + 11", "21").
+card(sums, "10 + 12", "22").
+card(sums, "10 + 13", "23").
+card(sums, "10 + 14", "24").
+card(sums, "10 + 15", "25").
+card(sums, "10 + 16", "26").
+card(sums, "10 + 17", "27").
+card(sums, "10 + 18", "28").
+card(sums, "10 + 19", "29").
+card(sums, "10 + 20", "30").
+card(sums, "10 + 21", "31").
+card(sums, "10 + 22", "32").
+card(sums, "10 + 23", "33").
+card(sums, "10 + 24", "34").
+card(sums, "10 + 25", "35").
+card(sums, "10 + 26", "36").
+card(sums, "10 + 27", "37").
+card(sums, "10 + 28", "38").
+card(sums, "10 + 29", "39").
+card(sums, "10 + 30", "40").
+card(sums, "11 + 11", "22").
+card(sums, "11 + 12", "23").
+card(sums, "11 + 13", "24").
+card(sums, "11 + 14", "25").
+card(sums, "11 + 15", "26").
+card(sums, "11 + 16", "27").
+card(sums, "11 + 17", "28").
+card(sums, "11 + 18", "29").
+card(sums, "11 + 19", "30").
+card(sums, "11 + 20", "31").
+card(sums, "11 + 21", "32").
+card(sums, "11 + 22", "33").
+card(sums, "11 + 23", "34").
+card(sums, "11 + 24", "35").
+card(sums, "11 + 25", "36").
+card(sums, "11 + 26", "37").
+card(sums, "11 + 27", "38").
+card(sums, "11 + 28", "39").
+card(sums, "11 + 29", "40").
+card(sums, "11 + 30", "41").
+card(sums, "12 + 12", "24").
+card(sums, "12 + 13", "25").
+card(sums, "12 + 14", "26").
+card(sums, "12 + 15", "27").
+card(sums, "12 + 16", "28").
+card(sums, "12 + 17", "29").
+card(sums, "12 + 18", "30").
+card(sums, "12 + 19", "31").
+card(sums, "12 + 20", "32").
+card(sums, "12 + 21", "33").
+card(sums, "12 + 22", "34").
+card(sums, "12 + 23", "35").
+card(sums, "12 + 24", "36").
+card(sums, "12 + 25", "37").
+card(sums, "12 + 26", "38").
+card(sums, "12 + 27", "39").
+card(sums, "12 + 28", "40").
+card(sums, "12 + 29", "41").
+card(sums, "12 + 30", "42").
+card(sums, "13 + 13", "26").
+card(sums, "13 + 14", "27").
+card(sums, "13 + 15", "28").
+card(sums, "13 + 16", "29").
+card(sums, "13 + 17", "30").
+card(sums, "13 + 18", "31").
+card(sums, "13 + 19", "32").
+card(sums, "13 + 20", "33").
+card(sums, "13 + 21", "34").
+card(sums, "13 + 22", "35").
+card(sums, "13 + 23", "36").
+card(sums, "13 + 24", "37").
+card(sums, "13 + 25", "38").
+card(sums, "13 + 26", "39").
+card(sums, "13 + 27", "40").
+card(sums, "13 + 28", "41").
+card(sums, "13 + 29", "42").
+card(sums, "13 + 30", "43").
+card(sums, "14 + 14", "28").
+card(sums, "14 + 15", "29").
+card(sums, "14 + 16", "30").
+card(sums, "14 + 17", "31").
+card(sums, "14 + 18", "32").
+card(sums, "14 + 19", "33").
+card(sums, "14 + 20", "34").
+card(sums, "14 + 21", "35").
+card(sums, "14 + 22", "36").
+card(sums, "14 + 23", "37").
+card(sums, "14 + 24", "38").
+card(sums, "14 + 25", "39").
+card(sums, "14 + 26", "40").
+card(sums, "14 + 27", "41").
+card(sums, "14 + 28", "42").
+card(sums, "14 + 29", "43").
+card(sums, "14 + 30", "44").
+card(sums, "15 + 15", "30").
+card(sums, "15 + 16", "31").
+card(sums, "15 + 17", "32").
+card(sums, "15 + 18", "33").
+card(sums, "15 + 19", "34").
+card(sums, "15 + 20", "35").
+card(sums, "15 + 21", "36").
+card(sums, "15 + 22", "37").
+card(sums, "15 + 23", "38").
+card(sums, "15 + 24", "39").
+card(sums, "15 + 25", "40").
+card(sums, "15 + 26", "41").
+card(sums, "15 + 27", "42").
+card(sums, "15 + 28", "43").
+card(sums, "15 + 29", "44").
+card(sums, "15 + 30", "45").
+card(sums, "16 + 16", "32").
+card(sums, "16 + 17", "33").
+card(sums, "16 + 18", "34").
+card(sums, "16 + 19", "35").
+card(sums, "16 + 20", "36").
+card(sums, "16 + 21", "37").
+card(sums, "16 + 22", "38").
+card(sums, "16 + 23", "39").
+card(sums, "16 + 24", "40").
+card(sums, "16 + 25", "41").
+card(sums, "16 + 26", "42").
+card(sums, "16 + 27", "43").
+card(sums, "16 + 28", "44").
+card(sums, "16 + 29", "45").
+card(sums, "16 + 30", "46").
+card(sums, "17 + 17", "34").
+card(sums, "17 + 18", "35").
+card(sums, "17 + 19", "36").
+card(sums, "17 + 20", "37").
+card(sums, "17 + 21", "38").
+card(sums, "17 + 22", "39").
+card(sums, "17 + 23", "40").
+card(sums, "17 + 24", "41").
+card(sums, "17 + 25", "42").
+card(sums, "17 + 26", "43").
+card(sums, "17 + 27", "44").
+card(sums, "17 + 28", "45").
+card(sums, "17 + 29", "46").
+card(sums, "17 + 30", "47").
+card(sums, "18 + 18", "36").
+card(sums, "18 + 19", "37").
+card(sums, "18 + 20", "38").
+card(sums, "18 + 21", "39").
+card(sums, "18 + 22", "40").
+card(sums, "18 + 23", "41").
+card(sums, "18 + 24", "42").
+card(sums, "18 + 25", "43").
+card(sums, "18 + 26", "44").
+card(sums, "18 + 27", "45").
+card(sums, "18 + 28", "46").
+card(sums, "18 + 29", "47").
+card(sums, "18 + 30", "48").
+card(sums, "19 + 19", "38").
+card(sums, "19 + 20", "39").
+card(sums, "19 + 21", "40").
+card(sums, "19 + 22", "41").
+card(sums, "19 + 23", "42").
+card(sums, "19 + 24", "43").
+card(sums, "19 + 25", "44").
+card(sums, "19 + 26", "45").
+card(sums, "19 + 27", "46").
+card(sums, "19 + 28", "47").
+card(sums, "19 + 29", "48").
+card(sums, "19 + 30", "49").
+card(sums, "2 + 10", "12").
+card(sums, "2 + 11", "13").
+card(sums, "2 + 12", "14").
+card(sums, "2 + 13", "15").
+card(sums, "2 + 14", "16").
+card(sums, "2 + 15", "17").
+card(sums, "2 + 16", "18").
+card(sums, "2 + 17", "19").
+card(sums, "2 + 18", "20").
+card(sums, "2 + 19", "21").
+card(sums, "2 + 2", "4").
+card(sums, "2 + 20", "22").
+card(sums, "2 + 21", "23").
+card(sums, "2 + 22", "24").
+card(sums, "2 + 23", "25").
+card(sums, "2 + 24", "26").
+card(sums, "2 + 25", "27").
+card(sums, "2 + 26", "28").
+card(sums, "2 + 27", "29").
+card(sums, "2 + 28", "30").
+card(sums, "2 + 29", "31").
+card(sums, "2 + 3", "5").
+card(sums, "2 + 30", "32").
+card(sums, "2 + 4", "6").
+card(sums, "2 + 5", "7").
+card(sums, "2 + 6", "8").
+card(sums, "2 + 7", "9").
+card(sums, "2 + 8", "10").
+card(sums, "2 + 9", "11").
+card(sums, "20 + 20", "40").
+card(sums, "20 + 21", "41").
+card(sums, "20 + 22", "42").
+card(sums, "20 + 23", "43").
+card(sums, "20 + 24", "44").
+card(sums, "20 + 25", "45").
+card(sums, "20 + 26", "46").
+card(sums, "20 + 27", "47").
+card(sums, "20 + 28", "48").
+card(sums, "20 + 29", "49").
+card(sums, "20 + 30", "50").
+card(sums, "21 + 21", "42").
+card(sums, "21 + 22", "43").
+card(sums, "21 + 23", "44").
+card(sums, "21 + 24", "45").
+card(sums, "21 + 25", "46").
+card(sums, "21 + 26", "47").
+card(sums, "21 + 27", "48").
+card(sums, "21 + 28", "49").
+card(sums, "21 + 29", "50").
+card(sums, "21 + 30", "51").
+card(sums, "22 + 22", "44").
+card(sums, "22 + 23", "45").
+card(sums, "22 + 24", "46").
+card(sums, "22 + 25", "47").
+card(sums, "22 + 26", "48").
+card(sums, "22 + 27", "49").
+card(sums, "22 + 28", "50").
+card(sums, "22 + 29", "51").
+card(sums, "22 + 30", "52").
+card(sums, "23 + 23", "46").
+card(sums, "23 + 24", "47").
+card(sums, "23 + 25", "48").
+card(sums, "23 + 26", "49").
+card(sums, "23 + 27", "50").
+card(sums, "23 + 28", "51").
+card(sums, "23 + 29", "52").
+card(sums, "23 + 30", "53").
+card(sums, "24 + 24", "48").
+card(sums, "24 + 25", "49").
+card(sums, "24 + 26", "50").
+card(sums, "24 + 27", "51").
+card(sums, "24 + 28", "52").
+card(sums, "24 + 29", "53").
+card(sums, "24 + 30", "54").
+card(sums, "25 + 25", "50").
+card(sums, "25 + 26", "51").
+card(sums, "25 + 27", "52").
+card(sums, "25 + 28", "53").
+card(sums, "25 + 29", "54").
+card(sums, "25 + 30", "55").
+card(sums, "26 + 26", "52").
+card(sums, "26 + 27", "53").
+card(sums, "26 + 28", "54").
+card(sums, "26 + 29", "55").
+card(sums, "26 + 30", "56").
+card(sums, "27 + 27", "54").
+card(sums, "27 + 28", "55").
+card(sums, "27 + 29", "56").
+card(sums, "27 + 30", "57").
+card(sums, "28 + 28", "56").
+card(sums, "28 + 29", "57").
+card(sums, "28 + 30", "58").
+card(sums, "29 + 29", "58").
+card(sums, "29 + 30", "59").
+card(sums, "3 + 10", "13").
+card(sums, "3 + 11", "14").
+card(sums, "3 + 12", "15").
+card(sums, "3 + 13", "16").
+card(sums, "3 + 14", "17").
+card(sums, "3 + 15", "18").
+card(sums, "3 + 16", "19").
+card(sums, "3 + 17", "20").
+card(sums, "3 + 18", "21").
+card(sums, "3 + 19", "22").
+card(sums, "3 + 20", "23").
+card(sums, "3 + 21", "24").
+card(sums, "3 + 22", "25").
+card(sums, "3 + 23", "26").
+card(sums, "3 + 24", "27").
+card(sums, "3 + 25", "28").
+card(sums, "3 + 26", "29").
+card(sums, "3 + 27", "30").
+card(sums, "3 + 28", "31").
+card(sums, "3 + 29", "32").
+card(sums, "3 + 3", "6").
+card(sums, "3 + 30", "33").
+card(sums, "3 + 4", "7").
+card(sums, "3 + 5", "8").
+card(sums, "3 + 6", "9").
+card(sums, "3 + 7", "10").
+card(sums, "3 + 8", "11").
+card(sums, "3 + 9", "12").
+card(sums, "30 + 30", "60").
+card(sums, "4 + 10", "14").
+card(sums, "4 + 11", "15").
+card(sums, "4 + 12", "16").
+card(sums, "4 + 13", "17").
+card(sums, "4 + 14", "18").
+card(sums, "4 + 15", "19").
+card(sums, "4 + 16", "20").
+card(sums, "4 + 17", "21").
+card(sums, "4 + 18", "22").
+card(sums, "4 + 19", "23").
+card(sums, "4 + 20", "24").
+card(sums, "4 + 21", "25").
+card(sums, "4 + 22", "26").
+card(sums, "4 + 23", "27").
+card(sums, "4 + 24", "28").
+card(sums, "4 + 25", "29").
+card(sums, "4 + 26", "30").
+card(sums, "4 + 27", "31").
+card(sums, "4 + 28", "32").
+card(sums, "4 + 29", "33").
+card(sums, "4 + 30", "34").
+card(sums, "4 + 4", "8").
+card(sums, "4 + 5", "9").
+card(sums, "4 + 6", "10").
+card(sums, "4 + 7", "11").
+card(sums, "4 + 8", "12").
+card(sums, "4 + 9", "13").
+card(sums, "5 + 10", "15").
+card(sums, "5 + 11", "16").
+card(sums, "5 + 12", "17").
+card(sums, "5 + 13", "18").
+card(sums, "5 + 14", "19").
+card(sums, "5 + 15", "20").
+card(sums, "5 + 16", "21").
+card(sums, "5 + 17", "22").
+card(sums, "5 + 18", "23").
+card(sums, "5 + 19", "24").
+card(sums, "5 + 20", "25").
+card(sums, "5 + 21", "26").
+card(sums, "5 + 22", "27").
+card(sums, "5 + 23", "28").
+card(sums, "5 + 24", "29").
+card(sums, "5 + 25", "30").
+card(sums, "5 + 26", "31").
+card(sums, "5 + 27", "32").
+card(sums, "5 + 28", "33").
+card(sums, "5 + 29", "34").
+card(sums, "5 + 30", "35").
+card(sums, "5 + 5", "10").
+card(sums, "5 + 6", "11").
+card(sums, "5 + 7", "12").
+card(sums, "5 + 8", "13").
+card(sums, "5 + 9", "14").
+card(sums, "6 + 10", "16").
+card(sums, "6 + 11", "17").
+card(sums, "6 + 12", "18").
+card(sums, "6 + 13", "19").
+card(sums, "6 + 14", "20").
+card(sums, "6 + 15", "21").
+card(sums, "6 + 16", "22").
+card(sums, "6 + 17", "23").
+card(sums, "6 + 18", "24").
+card(sums, "6 + 19", "25").
+card(sums, "6 + 20", "26").
+card(sums, "6 + 21", "27").
+card(sums, "6 + 22", "28").
+card(sums, "6 + 23", "29").
+card(sums, "6 + 24", "30").
+card(sums, "6 + 25", "31").
+card(sums, "6 + 26", "32").
+card(sums, "6 + 27", "33").
+card(sums, "6 + 28", "34").
+card(sums, "6 + 29", "35").
+card(sums, "6 + 30", "36").
+card(sums, "6 + 6", "12").
+card(sums, "6 + 7", "13").
+card(sums, "6 + 8", "14").
+card(sums, "6 + 9", "15").
+card(sums, "7 + 10", "17").
+card(sums, "7 + 11", "18").
+card(sums, "7 + 12", "19").
+card(sums, "7 + 13", "20").
+card(sums, "7 + 14", "21").
+card(sums, "7 + 15", "22").
+card(sums, "7 + 16", "23").
+card(sums, "7 + 17", "24").
+card(sums, "7 + 18", "25").
+card(sums, "7 + 19", "26").
+card(sums, "7 + 20", "27").
+card(sums, "7 + 21", "28").
+card(sums, "7 + 22", "29").
+card(sums, "7 + 23", "30").
+card(sums, "7 + 24", "31").
+card(sums, "7 + 25", "32").
+card(sums, "7 + 26", "33").
+card(sums, "7 + 27", "34").
+card(sums, "7 + 28", "35").
+card(sums, "7 + 29", "36").
+card(sums, "7 + 30", "37").
+card(sums, "7 + 7", "14").
+card(sums, "7 + 8", "15").
+card(sums, "7 + 9", "16").
+card(sums, "8 + 10", "18").
+card(sums, "8 + 11", "19").
+card(sums, "8 + 12", "20").
+card(sums, "8 + 13", "21").
+card(sums, "8 + 14", "22").
+card(sums, "8 + 15", "23").
+card(sums, "8 + 16", "24").
+card(sums, "8 + 17", "25").
+card(sums, "8 + 18", "26").
+card(sums, "8 + 19", "27").
+card(sums, "8 + 20", "28").
+card(sums, "8 + 21", "29").
+card(sums, "8 + 22", "30").
+card(sums, "8 + 23", "31").
+card(sums, "8 + 24", "32").
+card(sums, "8 + 25", "33").
+card(sums, "8 + 26", "34").
+card(sums, "8 + 27", "35").
+card(sums, "8 + 28", "36").
+card(sums, "8 + 29", "37").
+card(sums, "8 + 30", "38").
+card(sums, "8 + 8", "16").
+card(sums, "8 + 9", "17").
+card(sums, "9 + 10", "19").
+card(sums, "9 + 11", "20").
+card(sums, "9 + 12", "21").
+card(sums, "9 + 13", "22").
+card(sums, "9 + 14", "23").
+card(sums, "9 + 15", "24").
+card(sums, "9 + 16", "25").
+card(sums, "9 + 17", "26").
+card(sums, "9 + 18", "27").
+card(sums, "9 + 19", "28").
+card(sums, "9 + 20", "29").
+card(sums, "9 + 21", "30").
+card(sums, "9 + 22", "31").
+card(sums, "9 + 23", "32").
+card(sums, "9 + 24", "33").
+card(sums, "9 + 25", "34").
+card(sums, "9 + 26", "35").
+card(sums, "9 + 27", "36").
+card(sums, "9 + 28", "37").
+card(sums, "9 + 29", "38").
+card(sums, "9 + 30", "39").
+card(sums, "9 + 9", "18").
