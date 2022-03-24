@@ -5,7 +5,7 @@
 */
 module(quiz,
     [
-        check_subjects/0,
+        check_cards/0,
         list_decks/0,
         play/0,
         play/1
@@ -27,19 +27,25 @@ play(Name) :-
     ask(ShuffledDefs).
 play(_) :- !.
 
-%! check_subjects
-% Check the subjects to see if there are any subjects that don't have cards or any cards that don't have subjects.
-check_subjects :-
+%! check_cards
+% Check the subjects to see if there are any subjects that don't have cards or any cards that don't have subjects, and
+% check for cards that have duplicate front.
+check_cards :-
     setof(Name, (subject(Name, _), \+ card(Name, _, _)), Subjects),
     format("Here's a list of subjects that don't have cards:~n~n"),
     writeln(Subjects),
     fail.
-check_subjects :-
+check_cards :-
     setof(Name, (card(Name, _, _), \+ subject(Name, _)), Subjects),
     format("Here's a list of card subjects that don't have subjects defined:~n~n"),
     writeln(Subjects),
     fail.
-check_subjects :- !.
+check_cards :-
+    setof((Name, Front), Back^Back1^(card(Name, Front, Back), card(Name, Front, Back1), Back \= Back1), Subjects),
+    format("Here's a list of cards that have duplicate front:~n~n"),
+    writeln(Subjects),
+    fail.
+check_cards :- !.
 
 %! list_decks
 % List the decks and their descriptions.
@@ -1760,8 +1766,7 @@ card(ethics, "Homosexuality", "Romantic or sexual attraction or behavior between
 card(ethics, "Human Rights Watch (HRW)", "International non-governmental organization that conducts research and advocacy on human rights").
 card(ethics, "International Covenant on Civil and Political Rights (ICCPR)", "Multilateral treaty adopted by the United Nations to respect the civil and political rights of individuals").
 card(ethics, "Jewish ethics", "Long tradition of moral thinking based on the Torah, rabbinical writings, medieval and modern philosophy").
-card(ethics, "Kingdom of Ends", "Hypothetical realm of people who agree to be bound by the categorical imperative").
-card(ethics, "Kingdom of Ends", "Thought experiment of Immanuel Kant").
+card(ethics, "Kingdom of Ends", "Hypothetical realm of people who agree to be bound by the categorical imperative; Thought experiment of Immanuel Kant").
 card(ethics, "Milgram experiment", "Series of social psychology experiments on obedience to authority figures").
 card(ethics, "Nicomachean Ethics", "Ten books on ethics by Aristotle which became a core work of Medieval philosophy").
 card(ethics, "Nuremberg Code", "Research ethics principles for human experimentation set at the end of the Second World War").
@@ -1770,8 +1775,7 @@ card(ethics, "Nuremberg principles", "Guidelines for determining what constitute
 card(ethics, "People for the Ethical Treatment of Animals (PETA)", "Largest animal rights group in the world").
 card(ethics, "Random Acts of Kindness Day", "Holiday started in New Zealand to celebrate and encourage small spontaneous good deeds").
 card(ethics, "Ring of Gyges", "Greek myth that asks if a person would continue being moral if they were invisible and could avoid punishment").
-card(ethics, "Roko's basilisk", "Future AI system tortures simulations of those who did not work to bring the system into existence").
-card(ethics, "Roko's basilisk", "Thought experiment of LessWrong contributor Roko").
+card(ethics, "Roko's basilisk", "Future AI system tortures simulations of those who did not work to bring the system into existence; Thought experiment of LessWrong contributor Roko").
 card(ethics, "Stoicism", "Seek virtue by treating others fairly, being part of nature's plan, and exercising self-control over pleasure and pain").
 card(ethics, "Tuskegee syphilis experiment", "Infamous, unethical, and malicious clinical study conducted by the U.S. Public Health Service").
 card(ethics, "Universal Declaration of Human Rights", "Non-binding document adopted by the United Nations affirming individual rights").
@@ -1875,8 +1879,7 @@ card(ethics, "euthanasia", "Intentionally ending a life to relieve pain and suff
 card(ethics, "evil", "Action which is deliberately malicious and harmful in a way that violates universal ethical norms").
 card(ethics, "evolutionary ethics", "Biological approaches to morality based on the role of evolution in shaping psychology and behavior").
 card(ethics, "excellence", "Talent or quality which is unusually good and so surpasses ordinary standards").
-card(ethics, "experience machine", "Critique of Hedonism that imagines whether a device that simulates endless pleasure would be preferable to reality").
-card(ethics, "experience machine", "Thought experiment of Robert Nozick").
+card(ethics, "experience machine", "Critique of Hedonism that imagines whether a device that simulates endless pleasure would be preferable to reality; Thought experiment of Robert Nozick").
 card(ethics, "expressivism", "Moral sentences do not express fact or have objective truth value, but rather express personal attitudes").
 card(ethics, "extrinsic", "Value which is derived relationally or serves instrumentally").
 card(ethics, "fair trade", "Social movement to help producers in developing countries achieve better export terms").
@@ -1936,8 +1939,7 @@ card(ethics, "kindness", "Behavior marked by ethical characteristics, a pleasant
 card(ethics, "laziness", "Being inclined to idleness, procrastination, and avoiding work").
 card(ethics, "legal ethics", "Principles of conduct that judges and lawyers are expected to observe in their practice").
 card(ethics, "legal rights", "Entitlements bestowed onto a person by law or custom that can be modified or repealed").
-card(ethics, "leveling up of rank", "Hypothetical bringing of all human beings up to the high rank of nobility or aristocracy").
-card(ethics, "leveling up of rank", "Thought experiment of Jeremy Waldron").
+card(ethics, "leveling up of rank", "Hypothetical bringing of all human beings up to the high rank of nobility or aristocracy; Thought experiment of Jeremy Waldron").
 card(ethics, "libel", "Written false statement which unjustly seeks to damage someone's reputation").
 card(ethics, "liberty", "Absence of arbitrary restraints which takes into account the rights of all involved").
 card(ethics, "love", "Feeling of strong attraction and emotional attachment").
@@ -2071,8 +2073,7 @@ card(ethics, "value theory", "Study of how people rank moral and natural goods i
 card(ethics, "value", "Personal preference concerning appropriate courses of actions or outcomes").
 card(ethics, "veganism", "Not eating meat, milk products, eggs, or honey, or using other animal products").
 card(ethics, "vegetarianism", "Not eating meat but possibly eating milk or eggs").
-card(ethics, "veil of ignorance", "Assuming a hypothetical state of ignorance and impartiality when allocating rights and benefits within a society").
-card(ethics, "veil of ignorance", "Thought experiment of John Rawls").
+card(ethics, "veil of ignorance", "Assuming a hypothetical state of ignorance and impartiality when allocating rights and benefits within a society; Thought experiment of John Rawls").
 card(ethics, "vice", "Defect in personal character or bad, unhealthy, or immoral habit").
 card(ethics, "violence", "Intentional use of physical force which might result in injury").
 card(ethics, "virtue ethics", "Normative theories which emphasize good qualities of mind and character").
@@ -2158,8 +2159,7 @@ card(fiction_books, "Cold Comfort Farm", "Stella Gibbons").
 card(fiction_books, "Cold Mountain", "Charles Frazier").
 card(fiction_books, "Collected Fiction", "Jorge Luis Borges").
 card(fiction_books, "Collected Poems of T.S. Eliot", "T. S. Eliot").
-card(fiction_books, "Collected Poems of [author]", "Dylan Thomas").
-card(fiction_books, "Collected Poems of [author]", "W. B. Yeats").
+card(fiction_books, "Collected Poems of [author]", "Dylan Thomas; W. B. Yeats").
 card(fiction_books, "Collected Poems", "Wallace Stevens").
 card(fiction_books, "Complete Poems of [author]", "Giacomo Leopardi").
 card(fiction_books, "Complete Poems", "Elizabeth Bishop").
@@ -2322,8 +2322,7 @@ card(fiction_books, "Philoctetes", "Sophocles").
 card(fiction_books, "Phèdre", "Jean Racine").
 card(fiction_books, "Pilgrim's Progress", "John Bunyan").
 card(fiction_books, "Pippi Longstocking", "Astrid Lindgren").
-card(fiction_books, "Poems of [author]", "Emily Dickinson").
-card(fiction_books, "Poems of [author]", "W. H. Auden").
+card(fiction_books, "Poems of [author]", "Emily Dickinson; W. H. Auden").
 card(fiction_books, "Portnoy's Complaint", "Philip Roth").
 card(fiction_books, "Possession", "A. S. Byatt").
 card(fiction_books, "Pride and Prejudice", "Jane Austen").
@@ -2358,8 +2357,7 @@ card(fiction_books, "Songs of Innocence and Experience", "William Blake").
 card(fiction_books, "Sons and Lovers", "D. H. Lawrence").
 card(fiction_books, "Sophie's Choice", "William Styron").
 card(fiction_books, "Steppenwolf", "Hermann Hesse").
-card(fiction_books, "Stories of [author]", "Ernest Hemingway").
-card(fiction_books, "Stories of [author]", "Guy de Maupassant").
+card(fiction_books, "Stories of [author]", "Ernest Hemingway; Guy de Maupassant").
 card(fiction_books, "Stranger in a Strange Land", "Robert A. Heinlein").
 card(fiction_books, "Suite Française", "Irène Némirovsky").
 card(fiction_books, "Tarzan of the Apes", "Edgar Rice Burroughs").
@@ -2400,8 +2398,7 @@ card(fiction_books, "The Collected Stories of [author]", "Eudora Welty").
 card(fiction_books, "The Color Purple", "Alice Walker").
 card(fiction_books, "The Complete Poetry and Prose of [author]", "William Blake").
 card(fiction_books, "The Complete Sherlock Holmes", "Arthur Conan Doyle").
-card(fiction_books, "The Complete Stories of [author]", "Flannery O'Connor").
-card(fiction_books, "The Complete Stories of [author]", "Franz Kafka").
+card(fiction_books, "The Complete Stories of [author]", "Flannery O'Connor; Franz Kafka").
 card(fiction_books, "The Complete Tales and Poems of [author]", "Edgar Allan Poe").
 card(fiction_books, "The Confusions of Young Törless", "Robert Musil").
 card(fiction_books, "The Corrections", "Jonathan Franzen").
@@ -2481,8 +2478,7 @@ card(fiction_books, "The Phantom Tollbooth", "Norton Juster").
 card(fiction_books, "The Pickwick Papers", "Charles Dickens").
 card(fiction_books, "The Picture of Dorian Gray", "Oscar Wilde").
 card(fiction_books, "The Plague", "Albert Camus").
-card(fiction_books, "The Poems of [author]", "John Keats").
-card(fiction_books, "The Poems of [author]", "Robert Frost").
+card(fiction_books, "The Poems of [author]", "John Keats; Robert Frost").
 card(fiction_books, "The Poisonwood Bible", "Barbara Kingsolver").
 card(fiction_books, "The Portrait of a Lady", "Henry James").
 card(fiction_books, "The Possessed", "Fyodor Dostoyevsky").
@@ -2512,9 +2508,7 @@ card(fiction_books, "The Sorrows of Young Werther", "Johann Wolfgang von Goethe"
 card(fiction_books, "The Sound and the Fury", "William Faulkner").
 card(fiction_books, "The Stand", "Stephen King").
 card(fiction_books, "The Stone Diaries", "Carol Shields").
-card(fiction_books, "The Stories of [author]", "Anton Chekhov").
-card(fiction_books, "The Stories of [author]", "John Cheever").
-card(fiction_books, "The Stories of [author]", "Raymond Carver").
+card(fiction_books, "The Stories of [author]", "Anton Chekhov; John Cheever; Raymond Carver").
 card(fiction_books, "The Strange Case of Dr. Jekyll and Mr. Hyde", "Robert Louis Stevenson").
 card(fiction_books, "The Stranger", "Albert Camus").
 card(fiction_books, "The Sun Also Rises", "Ernest Hemingway").
@@ -2812,7 +2806,7 @@ card(nonfiction_books, "Night", "Elie Wiesel").
 card(nonfiction_books, "North", "Seamus Heaney").
 card(nonfiction_books, "Notes from a Small Island", "Bill Bryson").
 card(nonfiction_books, "Notes of a Native Son", "James Baldwin").
-card(nonfiction_books, "Observations on &quot;Wild&quot; Psycho-Analysis", "Sigmund Freud").
+card(nonfiction_books, "Observations on \"Wild\" Psycho-Analysis", "Sigmund Freud").
 card(nonfiction_books, "On Death and Dying", "Elisabeth Kübler-Ross").
 card(nonfiction_books, "On Food and Cooking: The Science and Lore of the Kitchen", "Harold McGee").
 card(nonfiction_books, "On Liberty", "John Stuart Mill").
@@ -2913,8 +2907,7 @@ card(nonfiction_books, "The Art of War", "Sun Zi").
 card(nonfiction_books, "The Artist's Way", "Julia Cameron").
 card(nonfiction_books, "The Autobiography of Alice B. Toklas", "Gertrude Stein").
 card(nonfiction_books, "The Autobiography of Malcolm X", "Alex Haley").
-card(nonfiction_books, "The Autobiography of [author]", "Benjamin Franklin").
-card(nonfiction_books, "The Autobiography of [author]", "Lincoln Steffens").
+card(nonfiction_books, "The Autobiography of [author]", "Benjamin Franklin; Lincoln Steffens").
 card(nonfiction_books, "The Battle with the Slum", "Jacob A. Riis").
 card(nonfiction_books, "The Bookseller of Kabul", "Asne Seierstad").
 card(nonfiction_books, "The Campaign of the Marne", "Sewell Tyng").
@@ -3063,7 +3056,7 @@ card(nonfiction_books, "The Waning of the Middle Ages", "Johan Huizinga").
 card(nonfiction_books, "The Way the World Works", "Jude Wanniski").
 card(nonfiction_books, "The Wealth of Nations", "Adam Smith").
 card(nonfiction_books, "The Whig Interpretation of History", "Herbert Butterfield").
-card(nonfiction_books, "The Whole Internet: User's Guide &amp; Catalog", "Ed Krol").
+card(nonfiction_books, "The Whole Internet: User's Guide & Catalog", "Ed Krol").
 card(nonfiction_books, "The Woman Warrior: Memoirs of a Girlhood Among Ghosts", "Maxine Hong Kingston").
 card(nonfiction_books, "The Word of God and the Word of Man", "Karl Barth").
 card(nonfiction_books, "The Works of [author]", "Max Beerbohm").
@@ -3177,8 +3170,7 @@ card(poets, "A Crazed Girl", "William Butler Yeats").
 card(poets, "A Dream Lies Dead", "Dorothy Parker").
 card(poets, "A Dream Within A Dream", "Edgar Allan Poe").
 card(poets, "A Familiar Letter", "Oliver Wendell Holmes").
-card(poets, "A Farewell", "Alfred Lord Tennyson").
-card(poets, "A Farewell", "Charles Kingsley").
+card(poets, "A Farewell", "Alfred Lord Tennyson; Charles Kingsley").
 card(poets, "A Girl", "Ezra Pound").
 card(poets, "A Gleam Of Sunshine", "Henry Wadsworth Longfellow").
 card(poets, "A Golden Day", "Paul Laurence Dunbar").
@@ -3233,8 +3225,7 @@ card(poets, "Alone ", "Ambrose Bierce").
 card(poets, "Alone Looking at the Mountain", "Li Po").
 card(poets, "Alone With Everybody", "Charles Bukowski").
 card(poets, "Alone and Drinking Under the Moon", "Li Po").
-card(poets, "Alone", "Edgar Allan Poe").
-card(poets, "Alone", "Sara Teasdale").
+card(poets, "Alone", "Edgar Allan Poe; Sara Teasdale").
 card(poets, "Alone, Looking For Blossoms Along The River", "Du Fu").
 card(poets, "Along With Youth", "Ernest Hemingway").
 card(poets, "Always Marry An April Girl", "Ogden Nash").
@@ -3265,8 +3256,7 @@ card(poets, "Ask Me", "William Stafford").
 card(poets, "Aubade", "Philip Larkin").
 card(poets, "Auguries of Innocence", "William Blake").
 card(poets, "Australia", "A D Hope").
-card(poets, "Autumn Song", "Dante Gabriel Rossetti").
-card(poets, "Autumn Song", "Sarojini Naidu").
+card(poets, "Autumn Song", "Dante Gabriel Rossetti; Sarojini Naidu").
 card(poets, "Autumn", "Roy Campbell").
 card(poets, "Ballad Of Birmingham", "Dudley Randall").
 card(poets, "Be With Those Who Help Your Being", "Mewlana Jalaluddin Rumi").
@@ -3281,8 +3271,7 @@ card(poets, "Blow, Blow, Thou Winter Wind", "William Shakespeare").
 card(poets, "Blow, Bugle, Blow", "Alfred Lord Tennyson").
 card(poets, "Bluebird", "Charles Bukowski").
 card(poets, "Brimming Water by Tu Fu (712-770)", "Du Fu").
-card(poets, "Carpe Diem", "Robert Frost").
-card(poets, "Carpe Diem", "William Shakespeare").
+card(poets, "Carpe Diem", "Robert Frost; William Shakespeare").
 card(poets, "Casey at the Bat", "Ernest Lawrence Thayer").
 card(poets, "Chaap Tilak ", "Amir Khusro").
 card(poets, "Chicago", "Carl Sandburg").
@@ -3339,8 +3328,7 @@ card(poets, "Fog", "Carl Sandburg").
 card(poets, "For My People", "Margaret Walker").
 card(poets, "For The Fallen", "Robert Laurence Binyon").
 card(poets, "For whom the Bell Tolls", "John Donne").
-card(poets, "Friendship", "Alexander Sergeyevich Pushkin").
-card(poets, "Friendship", "Henry David Thoreau").
+card(poets, "Friendship", "Alexander Sergeyevich Pushkin; Henry David Thoreau").
 card(poets, "From A German War Primer", "Bertolt Brecht").
 card(poets, "From: War Is Kind", "Stephen Maria Crane").
 card(poets, "Full Moon", "Du Fu").
@@ -3686,8 +3674,7 @@ card(sculptures, "City Square", "Alberto Giacometti").
 card(sculptures, "Cristo della Minerva", "Michelangelo").
 card(sculptures, "Cupid", "Michelangelo").
 card(sculptures, "Dama Velata (Puritas)", "Antonio Corradini").
-card(sculptures, "David", "Donatello").
-card(sculptures, "David", "Michelangelo").
+card(sculptures, "David", "Donatello; Michelangelo").
 card(sculptures, "Diana", "Augustus Saint-Gaudens").
 card(sculptures, "Dog", "Alberto Giacometti").
 card(sculptures, "Dying Gladiator", "Pierre Julien").
@@ -3779,8 +3766,7 @@ card(song_titles, "Afternoon Delight", "Starland Vocal Band").
 card(song_titles, "Again", "Janet Jackson").
 card(song_titles, "Against All Odds (Take a Look At Me Now)", "Phil Collins").
 card(song_titles, "Ain't Misbehavin'", "Fats Waller").
-card(song_titles, "Ain't No Mountain High Enough", "Diana Ross").
-card(song_titles, "Ain't No Mountain High Enough", "Marvin Gaye & Tammi Terrell").
+card(song_titles, "Ain't No Mountain High Enough", "Diana Ross; Marvin Gaye & Tammi Terrell").
 card(song_titles, "Ain't No Sunshine", "Bill Withers").
 card(song_titles, "Ain't That a Shame", "Fats Domino").
 card(song_titles, "Airplanes", "BoB & Hayley Williams").
@@ -3848,8 +3834,7 @@ card(song_titles, "Besame Mucho", "Jimmy Dorsey").
 card(song_titles, "Best of My Love", "The Emotions").
 card(song_titles, "Bette Davis Eyes", "Kim Carnes").
 card(song_titles, "Big Bad John", "Jimmy Dean").
-card(song_titles, "Big Girls Don't Cry", "Fergie").
-card(song_titles, "Big Girls Don't Cry", "The Four Seasons").
+card(song_titles, "Big Girls Don't Cry", "Fergie; The Four Seasons").
 card(song_titles, "Billie Jean", "Michael Jackson").
 card(song_titles, "Bitter Sweet Symphony", "The Verve").
 card(song_titles, "Black Or White", "Michael Jackson").
@@ -3892,8 +3877,7 @@ card(song_titles, "Call Me", "Blondie").
 card(song_titles, "Can You Feel the Love Tonight", "Elton John").
 card(song_titles, "Can't Buy Me Love", "The Beatles").
 card(song_titles, "Can't Get Enough of Your Love, Babe", "Barry White").
-card(song_titles, "Can't Help Falling in Love", "Elvis Presley").
-card(song_titles, "Can't Help Falling in Love", "UB40").
+card(song_titles, "Can't Help Falling in Love", "Elvis Presley; UB40").
 card(song_titles, "Candle in the Wind '97", "Elton John").
 card(song_titles, "Candy Man", "Sammy Davis Jr").
 card(song_titles, "Car Wash", "Rose Royce").
@@ -3923,8 +3907,7 @@ card(song_titles, "Cracklin' Rosie", "Neil Diamond").
 card(song_titles, "Crazy For You", "Madonna").
 card(song_titles, "Crazy Little Thing Called Love", "Queen").
 card(song_titles, "Crazy in Love", "Beyonce").
-card(song_titles, "Crazy", "Gnarls Barkley").
-card(song_titles, "Crazy", "Patsy Cline").
+card(song_titles, "Crazy", "Gnarls Barkley; Patsy Cline").
 card(song_titles, "Creep", "TLC").
 card(song_titles, "Crimson & Clover", "Tommy James & the Shondells").
 card(song_titles, "Crocodile Rock", "Elton John").
@@ -3987,10 +3970,8 @@ card(song_titles, "Everyday People", "Sly & The Family Stone").
 card(song_titles, "Eye of the Tiger", "Survivor").
 card(song_titles, "Faith", "George Michael").
 card(song_titles, "Fallin'", "Alicia Keys").
-card(song_titles, "Fame", "David Bowie").
-card(song_titles, "Fame", "Irene Cara").
-card(song_titles, "Family Affair", "Mary J Blige").
-card(song_titles, "Family Affair", "Sly & The Family Stone").
+card(song_titles, "Fame", "David Bowie; Irene Cara").
+card(song_titles, "Family Affair", "Mary J Blige; Sly & The Family Stone").
 card(song_titles, "Fantasy", "Mariah Carey").
 card(song_titles, "Fast Car", "Tracy Chapman").
 card(song_titles, "Feel Good Inc", "Gorillaz").
@@ -4181,13 +4162,11 @@ card(song_titles, "Jive Talkin'", "Bee Gees").
 card(song_titles, "Johnny B Goode", "Chuck Berry").
 card(song_titles, "Joy to the World", "Three Dog Night").
 card(song_titles, "Judy in Disguise (With Glasses)", "John Fred & The Playboy Band").
-card(song_titles, "Jump", "Kris Kross").
-card(song_titles, "Jump", "Van Halen").
+card(song_titles, "Jump", "Kris Kross; Van Halen").
 card(song_titles, "Jumpin' Jack Flash", "The Rolling Stones").
 card(song_titles, "Just Dance", "Lady GaGa & Colby O'Donis").
 card(song_titles, "Just My Imagination (Running Away With Me)", "The Temptations").
-card(song_titles, "Just the Way You Are", "Billy Joel").
-card(song_titles, "Just the Way You Are", "Bruno Mars").
+card(song_titles, "Just the Way You Are", "Billy Joel; Bruno Mars").
 card(song_titles, "Kansas City", "Wilbert Harrison").
 card(song_titles, "Karma Chameleon", "Culture Club").
 card(song_titles, "Keep On Loving You", "REO Speedwagon").
@@ -4204,10 +4183,8 @@ card(song_titles, "Knock Three Times", "Tony Orlando & Dawn").
 card(song_titles, "Kokomo", "The Beach Boys").
 card(song_titles, "Kryptonite", "Three Doors Down").
 card(song_titles, "Kung Fu Fighting", "Carl Douglas").
-card(song_titles, "La Bamba", "Los Lobos").
-card(song_titles, "La Bamba", "Ritchie Valens").
-card(song_titles, "Lady Marmalade (Voulez-Vous Coucher Aver Moi Ce Soir?)", "Christina Aguilera, Lil' Kim, Mya & Pink").
-card(song_titles, "Lady Marmalade (Voulez-Vous Coucher Aver Moi Ce Soir?)", "Patti LaBelle").
+card(song_titles, "La Bamba", "Los Lobos; Ritchie Valens").
+card(song_titles, "Lady Marmalade (Voulez-Vous Coucher Aver Moi Ce Soir?)", "Christina Aguilera, Lil' Kim, Mya & Pink; Patti LaBelle").
 card(song_titles, "Lady", "Kenny Rogers").
 card(song_titles, "Last Train to Clarksville", "The Monkees").
 card(song_titles, "Layla", "Derek & The Dominos").
@@ -4310,8 +4287,7 @@ card(song_titles, "My Girl", "The Temptations").
 card(song_titles, "My Guy", "Mary Wells").
 card(song_titles, "My Heart Will Go On", "Celine Dion").
 card(song_titles, "My Life", "Billy Joel").
-card(song_titles, "My Love", "Justin Timberlake").
-card(song_titles, "My Love", "Wings").
+card(song_titles, "My Love", "Justin Timberlake; Wings").
 card(song_titles, "My Man", "Fanny Brice").
 card(song_titles, "My Prayer", "The Platters").
 card(song_titles, "My Sharona", "The Knack").
@@ -4482,14 +4458,12 @@ card(song_titles, "St Louis Blues", "Bessie Smith").
 card(song_titles, "Stagger Lee", "Lloyd Price").
 card(song_titles, "Stairway to Heaven", "Led Zeppelin").
 card(song_titles, "Stand By Me", "Ben E King").
-card(song_titles, "Stardust", "Artie Shaw").
-card(song_titles, "Stardust", "Hoagy Carmichael").
+card(song_titles, "Stardust", "Artie Shaw; Hoagy Carmichael").
 card(song_titles, "Stars & Stripes Forever", "Sousa's Band").
 card(song_titles, "Stay (I Missed You)", "Lisa Loeb & Nine Stories").
 card(song_titles, "Stayin' Alive", "Bee Gees").
 card(song_titles, "Stop! in the Name of Love", "The Supremes").
-card(song_titles, "Stormy Weather (Keeps Rainin' All the Time)", "Ethel Waters").
-card(song_titles, "Stormy Weather (Keeps Rainin' All the Time)", "Lena Horne").
+card(song_titles, "Stormy Weather (Keeps Rainin' All the Time)", "Ethel Waters; Lena Horne").
 card(song_titles, "Straight Up", "Paula Abdul").
 card(song_titles, "Strange Fruit", "Billie Holiday").
 card(song_titles, "Stranger On the Shore", "Mr Acker Bilk").
@@ -4553,8 +4527,7 @@ card(song_titles, "The Hustle", "Van McCoy").
 card(song_titles, "The Joker", "Steve Miller Band").
 card(song_titles, "The Last Dance", "Donna Summer").
 card(song_titles, "The Letter", "The Box Tops").
-card(song_titles, "The Loco-Motion", "Grand Funk Railroad").
-card(song_titles, "The Loco-Motion", "Little Eva").
+card(song_titles, "The Loco-Motion", "Grand Funk Railroad; Little Eva").
 card(song_titles, "The Long & Winding Road", "The Beatles").
 card(song_titles, "The Love You Save", "The Jackson 5").
 card(song_titles, "The Morning After", "Maureen McGovern").
@@ -4614,8 +4587,7 @@ card(song_titles, "Travellin' Man", "Ricky Nelson").
 card(song_titles, "Truly Madly Deeply", "Savage Garden").
 card(song_titles, "Turn! Turn! Turn! (To Everything There is a Season)", "The Byrds").
 card(song_titles, "Tutti Frutti", "Little Richard").
-card(song_titles, "Twist & Shout", "The Beatles").
-card(song_titles, "Twist & Shout", "The Isley Brothers").
+card(song_titles, "Twist & Shout", "The Beatles; The Isley Brothers").
 card(song_titles, "Two Hearts", "Phil Collins").
 card(song_titles, "U Can't Touch This", "MC Hammer").
 card(song_titles, "U Got it Bad", "Usher").
@@ -4633,8 +4605,7 @@ card(song_titles, "Up Where We Belong", "Joe Cocker & Jennifer Warnes").
 card(song_titles, "Upside Down", "Diana Ross").
 card(song_titles, "Use Somebody", "Kings of Leon").
 card(song_titles, "Vaya Con Dios (may God Be With You)", "Les Paul & Mary Ford").
-card(song_titles, "Venus", "Frankie Avalon").
-card(song_titles, "Venus", "Shocking Blue").
+card(song_titles, "Venus", "Frankie Avalon; Shocking Blue").
 card(song_titles, "Vision of Love", "Mariah Carey").
 card(song_titles, "Viva La Vida", "Coldplay").
 card(song_titles, "Vogue", "Madonna").
@@ -4694,8 +4665,7 @@ card(song_titles, "Why Do Fools Fall in Love?", "Frankie Lymon & The Teenagers")
 card(song_titles, "Why Don't You Believe Me?", "Joni James").
 card(song_titles, "Wichita Lineman", "Glen Campbell").
 card(song_titles, "Wicked Game", "Chris Isaak").
-card(song_titles, "Wild Thing", "The Troggs").
-card(song_titles, "Wild Thing", "Tone Loc").
+card(song_titles, "Wild Thing", "The Troggs; Tone Loc").
 card(song_titles, "Wild Wild West", "The Escape Club").
 card(song_titles, "Will It Go Round In Circles", "Billy Preston").
 card(song_titles, "Will You Love Me Tomorrow", "The Shirelles").
