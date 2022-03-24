@@ -83,13 +83,14 @@ ask([(Q, A)|Qs]) :-
 %! subject(Name:atom, Desc:string)
 subject(acronyms, "Acronyms and the terms that they expand into").
 subject(ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
-subject(fiction_books, "List of famous fictional books and authors").
+subject(fiction_books, "List of fictional books and authors").
 subject(git_commands, "List of Git commands with definitions taken from the documentation").
-subject(nonfiction_books, "List of famous nonfictional books and authors").
+subject(nonfiction_books, "List of nonfictional books and authors").
 subject(phpdoc_params, "PHPDoc parameters used in tags").
 subject(phonetic_alphabet, "NATO Phonetic Alphabet").
-subject(poets, "List of well-known poems and the poets who wrote them").
+subject(poets, "List of poems and the poets who wrote them").
 subject(prolog_library, "SWI Prolog libraries (see https://www.swi-prolog.org/pldoc/man?section=libpl)").
+subject(sculptures, "List of sculptures and the artists who created them").
 subject(song_titles, "Pop and rock song titles and bands").
 subject(state_abbreviations, "Two-letter abbreviations for states of the United States").
 
@@ -2734,6 +2735,76 @@ card(prolog_library, url, "Analysing and constructing URL").
 card(prolog_library, varnumbers, "Utilities for numbered terms").
 card(prolog_library, www_browser, "Activating your Web-browser").
 card(prolog_library, yall, "Lambda expressions").
+card(sculptures, "Adams Memorial", "Augustus Saint-Gaudens").
+card(sculptures, "Apollo and Daphne", "Gian Lorenzo Bernini").
+card(sculptures, "Apollo", "Adriaen de Vries").
+card(sculptures, "Atlas", "Lee Lawrie").
+card(sculptures, "Bacchus", "Giambologna").
+card(sculptures, "Balloon Dog", "Jeff Koons").
+card(sculptures, "Barberini Faun", "Satyr").
+card(sculptures, "Bird in Space", "Constantin Brâncuși").
+card(sculptures, "Bird", "Fernando Botero").
+card(sculptures, "Borghese Gladiator", "Agasias").
+card(sculptures, "Bust", "Auguste Rodin").
+card(sculptures, "Ceres", "Adriaen de Vries").
+card(sculptures, "City Square", "Alberto Giacometti").
+card(sculptures, "Cristo della Minerva", "Michelangelo").
+card(sculptures, "Cupid", "Michelangelo").
+card(sculptures, "Dama Velata (Puritas)", "Antonio Corradini").
+card(sculptures, "David", "Donatello").
+card(sculptures, "David", "Michelangelo").
+card(sculptures, "Diana", "Augustus Saint-Gaudens").
+card(sculptures, "Dog", "Alberto Giacometti").
+card(sculptures, "Dying Gladiator", "Pierre Julien").
+card(sculptures, "Dying Slave", "Michelangelo").
+card(sculptures, "Ecstasy of Saint Teresa", "Teresa of Ávila").
+card(sculptures, "Fiorenza", "Giambologna").
+card(sculptures, "Guitar", "Pablo Picasso").
+card(sculptures, "Head", "Auguste Rodin").
+card(sculptures, "Hercules and Cacus", "Bartolommeo Bandinelli").
+card(sculptures, "Hiawatha", "Augustus Saint-Gaudens").
+card(sculptures, "Judith and Holofernes", "Donatello").
+card(sculptures, "La Paix de Nimègue", "Martin Desjardins").
+card(sculptures, "Laocoon", "Adriaen de Vries").
+card(sculptures, "Laocoön and His Sons", "Agesander, Athenodoros and Polydorus of Rhodes").
+card(sculptures, "Large Seated Nude", "Henri Matisse").
+card(sculptures, "Le Génie du Mal", "Guillaume Geefs").
+card(sculptures, "Little Dancer of Fourteen Years", "Edgar Degas").
+card(sculptures, "Mademoiselle Pogany", "Constantin Brâncuși").
+card(sculptures, "Madonna of Bruges", "Michelangelo").
+card(sculptures, "Maman", "Louise Bourgeois").
+card(sculptures, "Man with the Broken Nose", "Auguste Rodin").
+card(sculptures, "Mercury Attaching his Wings", "Jean-Baptiste Pigalle").
+card(sculptures, "Mercury and Psyche", "Adriaen de Vries").
+card(sculptures, "Mercury", "Adriaen de Vries").
+card(sculptures, "Milo of Croton", "Pierre Paul Puget").
+card(sculptures, "Monument to Balzac", "Auguste Rodin").
+card(sculptures, "Moses", "Michelangelo").
+card(sculptures, "Neptune and Triton", "Gian Lorenzo Bernini").
+card(sculptures, "Neptune", "Adriaen de Vries").
+card(sculptures, "Paris", "Antonio Canova").
+card(sculptures, "Perseus with the Head of the Gorgon Medusa", "Antonio Canova").
+card(sculptures, "Pietà", "Michelangelo").
+card(sculptures, "Psyche Revived by Cupid's Kiss", "Antonio Canova").
+card(sculptures, "Reclining Figure", "Henry Moore").
+card(sculptures, "Spiral Jetty", "Robert Smithson").
+card(sculptures, "The Burghers of Calais", "Auguste Rodin").
+card(sculptures, "The Deposition", "Michelangelo").
+card(sculptures, "The Endless Column", "Constantin Brâncuși").
+card(sculptures, "The Gates of Hell", "Auguste Rodin").
+card(sculptures, "The Goat Amalthea with the Infant Jupiter and a Faun", "Gian Lorenzo Bernini").
+card(sculptures, "The Little Mermaid", "Edvard Eriksen").
+card(sculptures, "The Shade", "Auguste Rodin").
+card(sculptures, "The Thinker", "Auguste Rodin").
+card(sculptures, "The Three Graces", "Antonio Canova").
+card(sculptures, "The Three Shades", "Auguste Rodin").
+card(sculptures, "The Veiled Virgin", "Giovanni Strazza").
+card(sculptures, "The Walking Man", "Auguste Rodin").
+card(sculptures, "Unique Forms of Continuity in Space", "Umberto Boccioni").
+card(sculptures, "Veiled Vestal", "Raffaelle Monti").
+card(sculptures, "Venus Urania", "Giambologna").
+card(sculptures, "Venus de Milo", "Alexandros of Antioch").
+card(sculptures, "Worker and Kolkhoz Woman", "Vera Mukhina").
 card(song_titles, "(Everything I Do) I Do it For You", "Bryan Adams").
 card(song_titles, "(Ghost) Riders in the Sky", "Vaughn Monroe").
 card(song_titles, "(I Can't Get No) Satisfaction", "The Rolling Stones").
