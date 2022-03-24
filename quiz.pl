@@ -102,6 +102,7 @@ ask([(Q, A)|Qs]) :-
 %! subject(Name:atom, Desc:string)
 subject(art, baroque_paintings, "List of Baroque paintings and the artists who created them").
 subject(art, paintings, "List of paintings and the artists who created them").
+subject(art, romanticism_paintings, "List of Romanticism paintings and the artists who created them").
 subject(art, sculptures, "List of sculptures and the artists who created them").
 subject(astronomy, moons, "List of moons and the planets that they orbit around").
 subject(literature, fiction_books, "List of fictional books and authors").
@@ -2687,6 +2688,58 @@ card(git_commands, "rm", "Remove files from the working tree and from the index"
 card(git_commands, "show", "Show various types of objects").
 card(git_commands, "status", "Show the working tree status").
 card(git_commands, "tag", "Create, list, delete or verify a tag object signed with GPG").
+card(latin_phrases, "a fortiori", "from the stronger").
+card(latin_phrases, "a posteriori", "from the latter").
+card(latin_phrases, "a priori", "from the earlier").
+card(latin_phrases, "ad hoc", "for this").
+card(latin_phrases, "ad libitum", "at pleasure").
+card(latin_phrases, "alter ego", "another self").
+card(latin_phrases, "argumentum ab absurdo", "argument from absurdity").
+card(latin_phrases, "argumentum ab auctoritate", "argument from authority").
+card(latin_phrases, "argumentum ad antiquitatem", "argument from antiquity").
+card(latin_phrases, "argumentum ad baculum", "argument to a stick").
+card(latin_phrases, "argumentum ad consequentiam", "argument to consequences").
+card(latin_phrases, "argumentum ad crumenam", "argument to wealth").
+card(latin_phrases, "argumentum ad hominem", "argument to a person").
+card(latin_phrases, "argumentum ad ignorantiam", "argument to ignorance").
+card(latin_phrases, "argumentum ad infinitum", "argument to infinity").
+card(latin_phrases, "argumentum ad lapidem", "argument to a stone").
+card(latin_phrases, "argumentum ad lazarum", "argument to poverty").
+card(latin_phrases, "argumentum ad misericordiam", "argument to pity").
+card(latin_phrases, "argumentum ad naturam", "argument to nature").
+card(latin_phrases, "argumentum ad nauseam", "argument to nausea").
+card(latin_phrases, "argumentum ad novitatem", "argument to novelty").
+card(latin_phrases, "argumentum ad odium", "argument to hate").
+card(latin_phrases, "argumentum ad passiones", "argument to emotions").
+card(latin_phrases, "argumentum ad populum", "argument to the people").
+card(latin_phrases, "argumentum ad temperantiam", "argument to moderation").
+card(latin_phrases, "argumentum ad verecundiam", "argument to authority").
+card(latin_phrases, "argumentum ex silentio", "argument to silence").
+card(latin_phrases, "bona fide", "in good faith").
+card(latin_phrases, "carpe diem", "seize the day").
+card(latin_phrases, "caveat emptor", "let the buyer beware").
+card(latin_phrases, "caveat lector", "let the reader beware").
+card(latin_phrases, "caveat venditor", "let the seller beware").
+card(latin_phrases, "consensus", "consent").
+card(latin_phrases, "de facto", "in fact").
+card(latin_phrases, "de jure", "in law").
+card(latin_phrases, "ergo", "therefore").
+card(latin_phrases, "et cetera", "and the rest").
+card(latin_phrases, "excelsior", "higher").
+card(latin_phrases, "ignoratio elenchi", "ignoring the refutation").
+card(latin_phrases, "in re", "in the matter of").
+card(latin_phrases, "major", "greater").
+card(latin_phrases, "mea culpa", "my fault").
+card(latin_phrases, "per capita", "per person").
+card(latin_phrases, "per diem", "per day").
+card(latin_phrases, "per se", "essentially").
+card(latin_phrases, "petitio principii", "begging the question").
+card(latin_phrases, "post hoc ergo propter hoc", "after this, therefore because of this").
+card(latin_phrases, "primum nil nocere; primum non nocere", "first, to do no harm").
+card(latin_phrases, "status quo", "state in which").
+card(latin_phrases, "tu quoque", "you also").
+card(latin_phrases, "verbatim", "word for word").
+card(latin_phrases, "vice versa", "conversely").
 card(moons, "Amalthea", "Jupiter").
 card(moons, "Ariel", "Uranus").
 card(moons, "Callisto", "Jupiter").
@@ -4572,6 +4625,50 @@ card(prolog_library, url, "Analysing and constructing URL").
 card(prolog_library, varnumbers, "Utilities for numbered terms").
 card(prolog_library, www_browser, "Activating your Web-browser").
 card(prolog_library, yall, "Lambda expressions").
+card(romanticism_paintings, "Alexander von Humboldt", "Friedrich Georg Weitsch").
+card(romanticism_paintings, "Clorinda Rescues Olindo und Sophroni", "Eugène Delacroix").
+card(romanticism_paintings, "Death of Sardanapalus", "Eugène Delacroix").
+card(romanticism_paintings, "Dedham Vale", "John Constable").
+card(romanticism_paintings, "Entry of the Crusaders in Constantinople", "Eugène Delacroix").
+card(romanticism_paintings, "Episode of the Belgian Revolution of 1830", "Egide Charles Gustave Wappers").
+card(romanticism_paintings, "Friedland, 1807", "Jean-Louis-Ernest Meissonier").
+card(romanticism_paintings, "Frédéric Chopin", "Eugène Delacroix").
+card(romanticism_paintings, "Henri Duverger, comte de la Rochejaquelein", "Pierre-Narcisse Guérin").
+card(romanticism_paintings, "Henry Fuseli in Conversation with Johann Jakob Bodmer", "Henry Fuseli").
+card(romanticism_paintings, "Jean-Baptiste Belley", "Anne-Louis Girodet de Roussy-Trioson").
+card(romanticism_paintings, "Johann Wolfgang von Goethe", "Joseph Karl Stieler").
+card(romanticism_paintings, "Liberty Leading the People", "Eugène Delacroix").
+card(romanticism_paintings, "Louis Duverger, marquis de la Rochejaquelein", "Pierre-Narcisse Guérin").
+card(romanticism_paintings, "Moonrise Over the Sea", "Caspar David Friedrich").
+card(romanticism_paintings, "Napoleon Pardoning the Rebels at Cairo", "Pierre-Narcisse Guérin").
+card(romanticism_paintings, "Odysseus in front of Scylla and Charybdis", "Henry Fuseli").
+card(romanticism_paintings, "Portrait of Ludwig van Beethoven Composing Missa Solemnis", "Joseph Karl Stieler").
+card(romanticism_paintings, "Portrait of Maria Dietsch", "Joseph Karl Stieler").
+card(romanticism_paintings, "Portrait of a Kleptomaniac", "Théodore Géricault").
+card(romanticism_paintings, "Pygmalion and Galatea", "Anne-Louis Girodet de Roussy-Trioson").
+card(romanticism_paintings, "Self Portrait", "J. M. W. Turner").
+card(romanticism_paintings, "Self-Portrait", "Eugène Delacroix").
+card(romanticism_paintings, "Spoliarium", "Juan Luna").
+card(romanticism_paintings, "Summary Execution under the Moorish Kings of Granada", "Henri Regnault").
+card(romanticism_paintings, "The Barque of Dante", "Eugène Delacroix").
+card(romanticism_paintings, "The Charging Chasseur", "Théodore Géricault").
+card(romanticism_paintings, "The Destruction of Sodom and Gomorrah", "John Martin").
+card(romanticism_paintings, "The Forging of the Sampo", "Akseli Gallen-Kallela").
+card(romanticism_paintings, "The Hunt", "Raden Saleh").
+card(romanticism_paintings, "The Lady of Shalott", "John William Waterhouse").
+card(romanticism_paintings, "The Lion Hunt", "Eugène Delacroix").
+card(romanticism_paintings, "The Massacre at Chios", "Eugène Delacroix").
+card(romanticism_paintings, "The Prisoner of Chillon", "Eugène Delacroix").
+card(romanticism_paintings, "The Raft of the Medusa", "Théodore Géricault").
+card(romanticism_paintings, "The Return of Marcus Sextus", "Pierre-Narcisse Guérin").
+card(romanticism_paintings, "The Second of May 1808", "Francisco Goya").
+card(romanticism_paintings, "The Siege of Paris of 1870", "Jean-Louis-Ernest Meissonier").
+card(romanticism_paintings, "The Slave Ship", "J. M. W. Turner").
+card(romanticism_paintings, "The Third of May 1808", "Francisco Goya").
+card(romanticism_paintings, "The Wounded Officer of the Imperial Guard Leaving the Battlefield", "Théodore Géricault").
+card(romanticism_paintings, "Wanderer above the Sea of Fog", "Caspar David Friedrich").
+card(romanticism_paintings, "Women of Algiers", "Eugène Delacroix").
+card(romanticism_paintings, "Wreck in the Ice-sea", "Caspar David Friedrich").
 card(sculptures, "Adams Memorial", "Augustus Saint-Gaudens").
 card(sculptures, "Apollo and Daphne", "Gian Lorenzo Bernini").
 card(sculptures, "Apollo", "Adriaen de Vries").
@@ -6139,55 +6236,3 @@ card(sums, "9 + 28", "37").
 card(sums, "9 + 29", "38").
 card(sums, "9 + 30", "39").
 card(sums, "9 + 9", "18").
-card(latin_phrases, "a fortiori", "from the stronger").
-card(latin_phrases, "a posteriori", "from the latter").
-card(latin_phrases, "a priori", "from the earlier").
-card(latin_phrases, "ad hoc", "for this").
-card(latin_phrases, "ad libitum", "at pleasure").
-card(latin_phrases, "alter ego", "another self").
-card(latin_phrases, "argumentum ab absurdo", "argument from absurdity").
-card(latin_phrases, "argumentum ab auctoritate", "argument from authority").
-card(latin_phrases, "argumentum ad antiquitatem", "argument from antiquity").
-card(latin_phrases, "argumentum ad baculum", "argument to a stick").
-card(latin_phrases, "argumentum ad consequentiam", "argument to consequences").
-card(latin_phrases, "argumentum ad crumenam", "argument to wealth").
-card(latin_phrases, "argumentum ad hominem", "argument to a person").
-card(latin_phrases, "argumentum ad ignorantiam", "argument to ignorance").
-card(latin_phrases, "argumentum ad infinitum", "argument to infinity").
-card(latin_phrases, "argumentum ad lapidem", "argument to a stone").
-card(latin_phrases, "argumentum ad lazarum", "argument to poverty").
-card(latin_phrases, "argumentum ad misericordiam", "argument to pity").
-card(latin_phrases, "argumentum ad naturam", "argument to nature").
-card(latin_phrases, "argumentum ad nauseam", "argument to nausea").
-card(latin_phrases, "argumentum ad novitatem", "argument to novelty").
-card(latin_phrases, "argumentum ad odium", "argument to hate").
-card(latin_phrases, "argumentum ad passiones", "argument to emotions").
-card(latin_phrases, "argumentum ad populum", "argument to the people").
-card(latin_phrases, "argumentum ad temperantiam", "argument to moderation").
-card(latin_phrases, "argumentum ad verecundiam", "argument to authority").
-card(latin_phrases, "argumentum ex silentio", "argument to silence").
-card(latin_phrases, "bona fide", "in good faith").
-card(latin_phrases, "carpe diem", "seize the day").
-card(latin_phrases, "caveat emptor", "let the buyer beware").
-card(latin_phrases, "caveat lector", "let the reader beware").
-card(latin_phrases, "caveat venditor", "let the seller beware").
-card(latin_phrases, "consensus", "consent").
-card(latin_phrases, "de facto", "in fact").
-card(latin_phrases, "de jure", "in law").
-card(latin_phrases, "ergo", "therefore").
-card(latin_phrases, "et cetera", "and the rest").
-card(latin_phrases, "excelsior", "higher").
-card(latin_phrases, "ignoratio elenchi", "ignoring the refutation").
-card(latin_phrases, "in re", "in the matter of").
-card(latin_phrases, "major", "greater").
-card(latin_phrases, "mea culpa", "my fault").
-card(latin_phrases, "per capita", "per person").
-card(latin_phrases, "per diem", "per day").
-card(latin_phrases, "per se", "essentially").
-card(latin_phrases, "petitio principii", "begging the question").
-card(latin_phrases, "post hoc ergo propter hoc", "after this, therefore because of this").
-card(latin_phrases, "primum nil nocere; primum non nocere", "first, to do no harm").
-card(latin_phrases, "status quo", "state in which").
-card(latin_phrases, "tu quoque", "you also").
-card(latin_phrases, "verbatim", "word for word").
-card(latin_phrases, "vice versa", "conversely").
