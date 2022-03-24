@@ -13,30 +13,35 @@ module(quiz,
 
 %! play
 % Pick a random deck to study.
-play :- play(_).
+play :- play(_, _).
 
-%! play(?Name:atom)
-% Provide the name of a deck or one will be picked at random. Ask all of the questions in the deck. Press Q to quit.
-play(Name) :-
+%! play(?Cat:atom)
+% Provide the name of a category to study or one will be picked at random.
+play(Cat) :-
+    play(Cat, _).
+
+%! play(?Cat:atom, ?Name:atom)
+% Provide the name of a category or deck to study or one will be picked at random.
+play(Cat, Name) :-
     format("Quiz Program. Use Q to quit.~n~n"),
-    pick_subject(Name, Desc),
+    pick_subject(Cat, Name, Desc),
     setof((Term, Def), card(Name, Term, Def), Defs),
     length(Defs, N),
     format("Subject: ~w~nCards: ~d~n~n", [Desc, N]),
     random_permutation(Defs, ShuffledDefs),
     ask(ShuffledDefs).
-play(_) :- !.
+play(_, _) :- !.
 
 %! check_cards
 % Check the subjects to see if there are any subjects that don't have cards or any cards that don't have subjects, and
 % check for cards that have duplicate front.
 check_cards :-
-    setof(Name, (subject(Name, _), \+ card(Name, _, _)), Subjects),
+    setof(Name, (subject(_, Name, _), \+ card(Name, _, _)), Subjects),
     format("Here's a list of subjects that don't have cards:~n~n"),
     writeln(Subjects),
     fail.
 check_cards :-
-    setof(Name, (card(Name, _, _), \+ subject(Name, _)), Subjects),
+    setof(Name, (card(Name, _, _), \+ subject(_, Name, _)), Subjects),
     format("Here's a list of card subjects that don't have subjects defined:~n~n"),
     writeln(Subjects),
     fail.
@@ -51,23 +56,31 @@ check_cards :- !.
 % List the decks and their descriptions.
 list_decks :-
     format("Here's a list of the deck names and descriptions:~n~n"),
-    subject(Name, Desc),
-    format("* ~w: ~w\n", [Name, Desc]),
+    subject(Cat, Name, Desc),
+    format("* ~w/~w: ~w\n", [Cat, Name, Desc]),
     fail.
 
-%! pick_subject(Name:atom, Desc:string)
-pick_subject(Name, Desc) :-
+%! pick_subject(Cat:atom, Name:atom, Desc:string)
+pick_subject(Cat, Name, Desc) :-
+    var(Cat),
     var(Name),
-    setof((Name1, Desc1), subject(Name1, Desc1), Subjects),
+    setof((Cat1, Name1, Desc1), subject(Cat1, Name1, Desc1), Subjects),
     length(Subjects, N),
     R is random(N),
-    nth0(R, Subjects, (Name, Desc)).
-pick_subject(Name, Desc) :-
+    nth0(R, Subjects, (Cat, Name, Desc)).
+pick_subject(Cat, Name, Desc) :-
+    atom(Cat),
+    var(Name),
+    setof((Cat, Name1, Desc1), subject(Cat, Name1, Desc1), Subjects),
+    length(Subjects, N),
+    R is random(N),
+    nth0(R, Subjects, (Cat, Name, Desc)).
+pick_subject(Cat, Name, Desc) :-
     atom(Name),
-    subject(Name, Desc).
-pick_subject(Name, Desc) :-
+    subject(Cat, Name, Desc).
+pick_subject(Cat, Name, Desc) :-
     atom(Name),
-    \+ subject(Name, Desc),
+    \+ subject(Cat, Name, Desc),
     format("There's no deck by that name.~n~n"),
     list_decks.
 
@@ -87,22 +100,22 @@ ask([(Q, A)|Qs]) :-
     ).
 
 %! subject(Name:atom, Desc:string)
-subject(acronyms, "Acronyms and the terms that they expand into").
-subject(actor_roles, "List of movie roles and the actors who played them").
-subject(actress_roles, "List of movie roles and the actresses who played them").
-subject(baroque_paintings, "List of Baroque paintings and the artists who created them").
-subject(ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
-subject(fiction_books, "List of fictional books and authors").
-subject(git_commands, "List of Git commands with definitions taken from the documentation").
-subject(moons, "List of moons and the planets that they orbit around").
-subject(nonfiction_books, "List of nonfictional books and authors").
-subject(phpdoc_params, "PHPDoc parameters used in tags").
-subject(phonetic_alphabet, "NATO Phonetic Alphabet").
-subject(poets, "List of poems and the poets who wrote them").
-subject(prolog_library, "SWI Prolog libraries (see https://www.swi-prolog.org/pldoc/man?section=libpl)").
-subject(sculptures, "List of sculptures and the artists who created them").
-subject(song_titles, "Pop and rock song titles and bands").
-subject(state_abbreviations, "Two-letter abbreviations for states of the United States").
+subject(art, baroque_paintings, "List of Baroque paintings and the artists who created them").
+subject(art, sculptures, "List of sculptures and the artists who created them").
+subject(astronomy, moons, "List of moons and the planets that they orbit around").
+subject(literature, fiction_books, "List of fictional books and authors").
+subject(literature, nonfiction_books, "List of nonfictional books and authors").
+subject(literature, poets, "List of poems and the poets who wrote them").
+subject(movies, actor_roles, "List of movie roles and the actors who played them").
+subject(movies, actress_roles, "List of movie roles and the actresses who played them").
+subject(music, song_titles, "Pop and rock song titles and bands").
+subject(philosophy, ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
+subject(programming, git_commands, "List of Git commands with definitions taken from the documentation").
+subject(programming, phpdoc_params, "PHPDoc parameters used in tags").
+subject(programming, prolog_library, "SWI Prolog libraries (see https://www.swi-prolog.org/pldoc/man?section=libpl)").
+subject(reference, acronyms, "Acronyms and the terms that they expand into").
+subject(reference, phonetic_alphabet, "NATO Phonetic Alphabet").
+subject(reference, state_abbreviations, "Two-letter abbreviations for states of the United States").
 
 %! card(Name:atom, Question:string, Answer:string)
 card(acronyms, "AAAS", "American Association for the Advancement of Science").
