@@ -82,6 +82,7 @@ ask([(Q, A)|Qs]) :-
 
 %! subject(Name:atom, Desc:string)
 subject(acronyms, "Acronyms and the terms that they expand into").
+subject(baroque_paintings, "List of Baroque paintings and the artists who created them").
 subject(ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
 subject(fiction_books, "List of fictional books and authors").
 subject(git_commands, "List of Git commands with definitions taken from the documentation").
@@ -803,6 +804,62 @@ card(acronyms, "sync", "synchronize").
 card(acronyms, "synth", "synthesizer").
 card(acronyms, "sysgen", "system generation").
 card(acronyms, "sysop", "system operator").
+card(baroque_paintings, "A Fantastic Cave with Odysseus and Calypso", "Jan Brueghel the Elder").
+card(baroque_paintings, "Ahimelech Giving the Sword of Goliath to David", "Aert de Gelder").
+card(baroque_paintings, "Alethea Talbot with her Husband", "Peter Paul Rubens").
+card(baroque_paintings, "Allegory of War", "Jan Brueghel the Younger").
+card(baroque_paintings, "Arctic Adventure", "Abraham Hondius").
+card(baroque_paintings, "Banquet Still Life", "Abraham van Beijeren").
+card(baroque_paintings, "Boys Eating Grapes and Melon", "Bartolomé Esteban Murillo").
+card(baroque_paintings, "Brothel Scene", "Nikolaus Knüpfer").
+card(baroque_paintings, "Children Teaching a Cat to Dance", "Jan Steen").
+card(baroque_paintings, "Christ in the House of Martha and Mary", "Jan Brueghel the Younger, Peter Paul Rubens").
+card(baroque_paintings, "Concert", "Dirck van Baburen").
+card(baroque_paintings, "Creation of Adam", "Jan Brueghel the Younger").
+card(baroque_paintings, "David Gives Uriah a Letter for Joab", "Pieter Lastman").
+card(baroque_paintings, "David Playing the Harp", "Jan de Bray").
+card(baroque_paintings, "David and Uriah", "Rembrandt").
+card(baroque_paintings, "Dedication of a New Vestal Virgin", "Alessandro Marchesini").
+card(baroque_paintings, "Distribution of Loaves to the Poor", "David Vinckboons").
+card(baroque_paintings, "Domine quo vadis?", "Annibale Carracci").
+card(baroque_paintings, "Drunken Silenus", "Jusepe de Ribera").
+card(baroque_paintings, "Esther and Ahasuerus", "Artemisia Gentileschi").
+card(baroque_paintings, "Flora", "Rembrandt").
+card(baroque_paintings, "Fruit and Vegetables with a Monkey, Parrot and Squirrel", "Franz Snyders").
+card(baroque_paintings, "Girl Eating an Apple", "Godfried Schalcken").
+card(baroque_paintings, "Girl at a Window", "Rembrandt").
+card(baroque_paintings, "Great Fish Market", "Jan Brueghel the Elder").
+card(baroque_paintings, "Hendrickje Bathing in a River", "Rembrandt").
+card(baroque_paintings, "Infanta Margarita Teresa in a Blue Dress", "Diego Velázquez").
+card(baroque_paintings, "Infanta Margarita Teresa in a Pink Dress", "Diego Velázquez").
+card(baroque_paintings, "Jacob Wrestling with the Angel", "Rembrandt").
+card(baroque_paintings, "Judith Beheading Holofernes", "Artemisia Gentileschi").
+card(baroque_paintings, "Judith and her Maidservant", "Artemisia Gentileschi").
+card(baroque_paintings, "King David Handing the Letter to Uriah", "Pieter Lastman").
+card(baroque_paintings, "Kitchen Scene", "Joachim Beuckelaer").
+card(baroque_paintings, "Landscape with a Huntsman and Dead Game", "Jan Weenix").
+card(baroque_paintings, "Laughing Cavalier", "Frans Hals").
+card(baroque_paintings, "Lucretia", "Rembrandt").
+card(baroque_paintings, "Marriage Portrait of Isaac Massa and Beatrix van der Laen", "Frans Hals").
+card(baroque_paintings, "Martyrdom of St. Philip", "Jusepe de Ribera").
+card(baroque_paintings, "Mary Magdalene in the Desert", "Jusepe de Ribera").
+card(baroque_paintings, "Mercury", "Hendrik Goltzius").
+card(baroque_paintings, "Narcissus", "Caravaggio").
+card(baroque_paintings, "Noli me tangere", "Jan Brueghel the Younger").
+card(baroque_paintings, "Paradise", "Jan Brueghel the Younger").
+card(baroque_paintings, "Peacocks", "Melchior d'Hondecoeter").
+card(baroque_paintings, "Peasants Before an Inn", "Jan Steen").
+card(baroque_paintings, "Pietà", "Jusepe de Ribera").
+card(baroque_paintings, "Portrait of Abraham van Lennep", "Caspar Netscher").
+card(baroque_paintings, "Portrait of Titus", "Rembrandt").
+card(baroque_paintings, "Portrait of a Lady", "Thomas de Keyser").
+card(baroque_paintings, "Portrait of a Man", "Diego Velázquez").
+card(baroque_paintings, "Portrait of an Elderly Lady", "Frans Hals").
+card(baroque_paintings, "Portrait of the Lomellini Family", "Anthony van Dyck").
+card(baroque_paintings, "Prometheus Being Chained by Vulcan", "Dirck van Baburen").
+card(baroque_paintings, "Sleeping Cupid", "Battistello Caracciolo").
+card(baroque_paintings, "The Flagellation of Christ", "Caravaggio").
+card(baroque_paintings, "The Rape of the Daughters of Leucippus", "Peter Paul Rubens").
 card(ethics, "A Theory of Justice", "Book of political philosophy and ethics by John Rawls on problem of distributive justice").
 card(ethics, "Amnesty International", "London-based non-governmental organization focused on human rights").
 card(ethics, "Belmont Report", "Summary of ethical principles and areas of application for research involving human subjects").
