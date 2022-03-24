@@ -94,6 +94,7 @@ subject(baroque_paintings, "List of Baroque paintings and the artists who create
 subject(ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
 subject(fiction_books, "List of fictional books and authors").
 subject(git_commands, "List of Git commands with definitions taken from the documentation").
+subject(moons, "List of moons and the planets that they orbit around").
 subject(nonfiction_books, "List of nonfictional books and authors").
 subject(phpdoc_params, "PHPDoc parameters used in tags").
 subject(phonetic_alphabet, "NATO Phonetic Alphabet").
@@ -2599,6 +2600,31 @@ card(git_commands, "rm", "Remove files from the working tree and from the index"
 card(git_commands, "show", "Show various types of objects").
 card(git_commands, "status", "Show the working tree status").
 card(git_commands, "tag", "Create, list, delete or verify a tag object signed with GPG").
+card(moons, "Amalthea", "Jupiter").
+card(moons, "Ariel", "Uranus").
+card(moons, "Callisto", "Jupiter").
+card(moons, "Charon", "Pluto").
+card(moons, "Deimos", "Mars").
+card(moons, "Dione", "Saturn").
+card(moons, "Enceladus", "Saturn").
+card(moons, "Europa", "Jupiter").
+card(moons, "Ganymede", "Jupiter").
+card(moons, "Hyperion", "Saturn").
+card(moons, "Iapetus", "Saturn").
+card(moons, "Io", "Jupiter").
+card(moons, "Mimas", "Saturn").
+card(moons, "Miranda", "Uranus").
+card(moons, "Moon", "Earth").
+card(moons, "Nereid", "Neptune").
+card(moons, "Oberon", "Uranus").
+card(moons, "Phobos", "Mars").
+card(moons, "Phoebe", "Saturn").
+card(moons, "Rhea", "Saturn").
+card(moons, "Tethys", "Saturn").
+card(moons, "Titan", "Saturn").
+card(moons, "Titania", "Uranus").
+card(moons, "Triton", "Neptune").
+card(moons, "Umbriel", "Uranus").
 card(nonfiction_books, " Bureaucracy", "Ludwig von Mises").
 card(nonfiction_books, " Mont-Saint-Michel and Chartres", "Henry Adams").
 card(nonfiction_books, " The Economy of Cities", "Jane Jacobs").
