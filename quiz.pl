@@ -122,6 +122,7 @@ subject(programming, git_commands, "List of Git commands with definitions taken 
 subject(programming, phpdoc_params, "PHPDoc parameters used in tags").
 subject(programming, prolog_library, "SWI Prolog libraries (see https://www.swi-prolog.org/pldoc/man?section=libpl)").
 subject(reference, acronyms, "Acronyms and the terms that they expand into").
+subject(reference, latin_phrases, "A list of phrases in Latin and the English translation").
 subject(reference, phonetic_alphabet, "NATO Phonetic Alphabet").
 subject(reference, state_abbreviations, "Two-letter abbreviations for states of the United States").
 
@@ -6138,3 +6139,55 @@ card(sums, "9 + 28", "37").
 card(sums, "9 + 29", "38").
 card(sums, "9 + 30", "39").
 card(sums, "9 + 9", "18").
+card(latin_phrases, "a fortiori", "from the stronger").
+card(latin_phrases, "a posteriori", "from the latter").
+card(latin_phrases, "a priori", "from the earlier").
+card(latin_phrases, "ad hoc", "for this").
+card(latin_phrases, "ad libitum", "at pleasure").
+card(latin_phrases, "alter ego", "another self").
+card(latin_phrases, "argumentum ab absurdo", "argument from absurdity").
+card(latin_phrases, "argumentum ab auctoritate", "argument from authority").
+card(latin_phrases, "argumentum ad antiquitatem", "argument from antiquity").
+card(latin_phrases, "argumentum ad baculum", "argument to a stick").
+card(latin_phrases, "argumentum ad consequentiam", "argument to consequences").
+card(latin_phrases, "argumentum ad crumenam", "argument to wealth").
+card(latin_phrases, "argumentum ad hominem", "argument to a person").
+card(latin_phrases, "argumentum ad ignorantiam", "argument to ignorance").
+card(latin_phrases, "argumentum ad infinitum", "argument to infinity").
+card(latin_phrases, "argumentum ad lapidem", "argument to a stone").
+card(latin_phrases, "argumentum ad lazarum", "argument to poverty").
+card(latin_phrases, "argumentum ad misericordiam", "argument to pity").
+card(latin_phrases, "argumentum ad naturam", "argument to nature").
+card(latin_phrases, "argumentum ad nauseam", "argument to nausea").
+card(latin_phrases, "argumentum ad novitatem", "argument to novelty").
+card(latin_phrases, "argumentum ad odium", "argument to hate").
+card(latin_phrases, "argumentum ad passiones", "argument to emotions").
+card(latin_phrases, "argumentum ad populum", "argument to the people").
+card(latin_phrases, "argumentum ad temperantiam", "argument to moderation").
+card(latin_phrases, "argumentum ad verecundiam", "argument to authority").
+card(latin_phrases, "argumentum ex silentio", "argument to silence").
+card(latin_phrases, "bona fide", "in good faith").
+card(latin_phrases, "carpe diem", "seize the day").
+card(latin_phrases, "caveat emptor", "let the buyer beware").
+card(latin_phrases, "caveat lector", "let the reader beware").
+card(latin_phrases, "caveat venditor", "let the seller beware").
+card(latin_phrases, "consensus", "consent").
+card(latin_phrases, "de facto", "in fact").
+card(latin_phrases, "de jure", "in law").
+card(latin_phrases, "ergo", "therefore").
+card(latin_phrases, "et cetera", "and the rest").
+card(latin_phrases, "excelsior", "higher").
+card(latin_phrases, "ignoratio elenchi", "ignoring the refutation").
+card(latin_phrases, "in re", "in the matter of").
+card(latin_phrases, "major", "greater").
+card(latin_phrases, "mea culpa", "my fault").
+card(latin_phrases, "per capita", "per person").
+card(latin_phrases, "per diem", "per day").
+card(latin_phrases, "per se", "essentially").
+card(latin_phrases, "petitio principii", "begging the question").
+card(latin_phrases, "post hoc ergo propter hoc", "after this, therefore because of this").
+card(latin_phrases, "primum nil nocere; primum non nocere", "first, to do no harm").
+card(latin_phrases, "status quo", "state in which").
+card(latin_phrases, "tu quoque", "you also").
+card(latin_phrases, "verbatim", "word for word").
+card(latin_phrases, "vice versa", "conversely").
