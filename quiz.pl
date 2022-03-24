@@ -120,6 +120,7 @@ subject(movies, actress_roles, "List of movie roles and the actresses who played
 subject(music, song_titles, "Pop and rock song titles and bands").
 subject(philosophy, ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
 subject(programming, git_commands, "List of Git commands with definitions taken from the documentation").
+subject(programming, laws_of_computing, "General laws of computing as defined in Wikipedia").
 subject(programming, phpdoc_params, "PHPDoc parameters used in tags").
 subject(programming, prolog_library, "SWI Prolog libraries (see https://www.swi-prolog.org/pldoc/man?section=libpl)").
 subject(reference, acronyms, "Acronyms and the terms that they expand into").
@@ -2741,6 +2742,37 @@ card(latin_phrases, "status quo", "state in which").
 card(latin_phrases, "tu quoque", "you also").
 card(latin_phrases, "verbatim", "word for word").
 card(latin_phrases, "vice versa", "conversely").
+card(laws_of_computing, "60/60 Rule", "Sixty percent of software's dollar is spent on maintenance, and sixty percent of that maintenance is enhancement").
+card(laws_of_computing, "90/90 Rule", "The first 90% of the code accounts for the first 90% of the development time; the remaining 10% of the code accounts for the other 90% of the development time").
+card(laws_of_computing, "Amdahl's Law", "In parallel computing, theoretical speedup depends on the portion of time spent on the task being speeded up, or Speedup = 1/((1-p)+p/s)").
+card(laws_of_computing, "Bell's Law of Computer Classes", "Roughly every decade a new computer industry forms based on a new programming platform, network, and interface").
+card(laws_of_computing, "Benford's Law", "In many naturally occurring collections of numbers, the leading significant digit is likely to be small").
+card(laws_of_computing, "Brooke's Law", "Adding workers to a late software project makes it later").
+card(laws_of_computing, "Conway's Law", "Any piece of software reflects the organizational structure that produced it").
+card(laws_of_computing, "Ellison's Law of Cryptography and Usability", "The userbase for strong cryptography declines by half with every additional keystroke or mouseclick required to make it work").
+card(laws_of_computing, "Fitts's Law", "The time to acquire a target is a function of the distance to and the size of the target, or Time = a + b log2(D/S + 1)").
+card(laws_of_computing, "Flon's Axiom", "There does not now, nor will there ever, exist a programming language in which it is the least bit hard to write bad programs").
+card(laws_of_computing, "Greenspun's Tenth Rule of Programming", "Any sufficiently complicated C or Fortran program contains an ad-hoc, informally-specified, bug-ridden, slow implementation of half of Common Lisp").
+card(laws_of_computing, "Hartree's Law", "Whatever the state of a project, the time a project-leader will estimate for completion is constant").
+card(laws_of_computing, "Hick's Law", "The time to make a decision is a function of the possible choices he or she has, or Time = b log2(n + 1)").
+card(laws_of_computing, "Hofstadter's Law", "A task always takes longer than you expect, even when you take into account this law").
+card(laws_of_computing, "Jakob's Law of Internet User Experience", "Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know.").
+card(laws_of_computing, "Kerchkoff's Law", "In cryptography, a system should be secure even if everything about the system, except for a small piece of information - the key - is public knowledge").
+card(laws_of_computing, "Linus's Law", "Given enough eyeballs, all bugs are shallow").
+card(laws_of_computing, "Metcalfe's Law", "In network theory, the value of a system grows as approximately the square of the number of users of the system").
+card(laws_of_computing, "Moore's Law", "The number of transistors on an integrated circuit will double in about two years").
+card(laws_of_computing, "Nielsen's Law", "Network connection speeds for high-end home users will increase 50% per year").
+card(laws_of_computing, "Occam's razor; law of parsimony", "The simplest explanation is usually the right one").
+card(laws_of_computing, "Pareto Principle", "For many phenomena, 80% of consequences stem from 20% of the causes").
+card(laws_of_computing, "Parkinson's Law", "Work expands so as to fill the time available for its completion").
+card(laws_of_computing, "Postel's Law", "Be conservative in what you send, liberal in what you accept").
+card(laws_of_computing, "Reed's Law", "The utility of large networks, particularly social networks, scales exponentially with the size of the network").
+card(laws_of_computing, "Spector's Law", "The time it takes your favorite application to complete a given task doubles with each new revision").
+card(laws_of_computing, "Sturgeon's Law", "Ninety percent of everything is crud").
+card(laws_of_computing, "Tesler's Law of Conservation as Complexity", "You cannot reduce the complexity of a given task beyond a certain point").
+card(laws_of_computing, "Weibull's Power Law", "The logarithm of failure rates increases linearly with the logarithm of age").
+card(laws_of_computing, "Wirth's Law", "Software gets slower faster than hardware gets faster").
+card(laws_of_computing, "Zawinksi's Law", "Every program attempts to expand until it can read mail").
 card(moons, "Amalthea", "Jupiter").
 card(moons, "Ariel", "Uranus").
 card(moons, "Callisto", "Jupiter").
