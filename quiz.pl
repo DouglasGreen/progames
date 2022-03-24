@@ -100,34 +100,35 @@ ask([(Q, A)|Qs]) :-
     ).
 
 %! subject(Name:atom, Desc:string)
-subject(art, baroque_paintings, "List of Baroque paintings and the artists who created them").
-subject(art, paintings, "List of paintings and the artists who created them").
-subject(art, romanticism_paintings, "List of Romanticism paintings and the artists who created them").
-subject(art, sculptures, "List of sculptures and the artists who created them").
-subject(astronomy, moons, "List of moons and the planets that they orbit around").
-subject(literature, fiction_books, "List of fictional books and authors").
-subject(literature, nonfiction_books, "List of nonfictional books and authors").
-subject(literature, poets, "List of poems and the poets who wrote them").
-subject(math, combinations, "A table of calculated values of combinations").
-subject(math, factorials, "A table of calculated values of factorials").
-subject(math, permutations, "A table of calculated values of permutations").
-subject(math, powers, "A table of calculated values of powers").
-subject(math, products, "A table of calculated values of products").
-subject(math, square_roots, "A table of calculated values of square_roots").
-subject(math, sums, "A table of calculated values of sums").
-subject(movies, actor_roles, "List of movie roles and the actors who played them").
-subject(movies, actress_roles, "List of movie roles and the actresses who played them").
+subject(art, baroque_paintings, "Baroque paintings and the artists who created them").
+subject(art, paintings, "Paintings and the artists who created them").
+subject(art, romanticism_paintings, "Romanticism paintings and the artists who created them").
+subject(art, sculptures, "Sculptures and the artists who created them").
+subject(astronomy, moons, "Moons and the planets that they orbit around").
+subject(literature, fiction_books, "Fictional books and authors").
+subject(literature, nonfiction_books, "Nonfictional books and authors").
+subject(literature, poets, "Poems and the poets who wrote them").
+subject(math, combinations, "Calculated values of combinations").
+subject(math, factorials, "Calculated values of factorials").
+subject(math, permutations, "Calculated values of permutations").
+subject(math, powers, "Calculated values of powers").
+subject(math, products, "Calculated values of products").
+subject(math, square_roots, "Calculated values of square_roots").
+subject(math, sums, "Calculated values of sums").
+subject(movies, actor_roles, "Movie roles and the actors who played them").
+subject(movies, actress_roles, "Movie roles and the actresses who played them").
 subject(music, song_titles, "Pop and rock song titles and bands").
 subject(philosophy, ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
-subject(programming, git_commands, "List of Git commands with definitions taken from the documentation").
+subject(programming, git_commands, "Git commands with definitions taken from the documentation").
 subject(programming, laws_of_computing, "General laws of computing as defined in Wikipedia").
 subject(programming, phpdoc_params, "PHPDoc parameters used in tags").
 subject(programming, prolog_library, "SWI Prolog libraries (see https://www.swi-prolog.org/pldoc/man?section=libpl)").
 subject(reference, acronyms, "Acronyms and the terms that they expand into").
 subject(reference, latin_phrases, "A list of phrases in Latin and the English translation").
 subject(reference, phonetic_alphabet, "NATO Phonetic Alphabet").
-subject(reference, state_abbreviations, "Two-letter abbreviations for states of the United States").
-subject(spanish, spanish_vocabulary, "List of translations from English to Spanish").
+subject(spanish, spanish_vocabulary, "Translations from English to Spanish").
+subject(united_states, state_abbreviations, "Two-letter abbreviations for states of the United States").
+subject(united_states, state_capitals, "State capitals of the USA").
 
 %! card(Name:atom, Question:string, Answer:string)
 card(acronyms, "AAAS", "American Association for the Advancement of Science").
@@ -8816,6 +8817,56 @@ card(state_abbreviations, "WA", "Washington").
 card(state_abbreviations, "WI", "Wisconsin").
 card(state_abbreviations, "WV", "West Virginia").
 card(state_abbreviations, "WY", "Wyoming").
+card(state_capitals, "Alabama", "Montgomery").
+card(state_capitals, "Alaska", "Juneau").
+card(state_capitals, "Arizona", "Phoenix").
+card(state_capitals, "Arkansas", "Little Rock").
+card(state_capitals, "California", "Sacramento").
+card(state_capitals, "Colorado", "Denver").
+card(state_capitals, "Connecticut", "Hartford").
+card(state_capitals, "Delaware", "Dover").
+card(state_capitals, "Florida", "Tallahassee").
+card(state_capitals, "Georgia", "Atlanta").
+card(state_capitals, "Hawaii", "Honolulu").
+card(state_capitals, "Idaho", "Boise").
+card(state_capitals, "Illinois", "Springfield").
+card(state_capitals, "Indiana", "Indianapolis").
+card(state_capitals, "Iowa", "Des Moines").
+card(state_capitals, "Kansas", "Topeka").
+card(state_capitals, "Kentucky", "Frankfort").
+card(state_capitals, "Louisiana", "Baton Rouge").
+card(state_capitals, "Maine", "Augusta").
+card(state_capitals, "Maryland", "Annapolis").
+card(state_capitals, "Massachusetts", "Boston").
+card(state_capitals, "Michigan", "Lansing").
+card(state_capitals, "Minnesota", "Saint Paul").
+card(state_capitals, "Mississippi", "Jackson").
+card(state_capitals, "Missouri", "Jefferson City").
+card(state_capitals, "Montana", "Helena").
+card(state_capitals, "Nebraska", "Lincoln").
+card(state_capitals, "Nevada", "Carson City").
+card(state_capitals, "New Hampshire", "Concord").
+card(state_capitals, "New Jersey", "Trenton").
+card(state_capitals, "New Mexico", "Santa Fe").
+card(state_capitals, "New York", "Albany").
+card(state_capitals, "North Carolina", "Raleigh").
+card(state_capitals, "North Dakota", "Bismarck").
+card(state_capitals, "Ohio", "Columbus").
+card(state_capitals, "Oklahoma", "Oklahoma City").
+card(state_capitals, "Oregon", "Salem").
+card(state_capitals, "Pennsylvania", "Harrisburg").
+card(state_capitals, "Rhode Island", "Providence").
+card(state_capitals, "South Carolina", "Columbia").
+card(state_capitals, "South Dakota", "Pierre").
+card(state_capitals, "Tennessee", "Nashville").
+card(state_capitals, "Texas", "Austin").
+card(state_capitals, "Utah", "Salt Lake City").
+card(state_capitals, "Vermont", "Montpelier").
+card(state_capitals, "Virginia", "Richmond").
+card(state_capitals, "Washington", "Olympia").
+card(state_capitals, "West Virginia", "Charleston").
+card(state_capitals, "Wisconsin", "Madison").
+card(state_capitals, "Wyoming", "Cheyenne").
 card(sums, "10 + 10", "20").
 card(sums, "10 + 11", "21").
 card(sums, "10 + 12", "22").
