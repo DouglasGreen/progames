@@ -13,33 +13,6 @@ play :-
     format("Type R to roll, H to hold, Q to quit.~n"),
     human(0, 0, 0).
 
-%! human(HumanScore:int, ComputerScore:int, Round:int)
-% It's the human's turn to play with the given total scores and the round score.
-human(HumanScore, ComputerScore, Round) :-
-    get_single_char(Code),
-    char_code(Char, Code),
-    downcase_atom(Char, Low),
-    (
-        Low = 'r',
-        roll("You", Die, Round, NewRound),
-        (
-            Die = 1,
-            computer(HumanScore, ComputerScore, 0);
-            Die \= 1,
-            human(HumanScore, ComputerScore, NewRound)
-        ),
-        !;
-        Low = 'h',
-        NewHumanScore is HumanScore + Round,
-        format("Your score is ~d.\n", [NewHumanScore]),
-        computer(NewHumanScore, ComputerScore, 0),
-        !;
-        Low = 'q',
-        writeln("Bye!"),
-        !;
-        human(HumanScore, ComputerScore, Round)
-    ).
-
 %! computer(HumanScore:int, ComputerScore:int, Round:int)
 % It's the computer's turn to play with the given total scores and the round score.
 computer(HumanScore, ComputerScore, Round) :-
@@ -95,6 +68,33 @@ computer(HumanScore, ComputerScore, Round) :-
             !;
             human(HumanScore, NewComputerScore, 0)
         )
+    ).
+
+%! human(HumanScore:int, ComputerScore:int, Round:int)
+% It's the human's turn to play with the given total scores and the round score.
+human(HumanScore, ComputerScore, Round) :-
+    get_single_char(Code),
+    char_code(Char, Code),
+    downcase_atom(Char, Low),
+    (
+        Low = 'r',
+        roll("You", Die, Round, NewRound),
+        (
+            Die = 1,
+            computer(HumanScore, ComputerScore, 0);
+            Die \= 1,
+            human(HumanScore, ComputerScore, NewRound)
+        ),
+        !;
+        Low = 'h',
+        NewHumanScore is HumanScore + Round,
+        format("Your score is ~d.\n", [NewHumanScore]),
+        computer(NewHumanScore, ComputerScore, 0),
+        !;
+        Low = 'q',
+        writeln("Bye!"),
+        !;
+        human(HumanScore, ComputerScore, Round)
     ).
 
 %! roll(Player:string, Die:int, Round:int, NewRound:int)
