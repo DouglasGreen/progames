@@ -11,6 +11,26 @@ module(quiz,
         play/1
     ]).
 
+%! check_cards
+% Check the subjects to see if there are any subjects that don't have cards or any cards that don't have subjects, and
+% check for cards that have duplicate front.
+check_cards :-
+    setof(Name, (subject(_, Name, _), \+ card(Name, _, _)), Subjects),
+    format("Here's a list of subjects that don't have cards:~n~n"),
+    writeln(Subjects),
+    fail.
+check_cards :-
+    setof(Name, (card(Name, _, _), \+ subject(_, Name, _)), Subjects),
+    format("Here's a list of card subjects that don't have subjects defined:~n~n"),
+    writeln(Subjects),
+    fail.
+check_cards :-
+    setof((Name, Front), Back^Back1^(card(Name, Front, Back), card(Name, Front, Back1), Back \= Back1), Subjects),
+    format("Here's a list of cards that have duplicate front:~n~n"),
+    writeln(Subjects),
+    fail.
+check_cards :- !.
+
 %! play
 % Pick a random deck to study.
 play :- play(_, _).
@@ -32,25 +52,20 @@ play(Cat, Name) :-
     ask(ShuffledDefs).
 play(_, _) :- !.
 
-%! check_cards
-% Check the subjects to see if there are any subjects that don't have cards or any cards that don't have subjects, and
-% check for cards that have duplicate front.
-check_cards :-
-    setof(Name, (subject(_, Name, _), \+ card(Name, _, _)), Subjects),
-    format("Here's a list of subjects that don't have cards:~n~n"),
-    writeln(Subjects),
-    fail.
-check_cards :-
-    setof(Name, (card(Name, _, _), \+ subject(_, Name, _)), Subjects),
-    format("Here's a list of card subjects that don't have subjects defined:~n~n"),
-    writeln(Subjects),
-    fail.
-check_cards :-
-    setof((Name, Front), Back^Back1^(card(Name, Front, Back), card(Name, Front, Back1), Back \= Back1), Subjects),
-    format("Here's a list of cards that have duplicate front:~n~n"),
-    writeln(Subjects),
-    fail.
-check_cards :- !.
+%! ask(Questions:list)
+ask([(Q, A)|Qs]) :-
+    writeln(Q),
+    get_single_char(Code),
+    to_lower(Code, LowCode),
+    char_code(LowChar, LowCode),
+    (
+        LowChar = 'q',
+        writeln("Bye!"),
+        !;
+        writeln(A),
+        nl,
+        ask(Qs)
+    ).
 
 %! list_decks
 % List the decks and their descriptions.
@@ -83,21 +98,6 @@ pick_subject(Cat, Name, Desc) :-
     \+ subject(Cat, Name, Desc),
     format("There's no deck by that name.~n~n"),
     list_decks.
-
-%! ask(Questions:list)
-ask([(Q, A)|Qs]) :-
-    writeln(Q),
-    get_single_char(Code),
-    to_lower(Code, LowCode),
-    char_code(LowChar, LowCode),
-    (
-        LowChar = 'q',
-        writeln("Bye!"),
-        !;
-        writeln(A),
-        nl,
-        ask(Qs)
-    ).
 
 %! subject(Name:atom, Desc:string)
 subject(art, baroque_paintings, "Baroque paintings and the artists who created them").
@@ -271,6 +271,7 @@ card(acronyms, "Con", "console").
 card(acronyms, "Core", "core dump").
 card(acronyms, "Ctrl", "control key").
 card(acronyms, "D", "depth").
+card(acronyms, "DAG", "directed acyclic graph").
 card(acronyms, "DAC", "discretionary access control").
 card(acronyms, "DARE", "Drug Abuse Resistance Education").
 card(acronyms, "DARPA", "Defense Advanced Research Projects Agency").
@@ -319,7 +320,7 @@ card(acronyms, "DPS", "damage per second").
 card(acronyms, "DRAM", "dynamic random access memory").
 card(acronyms, "DRM", "digital rights management").
 card(acronyms, "DRY", "Don't Repeat Yourself").
-card(acronyms, "DSL", "digital subscriber line").
+card(acronyms, "DSL", "digital subscriber line; domain specific language").
 card(acronyms, "DSO", "data source object").
 card(acronyms, "DSP", "digital signal processor").
 card(acronyms, "DSR", "Dynamic Source Routing").
