@@ -46,24 +46,6 @@ make_guess(WordChars, WordLen, Guesses, GuessCount) :-
         make_guess(WordChars, WordLen, NewGuesses, GuessCount1)
     ).
 
-%! write_word(Chars:chars, NewGuesses:chars, Win:bool)
-% Write the current word with correct letters or blanks.
-write_word([Char|Chars], NewGuesses, Win) :-
-    memberchk(Char, NewGuesses),
-    format('~w ', [Char]),
-    write_word(Chars, NewGuesses, Win).
-write_word([Char|Chars], NewGuesses, false) :-
-    \+ memberchk(Char, NewGuesses),
-    write('_ '),
-    write_word(Chars, NewGuesses, false).
-write_word([], _, Win) :-
-    (
-        var(Win),
-        Win = true,
-        !;
-        Win = false
-    ).
-
 %! pick_word(Word:string, Cat:atom, Def:string)
 % Pick a random word.
 pick_word(Word, Cat, Def) :-
@@ -82,6 +64,24 @@ write_guess(GuessCount) :-
         Plural = "es"
     ),
     format("\nYou have ~d guess~w.\n", [GuessCount, Plural]).
+
+%! write_word(Chars:chars, NewGuesses:chars, Win:bool)
+% Write the current word with correct letters or blanks.
+write_word([Char|Chars], NewGuesses, Win) :-
+    memberchk(Char, NewGuesses),
+    format('~w ', [Char]),
+    write_word(Chars, NewGuesses, Win).
+write_word([Char|Chars], NewGuesses, false) :-
+    \+ memberchk(Char, NewGuesses),
+    write('_ '),
+    write_word(Chars, NewGuesses, false).
+write_word([], _, Win) :-
+    (
+        var(Win),
+        Win = true,
+        !;
+        Win = false
+    ).
 
 %! word(Word:string, Cat:atom, Def:string)
 % A list of words taken from Wiktionary.
