@@ -123,6 +123,7 @@ subject(programming, git_commands, "Git commands with definitions taken from the
 subject(programming, laws_of_computing, "General laws of computing as defined in Wikipedia").
 subject(programming, phpdoc_params, "PHPDoc parameters used in tags").
 subject(programming, prolog_library, "SWI Prolog libraries (see https://www.swi-prolog.org/pldoc/man?section=libpl)").
+subject(programming, prolog_predicates, "SWI Prolog predicates (see https://www.swi-prolog.org/pldoc/doc_for?object=manual)").
 subject(reference, acronyms, "Acronyms and the terms that they expand into").
 subject(reference, latin_phrases, "A list of phrases in Latin and the English translation").
 subject(reference, phonetic_alphabet, "NATO Phonetic Alphabet").
@@ -271,8 +272,8 @@ card(acronyms, "Con", "console").
 card(acronyms, "Core", "core dump").
 card(acronyms, "Ctrl", "control key").
 card(acronyms, "D", "depth").
-card(acronyms, "DAG", "directed acyclic graph").
 card(acronyms, "DAC", "discretionary access control").
+card(acronyms, "DAG", "directed acyclic graph").
 card(acronyms, "DARE", "Drug Abuse Resistance Education").
 card(acronyms, "DARPA", "Defense Advanced Research Projects Agency").
 card(acronyms, "DASD", "direct access storage device").
@@ -4660,6 +4661,263 @@ card(prolog_library, url, "Analysing and constructing URL").
 card(prolog_library, varnumbers, "Utilities for numbered terms").
 card(prolog_library, www_browser, "Activating your Web-browser").
 card(prolog_library, yall, "Lambda expressions").
+card(prolog_predicates, "!/0", "Cut").
+card(prolog_predicates, "$/0", "Cut plus determinism").
+card(prolog_predicates, "$/1", "Check if a goal succeeds deterministically").
+card(prolog_predicates, ",/2", "And").
+card(prolog_predicates, "->/2", "If-then").
+card(prolog_predicates, ";/2", "Or").
+card(prolog_predicates, "</2", "Less than").
+card(prolog_predicates, "=../2", "Term to list; univ").
+card(prolog_predicates, "=/2", "Unify").
+card(prolog_predicates, "=:=/2", "Equality").
+card(prolog_predicates, "=</2", "Less than or equal").
+card(prolog_predicates, "==/2", "Equivalence").
+card(prolog_predicates, "=\\=/2", "Inequality").
+card(prolog_predicates, ">/2", "Greater than").
+card(prolog_predicates, ">=/2", "Greater than or equal").
+card(prolog_predicates, "@</2", "Term comes before term").
+card(prolog_predicates, "@=</2", "Term comes before or is equal to term").
+card(prolog_predicates, "@>/2", "Term comes after term").
+card(prolog_predicates, "@>=/2", "Term comes after or is equal to term").
+card(prolog_predicates, "\\+/1", "Unprovable; not").
+card(prolog_predicates, "\\=/2", "Doesn't unify").
+card(prolog_predicates, "\\==/2", "Isn't equivalent").
+card(prolog_predicates, "abolish/1, abolish/2", "Remove a predicate from the database").
+card(prolog_predicates, "abort/0", "Stop the execution").
+card(prolog_predicates, "absolute_file_name/2, absolute_file_name/3", "Expand a file name into its path").
+card(prolog_predicates, "access_file/2", "Check if a file can be accessed in a mode").
+card(prolog_predicates, "acyclic_term/1", "Check if a term doesn't contain cycles").
+card(prolog_predicates, "add_import_module/3", "Add an import module to the list").
+card(prolog_predicates, "append/1", "Open a file to write at the end").
+card(prolog_predicates, "append/2", "Concatenate a list of lists").
+card(prolog_predicates, "append/3", "Concatenate two lists to form a third list").
+card(prolog_predicates, "arg/3", "Get the numbered argument of a term").
+card(prolog_predicates, "assert/1, assert/2", "Add a clause to the database").
+card(prolog_predicates, "asserta/1, assert/2", "Add a clause to the front of the database").
+card(prolog_predicates, "assertz/1, assertz/2", "Add a clause to the end of the database").
+card(prolog_predicates, "at_end_of_stream/0, at_end_of_stream/1", "Check if the last character has been read").
+card(prolog_predicates, "atom/1", "Check if term is an atom").
+card(prolog_predicates, "atom_chars/2", "Convert an atom to a list of character atoms").
+card(prolog_predicates, "atom_codes/2", "Convert an atom to a list of character codes").
+card(prolog_predicates, "atom_concat/2", "Concatenate two atoms to form a third atom").
+card(prolog_predicates, "atom_length/2", "Find the length of an atom").
+card(prolog_predicates, "atom_number/2", "Convert an atom directly to a number or fail silently").
+card(prolog_predicates, "atomic/1", "Check if a term is not a variable or compound").
+card(prolog_predicates, "atomic_list_concat/2, atomic_list_concat/3", "Join a list with or without a separator to form an atom").
+card(prolog_predicates, "attvar/1", "Check if a variable is attributed").
+card(prolog_predicates, "b_getval/2", "Get the value of a backtrackable global variable").
+card(prolog_predicates, "b_setval/2", "Set the value of a global variable and unset on backtracking").
+card(prolog_predicates, "bagof/3", "Collect the results of applying a template to a goal or fail if none").
+card(prolog_predicates, "between/3", "Check or generate integer values in a range").
+card(prolog_predicates, "break/0", "Start a new Prolog top level").
+card(prolog_predicates, "call/1, call/2", "Append optional arguments to a goal and call it").
+card(prolog_predicates, "call_cleanup/2", "Call a goal and do a cleanup").
+card(prolog_predicates, "call_residue_vars/2", "Find any residual attributed variables left by calling a goal").
+card(prolog_predicates, "call_shared_object_function/2", "Call a function in the loaded shared object file").
+card(prolog_predicates, "callable/1", "Check for an atom or compound term that might be callable").
+card(prolog_predicates, "catch/3", "When an exception occurs, cut, backtrack, and recover").
+card(prolog_predicates, "char_code/2", "Convert between a character atom and a code").
+card(prolog_predicates, "char_conversion/2", "Map character codes to different codes while reading input").
+card(prolog_predicates, "char_type/2", "Check or generate characters or their types").
+card(prolog_predicates, "character_count/2", "Get the number of characters read or written").
+card(prolog_predicates, "clause/2, clause/3", "Match the head and body of a clause").
+card(prolog_predicates, "close/1, close/3", "Close a stream").
+card(prolog_predicates, "close_shared_object/1", "Close a loaded shared object file").
+card(prolog_predicates, "compare/3", "Check if two terms are in order").
+card(prolog_predicates, "compile_predicates/1", "Compile dynamic predicates back into static predicates").
+card(prolog_predicates, "compound/1", "Check if a term is compound").
+card(prolog_predicates, "consult/1", "Load a Prolog source file").
+card(prolog_predicates, "copy_term/2, copy_term/3", "Copy terms and variables with attributes").
+card(prolog_predicates, "copy_term_nat/2", "Copy terms and variables without attributes").
+card(prolog_predicates, "create_prolog_flag/3", "Define a new Prolog flag").
+card(prolog_predicates, "current_atom/1", "Get a currently defined atom").
+card(prolog_predicates, "current_char_conversion/2", "Get a character code mapping").
+card(prolog_predicates, "current_input/1", "Get the current input stream").
+card(prolog_predicates, "current_module/1", "Get a currently loaded module").
+card(prolog_predicates, "current_op/3", "Get the precence, type, and name of an operator").
+card(prolog_predicates, "current_output/1", "Get the current output stream").
+card(prolog_predicates, "current_predicate/1, current_predicate/2", "Get a currently defined predicate and optionally autoload it").
+card(prolog_predicates, "current_prolog_flag/2", "Get the value of a Prolog flag").
+card(prolog_predicates, "cyclic_term/1", "Check if a term contains cycles").
+card(prolog_predicates, "del_attr/1", "Delete an attribute of a variable").
+card(prolog_predicates, "del_attrs/1", "Delete all attributes of a variable").
+card(prolog_predicates, "delete_directory/1", "Delete an empty file directory").
+card(prolog_predicates, "delete_file/1", "Delete a file ").
+card(prolog_predicates, "delete_import_module/2", "Delete an import module from the list").
+card(prolog_predicates, "det/1", "Declare a predicate to be deterministic").
+card(prolog_predicates, "directory_files/2", "Get the list of entries in a file directory").
+card(prolog_predicates, "duplicate_term/2", "Copy terms, ground terms, and variables with attributes").
+card(prolog_predicates, "ensure_loaded/1", "Load and consult a file if it isn't already loaded").
+card(prolog_predicates, "erase/1", "Delete a record from the recorded database").
+card(prolog_predicates, "exception/3", "Called by the Prolog system for runtime errors").
+card(prolog_predicates, "expand_term/2", "Called by the Prolog compiler to process input").
+card(prolog_predicates, "export/1", "Add predicate to the public list of a dynamically created module").
+card(prolog_predicates, "fail/0", "Always fail").
+card(prolog_predicates, "false/0", "Always fail").
+card(prolog_predicates, "fast_read/2", "Read a term using the fast serialization format").
+card(prolog_predicates, "fast_write/2", "Write a term using the fast serialization format").
+card(prolog_predicates, "file_name_extension/3", "Add, remove, or check a filename extension").
+card(prolog_predicates, "file_search_path/2", "Define an alias for file paths").
+card(prolog_predicates, "findall/3, findall/4", "Collect the results of applying a template to a goal while ignoring free variables").
+card(prolog_predicates, "findnsols/4, findnsols/5", "Like findall/3 and findall/4, but returns a chunk of n solutions").
+card(prolog_predicates, "float/1", "Convert or check a floating point number").
+card(prolog_predicates, "flush_output/0, flush_output/1", "Flush output").
+card(prolog_predicates, "forall/2", "For each condition, prove an action").
+card(prolog_predicates, "format/1, format/2", "Format and print a list of arguments").
+card(prolog_predicates, "freeze/2", "Delay the execution of a goal until a variable is bound").
+card(prolog_predicates, "frozen/2", "Unify with a goal delayed on some attributed variable in a term").
+card(prolog_predicates, "functor/3", "Term is a functor with name and arity").
+card(prolog_predicates, "garbage_collect/0", "Invoke the garbage collector").
+card(prolog_predicates, "get/1, get/2, get0/1, get0/2", "Deprecated, use get_char or get_code instead").
+card(prolog_predicates, "get_attr/3", "Get an attributes of a variable").
+card(prolog_predicates, "get_attrs/2", "Get all attribute of a variable").
+card(prolog_predicates, "get_byte/1, get_byte/2", "Read the next byte").
+card(prolog_predicates, "get_char/1, get_char/2", "Read the next character atom").
+card(prolog_predicates, "get_code/1, get_code/2", "Read the next character code").
+card(prolog_predicates, "get_time/1", "Get the current time").
+card(prolog_predicates, "ground", "Check if a term holds no free variables").
+card(prolog_predicates, "halt/0, halt/1", "Stop execution with error code").
+card(prolog_predicates, "ignore/1", "Call a goal at most once and ignore if it fails").
+card(prolog_predicates, "import_module/2", "Check if a module inherits from an import").
+card(prolog_predicates, "instance/2", "Unify a term with a database record").
+card(prolog_predicates, "integer/1", "Check if a term is an integer").
+card(prolog_predicates, "is/2", "Evaluate an expression").
+card(prolog_predicates, "is_absolute_file_name/1", "Check if a file name is an absolute path").
+card(prolog_predicates, "is_list/1", "Recursively check if a term is bound to a list").
+card(prolog_predicates, "keysort/2", "Sort a list of key-value pairs by key").
+card(prolog_predicates, "leash/2", "Set or query user interaction on trace ports").
+card(prolog_predicates, "length/2", "Get the number of elements in a list").
+card(prolog_predicates, "line_count/2", "Count the number of lines read or written").
+card(prolog_predicates, "line_position/2", "Count the character position on the current line").
+card(prolog_predicates, "load_files/1", "Main predicate for loading files").
+card(prolog_predicates, "main/0", "Call the main program predicate").
+card(prolog_predicates, "make_directory/1", "Create a new file directory").
+card(prolog_predicates, "memberchk/2", "Semideterministic check for list membership").
+card(prolog_predicates, "message_hook/3", "Intercept messages from print_message/2 and format them").
+card(prolog_predicates, "message_queue_create/1", "Create a message queue").
+card(prolog_predicates, "message_queue_destroy/1", "Destroy a message queue").
+card(prolog_predicates, "message_to_string/2", "Translate a message term into a string").
+card(prolog_predicates, "module/1", "Switch the default working module for the interactive top level").
+card(prolog_predicates, "module_property/2", "Check a property of a module").
+card(prolog_predicates, "msort/1", "Sort without removing duplicates").
+card(prolog_predicates, "mutex_create/1", "Create a mutex").
+card(prolog_predicates, "mutex_lock/1", "Lock a mutex").
+card(prolog_predicates, "mutex_unlock/1", "Unlock a mutex").
+card(prolog_predicates, "nb_current/2", "Get any non-backtrackable variable and its value").
+card(prolog_predicates, "nb_delete/1", "Delete any non-backtrackable variable").
+card(prolog_predicates, "nb_getval/2", "Non-backtrackable synonym for b_getval/2").
+card(prolog_predicates, "nb_setarg/3", "Set a numbered argument of a compound term and don't unset on backtracking").
+card(prolog_predicates, "nb_setval/2", "Set the value of a global variable and don't unset on backtracking").
+card(prolog_predicates, "nl/0, nl/1", "Write a newline character").
+card(prolog_predicates, "nonvar/1", "Check if a term isn't a variable").
+card(prolog_predicates, "notrace/0", "Suspend the tracer").
+card(prolog_predicates, "nth_clause/3", "Get a clause of a predicate using its index number").
+card(prolog_predicates, "number/1", "Check if a term is a number").
+card(prolog_predicates, "number_chars/2", "Convert a number to a list of character atoms").
+card(prolog_predicates, "number_codes/2", "Convert a number to a list of character codes").
+card(prolog_predicates, "number_string/2", "Convert a number to a string").
+card(prolog_predicates, "numbervars/3", "Unify the free variables in a term with a numbered variable").
+card(prolog_predicates, "on_signal/3", "Get or set a signal handler").
+card(prolog_predicates, "once/1", "Make a goal semideterministic").
+card(prolog_predicates, "op/3", "Declare an operator with a type and precedence").
+card(prolog_predicates, "open/3, open/4", "Open a file for reading or writing").
+card(prolog_predicates, "open_shared_object/2, open_shared_object/3", "Open a shared object file").
+card(prolog_predicates, "peek_byte/1, peek_byte/2", "Read the next byte without removing it from the stream").
+card(prolog_predicates, "peek_char/1, peek_char/2", "Read the next character atom without removing it from the stream").
+card(prolog_predicates, "peek_code/1, peek_code/2", "Read the next character code without removing it from the stream").
+card(prolog_predicates, "phrase/2, phrase/3", "Check if a DCG body parses a difference list").
+card(prolog_predicates, "plus/3", "Check if two arguments sum to a third").
+card(prolog_predicates, "portray/1", "Change the behavior of print on subterms").
+card(prolog_predicates, "predicate_property/2", "Check if head refers to a predicate that has a property").
+card(prolog_predicates, "print/1, print/2", "Print a term for debugging").
+card(prolog_predicates, "print_message/2", "Print various kinds of messages the same way as the system and libraries print them").
+card(prolog_predicates, "print_message_lines/3", "Print a message that has been translated to a list of elements").
+card(prolog_predicates, "prolog_file_type/2", "Determine the extensions used when searching for Prolog files").
+card(prolog_predicates, "prolog_load_context/2", "Get context information during compilation").
+card(prolog_predicates, "prolog_to_os_filename/2", "Convert a Prolog file path to an operating system path").
+card(prolog_predicates, "prompt/2", "Set a prompt for reading user input").
+card(prolog_predicates, "prompt1/1", "Set the prompt for reading the next line of user input").
+card(prolog_predicates, "put/1, put/2", "Deprecated, use put_char or put_code instead").
+card(prolog_predicates, "put_attr/3", "Set an attributes of a variable").
+card(prolog_predicates, "put_attrs/2", "Set all attributes of a variable").
+card(prolog_predicates, "put_byte/1, put_byte/2", "Write the next byte").
+card(prolog_predicates, "put_char/1, put_char/2", "Write the next character atom").
+card(prolog_predicates, "put_code/1, put_code/2", "Write the next character code").
+card(prolog_predicates, "rational/1", "Convert the exact value of an expression to a rational number or integer").
+card(prolog_predicates, "rationalize/1", "Convert the closest value of an expression to a rational number or integer").
+card(prolog_predicates, "read/1, read/2", "Read the next Prolog term").
+card(prolog_predicates, "read_clause/3", "Read the next Prolog term in the current context according to options").
+card(prolog_predicates, "read_link/3", "Get the link and target of a symbolic link").
+card(prolog_predicates, "read_term/2, read_term/3", "Read the next Prolog term according to options").
+card(prolog_predicates, "read_term_from_atom/3", "Read the next Prolog term from an atom according to options").
+card(prolog_predicates, "recorda/3", "Insert a record at the front of the recorded database").
+card(prolog_predicates, "recorded/3", "Get the value of a record in the recorded database").
+card(prolog_predicates, "recordz/3", "Insert a record at the end of the recorded database").
+card(prolog_predicates, "reexport/1, reexport/2", "Load a module and reexport all imported predicates").
+card(prolog_predicates, "rename_file/2", "Rename a file").
+card(prolog_predicates, "repeat/0", "Always succeed providing unlimited choice points").
+card(prolog_predicates, "retract/1", "Remove a matching fact or clause from the database").
+card(prolog_predicates, "retractall/1", "Remove all matching facts or clauses from the database").
+card(prolog_predicates, "see/1", "Open a source for reading as the current input").
+card(prolog_predicates, "seeing/1", "Get the current input stream").
+card(prolog_predicates, "seek/4", "Set the current position of the input stream").
+card(prolog_predicates, "seen/0", "Close the current input stream and return to user input").
+card(prolog_predicates, "set_input/1", "Set the current input stream").
+card(prolog_predicates, "set_output/1", "Set the current output stream").
+card(prolog_predicates, "set_prolog_flag/2", "Set the value of a Prolog flag").
+card(prolog_predicates, "set_stream_position/2", "Set the current position of a stream").
+card(prolog_predicates, "setarg", "Set a numbered argument of a compound term").
+card(prolog_predicates, "setenv/2", "Set an environment variable").
+card(prolog_predicates, "setof/3", "Collect the unique, sorted results of applying a template to a goal or fail if none").
+card(prolog_predicates, "setup_call_cleanup/3", "Do setup once, call a goal, then do a cleanup").
+card(prolog_predicates, "shell/1, shell/2", "Execute a command on the operating system shell").
+card(prolog_predicates, "skip/1, skip/2", "Read until a code or end of file is found").
+card(prolog_predicates, "sleep/1", "Suspend execution for a fractional or integer number of seconds").
+card(prolog_predicates, "sort/2", "Sort a list removing duplicates").
+card(prolog_predicates, "statistics/0, statistics/1", "Print information about resource usage").
+card(prolog_predicates, "stream_position_data/3", "Get position information about a stream property").
+card(prolog_predicates, "stream_property/2", "Check a property of a stream").
+card(prolog_predicates, "string/1", "Check if term is a string").
+card(prolog_predicates, "sub_atom/5", "Break apart an atom into before, after, and length").
+card(prolog_predicates, "sub_string/5", "Break apart a string into before, after, and length").
+card(prolog_predicates, "subsumes_term/2", "Check if a term is more generic than and unifies with another term").
+card(prolog_predicates, "succ/2", "Check if an integer is one more than another integer").
+card(prolog_predicates, "tab/1, tab/2", "Write a tab character").
+card(prolog_predicates, "tell/1", "Open a source for writing as the current output").
+card(prolog_predicates, "telling/1", "Get the current output stream").
+card(prolog_predicates, "term_attvars/2", "Get a list of all attributed variables in a term and its attributes").
+card(prolog_predicates, "term_expansion/2", "User hook to rewrite terms read during consulting").
+card(prolog_predicates, "term_hash/2, term_hash/4", "Get the hash of a term").
+card(prolog_predicates, "term_to_atom/2", "Parse and unify a atom with a term").
+card(prolog_predicates, "term_variables/2, term_variables/3", "Get a list of the variables in a term").
+card(prolog_predicates, "thread_create/2, thread_create/3", "Create a thread and execute a goal in it").
+card(prolog_predicates, "thread_exit/1", "Terminate a thread").
+card(prolog_predicates, "thread_get_message/1, thread_get_message/2", "Block execution until a term arrives in a queue").
+card(prolog_predicates, "thread_join/2", "Wait for a thread to terminate and get its status").
+card(prolog_predicates, "thread_peek_message/1, thread_peek_message/2", "Search a message queue for a term without waiting or removing it").
+card(prolog_predicates, "thread_property/2", "Check if a thread has a property").
+card(prolog_predicates, "thread_self/1", "Get the thread ID of the running thread").
+card(prolog_predicates, "thread_send_message/2", "Place a term in a message queue").
+card(prolog_predicates, "thread_statistics/3", "Get statistical information on a thread").
+card(prolog_predicates, "throw/1", "Raise an exception").
+card(prolog_predicates, "tmp_file/2", "Create a temporary file identified by a base name").
+card(prolog_predicates, "told/0", "Close the current output stream and return to user output").
+card(prolog_predicates, "trace/0", "Start the program tracer").
+card(prolog_predicates, "true/0", "Always succeed").
+card(prolog_predicates, "ttyflush/0", "Flush pending output to user").
+card(prolog_predicates, "undo/1", "Set a goal that can revert other goals on backtracking").
+card(prolog_predicates, "unifiable/3", "Check if and how X and Y can unify").
+card(prolog_predicates, "unify_with_occurs_check/2", "Perform sound unification with a check for cyclic terms").
+card(prolog_predicates, "use_foreign_library/1, use_foreign_library/2", "Load and install a foreign library").
+card(prolog_predicates, "use_module/1, use_module/2", "Load a file and import a list of predicates").
+card(prolog_predicates, "var/1", "Check if a term is a variable").
+card(prolog_predicates, "with_output_to/2", "Run a goal as once and capture output characters").
+card(prolog_predicates, "working_directory/2", "Get and change the current working directory").
+card(prolog_predicates, "write/1, write/2", "Write a term").
+card(prolog_predicates, "write_canonical/1, write_canonical/2", "Write a term in standard quoted form with no defined operators").
+card(prolog_predicates, "write_term/2, write_term/3", "Write a term with options").
+card(prolog_predicates, "writeq/1, writeq/2", "Write a quoted term").
 card(romanticism_paintings, "Alexander von Humboldt", "Friedrich Georg Weitsch").
 card(romanticism_paintings, "Clorinda Rescues Olindo und Sophroni", "Eugène Delacroix").
 card(romanticism_paintings, "Death of Sardanapalus", "Eugène Delacroix").
