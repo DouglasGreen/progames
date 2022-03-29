@@ -4710,7 +4710,7 @@ card(prolog_predicates, "b_getval/2", "Get the value of a backtrackable global v
 card(prolog_predicates, "b_setval/2", "Set the value of a global variable and unset on backtracking").
 card(prolog_predicates, "bagof/3", "Collect the results of applying a template to a goal or fail if none").
 card(prolog_predicates, "between/3", "Check or generate integer values in a range").
-card(prolog_predicates, "break/0", "Start a new Prolog top level").
+card(prolog_predicates, "break/0", "Start a new top level").
 card(prolog_predicates, "call/1, call/2", "Append optional arguments to a goal and call it").
 card(prolog_predicates, "call_cleanup/2", "Call a goal and do a cleanup").
 card(prolog_predicates, "call_residue_vars/2", "Find any residual attributed variables left by calling a goal").
@@ -4727,10 +4727,10 @@ card(prolog_predicates, "close_shared_object/1", "Close a loaded shared object f
 card(prolog_predicates, "compare/3", "Check if two terms are in order").
 card(prolog_predicates, "compile_predicates/1", "Compile dynamic predicates back into static predicates").
 card(prolog_predicates, "compound/1", "Check if a term is compound").
-card(prolog_predicates, "consult/1", "Load a Prolog source file").
+card(prolog_predicates, "consult/1", "Load a source file").
 card(prolog_predicates, "copy_term/2, copy_term/3", "Copy terms and variables with attributes").
 card(prolog_predicates, "copy_term_nat/2", "Copy terms and variables without attributes").
-card(prolog_predicates, "create_prolog_flag/3", "Define a new Prolog flag").
+card(prolog_predicates, "create_prolog_flag/3", "Define a new flag").
 card(prolog_predicates, "current_atom/1", "Get a currently defined atom").
 card(prolog_predicates, "current_char_conversion/2", "Get a character code mapping").
 card(prolog_predicates, "current_input/1", "Get the current input stream").
@@ -4738,7 +4738,7 @@ card(prolog_predicates, "current_module/1", "Get a currently loaded module").
 card(prolog_predicates, "current_op/3", "Get the precence, type, and name of an operator").
 card(prolog_predicates, "current_output/1", "Get the current output stream").
 card(prolog_predicates, "current_predicate/1, current_predicate/2", "Get a currently defined predicate and optionally autoload it").
-card(prolog_predicates, "current_prolog_flag/2", "Get the value of a Prolog flag").
+card(prolog_predicates, "current_prolog_flag/2", "Get the value of a flag").
 card(prolog_predicates, "cyclic_term/1", "Check if a term contains cycles").
 card(prolog_predicates, "del_attr/1", "Delete an attribute of a variable").
 card(prolog_predicates, "del_attrs/1", "Delete all attributes of a variable").
@@ -4750,8 +4750,8 @@ card(prolog_predicates, "directory_files/2", "Get the list of entries in a file 
 card(prolog_predicates, "duplicate_term/2", "Copy terms, ground terms, and variables with attributes").
 card(prolog_predicates, "ensure_loaded/1", "Load and consult a file if it isn't already loaded").
 card(prolog_predicates, "erase/1", "Delete a record from the recorded database").
-card(prolog_predicates, "exception/3", "Called by the Prolog system for runtime errors").
-card(prolog_predicates, "expand_term/2", "Called by the Prolog compiler to process input").
+card(prolog_predicates, "exception/3", "Called by the system for runtime errors").
+card(prolog_predicates, "expand_term/2", "Called by the compiler to process input").
 card(prolog_predicates, "export/1", "Add predicate to the public list of a dynamically created module").
 card(prolog_predicates, "fail/0", "Always fail").
 card(prolog_predicates, "false/0", "Always fail").
@@ -4770,8 +4770,8 @@ card(prolog_predicates, "frozen/2", "Unify with a goal delayed on some attribute
 card(prolog_predicates, "functor/3", "Term is a functor with name and arity").
 card(prolog_predicates, "garbage_collect/0", "Invoke the garbage collector").
 card(prolog_predicates, "get/1, get/2, get0/1, get0/2", "Deprecated, use get_char or get_code instead").
-card(prolog_predicates, "get_attr/3", "Get an attributes of a variable").
-card(prolog_predicates, "get_attrs/2", "Get all attribute of a variable").
+card(prolog_predicates, "get_attr/3", "Get an attribute of a variable").
+card(prolog_predicates, "get_attrs/2", "Get all attributes of a variable").
 card(prolog_predicates, "get_byte/1, get_byte/2", "Read the next byte").
 card(prolog_predicates, "get_char/1, get_char/2", "Read the next character atom").
 card(prolog_predicates, "get_code/1, get_code/2", "Read the next character code").
@@ -4833,24 +4833,24 @@ card(prolog_predicates, "predicate_property/2", "Check if head refers to a predi
 card(prolog_predicates, "print/1, print/2", "Print a term for debugging").
 card(prolog_predicates, "print_message/2", "Print various kinds of messages the same way as the system and libraries print them").
 card(prolog_predicates, "print_message_lines/3", "Print a message that has been translated to a list of elements").
-card(prolog_predicates, "prolog_file_type/2", "Determine the extensions used when searching for Prolog files").
+card(prolog_predicates, "prolog_file_type/2", "Determine the extensions used when searching for files").
 card(prolog_predicates, "prolog_load_context/2", "Get context information during compilation").
-card(prolog_predicates, "prolog_to_os_filename/2", "Convert a Prolog file path to an operating system path").
+card(prolog_predicates, "prolog_to_os_filename/2", "Convert a file path to an operating system path").
 card(prolog_predicates, "prompt/2", "Set a prompt for reading user input").
 card(prolog_predicates, "prompt1/1", "Set the prompt for reading the next line of user input").
 card(prolog_predicates, "put/1, put/2", "Deprecated, use put_char or put_code instead").
-card(prolog_predicates, "put_attr/3", "Set an attributes of a variable").
+card(prolog_predicates, "put_attr/3", "Set an attribute of a variable").
 card(prolog_predicates, "put_attrs/2", "Set all attributes of a variable").
 card(prolog_predicates, "put_byte/1, put_byte/2", "Write the next byte").
 card(prolog_predicates, "put_char/1, put_char/2", "Write the next character atom").
 card(prolog_predicates, "put_code/1, put_code/2", "Write the next character code").
 card(prolog_predicates, "rational/1", "Convert the exact value of an expression to a rational number or integer").
 card(prolog_predicates, "rationalize/1", "Convert the closest value of an expression to a rational number or integer").
-card(prolog_predicates, "read/1, read/2", "Read the next Prolog term").
-card(prolog_predicates, "read_clause/3", "Read the next Prolog term in the current context according to options").
+card(prolog_predicates, "read/1, read/2", "Read the next term").
+card(prolog_predicates, "read_clause/3", "Read the next term in the current context according to options").
 card(prolog_predicates, "read_link/3", "Get the link and target of a symbolic link").
-card(prolog_predicates, "read_term/2, read_term/3", "Read the next Prolog term according to options").
-card(prolog_predicates, "read_term_from_atom/3", "Read the next Prolog term from an atom according to options").
+card(prolog_predicates, "read_term/2, read_term/3", "Read the next term according to options").
+card(prolog_predicates, "read_term_from_atom/3", "Read the next term from an atom according to options").
 card(prolog_predicates, "recorda/3", "Insert a record at the front of the recorded database").
 card(prolog_predicates, "recorded/3", "Get the value of a record in the recorded database").
 card(prolog_predicates, "recordz/3", "Insert a record at the end of the recorded database").
@@ -4865,7 +4865,7 @@ card(prolog_predicates, "seek/4", "Set the current position of the input stream"
 card(prolog_predicates, "seen/0", "Close the current input stream and return to user input").
 card(prolog_predicates, "set_input/1", "Set the current input stream").
 card(prolog_predicates, "set_output/1", "Set the current output stream").
-card(prolog_predicates, "set_prolog_flag/2", "Set the value of a Prolog flag").
+card(prolog_predicates, "set_prolog_flag/2", "Set the value of a flag").
 card(prolog_predicates, "set_stream_position/2", "Set the current position of a stream").
 card(prolog_predicates, "setarg", "Set a numbered argument of a compound term").
 card(prolog_predicates, "setenv/2", "Set an environment variable").
