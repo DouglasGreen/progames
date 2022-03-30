@@ -259,6 +259,7 @@ card(acronyms, "CRT", "cathode ray tube").
 card(acronyms, "CS", "customer service").
 card(acronyms, "CSI", "Crime Scene Investigation").
 card(acronyms, "CSNET", "computer science network").
+card(acronyms, "CSR", "corporate social responsibility").
 card(acronyms, "CSS", "Content Scramble System").
 card(acronyms, "CSV", "comma-separated values").
 card(acronyms, "CTO", "technology officer").
@@ -286,6 +287,7 @@ card(acronyms, "DCE", "distributed computing environment").
 card(acronyms, "DCOM", "Distributed Component Object Model").
 card(acronyms, "DDBMS", "distributed database management system").
 card(acronyms, "DDE", "Dynamic Data Exchange").
+card(acronyms, "DDE", "doctrine of double effect").
 card(acronyms, "DDK", "driver development kit").
 card(acronyms, "DDL", "data definition language").
 card(acronyms, "DDR", "double data rate").
@@ -433,6 +435,7 @@ card(acronyms, "HFS", "hierarchical file system").
 card(acronyms, "HIV", "human immunodeficiency virus").
 card(acronyms, "HP", "hit points").
 card(acronyms, "HR", "Human Resources").
+card(acronyms, "HRW", "Human Rights Watch").
 card(acronyms, "HSSI", "High-Speed Serial Interface").
 card(acronyms, "HTML", "Hypertext Markup Language").
 card(acronyms, "HTTP", "Hypertext Transfer Protocol").
@@ -441,6 +444,7 @@ card(acronyms, "IAB", "Internet Architecture Board").
 card(acronyms, "IANA", "Internet Assigned Numbers Authority").
 card(acronyms, "IAP", "Internet access provider").
 card(acronyms, "ICANN", "Internet Corporation for Assigned Names and Numbers").
+card(acronyms, "ICCPR", "International Covenant on Civil and Political Rights").
 card(acronyms, "ICMP", "Internet Control Message Protocol").
 card(acronyms, "ID", "identification").
 card(acronyms, "IDE", "integrated device electronics").
@@ -468,6 +472,7 @@ card(acronyms, "IPTV", "Internet Protocol television").
 card(acronyms, "IPng", "Internet Protocol next generation").
 card(acronyms, "IPsec", "Internet Protocol security").
 card(acronyms, "IQ", "intelligence quotient").
+card(acronyms, "IRB", "institutional review board").
 card(acronyms, "IRC", "Internet Relay Chat").
 card(acronyms, "IRQ", "interrupt request").
 card(acronyms, "ISA", "Industry Standard Architecture").
@@ -625,6 +630,7 @@ card(acronyms, "PDF", "Portable Document Format").
 card(acronyms, "PDP", "Programmed Data Processor").
 card(acronyms, "PDU", "protocol data unit").
 card(acronyms, "PEAR", "PHP Extension and Application Repository").
+card(acronyms, "PETA", "People for the Ethical Treatment of Animals").
 card(acronyms, "PGP", "Pretty Good Privacy").
 card(acronyms, "PHP", "PHP: Hypertext Preprocessor").
 card(acronyms, "PIM", "Protocol Independent Multicast").
@@ -720,6 +726,7 @@ card(acronyms, "SP", "spelling").
 card(acronyms, "SPCA", "Society for the Prevention of Cruelty to Animals").
 card(acronyms, "SQL", "Structured Query Language").
 card(acronyms, "SRAM", "static random access memory").
+card(acronyms, "SRI", "socially responsible investing").
 card(acronyms, "SRP", "Single Responsibility Principle").
 card(acronyms, "SSD", "solid-state drive").
 card(acronyms, "SSE", "Streaming SIMD Extensions").
@@ -815,6 +822,7 @@ card(acronyms, "WBEM", "Web-based Enterprise Management").
 card(acronyms, "WEP", "Wired Equivalent Privacy").
 card(acronyms, "WGA", "Windows Genuine Advantage").
 card(acronyms, "WISP", "wireless Internet service provider").
+card(acronyms, "WMA", "World Medical Association").
 card(acronyms, "WML", "Wireless Markup Language").
 card(acronyms, "WP", "WordPress").
 card(acronyms, "WWE", "World Wrestling Entertainment").
@@ -1834,12 +1842,12 @@ card(ethics, "Belmont Report", "Summary of ethical principles and areas of appli
 card(ethics, "Christian ethics", "Virtue ethics regarding rich and poor, treatment of women, and the morality of war").
 card(ethics, "Confucianism", "Traditional Chinese school that emphasizes the importance of the family and social harmony").
 card(ethics, "Cynicism", "Good life comes from using self-control to achieve virtue and avoid wealth, power, sex, and fame").
-card(ethics, "Declaration of Helsinki", "Set of ethical principles regarding human experimentation developed for the medical community by the World Medical Association (WMA)").
-card(ethics, "Epicureanism", "Materialist philosophy that moderation in the pursuit of pleasure leads to equanimity and virtue").
+card(ethics, "Declaration of Helsinki", "Set of ethical principles regarding human experimentation developed for the medical community by the World Medical Association (WMA).").
+card(ethics, "Epicureanism", "Materialist philosophy that moderation in seeking pleasure leads to equanimity and virtue").
 card(ethics, "Eudemian Ethics", "Shorter secondary work on ethics by Aristotle that has much in common with his Nicomachean Ethics").
 card(ethics, "European Convention on Human Rights", "International treaty to protect human rights and political freedoms in Europe").
 card(ethics, "European Court of Human Rights", "International court established by the European Convention on Human Rights").
-card(ethics, "Euthyphro dilemma", "Is what is morally good commanded by God because it is morally good, or is it morally good because it is commanded by God?").
+card(ethics, "Euthyphro dilemma", "Is what is morally good commanded by God because it is morally good, or is it morally good because God commands it?").
 card(ethics, "Geneva Conventions", "Treaties and protocols that establish the standards of international law for humanitarian treatment in war").
 card(ethics, "Golden Rule", "Principle that one should treat other people as one would want to be treated by them").
 card(ethics, "Greenpeace", "Environmental organization that focuses on climate change, deforestation, overfishing, commercial whaling, genetic engineering, and anti-nuclear issues").
@@ -1870,14 +1878,14 @@ card(ethics, "accountability", "Being required to answer for how you managed a r
 card(ethics, "act and omissions doctrine", "There is a moral distinction between actions and deliberate non-actions which lead to the same outcome").
 card(ethics, "act utilitarianism", "Giving more weight to specific outcomes rather than general prescriptions when weighing the morality of an action").
 card(ethics, "addiction", "Compulsive drug use or engagement in rewarding behavior, despite negative consequences").
-card(ethics, "adultery", "Extramarital sex that is considered objectionable on social, religious, moral, or legal grounds").
+card(ethics, "adultery", "Extramarital sex that is objectionable on social, religious, moral, or legal grounds").
 card(ethics, "altruism", "Unselfish devotion to the welfare of others").
 card(ethics, "amoral", "Neutral with regard to morality").
 card(ethics, "anarchist ethics", "Morality is a social approach grounded in evolution that emphasizes freedom, equality, and reciprocal good treatment").
 card(ethics, "anger", "Strong feeling of displeasure or hostility towards someone, usually combined with an urge to harm").
 card(ethics, "animal ethics", "Term used in academia to describe human-animal relationships and how animals ought to be treated").
 card(ethics, "animal liberation", "Social movement dedicated to the advancement of the interests and rights of non-human animals").
-card(ethics, "animal rights", "Concept that animals are entitled to certain fundamental rights such as the right to be spared undue suffering").
+card(ethics, "animal rights", "Concept that animals have certain fundamental rights such as the right to be spared undue suffering").
 card(ethics, "animal testing", "Use of non-human animals in scientific and medical experiments").
 card(ethics, "anthropocentrism", "Belief that human beings are exceptional and supreme among all creatures within their environment").
 card(ethics, "applied ethics", "Branch of ethics that studies morality in a particular area of practical concern, such as business or medicine").
@@ -1889,25 +1897,25 @@ card(ethics, "autonomy", "Capacity to make an informed, uncoerced decision").
 card(ethics, "axiology", "Philosophical study of value, combining ethics and aesthetics").
 card(ethics, "beneficence", "Ethical principle that one should do good and prevent harm").
 card(ethics, "bias", "Unfair partiality in favor of a person or group or against another").
-card(ethics, "biocentrism", "Belief that all life has inherent value and that humans are not at the center of things").
+card(ethics, "biocentrism", "Belief that all life has inherent value and that people are not at the center of things").
 card(ethics, "bioethics", "Branch of ethics that studies the implications of biological and biomedical advances").
 card(ethics, "blame", "Being given accountability for actions that are morally wrong").
-card(ethics, "bribery", "Giving or receiving something of value in exchange for some kind of influence or action in return").
-card(ethics, "business ethics", "Study of morality in the context of economic organizations").
+card(ethics, "bribery", "Giving or receiving something of value for some kind of influence or action in return").
+card(ethics, "business ethics", "Study of morality in economic organizations").
 card(ethics, "capital punishment; death penalty", "Government-sanctioned practice whereby a person is put to death by the state as a punishment for a crime").
-card(ethics, "cardinal virtues", "Prudence, courage, temperance, and justice, which were regarded as important by Plato and other classical philosophers").
+card(ethics, "cardinal virtues", "Prudence, courage, temperance, and justice, which were important to Plato and other classical philosophers").
 card(ethics, "care ethics", "Feminist virtue ethics whose values include the importance of empathetic relationships and compassion").
 card(ethics, "care", "Personal or medical treatment of those in need").
 card(ethics, "casuistry", "Rule-based reasoning used to resolve moral problems, often in a clever but unsound manner").
 card(ethics, "censorship", "Use of state or group power to control freedom of expression or press").
 card(ethics, "character", "Consistent personal habit of practicing moral virtues").
-card(ethics, "chastity", "Sexual abstinence, especially in the context of premarital and extramarital sex").
+card(ethics, "chastity", "Sexual abstinence, especially in premarital and extramarital sex").
 card(ethics, "cheating", "Act of deception, fraud, trickery, imposture, or infidelity").
 card(ethics, "cloning", "Process of producing genetically identical individuals of an organism either naturally or artificially").
 card(ethics, "coercion", "Use of physical or moral force to compel a person to do or not do something, depriving them of free will").
 card(ethics, "cognitive dissonance", "Conflict or anxiety resulting from inconsistencies between one's beliefs and one's actions or other beliefs").
 card(ethics, "cognitivism", "Ethical sentences express propositions and thus can be true or false").
-card(ethics, "collectivism", "Cultural value characterized by emphasis on cohesiveness among individuals and prioritization of the group over self").
+card(ethics, "collectivism", "Cultural value characterized by an emphasis on cohesiveness among individuals and prioritization of the group over self").
 card(ethics, "communitarianism", "Individual identity and personality are molded by relationships").
 card(ethics, "comparative ethics", "Type of descriptive ethics which studies the beliefs about morality held by people in diverse social or cultural groups").
 card(ethics, "compassion", "Deep awareness of the suffering of another, coupled with the wish to relieve it").
@@ -1932,13 +1940,13 @@ card(ethics, "descriptive ethics", "Study of people's beliefs about morality, in
 card(ethics, "dignity", "Elevation of mind or character that is worthy of esteem").
 card(ethics, "diligence", "Willingness to work persistently and carefully").
 card(ethics, "dirty hands", "Whether political leaders can be morally justified in committing a known wrong to prevent even greater harm").
-card(ethics, "discrimination", "Treating a class of people badly on the basis of group membership rather than individual characteristics").
+card(ethics, "discrimination", "Treating a class of people badly based on group membership rather than individual characteristics").
 card(ethics, "divine command theory", "Action is morally good if commanded by God and morally bad if forbidden by God").
 card(ethics, "doctrine of double effect (DDE)", "Conditions that must be satisfied before a good action with bad side effects can be justified").
 card(ethics, "drug", "Psychoactive substance, especially one which is illegal and addictive, ingested for recreational use").
 card(ethics, "duty", "Commitment or expectation to perform some action in general or if certain circumstances arise").
-card(ethics, "efective altruism", "Using evidence and reasoning to determine the most practical ways to benefit others").
-card(ethics, "egalitarianism", "All humans are equal in fundamental worth or social status").
+card(ethics, "effective altruism", "Using evidence and reasoning to determine the most practical ways to benefit others").
+card(ethics, "egalitarianism", "All people are equal in fundamental worth or social status").
 card(ethics, "emotivism", "Ethical sentences express attitudes rather than propositions").
 card(ethics, "empathy", "Identification with the thoughts or feelings of another").
 card(ethics, "engineering ethics", "System of moral principles that apply to the practice of engineering").
@@ -1951,13 +1959,13 @@ card(ethics, "ethic of reciprocity", "Like the Golden Rule, but contains the ide
 card(ethics, "ethical banking", "Being concerned with the social and environmental impacts of investments and loans").
 card(ethics, "ethical code", "Written set of moral standards adopted by an organization to govern its members").
 card(ethics, "ethical consumerism", "Activism based on dollar voting that recommends or boycotts products and companies").
-card(ethics, "ethical dilemma", "Decision-making problem between two possible moral imperatives, neither of which is unambiguously acceptable or preferable").
+card(ethics, "ethical dilemma", "Decision-making problem between two moral imperatives, neither of which is unambiguously acceptable or preferable").
 card(ethics, "ethical egoism", "Moral agents ought to do what is in their own self-interest").
 card(ethics, "ethical naturalism", "Ethical terms can be defined in non-ethical terms, namely, descriptive terms from the natural sciences").
 card(ethics, "ethical system", "Set of consistent moral principles").
-card(ethics, "ethicist", "Someone whose judgment on ethics has come to be trusted by a specific community").
+card(ethics, "ethicist", "Someone whose judgment on ethics is trusted by a specific community").
 card(ethics, "ethics", "Study of shared social principles relating to right and wrong conduct").
-card(ethics, "eudemonia", "Good life consisting of happiness and well-being that arises from the exercise of virtue and wisdom").
+card(ethics, "eudemonia", "Good life of happiness and well-being that arises from the exercise of virtue and wisdom").
 card(ethics, "eugenics", "Social philosophy which advocates the improvement of human hereditary qualities through selective breeding").
 card(ethics, "euthanasia", "Intentionally ending a life to relieve pain and suffering").
 card(ethics, "evil", "Action which is deliberately malicious and harmful in a way that violates universal ethical norms").
@@ -1975,7 +1983,7 @@ card(ethics, "first, do no harm", "Medical principle of avoiding injury to the p
 card(ethics, "forgiveness", "Renouncing any negative feeling or desire for punishment, retribution, or compensation").
 card(ethics, "formal ethics", "Logical system for describing and evaluating the structure rather than the content of ethical principles").
 card(ethics, "fornication", "Illicit sexual intercourse between unmarried persons").
-card(ethics, "fraud", "Act of deception carried out for the purpose of unfair, undeserved and/or unlawful gain").
+card(ethics, "fraud", "Act of deception carried out for unfair, undeserved and/or unlawful gain").
 card(ethics, "free software", "Software distributed under terms that allow users to run, study, change, and distribute it and any adapted versions").
 card(ethics, "freedom", "Ability to do as one wills and what one has the power to do").
 card(ethics, "friendship", "Strong interpersonal bond based on mutual affection").
@@ -1983,7 +1991,7 @@ card(ethics, "gamesmanship", "Use of legal but unsporting tactics to gain an adv
 card(ethics, "gender", "Range of characteristics pertaining to, and differentiating between, masculinity and femininity").
 card(ethics, "generosity", "Being unattached to material possessions and giving freely to others").
 card(ethics, "genetic engineering", "Direct manipulation of an organism's genes using biotechnology").
-card(ethics, "genocide", "Systematic killing of a population on the basis of their ethnicity, religion, political beliefs, social status, etc").
+card(ethics, "genocide", "Systematic killing of a population based on their ethnicity, religion, political beliefs, social status, etc").
 card(ethics, "global warming", "Observed century-scale rise in the average temperature of the Earth's climate system and its related effects").
 card(ethics, "gluttony", "Over-indulgence and over-consumption of food, drink, or luxury goods").
 card(ethics, "good and evil", "Common philosophical dichotomy in which opposite influences should either be defeated or reconciled as one").
@@ -2012,25 +2020,25 @@ card(ethics, "indeterminism", "Human actions determined by deliberate choice or 
 card(ethics, "individualism", "Moral stance that promotes independence and self-reliance while opposing interference with each person's choices").
 card(ethics, "informed consent", "Getting permission before conducting a healthcare intervention on someone, or for disclosing personal information").
 card(ethics, "institutional review board (IRB)", "Committee that reviews the methods proposed for research to ensure that they are ethical").
-card(ethics, "instrumental", "Serving as a means to reaching some other end").
+card(ethics, "instrumental", "Serving to reach some other end").
 card(ethics, "integrity", "Consistency in strong adherence to personal moral principles and avoiding temptation or corruption").
 card(ethics, "intrinsic", "Value something has in itself, for its own sake, neither relational nor instrumental").
 card(ethics, "is-ought problem", "Question of how one can coherently move from descriptive statements to prescriptive ones").
-card(ethics, "just war theory", "Set of criteria which must be met for a military conflict to be considered morally acceptable").
+card(ethics, "just war theory", "Set of criteria which a military conflict must meet to be considered morally acceptable").
 card(ethics, "justice", "Ideal of fairness and impartiality, especially with regard to the punishment of wrongdoing").
 card(ethics, "karma; fate", "Force or law of nature which causes one to reap what one sows").
 card(ethics, "kindness", "Behavior marked by ethical characteristics, a pleasant disposition, and concern and consideration for others").
 card(ethics, "laziness", "Being inclined to idleness, procrastination, and avoiding work").
 card(ethics, "legal ethics", "Principles of conduct that judges and lawyers are expected to observe in their practice").
-card(ethics, "legal rights", "Entitlements bestowed onto a person by law or custom that can be modified or repealed").
+card(ethics, "legal rights", "Entitlements given to a person by law or custom that can be changed or repealed").
 card(ethics, "leveling up of rank", "Hypothetical bringing of all human beings up to the high rank of nobility or aristocracy; Thought experiment of Jeremy Waldron").
 card(ethics, "libel", "Written false statement which unjustly seeks to damage someone's reputation").
-card(ethics, "liberty", "Absence of arbitrary restraints which takes into account the rights of all involved").
-card(ethics, "love", "Feeling of strong attraction and emotional attachment").
+card(ethics, "liberty", "Absence of arbitrary restraints which considers the rights of all involved").
+card(ethics, "love", "Feeling of powerful attraction and emotional attachment").
 card(ethics, "loyalty", "Devotion and faithfulness to a person, nation, or cause").
 card(ethics, "lust", "Excess of passionate desire, especially for sexual experience").
 card(ethics, "machine ethics", "Redefinition of ethics on an explicit practical basis for artificially programmed or learning agents").
-card(ethics, "medical ethics", "Study of morality in the context of health and its treatment").
+card(ethics, "medical ethics", "Study of morality in health and its treatment").
 card(ethics, "mercy", "Forgiveness or compassion, especially toward those less fortunate").
 card(ethics, "metaethics", "Branch of ethics that studies the nature of philosophical moral systems").
 card(ethics, "military ethics", "Moral treatment of the issues surrounding the use of force in armed conflicts").
@@ -2038,9 +2046,9 @@ card(ethics, "moral absolutism", "Actions are intrinsically right or wrong, inde
 card(ethics, "moral agency", "Individual's ability to make moral judgments and to be held accountable for these actions").
 card(ethics, "moral code", "Formal, consistent set of rules prescribing righteous behavior").
 card(ethics, "moral compass", "Inner sense of right and wrong that guides a person in ethical decision making").
-card(ethics, "moral imperative", "Strongly-felt principle that compels that person to act").
+card(ethics, "moral imperative", "Strongly felt principle that compels that person to act").
 card(ethics, "moral intuitionism", "Our innate awareness of value forms the foundation of our ethical knowledge").
-card(ethics, "moral luck", "Assigning blame or praise for an action or its consequences even if it is clear that the agent did not have full control").
+card(ethics, "moral luck", "Assigning blame or praise for an action or its consequences even if the agent did not have full control").
 card(ethics, "moral nihilism", "Rejection of inherent or objective moral principles").
 card(ethics, "moral psychology", "Study of the mental ability or experience of making ethical decisions").
 card(ethics, "moral realism", "Ethical sentences express propositions that refer to objective features of the world").
@@ -2057,9 +2065,9 @@ card(ethics, "natural rights", "Innate entitlements that are universal and inali
 card(ethics, "naturalistic fallacy", "Explaining what is \"good\" reductively in terms of natural properties such as \"pleasant\" or \"desirable\"").
 card(ethics, "negligence", "Unintentional failure to perform a duty of reasonable care, causing damage").
 card(ethics, "nepotism", "Favoring of relatives or personal friends because of their relationship rather than because of their abilities").
-card(ethics, "neuroethics", "Studying how science can be used to predict or alter human behavior, experience, or identity through the brain").
+card(ethics, "neuroethics", "Studying how science can predict or alter human behavior, experience, or identity through the brain").
 card(ethics, "nihilism", "Rejection of inherent or objective moral principles").
-card(ethics, "noble lie", "Myth or untruth, often of a religious nature, knowingly propagated by an elite to maintain social harmony or to advance an agenda").
+card(ethics, "noble lie", "Myth or untruth, often religious, knowingly propagated by an elite to maintain social harmony or to advance an agenda").
 card(ethics, "noncognitivism", "Ethical sentences do not express propositions and thus cannot be true or false").
 card(ethics, "nonviolence", "Personal practice of being harmless to self and others under every condition").
 card(ethics, "norm", "Sentence with non-descriptive meaning, such as a command, permission or prohibition").
@@ -2068,21 +2076,21 @@ card(ethics, "obligation", "Course of action that one is required to take").
 card(ethics, "optimism", "belief or hope that outcomes will be positive, favorable, and desirable").
 card(ethics, "original position", "Hypothetical state in which people are to select fair principles for a society to live under").
 card(ethics, "pain", "Unpleasant and punitive outcome of suffering physical harm that encourages someone to avoid it").
-card(ethics, "paternalism", "Action limiting a person's or group's liberty or autonomy which is intended to promote their own good").
+card(ethics, "paternalism", "Action limiting a person's or group's liberty or autonomy which is meant to promote their own good").
 card(ethics, "peace", "Harmonious lack of conflict and freedom from fear of violence between individuals and heterogeneous social groups").
 card(ethics, "person", "Being that has certain capacities or attributes such as reason, morality, and consciousness").
-card(ethics, "pessimism", "mental attitude in which an undesirable outcome is anticipated from a given situation").
+card(ethics, "pessimism", "mental attitude in which an undesirable outcome is expected from a situation").
 card(ethics, "phronesis", "Type of wisdom relevant to practical action, implying both good judgement and excellence of character").
 card(ethics, "piety", "Reverence and devotion to one's parents and family or to God").
 card(ethics, "plagiarism", "Appropriating someone else's intellectual and work and passing it off as your own").
 card(ethics, "pleasure", "Rewarding outcome of an action that satisfies some biological drive that encourages its repetition").
 card(ethics, "political ethics", "Moral consideration of the methods of public officials and the rightness of policies and laws").
-card(ethics, "pornography", "Explicit visual or literary depiction of sexual subject matter").
+card(ethics, "pornography", "Explicit visual or literary depiction of sexual subjects").
 card(ethics, "postconventional", "Kohlberg stage of development involving the social contract and universal ethical principles").
 card(ethics, "posthuman", "Existing in a mental or physical state beyond human as it is presently defined").
 card(ethics, "postmodern ethics", "Relativism and pluralism in moral matters that is complex, conditional, and grounded in individual experience").
 card(ethics, "poverty", "Scarcity of money or other essential material resources").
-card(ethics, "pragmatic ethics", "Moral correctness evolves similarly to scientific knowledge: socially over the course of many lifetimes").
+card(ethics, "pragmatic ethics", "Moral correctness evolves similarly to scientific knowledge: socially over many lifetimes").
 card(ethics, "praise", "Being given accountability for actions that are morally right").
 card(ethics, "preconventional", "Kohlberg stage of development involving obedience to avoid punishment and self-interest").
 card(ethics, "prejudice", "Adverse judgment or opinion formed beforehand or without knowledge of the facts").
@@ -2101,8 +2109,8 @@ card(ethics, "promise", "Commitment that one will or will not perform some actio
 card(ethics, "proscriptive", "Bad action that is forbidden by a norm or standard").
 card(ethics, "prostitution", "Engaging in sexual activity with another person for pay").
 card(ethics, "prudence", "Ability to take practical action with careful, sensible judgment").
-card(ethics, "psychological egoism", "Humans are always motivated by self-interest, even in what seem to be acts of altruism").
-card(ethics, "public interest", "Welfare or well-being of the general public").
+card(ethics, "psychological egoism", "Self-interest always motivates people, even in what seem to be acts of altruism").
+card(ethics, "public interest", "Welfare or well-being of the public").
 card(ethics, "racism", "Belief in the superiority of one race over another").
 card(ethics, "rape", "Assault involving sexual penetration without someone's consent").
 card(ethics, "relational", "Derived from something's relations to other things").
@@ -2116,7 +2124,7 @@ card(ethics, "role ethics", "Collectivist ethics where values are determined by 
 card(ethics, "rule utilitarianism", "Giving more weight to general prescriptions rather than specific outcomes when weighing the morality of an action").
 card(ethics, "sanctity of life", "Principle of implied protection regarding human and animal life").
 card(ethics, "second formulation of categorical imperative", "Always treat people as an end, not merely as a means to an end").
-card(ethics, "selling out", "Compromising of a person's integrity, morality, or authenticity in exchange for personal gain").
+card(ethics, "selling out", "Compromising of a person's integrity, morality, or authenticity for personal gain").
 card(ethics, "sensualism", "Gratification of the senses is the highest good").
 card(ethics, "sentience", "Having consciousness and sensory awareness, which is distinct from the ability to reason").
 card(ethics, "service", "Action taken to benefit others").
@@ -2159,7 +2167,7 @@ card(ethics, "veganism", "Not eating meat, milk products, eggs, or honey, or usi
 card(ethics, "vegetarianism", "Not eating meat but possibly eating milk or eggs").
 card(ethics, "veil of ignorance", "Assuming a hypothetical state of ignorance and impartiality when allocating rights and benefits within a society; Thought experiment of John Rawls").
 card(ethics, "vice", "Defect in personal character or bad, unhealthy, or immoral habit").
-card(ethics, "violence", "Intentional use of physical force which might result in injury").
+card(ethics, "violence", "Intentional use of physical force which might cause injury").
 card(ethics, "virtue ethics", "Normative theories which emphasize good qualities of mind and character").
 card(ethics, "virtue jurisprudence", "Laws should promote the development of virtuous characters by citizens").
 card(ethics, "virtue", "Personal quality that is socially esteemed and promoted as displaying moral excellence").
@@ -4685,7 +4693,7 @@ card(prolog_predicates, "\\=/2", "Doesn't unify").
 card(prolog_predicates, "\\==/2", "Isn't equivalent").
 card(prolog_predicates, "abolish/1, abolish/2", "Remove a predicate from the database").
 card(prolog_predicates, "abort/0", "Stop the execution").
-card(prolog_predicates, "absolute_file_name/2, absolute_file_name/3", "Expand a file name into its path").
+card(prolog_predicates, "absolute_file_name/2, absolute_file_name/3", "Expand a filename into its path").
 card(prolog_predicates, "access_file/2", "Check if a file can be accessed in a mode").
 card(prolog_predicates, "acyclic_term/1", "Check if a term doesn't contain cycles").
 card(prolog_predicates, "add_import_module/3", "Add an import module to the list").
@@ -4697,7 +4705,7 @@ card(prolog_predicates, "assert/1, assert/2", "Add a clause to the database").
 card(prolog_predicates, "asserta/1, assert/2", "Add a clause to the front of the database").
 card(prolog_predicates, "assertz/1, assertz/2", "Add a clause to the end of the database").
 card(prolog_predicates, "at_end_of_stream/0, at_end_of_stream/1", "Check if the last character has been read").
-card(prolog_predicates, "atom/1", "Check if term is an atom").
+card(prolog_predicates, "atom/1", "Check if a term is an atom").
 card(prolog_predicates, "atom_chars/2", "Convert an atom to a list of character atoms").
 card(prolog_predicates, "atom_codes/2", "Convert an atom to a list of character codes").
 card(prolog_predicates, "atom_concat/2", "Concatenate two atoms to form a third atom").
@@ -4735,7 +4743,7 @@ card(prolog_predicates, "current_atom/1", "Get a currently defined atom").
 card(prolog_predicates, "current_char_conversion/2", "Get a character code mapping").
 card(prolog_predicates, "current_input/1", "Get the current input stream").
 card(prolog_predicates, "current_module/1", "Get a currently loaded module").
-card(prolog_predicates, "current_op/3", "Get the precence, type, and name of an operator").
+card(prolog_predicates, "current_op/3", "Get the precedence, type, and name of an operator").
 card(prolog_predicates, "current_output/1", "Get the current output stream").
 card(prolog_predicates, "current_predicate/1, current_predicate/2", "Get a currently defined predicate and optionally autoload it").
 card(prolog_predicates, "current_prolog_flag/2", "Get the value of a flag").
@@ -4783,7 +4791,7 @@ card(prolog_predicates, "import_module/2", "Check if a module inherits from an i
 card(prolog_predicates, "instance/2", "Unify a term with a database record").
 card(prolog_predicates, "integer/1", "Check if a term is an integer").
 card(prolog_predicates, "is/2", "Evaluate an expression").
-card(prolog_predicates, "is_absolute_file_name/1", "Check if a file name is an absolute path").
+card(prolog_predicates, "is_absolute_file_name/1", "Check if a filename is an absolute path").
 card(prolog_predicates, "is_list/1", "Recursively check if a term is bound to a list").
 card(prolog_predicates, "keysort/2", "Sort a list of key-value pairs by key").
 card(prolog_predicates, "leash/2", "Set or query user interaction on trace ports").
@@ -6140,8 +6148,8 @@ card(spanish_vocabulary, "ambition", "ambición").
 card(spanish_vocabulary, "ambitious", "ambicioso").
 card(spanish_vocabulary, "among", "entre").
 card(spanish_vocabulary, "amount", "cantidad").
-card(spanish_vocabulary, "analyse", "analizar").
 card(spanish_vocabulary, "analysis", "análisis").
+card(spanish_vocabulary, "analyze", "analizar").
 card(spanish_vocabulary, "ancient", "antiguo").
 card(spanish_vocabulary, "and", "y").
 card(spanish_vocabulary, "anger", "enfado").
@@ -6293,7 +6301,7 @@ card(spanish_vocabulary, "beg", "mendigar").
 card(spanish_vocabulary, "begin", "empezar").
 card(spanish_vocabulary, "beginning", "comenzando").
 card(spanish_vocabulary, "behave", "comportarse").
-card(spanish_vocabulary, "behaviour", "comportamiento").
+card(spanish_vocabulary, "behavior", "comportamiento").
 card(spanish_vocabulary, "behind", "detrás").
 card(spanish_vocabulary, "being", "siendo").
 card(spanish_vocabulary, "belief", "creencia").
@@ -6445,8 +6453,8 @@ card(spanish_vocabulary, "celebration", "celebracion").
 card(spanish_vocabulary, "celebrity", "celebridad").
 card(spanish_vocabulary, "cell", "célula").
 card(spanish_vocabulary, "cent", "centavo").
+card(spanish_vocabulary, "center", "centrar").
 card(spanish_vocabulary, "central", "central").
-card(spanish_vocabulary, "centre", "centrar").
 card(spanish_vocabulary, "century", "siglo").
 card(spanish_vocabulary, "ceremony", "ceremonia").
 card(spanish_vocabulary, "certain", "cierto").
@@ -6528,8 +6536,8 @@ card(spanish_vocabulary, "colleague", "colega").
 card(spanish_vocabulary, "collect", "recoger").
 card(spanish_vocabulary, "collection", "colección").
 card(spanish_vocabulary, "college", "universidad").
-card(spanish_vocabulary, "colour", "color").
-card(spanish_vocabulary, "coloured", "de colores").
+card(spanish_vocabulary, "color", "color").
+card(spanish_vocabulary, "colored", "de colores").
 card(spanish_vocabulary, "column", "columna").
 card(spanish_vocabulary, "combination", "combinación").
 card(spanish_vocabulary, "combine", "combinar").
@@ -6717,8 +6725,8 @@ card(spanish_vocabulary, "decrease", "disminución").
 card(spanish_vocabulary, "deep", "profundo").
 card(spanish_vocabulary, "deeply", "profundamente").
 card(spanish_vocabulary, "defeat", "derrota").
-card(spanish_vocabulary, "defence", "defensa").
 card(spanish_vocabulary, "defend", "defender").
+card(spanish_vocabulary, "defense", "defensa").
 card(spanish_vocabulary, "define", "definir").
 card(spanish_vocabulary, "definite", "definido").
 card(spanish_vocabulary, "definitely", "seguro").
@@ -6920,7 +6928,6 @@ card(spanish_vocabulary, "enhance", "mejorar").
 card(spanish_vocabulary, "enjoy", "disfrutar").
 card(spanish_vocabulary, "enormous", "enorme").
 card(spanish_vocabulary, "enough", "suficiente").
-card(spanish_vocabulary, "enquiry", "investigación").
 card(spanish_vocabulary, "ensure", "asegurar").
 card(spanish_vocabulary, "enter", "entrar").
 card(spanish_vocabulary, "entertain", "entretener").
@@ -7038,8 +7045,8 @@ card(spanish_vocabulary, "fasten", "sujetar").
 card(spanish_vocabulary, "fat", "grasa").
 card(spanish_vocabulary, "father", "padre").
 card(spanish_vocabulary, "fault", "culpa").
-card(spanish_vocabulary, "favour", "favor").
-card(spanish_vocabulary, "favourite", "favorito").
+card(spanish_vocabulary, "favor", "favor").
+card(spanish_vocabulary, "favorite", "favorito").
 card(spanish_vocabulary, "fear", "miedo").
 card(spanish_vocabulary, "feather", "pluma").
 card(spanish_vocabulary, "feature", "característica").
@@ -7212,10 +7219,10 @@ card(spanish_vocabulary, "grandparent", "abuelo").
 card(spanish_vocabulary, "grant", "conceder").
 card(spanish_vocabulary, "grass", "césped").
 card(spanish_vocabulary, "grateful", "agradecido").
+card(spanish_vocabulary, "gray", "gris").
 card(spanish_vocabulary, "great", "excelente").
 card(spanish_vocabulary, "green", "verde").
 card(spanish_vocabulary, "greet", "saludar").
-card(spanish_vocabulary, "grey", "gris").
 card(spanish_vocabulary, "ground", "suelo").
 card(spanish_vocabulary, "group", "grupo").
 card(spanish_vocabulary, "grow", "crecer").
@@ -7301,7 +7308,7 @@ card(spanish_vocabulary, "holy", "santo").
 card(spanish_vocabulary, "home", "hogar").
 card(spanish_vocabulary, "homework", "deberes").
 card(spanish_vocabulary, "honest", "honesto").
-card(spanish_vocabulary, "honour", "honor").
+card(spanish_vocabulary, "honor", "honor").
 card(spanish_vocabulary, "hope", "esperanza").
 card(spanish_vocabulary, "horrible", "horrible").
 card(spanish_vocabulary, "horror", "horror").
@@ -7318,8 +7325,8 @@ card(spanish_vocabulary, "how", "cómo").
 card(spanish_vocabulary, "however", "sin embargo").
 card(spanish_vocabulary, "huge", "enorme").
 card(spanish_vocabulary, "human", "humano").
+card(spanish_vocabulary, "humor", "humor").
 card(spanish_vocabulary, "humorous", "humorístico").
-card(spanish_vocabulary, "humour", "humor").
 card(spanish_vocabulary, "hundred", "cien").
 card(spanish_vocabulary, "hungry", "hambriento").
 card(spanish_vocabulary, "hunt", "cazar").
@@ -7396,6 +7403,7 @@ card(spanish_vocabulary, "injured", "lesionado").
 card(spanish_vocabulary, "injury", "lesión").
 card(spanish_vocabulary, "inner", "interior").
 card(spanish_vocabulary, "innocent", "inocente").
+card(spanish_vocabulary, "inquiry", "investigación").
 card(spanish_vocabulary, "insect", "insecto").
 card(spanish_vocabulary, "inside", "dentro").
 card(spanish_vocabulary, "insight", "visión").
@@ -7449,7 +7457,7 @@ card(spanish_vocabulary, "jacket", "chaqueta").
 card(spanish_vocabulary, "jam", "mermelada").
 card(spanish_vocabulary, "jazz", "jazz").
 card(spanish_vocabulary, "jeans", "pantalones").
-card(spanish_vocabulary, "jewellery", "joyería").
+card(spanish_vocabulary, "jewelry", "joyería").
 card(spanish_vocabulary, "job", "trabajo").
 card(spanish_vocabulary, "join", "unirse").
 card(spanish_vocabulary, "joke", "broma").
@@ -7473,7 +7481,7 @@ card(spanish_vocabulary, "kick", "golpear").
 card(spanish_vocabulary, "kid", "niño").
 card(spanish_vocabulary, "kill", "matar").
 card(spanish_vocabulary, "killing", "asesinato").
-card(spanish_vocabulary, "kilometre", "kilómetro").
+card(spanish_vocabulary, "kilometer", "kilómetro").
 card(spanish_vocabulary, "kind (caring)", "amable").
 card(spanish_vocabulary, "kind (type)", "tipo)").
 card(spanish_vocabulary, "king", "rey").
@@ -7486,8 +7494,8 @@ card(spanish_vocabulary, "know", "saber").
 card(spanish_vocabulary, "knowledge", "conocimiento").
 card(spanish_vocabulary, "lab", "laboratorio").
 card(spanish_vocabulary, "label", "etiqueta").
+card(spanish_vocabulary, "labor", "labor").
 card(spanish_vocabulary, "laboratory", "laboratorio").
-card(spanish_vocabulary, "labour", "labor").
 card(spanish_vocabulary, "lack", "carencia").
 card(spanish_vocabulary, "lady", "dama").
 card(spanish_vocabulary, "lake", "lago").
@@ -7537,7 +7545,7 @@ card(spanish_vocabulary, "let", "dejar").
 card(spanish_vocabulary, "letter", "letra").
 card(spanish_vocabulary, "level", "nivel").
 card(spanish_vocabulary, "library", "biblioteca").
-card(spanish_vocabulary, "licence", "licencia").
+card(spanish_vocabulary, "license", "licencia").
 card(spanish_vocabulary, "lie", "mentira").
 card(spanish_vocabulary, "life", "vida").
 card(spanish_vocabulary, "lifestyle", "estilo de vida").
@@ -7625,7 +7633,6 @@ card(spanish_vocabulary, "match (correspond)", "combinar").
 card(spanish_vocabulary, "matching", "pareo").
 card(spanish_vocabulary, "material", "material").
 card(spanish_vocabulary, "mathematics", "matemáticas").
-card(spanish_vocabulary, "maths", "matemáticas").
 card(spanish_vocabulary, "matter", "importar").
 card(spanish_vocabulary, "maximum", "máximo").
 card(spanish_vocabulary, "may modal", "puede modal").
@@ -7654,8 +7661,8 @@ card(spanish_vocabulary, "menu", "menú").
 card(spanish_vocabulary, "mess", "lío").
 card(spanish_vocabulary, "message", "mensaje").
 card(spanish_vocabulary, "metal", "metal").
+card(spanish_vocabulary, "meter", "metro").
 card(spanish_vocabulary, "method", "método").
-card(spanish_vocabulary, "metre", "metro").
 card(spanish_vocabulary, "middle", "medio").
 card(spanish_vocabulary, "midnight", "medianoche").
 card(spanish_vocabulary, "might modal", "podría modal").
@@ -7742,7 +7749,7 @@ card(spanish_vocabulary, "neck", "cuello").
 card(spanish_vocabulary, "need", "necesitar").
 card(spanish_vocabulary, "needle", "aguja").
 card(spanish_vocabulary, "negative", "negativo").
-card(spanish_vocabulary, "neighbour", "vecino").
+card(spanish_vocabulary, "neighbor", "vecino").
 card(spanish_vocabulary, "neighbourhood", "barrio").
 card(spanish_vocabulary, "neither", "ninguno").
 card(spanish_vocabulary, "nerve", "nervio").
@@ -8020,7 +8027,6 @@ card(spanish_vocabulary, "power", "poder").
 card(spanish_vocabulary, "powerful", "poderoso").
 card(spanish_vocabulary, "practical", "práctico").
 card(spanish_vocabulary, "practice", "práctica").
-card(spanish_vocabulary, "practise", "práctica").
 card(spanish_vocabulary, "praise", "alabanza").
 card(spanish_vocabulary, "pray", "orar").
 card(spanish_vocabulary, "prayer", "oración").
@@ -8073,7 +8079,6 @@ card(spanish_vocabulary, "professor", "profesor").
 card(spanish_vocabulary, "profile", "perfil").
 card(spanish_vocabulary, "profit", "lucro").
 card(spanish_vocabulary, "program", "programa").
-card(spanish_vocabulary, "programme", "programa").
 card(spanish_vocabulary, "progress", "progreso").
 card(spanish_vocabulary, "project", "proyecto").
 card(spanish_vocabulary, "promise", "promesa").
@@ -8677,7 +8682,7 @@ card(spanish_vocabulary, "thank", "gracias").
 card(spanish_vocabulary, "thanks", "gracias").
 card(spanish_vocabulary, "that", "ese").
 card(spanish_vocabulary, "the", "el").
-card(spanish_vocabulary, "theatre", "teatro").
+card(spanish_vocabulary, "theater", "teatro").
 card(spanish_vocabulary, "their", "su").
 card(spanish_vocabulary, "theirs", "suyo").
 card(spanish_vocabulary, "them", "ellos").
@@ -8720,6 +8725,7 @@ card(spanish_vocabulary, "time", "hora").
 card(spanish_vocabulary, "tin", "estaño").
 card(spanish_vocabulary, "tiny", "minúsculo").
 card(spanish_vocabulary, "tip", "propina").
+card(spanish_vocabulary, "tire (wheel)", "neumático").
 card(spanish_vocabulary, "tired", "cansado").
 card(spanish_vocabulary, "title", "título").
 card(spanish_vocabulary, "to", "a").
@@ -8764,7 +8770,7 @@ card(spanish_vocabulary, "translate", "traducir").
 card(spanish_vocabulary, "translation", "traducción").
 card(spanish_vocabulary, "transport", "transporte").
 card(spanish_vocabulary, "travel", "viaje").
-card(spanish_vocabulary, "traveller", "viajero").
+card(spanish_vocabulary, "traveler", "viajero").
 card(spanish_vocabulary, "treat", "tratar").
 card(spanish_vocabulary, "treatment", "tratamiento").
 card(spanish_vocabulary, "tree", "árbol").
@@ -8793,7 +8799,6 @@ card(spanish_vocabulary, "two", "dos").
 card(spanish_vocabulary, "type", "tipo").
 card(spanish_vocabulary, "typical", "típico").
 card(spanish_vocabulary, "typically", "típicamente").
-card(spanish_vocabulary, "tyre", "neumático").
 card(spanish_vocabulary, "ugly", "feo").
 card(spanish_vocabulary, "ultimately", "por último").
 card(spanish_vocabulary, "umbrella", "paraguas").
