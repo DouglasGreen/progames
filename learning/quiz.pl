@@ -118,6 +118,8 @@ subject(math, sums, "Calculated values of sums").
 subject(movies, actor_roles, "Movie roles and the actors who played them").
 subject(movies, actress_roles, "Movie roles and the actresses who played them").
 subject(music, song_titles, "Pop and rock song titles and bands").
+subject(mythology, greek_and_roman_gods, "The names of Greek gods and goddesses and their roman equivalents").
+subject(mythology, greek_gods, "The names of Greek gods and goddesses and their domains").
 subject(philosophy, ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
 subject(programming, git_commands, "Git commands with definitions taken from the documentation").
 subject(programming, laws_of_computing, "General laws of computing as defined in Wikipedia").
@@ -286,8 +288,7 @@ card(acronyms, "DBMS", "database management system").
 card(acronyms, "DCE", "distributed computing environment").
 card(acronyms, "DCOM", "Distributed Component Object Model").
 card(acronyms, "DDBMS", "distributed database management system").
-card(acronyms, "DDE", "Dynamic Data Exchange").
-card(acronyms, "DDE", "doctrine of double effect").
+card(acronyms, "DDE", "doctrine of double effect; Dynamic Data Exchange").
 card(acronyms, "DDK", "driver development kit").
 card(acronyms, "DDL", "data definition language").
 card(acronyms, "DDR", "double data rate").
@@ -2701,6 +2702,56 @@ card(git_commands, "rm", "Remove files from the working tree and from the index"
 card(git_commands, "show", "Show various types of objects").
 card(git_commands, "status", "Show the working tree status").
 card(git_commands, "tag", "Create, list, delete or verify a tag object signed with GPG").
+card(greek_and_roman_gods, "Aphrodite", "Venus").
+card(greek_and_roman_gods, "Apollo", "Apollo").
+card(greek_and_roman_gods, "Ares", "Mars").
+card(greek_and_roman_gods, "Artemis", "Diana").
+card(greek_and_roman_gods, "Athena", "Minerva").
+card(greek_and_roman_gods, "Charites", "Gratiae").
+card(greek_and_roman_gods, "Demeter", "Ceres").
+card(greek_and_roman_gods, "Erinyes", "Furiae").
+card(greek_and_roman_gods, "Eris", "Discordia").
+card(greek_and_roman_gods, "Eros", "Cupid").
+card(greek_and_roman_gods, "Hades", "Pluto").
+card(greek_and_roman_gods, "Helios", "Sol").
+card(greek_and_roman_gods, "Hephaistos", "Vulcan").
+card(greek_and_roman_gods, "Hera", "Juno").
+card(greek_and_roman_gods, "Hermes", "Mercury").
+card(greek_and_roman_gods, "Hestia", "Vesta").
+card(greek_and_roman_gods, "Horai", "Horae").
+card(greek_and_roman_gods, "Kronos", "Saturn").
+card(greek_and_roman_gods, "Moirae", "Parcae").
+card(greek_and_roman_gods, "Pan", "Faunus").
+card(greek_and_roman_gods, "Persephone", "Proserpina").
+card(greek_and_roman_gods, "Poseidon", "Neptune").
+card(greek_and_roman_gods, "Selene", "Luna").
+card(greek_and_roman_gods, "Tyche", "Fortuna").
+card(greek_and_roman_gods, "Zeus", "Jupiter").
+card(greek_gods, "Aphrodite", "love").
+card(greek_gods, "Apollo", "prophecy and light").
+card(greek_gods, "Ares", "war").
+card(greek_gods, "Artemis", "hunting").
+card(greek_gods, "Athena", "wisdom and crafts").
+card(greek_gods, "Charites", "charm and beauty.").
+card(greek_gods, "Demeter", "fertility and cultivation of grain").
+card(greek_gods, "Erinyes", "vengeance for wrongs").
+card(greek_gods, "Eris", "discord").
+card(greek_gods, "Eros", "love and desire").
+card(greek_gods, "Hades", "the underworld").
+card(greek_gods, "Helios", "the sun").
+card(greek_gods, "Hephaistos", "fire and forge").
+card(greek_gods, "Hera", "marriage").
+card(greek_gods, "Hermes", "messenger, trickster, and god of commerce").
+card(greek_gods, "Hestia", "hearth fires").
+card(greek_gods, "Horai", "the seasons").
+card(greek_gods, "Kronos", "father of Zeus").
+card(greek_gods, "Moirae", "fate").
+card(greek_gods, "Pan", "goat-footed shepherd").
+card(greek_gods, "Persephone", "spring vegetation").
+card(greek_gods, "Poseidon", "the sea and horses").
+card(greek_gods, "Selene", "the moon").
+card(greek_gods, "Tyche", "chance and good fortune").
+card(greek_gods, "Zeus", "sky and thunder").
 card(latin_phrases, "a fortiori", "from the stronger").
 card(latin_phrases, "a posteriori", "from the latter").
 card(latin_phrases, "a priori", "from the earlier").
