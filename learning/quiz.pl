@@ -125,6 +125,7 @@ subject(programming, git_commands, "Git commands with definitions taken from the
 subject(programming, laws_of_computing, "General laws of computing as defined in Wikipedia").
 subject(programming, perl_regexp, "Perl-compatible regular expressions").
 subject(programming, phpdoc_params, "PHPDoc parameters used in tags").
+subject(programming, phpdoc_tags, "PHPDoc tag usage").
 subject(programming, prolog_library, "SWI Prolog libraries (see https://www.swi-prolog.org/pldoc/man?section=libpl)").
 subject(programming, prolog_predicates, "SWI Prolog predicates (see https://www.swi-prolog.org/pldoc/doc_for?object=manual)").
 subject(reference, acronyms, "Acronyms and the terms that they expand into").
@@ -3744,6 +3745,29 @@ card(phpdoc_params, "@type", "name").
 card(phpdoc_params, "@uses", "type description").
 card(phpdoc_params, "@var", "type description").
 card(phpdoc_params, "@version", "version").
+card(phpdoc_tags, "@const", "Use to denote a constant.").
+card(phpdoc_tags, "@default", "Use to denote when a variable or constant is being given a default value.").
+card(phpdoc_tags, "@deprecated", "Use to describe when and why an item should no longer be used, and what to do instead.").
+card(phpdoc_tags, "@event, @fires and @listens", "Use to denote when a user-created event can be fired.").
+card(phpdoc_tags, "@file", "Use to describe the purpose and contents of a file.").
+card(phpdoc_tags, "@inheritdoc", "Use to denote that a symbol should inherit the tags from its parent symbol and ignore its own tags.").
+card(phpdoc_tags, "@interface", "Use to denote an interface or a JavaScript class that is being used as an interface.").
+card(phpdoc_tags, "@link", "Use to as an inline tag denote a hyperlink to a documentation URL.").
+card(phpdoc_tags, "@method or @function", "Use when it isn't clear that something can be called.").
+card(phpdoc_tags, "@name", "Use to denote the name of a dynamic symbol.").
+card(phpdoc_tags, "@namespace", "Use in JavaScript to denote that members of an object will be accessed in its namespace.").
+card(phpdoc_tags, "@override", "Use to denote that a function overrides its parent.").
+card(phpdoc_tags, "@param", "Use to denote parameters to a function.").
+card(phpdoc_tags, "@property", "Use to denote a list of the properties of a class, object, or namespace.").
+card(phpdoc_tags, "@return", "Use to denote return values from a function.").
+card(phpdoc_tags, "@since", "Use to denote the version in which a feature was added.").
+card(phpdoc_tags, "@summary", "Use for a shorter summary of the full description.").
+card(phpdoc_tags, "@throws", "Use to denote each exception that a function might throw.").
+card(phpdoc_tags, "@todo", "Use to describe a task that is being left for later.").
+card(phpdoc_tags, "@type", "Use to denote a type for an item that is not otherwise described by some tag specifying type.").
+card(phpdoc_tags, "@uses", "Use to denote environment variables that are passed as arguments to a script.").
+card(phpdoc_tags, "@var", "Use to denote a member variable that is not a method or constant.").
+card(phpdoc_tags, "@version", "Use to denote the current version of a class or method.").
 card(poets, "'Goodbye, my friend, goodbye'", "Sergei Aleksandrovich Esenin").
 card(poets, "2 a.m.", "Ernesto Trejo").
 card(poets, "211th Chorus", "Jack Kerouac").
