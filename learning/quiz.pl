@@ -121,6 +121,7 @@ subject(music, song_titles, "Pop and rock song titles and bands").
 subject(mythology, greek_and_roman_gods, "The names of Greek gods and goddesses and their roman equivalents").
 subject(mythology, greek_gods, "The names of Greek gods and goddesses and their domains").
 subject(philosophy, ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
+subject(philosophy, philosophers, "Philosophers and their areas of activity").
 subject(programming, git_commands, "Git commands with definitions taken from the documentation").
 subject(programming, laws_of_computing, "General laws of computing as defined in Wikipedia").
 subject(programming, perl_regexp, "Perl-compatible regular expressions").
@@ -3691,6 +3692,55 @@ card(permutations, "P(9, 6)", "60480").
 card(permutations, "P(9, 7)", "181440").
 card(permutations, "P(9, 8)", "362880").
 card(permutations, "P(9, 9)", "362880").
+card(philosophers, "A. J. Ayer", "Emotivist ethics; Logical positivism; Verificationism").
+card(philosophers, "Alfred North Whitehead", "Process philosophy; Process theology").
+card(philosophers, "Aristotle", "Syllogism; Theory of the soul; Virtue ethics").
+card(philosophers, "Arthur Schopenhauer", "Philosophical pessimism; Principium individuationis (principle of individuation); Principle of sufficient reason").
+card(philosophers, "Augustine of Hippo", "Just war theory; Predestination").
+card(philosophers, "Baruch Spinoza", "Determinism; Pantheism; Rationalism").
+card(philosophers, "Bertrand Russell", "Analytic philosophy; Mathematical logic; Paradoxes of set theory").
+card(philosophers, "Charles Sanders Peirce", "Father of pragmatism; Logician").
+card(philosophers, "Confucius", "Filial piety; Golden Rule; Importance of the family; Tian (heaven)").
+card(philosophers, "David Hume", "Fork between ideas and reality; Is-ought problem; Problem of induction").
+card(philosophers, "Edmund Husserl", "Established the school of phenomenology").
+card(philosophers, "Epicurus", "Aponia (absence of pain); Ataraxia (equanimity); Pleasure principle").
+card(philosophers, "Friedrich Nietzsche", "Eternal recurrence; God is dead; Will to power; Übermensch (Superman)").
+card(philosophers, "Georg Wilhelm Friedrich Hegel", "Dialectic; Phenomenology of spirit; Rationalism").
+card(philosophers, "George Berkeley", "Denied the existence of material substance").
+card(philosophers, "Gottfried Wilhelm Leibniz", "Best of all possible worlds; Calculus; Monads; Semiotics").
+card(philosophers, "Gottlob Frege", "Distinction between concept and object; First-order logic; Principle of compositionality").
+card(philosophers, "Hannah Arendt", "Banality of evil; Praxis (practical application); Vita activa (the active life)").
+card(philosophers, "Heraclitus", "Everything flows; Follow the common; Logos (reason); No man ever steps in the same river twice; Unity of opposites").
+card(philosophers, "Immanuel Kant", "Analytic-synthetic distinction; Categorical imperative; Sapere aude (dare to know); Thing-in-itself").
+card(philosophers, "Jacques Derrida", "Deconstruction; Différance (difference and deferral of meaning); Logocentrism; Trace").
+card(philosophers, "Jean-Jacques Rousseau", "Amour de soi or amour-propre (self-love); General will; Popular sovereignty; Public opinion").
+card(philosophers, "Jean-Paul Sartre", "Bad faith; Existence precedes essense; Nothingness").
+card(philosophers, "John Dewey", "A cofounder of functional psychology; Pragmatism; Progressive education").
+card(philosophers, "John Locke", "Empiricism; Father of liberalism; Tabula rasa (blank slate)").
+card(philosophers, "John Rawls", "Democracy; Justice as fairness; Liberty").
+card(philosophers, "John Searle", "Biological naturalism; Chinese room scenario").
+card(philosophers, "John Stuart Mill", "Five methods of induction; Harm principle; Liberalism; Utilitarianism").
+card(philosophers, "Karl Marx", "Class struggle; Exploitation of the worker; Surplus value").
+card(philosophers, "Karl Popper", "Critical rationalism; Falsificationism; Open society; Paradox of tolerance; Trial and error").
+card(philosophers, "Ludwig Wittgenstein", "Forms of life; Language-games; Relationship between language and reality").
+card(philosophers, "Marcus Aurelius", "Cosmic perspective; Duty; Respect for others; Stoicism; Word of god").
+card(philosophers, "Martin Heidegger", "Dasein (human existence); Existenzialien (existentials); Wohnen (dwelling)").
+card(philosophers, "Michel Foucault", "Genealogy; Governmentality; Panopticism").
+card(philosophers, "Niccolò Machiavelli", "End justifies the means; Military science; Realpolitik (realistic politics)").
+card(philosophers, "Nick Bostrom", "Anthropic bias; Existential risk; Global singleton; Simulation hypothesis").
+card(philosophers, "Parmenides", "Father of Metaphysics; Monism; Rejection of the void and change").
+card(philosophers, "Plato", "Demiurge; Philosopher king; Poiesis; Theory of forms").
+card(philosophers, "Plotinus", "Henosis; Neoplatonism; Three main hypostases").
+card(philosophers, "René Descartes", "Cogito ergo sum (I think, therefore I am); Geometric coordinates; Mind/body dualism").
+card(philosophers, "Samuel Johnson", "Kicked a stone to refute the immaterialism of Bishop Berkeley").
+card(philosophers, "Simone de Beauvoir", "Ethics of ambiguity; Existential feminism; Feminist ethics").
+card(philosophers, "Socrates", "Dialectic method; Ironic questioning").
+card(philosophers, "Søren Kierkegaard", "Angst; Authenticity; Leap of faith").
+card(philosophers, "Thomas Aquinas", "Scholastic tradition").
+card(philosophers, "Thomas Hobbes", "Brutish state of nature; Leviathan; War of all against all").
+card(philosophers, "Voltaire", "Deism; Freedom of religion; Freedom of speech; Natural law; Skepticism").
+card(philosophers, "William James", "Radical empiricism; Theory of emotion; Theory of truth; Will to believe").
+card(philosophers, "Zeno of Elea", "Achilles and the tortoise paradox; Arrow paradox; Dichotomy paradox").
 card(phonetic_alphabet, "A", "Alfa").
 card(phonetic_alphabet, "B", "Bravo").
 card(phonetic_alphabet, "C", "Charlie").
