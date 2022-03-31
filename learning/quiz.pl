@@ -129,6 +129,7 @@ subject(programming, phpdoc_params, "PHPDoc parameters used in tags").
 subject(programming, phpdoc_tags, "PHPDoc tag usage").
 subject(programming, prolog_library, "SWI Prolog libraries (see https://www.swi-prolog.org/pldoc/man?section=libpl)").
 subject(programming, prolog_predicates, "SWI Prolog predicates (see https://www.swi-prolog.org/pldoc/doc_for?object=manual)").
+subject(programming, vim, "Commands for the Vim text editor").
 subject(reference, acronyms, "Acronyms and the terms that they expand into").
 subject(reference, latin_phrases, "A list of phrases in Latin and the English translation").
 subject(reference, phonetic_alphabet, "NATO Phonetic Alphabet").
@@ -9732,3 +9733,75 @@ card(sums, "9 + 28", "37").
 card(sums, "9 + 29", "38").
 card(sums, "9 + 30", "39").
 card(sums, "9 + 9", "18").
+card(vim, "$", "end of line").
+card(vim, "%", "find matching pair of {, [, (, or /*").
+card(vim, "'", "start of marked line").
+card(vim, "(flag) c", "confirm").
+card(vim, "(flag) g", "global").
+card(vim, "(flag) i", "case insensitive").
+card(vim, "(object) ', \", or `", "quoted string").
+card(vim, "(object) [, {, (, or <", "enclosed block").
+card(vim, "(object) p", "paragraph").
+card(vim, "(object) s", "sentence").
+card(vim, "(object) w", "word").
+card(vim, "(range) $", "last line").
+card(vim, "(range) %", "all lines").
+card(vim, "(range) .", "current line").
+card(vim, "(range) 1", "first line").
+card(vim, "(visual mode) <", "indent left").
+card(vim, "(visual mode) >", "indent right").
+card(vim, "(visual mode) U", "upper case").
+card(vim, "(visual mode) gq", "reformat to textwidth").
+card(vim, "(visual mode) u", "lower case").
+card(vim, ".", "repeat last command").
+card(vim, "/", "search forward for pattern").
+card(vim, "0", "start of line").
+card(vim, ":h", "get help").
+card(vim, ":q!", "quit and discard unsaved changes").
+card(vim, ":q", "quit unless there are unsaved changes").
+card(vim, ":s", "search and replace").
+card(vim, ":w", "save file, but don't exit").
+card(vim, "?", "search backward for pattern").
+card(vim, "A", "insert at end of current line").
+card(vim, "B", "backward to start of word including punctuation").
+card(vim, "Ctrl-r", "redo").
+card(vim, "E", "forward to end of word including punctuation").
+card(vim, "Esc", "exit insert mode").
+card(vim, "G", "last line of document").
+card(vim, "H", "move to top of screen").
+card(vim, "I", "insert at beginning of current line").
+card(vim, "J", "join line below to current line").
+card(vim, "L", "move to bottom of screen").
+card(vim, "M", "move to middle of screen").
+card(vim, "N", "repeat search in opposite direction").
+card(vim, "O", "insert new line after current line").
+card(vim, "OPERATOR a OBJECT", "around").
+card(vim, "OPERATOR i OBJECT", "inside").
+card(vim, "P", "paste before current line").
+card(vim, "V", "start line-oriented visual mode").
+card(vim, "W", "forward to start of word including punctuation").
+card(vim, "\\v", "enable magic characters in regular expressions").
+card(vim, "^", "non-blank start of line").
+card(vim, "`", "position of mark").
+card(vim, "a", "insert after cursor").
+card(vim, "b", "backward to start of word").
+card(vim, "c", "change operator").
+card(vim, "cc", "change line").
+card(vim, "d", "delete operator").
+card(vim, "dd", "delete line").
+card(vim, "e", "forward to end of word").
+card(vim, "gf", "go to file in cursor").
+card(vim, "gg", "first line of document").
+card(vim, "i", "insert before cursor").
+card(vim, "m", "set mark letter at current position").
+card(vim, "n", "repeat search in same direction").
+card(vim, "o", "insert new line before current line").
+card(vim, "p", "paste after current line").
+card(vim, "u", "undo last command").
+card(vim, "v", "start visual mode").
+card(vim, "w", "forward to start of word").
+card(vim, "y", "copy operator").
+card(vim, "yy", "copy line").
+card(vim, "zz", "center cursor on screen").
+card(vim, "{", "previous paragraph or block").
+card(vim, "}", "next paragraph or block").
