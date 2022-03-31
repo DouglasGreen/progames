@@ -122,6 +122,7 @@ subject(mythology, greek_and_roman_gods, "The names of Greek gods and goddesses 
 subject(mythology, greek_gods, "The names of Greek gods and goddesses and their domains").
 subject(philosophy, ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
 subject(philosophy, philosophers, "Philosophers and their areas of activity").
+subject(programming, design_patterns, "Software design patterns").
 subject(programming, git_commands, "Git commands with definitions taken from the documentation").
 subject(programming, laws_of_computing, "General laws of computing as defined in Wikipedia").
 subject(programming, perl_regexp, "Perl-compatible regular expressions").
@@ -1841,6 +1842,30 @@ card(combinations, "C(9, 6)", "84").
 card(combinations, "C(9, 7)", "36").
 card(combinations, "C(9, 8)", "9").
 card(combinations, "C(9, 9)", "1").
+card(design_patterns, "Abstract Factory", "Define an abstract class and extend it with concrete classes that provide factory methods").
+card(design_patterns, "Adapter", "Modify one interface so that it can be used like another interface").
+card(design_patterns, "Bridge", "Design so that the interface and implementation can differ").
+card(design_patterns, "Builder", "Use an object with a series of setters instead of a factory with too many parameters").
+card(design_patterns, "Chain of Responsibility", "Like observer, but pass the message along a series of receivers until it is handled").
+card(design_patterns, "Command", "Use an object to represent the execution of its methods").
+card(design_patterns, "Decorator", "Use a class/object to provide additional features to another class/object at runtime without subclassing").
+card(design_patterns, "Delegation", "Use composition to achieve code reuse rather than inheritance").
+card(design_patterns, "Factory", "Use static methods to create objects instead of constructors").
+card(design_patterns, "Façade", "Provide a simplified interface to a system of classes/objects").
+card(design_patterns, "Flyweight", "Construct a set of objects using a factory and return more than one reference to the same object").
+card(design_patterns, "Interpreter", "Use a set of objects to evaluation expressions in a given context").
+card(design_patterns, "Iterator", "Use a known set of methods to flexibly walk through a collection of objects").
+card(design_patterns, "Mediator", "Use objects to send messages to other objects").
+card(design_patterns, "Memento", "Save an array of state objects using a caretaker so that they can be restored").
+card(design_patterns, "Observer", "Send a message to a registered array of objects when an event occurs").
+card(design_patterns, "Prototype", "Create new instances by cloning existing instances").
+card(design_patterns, "Proxy", "Use a class/object to pass messages to a remote or heavier object").
+card(design_patterns, "Registry of Singletons; Multiton", "Class that constructs several named instances of itself with a static factory method").
+card(design_patterns, "Singleton", "Class that constructs only one instance of itself with a static factory method").
+card(design_patterns, "State", "An object that modifies its behavior when its attributes change").
+card(design_patterns, "Strategy", "Pass an object to a method and call its methods instead of using a subclass").
+card(design_patterns, "Template", "A base class defines a series of steps, and the steps or implementation differ for subclasses").
+card(design_patterns, "Visitor", "An object accepts a guest object and allows it to call its methods").
 card(ethics, "A Theory of Justice", "Book of political philosophy and ethics by John Rawls on problem of distributive justice").
 card(ethics, "Amnesty International", "London-based non-governmental organization focused on human rights").
 card(ethics, "Belmont Report", "Summary of ethical principles and areas of application for research involving human subjects").
