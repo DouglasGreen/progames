@@ -123,6 +123,7 @@ subject(mythology, greek_gods, "The names of Greek gods and goddesses and their 
 subject(philosophy, ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
 subject(programming, git_commands, "Git commands with definitions taken from the documentation").
 subject(programming, laws_of_computing, "General laws of computing as defined in Wikipedia").
+subject(programming, perl_regexp, "Perl-compatible regular expressions").
 subject(programming, phpdoc_params, "PHPDoc parameters used in tags").
 subject(programming, prolog_library, "SWI Prolog libraries (see https://www.swi-prolog.org/pldoc/man?section=libpl)").
 subject(programming, prolog_predicates, "SWI Prolog predicates (see https://www.swi-prolog.org/pldoc/doc_for?object=manual)").
@@ -3594,6 +3595,46 @@ card(paintings, "Winter Scene on a Canal", "Hendrick Avercamp").
 card(paintings, "Woman in the Bath", "Edgar Degas").
 card(paintings, "Woman in the Garden", "Claude Monet").
 card(paintings, "Young Schoolmistress", "Jean-Baptiste-Siméon Chardin").
+card(perl_regexp, "$", "End of subject or line").
+card(perl_regexp, "( )", "Subpattern").
+card(perl_regexp, "(?! )", "Negative lookahead").
+card(perl_regexp, "(?: )", "Match without backreference").
+card(perl_regexp, "(?<= )", "Positive lookbehind").
+card(perl_regexp, "(?<=! )", "Negative lookbehind").
+card(perl_regexp, "(?= )", "Positive lookahead").
+card(perl_regexp, "*", "0 or more quantifier").
+card(perl_regexp, "+", "1 or more quantifier").
+card(perl_regexp, "-", "Character range").
+card(perl_regexp, ".", "Any character").
+card(perl_regexp, "?", "0 or 1 quantifier").
+card(perl_regexp, "?", "Makes quantifier lazy").
+card(perl_regexp, "[ ]", "Character class").
+card(perl_regexp, "\\", "Escape character").
+card(perl_regexp, "\\1", "Backreference").
+card(perl_regexp, "\\A", "Start of a string").
+card(perl_regexp, "\\B", "Non-word boundary").
+card(perl_regexp, "\\P{xx}", "Character without unicode property").
+card(perl_regexp, "\\R", "Line break").
+card(perl_regexp, "\\S", "Any non-whitespace character").
+card(perl_regexp, "\\W", "Any non-word character").
+card(perl_regexp, "\\Z", "End of a string").
+card(perl_regexp, "\\b", "Word boundary").
+card(perl_regexp, "\\d", "Any decimal digit").
+card(perl_regexp, "\\n", "Newline").
+card(perl_regexp, "\\p{xx}", "Character with unicode property").
+card(perl_regexp, "\\r", "Carriage return").
+card(perl_regexp, "\\s", "Any whitespace character").
+card(perl_regexp, "\\t", "Tab").
+card(perl_regexp, "\\w", "Any word character").
+card(perl_regexp, "\\xhh", "Character with hex code").
+card(perl_regexp, "^", "Negate character class").
+card(perl_regexp, "^", "Start of subject or line").
+card(perl_regexp, "i", "Option for case insensitive matching").
+card(perl_regexp, "m", "Option for ^ and $ matching newlines").
+card(perl_regexp, "s", "Option for . including newlines").
+card(perl_regexp, "x", "Option for ignoring white space and comments in regexp").
+card(perl_regexp, "{ }", "Min/max quantifier").
+card(perl_regexp, "|", "Alternatives").
 card(permutations, "P(1, 1)", "1").
 card(permutations, "P(10, 1)", "10").
 card(permutations, "P(10, 10)", "3628800").
