@@ -106,6 +106,7 @@ subject(art, romanticism_paintings, "Romanticism paintings and the artists who c
 subject(art, sculptures, "Sculptures and the artists who created them").
 subject(astronomy, moons, "Moons and the planets that they orbit around").
 subject(chemistry, chemical_elements, "Names and numbers of chemical elements").
+subject(geography, national_capitals, "Names of countries and their capitals").
 subject(literature, fiction_books, "Fictional books and authors").
 subject(literature, nonfiction_books, "Nonfictional books and authors").
 subject(literature, poets, "Poems and the poets who wrote them").
@@ -3008,6 +3009,196 @@ card(moons, "Titan", "Saturn").
 card(moons, "Titania", "Uranus").
 card(moons, "Triton", "Neptune").
 card(moons, "Umbriel", "Uranus").
+card(national_capitals, "Afghanistan", "Kabul").
+card(national_capitals, "Albania", "Tirana").
+card(national_capitals, "Algeria", "Algiers").
+card(national_capitals, "American Samoa", "Pago Pago").
+card(national_capitals, "Angola", "Luanda").
+card(national_capitals, "Antigua and Barbuda", "St. John's").
+card(national_capitals, "Argentina", "Buenos Aires").
+card(national_capitals, "Armenia", "Yerevan").
+card(national_capitals, "Ascension Island", "Georgetown").
+card(national_capitals, "Australia", "Canberra").
+card(national_capitals, "Austria", "Vienna").
+card(national_capitals, "Azerbaijan", "Baku").
+card(national_capitals, "Bahamas", "Nassau").
+card(national_capitals, "Bahrain", "Manama").
+card(national_capitals, "Bangladesh", "Dhaka").
+card(national_capitals, "Belarus", "Minsk").
+card(national_capitals, "Belgium", "Brussels").
+card(national_capitals, "Bermuda", "Hamilton").
+card(national_capitals, "Bolivia", "Sucre (constitutional)").
+card(national_capitals, "Bosnia and Herzegovina", "Sarajevo").
+card(national_capitals, "Brazil", "Brasília").
+card(national_capitals, "British Virgin Islands", "Road Town").
+card(national_capitals, "Bulgaria", "Sofia").
+card(national_capitals, "Burkina Faso", "Ouagadougou").
+card(national_capitals, "Cambodia", "Phnom Penh").
+card(national_capitals, "Cameroon", "Yaoundé").
+card(national_capitals, "Canada", "Ottawa").
+card(national_capitals, "Cape Verde", "Praia").
+card(national_capitals, "Cayman Islands", "George Town").
+card(national_capitals, "Central African Republic", "Bangui").
+card(national_capitals, "Chad", "N'Djamena").
+card(national_capitals, "Chile", "Santiago").
+card(national_capitals, "China", "Beijing").
+card(national_capitals, "Christmas Island", "Flying Fish Cove").
+card(national_capitals, "Cocos Islands", "West Island").
+card(national_capitals, "Colombia", "Bogotá").
+card(national_capitals, "Congo", "Brazzaville").
+card(national_capitals, "Cook Islands", "Avarua").
+card(national_capitals, "Costa Rica", "San José").
+card(national_capitals, "Croatia", "Zagreb").
+card(national_capitals, "Cuba", "Havana").
+card(national_capitals, "Curaçao", "Willemstad").
+card(national_capitals, "Cyprus", "Nicosia").
+card(national_capitals, "Czech Republic", "Prague").
+card(national_capitals, "Democratic Republic of the Congo", "Kinshasa").
+card(national_capitals, "Denmark", "Copenhagen").
+card(national_capitals, "Dominican Republic", "Santo Domingo").
+card(national_capitals, "East Timor", "Dili").
+card(national_capitals, "Ecuador", "Quito").
+card(national_capitals, "Egypt", "Cairo").
+card(national_capitals, "El Salvador", "San Salvador").
+card(national_capitals, "Equatorial Guinea", "Malabo").
+card(national_capitals, "Estonia", "Tallinn").
+card(national_capitals, "Ethiopia", "Addis Ababa").
+card(national_capitals, "Falkland Islands", "Stanley").
+card(national_capitals, "Faroe Islands", "Tórshavn").
+card(national_capitals, "Fiji", "Suva").
+card(national_capitals, "Finland", "Helsinki").
+card(national_capitals, "France", "Paris").
+card(national_capitals, "French Polynesia", "Papeete").
+card(national_capitals, "Georgia", "Tbilisi").
+card(national_capitals, "Germany", "Berlin").
+card(national_capitals, "Ghana", "Accra").
+card(national_capitals, "Gibraltar", "Gibraltar").
+card(national_capitals, "Greece", "Athens").
+card(national_capitals, "Guam", "Hagåtña").
+card(national_capitals, "Guatemala", "Guatemala City").
+card(national_capitals, "Guinea", "Conakry").
+card(national_capitals, "Guinea-Bissau", "Bissau").
+card(national_capitals, "Guyana", "Georgetown").
+card(national_capitals, "Haiti", "Port-au-Prince").
+card(national_capitals, "Honduras", "Tegucigalpa").
+card(national_capitals, "Hungary", "Budapest").
+card(national_capitals, "Iceland", "Reykjavík").
+card(national_capitals, "India", "New Delhi").
+card(national_capitals, "Indonesia", "Jakarta").
+card(national_capitals, "Iran", "Tehran").
+card(national_capitals, "Iraq", "Baghdad").
+card(national_capitals, "Ireland", "Dublin").
+card(national_capitals, "Isle of Man", "Douglas").
+card(national_capitals, "Israel", "Jerusalem (claimed)").
+card(national_capitals, "Italy", "Rome").
+card(national_capitals, "Ivory Coast", "Yamoussoukro (official)").
+card(national_capitals, "Jamaica", "Kingston").
+card(national_capitals, "Japan", "Tokyo").
+card(national_capitals, "Jersey", "St. Helier").
+card(national_capitals, "Jordan", "Amman").
+card(national_capitals, "Kazakhstan", "Nur-Sultan").
+card(national_capitals, "Kenya", "Nairobi").
+card(national_capitals, "Kosovo", "Pristina").
+card(national_capitals, "Kuwait", "Kuwait City").
+card(national_capitals, "Latvia", "Riga").
+card(national_capitals, "Lebanon", "Beirut").
+card(national_capitals, "Libya", "Tripoli").
+card(national_capitals, "Lithuania", "Vilnius").
+card(national_capitals, "Luxembourg", "Luxembourg").
+card(national_capitals, "Madagascar", "Antananarivo").
+card(national_capitals, "Malaysia", "Putrajaya (administrative and judicial)").
+card(national_capitals, "Mali", "Bamako").
+card(national_capitals, "Malta", "Valletta").
+card(national_capitals, "Marshall Islands", "Majuro").
+card(national_capitals, "Mauritius", "Port Louis").
+card(national_capitals, "Mexico", "Mexico City").
+card(national_capitals, "Moldova", "Chișinău").
+card(national_capitals, "Monaco", "Monaco").
+card(national_capitals, "Mongolia", "Ulaanbaatar").
+card(national_capitals, "Montenegro", "Podgorica (official)").
+card(national_capitals, "Morocco", "Rabat").
+card(national_capitals, "Myanmar", "Naypyidaw").
+card(national_capitals, "Nepal", "Kathmandu").
+card(national_capitals, "Netherlands", "Amsterdam").
+card(national_capitals, "New Caledonia", "Nouméa").
+card(national_capitals, "New Zealand", "Wellington").
+card(national_capitals, "Nigeria", "Abuja").
+card(national_capitals, "Norfolk Island", "Kingston").
+card(national_capitals, "North Korea", "Pyongyang").
+card(national_capitals, "North Macedonia", "Skopje").
+card(national_capitals, "Northern Mariana Islands", "Saipan").
+card(national_capitals, "Norway", "Oslo").
+card(national_capitals, "Oman", "Muscat").
+card(national_capitals, "Pakistan", "Islamabad").
+card(national_capitals, "Palestine", "Ramallah (de facto)").
+card(national_capitals, "Panama", "Panama City").
+card(national_capitals, "Papua New Guinea", "Port Moresby").
+card(national_capitals, "Paraguay", "Asunción").
+card(national_capitals, "Peru", "Lima").
+card(national_capitals, "Philippines", "Manila").
+card(national_capitals, "Pitcairn Islands", "Adamstown").
+card(national_capitals, "Poland", "Warsaw").
+card(national_capitals, "Portugal", "Lisbon").
+card(national_capitals, "Puerto Rico", "San Juan").
+card(national_capitals, "Qatar", "Doha").
+card(national_capitals, "Romania", "Bucharest").
+card(national_capitals, "Russia", "Moscow").
+card(national_capitals, "Saint Barthélemy", "Gustavia").
+card(national_capitals, "Saint Helena", "Jamestown").
+card(national_capitals, "Saint Kitts and Nevis", "Basseterre").
+card(national_capitals, "Saint Lucia", "Castries").
+card(national_capitals, "Saint Martin", "Marigot").
+card(national_capitals, "Saint Pierre and Miquelon", "St. Pierre").
+card(national_capitals, "Saint Vincent and the Grenadines", "Kingstown").
+card(national_capitals, "Samoa", "Apia").
+card(national_capitals, "San Marino", "San Marino").
+card(national_capitals, "Saudi Arabia", "Riyadh").
+card(national_capitals, "Senegal", "Dakar").
+card(national_capitals, "Serbia", "Belgrade").
+card(national_capitals, "Sierra Leone", "Freetown").
+card(national_capitals, "Singapore", "Singapore").
+card(national_capitals, "Slovakia", "Bratislava").
+card(national_capitals, "Slovenia", "Ljubljana").
+card(national_capitals, "Solomon Islands", "Honiara").
+card(national_capitals, "Somalia", "Mogadishu").
+card(national_capitals, "South Africa", "Pretoria (executive)").
+card(national_capitals, "South Georgia and the South Sandwich Islands", "King Edward Point").
+card(national_capitals, "South Korea", "Seoul").
+card(national_capitals, "South Ossetia", "Tskhinvali").
+card(national_capitals, "South Sudan", "Juba").
+card(national_capitals, "Spain", "Madrid").
+card(national_capitals, "Sri Lanka", "Sri Jayawardenepura Kotte (official)").
+card(national_capitals, "Sudan", "Khartoum").
+card(national_capitals, "Sweden", "Stockholm").
+card(national_capitals, "Switzerland", "Bern").
+card(national_capitals, "Syria", "Damascus").
+card(national_capitals, "São Tomé and Príncipe", "São Tomé").
+card(national_capitals, "Taiwan", "Taipei").
+card(national_capitals, "Tanzania", "Dodoma (official, legislative)").
+card(national_capitals, "Thailand", "Bangkok").
+card(national_capitals, "The Gambia", "Banjul").
+card(national_capitals, "Trinidad and Tobago", "Port of Spain").
+card(national_capitals, "Tunisia", "Tunis").
+card(national_capitals, "Turkey", "Ankara").
+card(national_capitals, "Turks and Caicos Islands", "Cockburn Town").
+card(national_capitals, "Uganda", "Kampala").
+card(national_capitals, "Ukraine", "Kyiv").
+card(national_capitals, "United Arab Emirates", "Abu Dhabi").
+card(national_capitals, "United Kingdom", "London").
+card(national_capitals, "United States Virgin Islands", "Charlotte Amalie").
+card(national_capitals, "United States", "Washington, D.C.").
+card(national_capitals, "Uruguay", "Montevideo").
+card(national_capitals, "Uzbekistan", "Tashkent").
+card(national_capitals, "Valparaíso", "Valparaíso").
+card(national_capitals, "Vatican City", "Vatican City").
+card(national_capitals, "Venezuela", "Caracas").
+card(national_capitals, "Vietnam", "Hanoi").
+card(national_capitals, "Wallis and Futuna", "Mata Utu").
+card(national_capitals, "Western Sahara", "Tifariti (de facto)").
+card(national_capitals, "Yemen", "Sana'a (de jure)").
+card(national_capitals, "Zimbabwe", "Harare").
+card(national_capitals, "diplomatic missions .", "The Hague").
+card(national_capitals, "Åland Islands", "Mariehamn").
 card(nonfiction_books, " Bureaucracy", "Ludwig von Mises").
 card(nonfiction_books, " Mont-Saint-Michel and Chartres", "Henry Adams").
 card(nonfiction_books, " The Economy of Cities", "Jane Jacobs").
