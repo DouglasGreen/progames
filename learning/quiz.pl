@@ -124,6 +124,7 @@ subject(mythology, greek_and_roman_gods, "The names of Greek gods and goddesses 
 subject(mythology, greek_gods, "The names of Greek gods and goddesses and their domains").
 subject(philosophy, ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
 subject(philosophy, philosophers, "Philosophers and their areas of activity").
+subject(philosophy, philosophical_writings, "Philosophical books and other writings and their authors").
 subject(programming, design_patterns, "Software design patterns").
 subject(programming, git_commands, "Git commands with definitions taken from the documentation").
 subject(programming, laws_of_computing, "General laws of computing as defined in Wikipedia").
@@ -4077,6 +4078,89 @@ card(philosophers, "Thomas Hobbes", "Brutish state of nature; Leviathan; War of 
 card(philosophers, "Voltaire", "Deism; Freedom of religion; Freedom of speech; Natural law; Skepticism").
 card(philosophers, "William James", "Radical empiricism; Theory of emotion; Theory of truth; Will to believe").
 card(philosophers, "Zeno of Elea", "Achilles and the tortoise paradox; Arrow paradox; Dichotomy paradox").
+card(philosophical_writings, "A Treatise of Human Nature (book I)", "David Hume").
+card(philosophical_writings, "An Enquiry Concerning the Principles of Morals", "David Hume").
+card(philosophical_writings, "An Essay Concerning Human Understanding", "John Locke").
+card(philosophical_writings, "An Inquiry Into Meaning and Truth", "Bertrand Russell").
+card(philosophical_writings, "An Introduction to The Principles of Morals and Legislation", "Jeremy Bentham").
+card(philosophical_writings, "Apology", "Plato").
+card(philosophical_writings, "Being and Nothingness", "Jean-Paul Sartre").
+card(philosophical_writings, "Being and Time", "Martin Heidegger").
+card(philosophical_writings, "Beyond Good and Evil", "Friedrich Wilhelm Nietzsche").
+card(philosophical_writings, "Bhagavad Gita", "Unknown").
+card(philosophical_writings, "Chuang Tzu", "Chuang Chou").
+card(philosophical_writings, "Collected Papers", "Charles Sanders Pierce").
+card(philosophical_writings, "Concluding Unscientific Postscript", "Søren Kierkegaard").
+card(philosophical_writings, "Creative Evolution", "Henri Bergson").
+card(philosophical_writings, "Crest Jewel of Wisdom", "S'ankara").
+card(philosophical_writings, "Critique of Pure Reason", "Immanuel Kant").
+card(philosophical_writings, "Crito", "Plato").
+card(philosophical_writings, "De Rerum Natura", "Lucretius").
+card(philosophical_writings, "Dialogues Concerning Natural Religion", "David Hume").
+card(philosophical_writings, "Discourses and Manual", "Epictetus").
+card(philosophical_writings, "Essay on Liberty", "John Stuart Mill").
+card(philosophical_writings, "Ethica Nichomachea", "Aristotle").
+card(philosophical_writings, "Ethics", "Benedictus De Spinoza").
+card(philosophical_writings, "Euthyphro", "Plato").
+card(philosophical_writings, "Foundations of The Metaphysics of Morals", "Immanuel Kant").
+card(philosophical_writings, "Fragments", "Democritus of Abdera").
+card(philosophical_writings, "How To Do Things with Words", "J.L. Austin").
+card(philosophical_writings, "Human Nature and Conduct", "John Dewey").
+card(philosophical_writings, "I and Thou", "Martin Buber").
+card(philosophical_writings, "Ideas: General Introduction to Pure Phenomenology", "Edmund Husserl").
+card(philosophical_writings, "Incoherence of The Incoherence", "Averroës").
+card(philosophical_writings, "Language, Truth and Logic", "Alfred Jules Ayer").
+card(philosophical_writings, "Leviathan", "Thomas Hobbes").
+card(philosophical_writings, "Meditations on First Philosophy", "René Descartes").
+card(philosophical_writings, "Meng Tzu", "Mencius").
+card(philosophical_writings, "Metaphysics", "Aristotle").
+card(philosophical_writings, "Monologion and Proslogion", "Saint Anselm of Canterbury").
+card(philosophical_writings, "Novum Organum", "Francis Bacon").
+card(philosophical_writings, "Of Civil Government: The Second Treatise", "John Locke").
+card(philosophical_writings, "On Reading Masterpieces of Philosophy in A Changing World", "John K. Roth").
+card(philosophical_writings, "Outlines of Pyrrhonism", "Sextus Empiricus").
+card(philosophical_writings, "Pensées", "Blaise Pascal").
+card(philosophical_writings, "Phaedo", "Plato").
+card(philosophical_writings, "Phenomenology of Perception", "Maurice Merleau-Ponty").
+card(philosophical_writings, "Phenomenology of Spirit", "Georg Wilhelm Friedrich Hegel").
+card(philosophical_writings, "Philosophical Fragments", "Søren Kierkegaard").
+card(philosophical_writings, "Philosophical Investigations", "Ludwig Wittgenstein").
+card(philosophical_writings, "Philosophy and Logical Syntax", "Rudolf Carnap").
+card(philosophical_writings, "Politics", "Aristotle").
+card(philosophical_writings, "Pragmatism", "William James").
+card(philosophical_writings, "Principia Ethica", "George Edward Moore").
+card(philosophical_writings, "Principle Doctrines and Letter to Menoeceus", "Epicurus").
+card(philosophical_writings, "Process and Reality", "Alfred North Whitehead").
+card(philosophical_writings, "Republic", "Plato").
+card(philosophical_writings, "Selected Works", "Karl Marx").
+card(philosophical_writings, "Selections", "William of Ockham").
+card(philosophical_writings, "Summa Theologica", "Saint Thomas Aquinas").
+card(philosophical_writings, "Tao Te Ching", "Unknown").
+card(philosophical_writings, "The Analects of Confucius", "Confucius").
+card(philosophical_writings, "The Book of Salvation", "Avicenna").
+card(philosophical_writings, "The City of God", "Saint Augustine").
+card(philosophical_writings, "The Courage to Be", "Paul Tillich").
+card(philosophical_writings, "The Life of Reason", "George Santayana").
+card(philosophical_writings, "The Logic of Scientific Discovery", "Sir Karl R. Popper").
+card(philosophical_writings, "The Methods of Ethics", "Henry Sidgwick").
+card(philosophical_writings, "The Philosophy of History", "Georg Wilhelm Friedrich Hegel").
+card(philosophical_writings, "The Platform Scripture of The Sixth Patriarch", "Hui-Neng").
+card(philosophical_writings, "The Prince", "Niccolò Machiavelli").
+card(philosophical_writings, "The Quest for Certainty", "John Dewey").
+card(philosophical_writings, "The Rebel", "Albert Camus").
+card(philosophical_writings, "The Right and The Good", "William David Ross").
+card(philosophical_writings, "The Social Contract", "Jean Jacques Rousseau").
+card(philosophical_writings, "The Will to Believe", "William James").
+card(philosophical_writings, "The Word as Will and Idea", "Arthur Schopenhauer").
+card(philosophical_writings, "The World and The Individual", "Josiah Royce").
+card(philosophical_writings, "Theodicy", "Gottfried Wilhelm Von Leibniz").
+card(philosophical_writings, "Theory of Justice", "John Rawls").
+card(philosophical_writings, "Three Dialogues Between Hylas and Philonous", "George Berkeley").
+card(philosophical_writings, "Thus Spake Zarathustra", "Friedrich Wilhelm Nietzsche").
+card(philosophical_writings, "Tractatus Logico-Philosophicus", "Ludwig Wittgenstein").
+card(philosophical_writings, "Utilitarianism", "John Stuart Mill").
+card(philosophical_writings, "Word and Object", "W.V.O. Quine").
+card(philosophical_writings, "Zen Buddhism", "Daisetz T. Suzuki").
 card(phonetic_alphabet, "A", "Alfa").
 card(phonetic_alphabet, "B", "Bravo").
 card(phonetic_alphabet, "C", "Charlie").
