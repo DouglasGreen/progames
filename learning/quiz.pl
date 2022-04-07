@@ -130,6 +130,7 @@ subject(philosophy, logical_fallacies, "Logical fallacies in English and Latin a
 subject(philosophy, philosophers, "Philosophers and their areas of activity").
 subject(philosophy, philosophical_writings, "Philosophical books and other writings and their authors").
 subject(programming, design_patterns, "Software design patterns").
+subject(programming, gdpr, "Glossary of terms used in General Data Protection Regulation (GDPR)").
 subject(programming, git_commands, "Git commands with definitions taken from the documentation").
 subject(programming, laws_of_computing, "General laws of computing as defined in Wikipedia").
 subject(programming, perl_regexp, "Perl-compatible regular expressions").
@@ -3029,6 +3030,59 @@ card(fiction_books, "Women in Love", "D. H. Lawrence").
 card(fiction_books, "Women of Trachis", "Sophocles").
 card(fiction_books, "Wuthering Heights", "Emily Brontë").
 card(fiction_books, "Zorba the Greek", "Nikos Kazantzakis").
+card(gdpr, "Member State", "Country which belongs to the European Union").
+card(gdpr, "Privacy Shield", "Framework for exchanges of personal data for commercial purposes between the EU and the US").
+card(gdpr, "binding corporate rules (BCRs)", "Personal data protection policies which are adhered to by a group of undertakings").
+card(gdpr, "biometric data", "Personal data about traits or behavior used to uniquely identify a subject").
+card(gdpr, "consent", "Clear, affirmative agreement by the subject to the processing of personal data for a specified purpose").
+card(gdpr, "controller", "Organization which determines the purpose and method of processing personal data").
+card(gdpr, "cross-border processing", "Either the controller, processor, or data subjects are located in more than one Member State").
+card(gdpr, "data concerning health", "Personal data about health status or treatment received by a person").
+card(gdpr, "data protection authority (DPA)", "Another term for supervisory authority").
+card(gdpr, "data protection by design and by default", "Inclusion of data protection in all phases of system development, not just as an add-on").
+card(gdpr, "data protection impact assessment (DPIA)", "Method of reducing privacy risks to organizations by proactively auditing personal data and its processing").
+card(gdpr, "data protection officer (DPO)", "Designated contact within a controller or processor for ensuring compliance with the GDPR").
+card(gdpr, "data protection", "Providing legal safeguards to personal data and its subjects while enabling free movement of data").
+card(gdpr, "data subject", "Natural person who is the target of personal data collection and processing").
+card(gdpr, "delegated acts", "Non-legislative actions by the European Commission in support or clarification of the GDPR").
+card(gdpr, "derogation", "Temporary or partial nullification of the requirements of the GDPR").
+card(gdpr, "directive", "Legislative act of the EU which specifies a goal that Member States must enact into law").
+card(gdpr, "encrypted data", "Data concealed from casual observation by being encoded with a cypher").
+card(gdpr, "enterprise", "Organization which is engaged in economic activity").
+card(gdpr, "filing system", "Structured set of personal data which are accessible according to specific criteria").
+card(gdpr, "genetic data", "Personal data about the inherited characteristics unique to a subject").
+card(gdpr, "group of undertakings", "A controlling organization along with any controlled organizations").
+card(gdpr, "information society service", "Work performed over an electronic network at the request of a person").
+card(gdpr, "international organisation", "Organization which controls other bodies in more than one country").
+card(gdpr, "lawful basis", "One of six valid reasons for processing personal data, including consent, contract, EU law, interest of the data subject, public interest, and interest of the controller").
+card(gdpr, "main establishment", "Central decision-making or processing location of a controller or processor").
+card(gdpr, "natural person", "Individual human being, not a private or public organization").
+card(gdpr, "notification", "Requirement to disclose personal data breaches to the supervisory authority and affected data subjects").
+card(gdpr, "personal data breach", "Accidental or unlawful destruction, loss, alteration, or disclosure of personal data").
+card(gdpr, "personal data", "Information relating to an identifiable person").
+card(gdpr, "processing", "Operations performed on personal data").
+card(gdpr, "processor", "Organization which processes personal data for a controller").
+card(gdpr, "profiling", "Processing of personal data to analyze or predict a person's characteristics or behavior").
+card(gdpr, "pseudonymisation", "Making personal data unable to be attributed to a particular person without additional information").
+card(gdpr, "recipient", "Organization to which personal data are disclosed").
+card(gdpr, "regulation", "Binding legislative act that must be applied across the Union").
+card(gdpr, "relevant and reasoned objection", "Statement opposing a draft decision of violating this act or its envisaged correction").
+card(gdpr, "representative", "Organization which has written authority to act as agent under the GDPR").
+card(gdpr, "restriction of processing", "Marking stored personal data with the aim of limiting their processing in the future").
+card(gdpr, "right of access", "Ability of a data subject to confirm that you are processing their personal data and to view the data").
+card(gdpr, "right to be forgotten", "Popular term for the availability of data erasure").
+card(gdpr, "right to be informed", "Ability of a data subject to receive information about the processing of their personal data").
+card(gdpr, "right to data erasure", "Ability of data subject to ask controller or processor to cease storing and processing their personal data").
+card(gdpr, "right to data portability", "Ability of a data subject to ask for a copy of personal data for processing elsewhere").
+card(gdpr, "right to object", "Ability of a data subject to ask that their data not be processed, including profiling and marketing").
+card(gdpr, "right to rectification", "Ability of a data subject to request correction or completion of their personal data").
+card(gdpr, "right to restrict processing", "Ability of a data subject to prevent a processor from modifying or deleting their personal data for legal reasons").
+card(gdpr, "special categories of personal data", "Prohibited sensitive data concerning race, religion, politics, trade union membership, health, or sexual orientation").
+card(gdpr, "supervisory authority concerned", "Body most relevant to the Member State of a controller, processor, data subject, or violation complaint").
+card(gdpr, "supervisory authority", "Independent enforcement body which is established by a Member State").
+card(gdpr, "third country", "Transfer of data that is not between two Member States").
+card(gdpr, "third party", "Organization other than the controller, processor, and subject of personal data").
+card(gdpr, "undertaking", "Organization which controls other organizations and so are regarded as a combined enterprise").
 card(git_commands, "add", "Add file contents to the index").
 card(git_commands, "bisect", "Use binary search to find the commit that introduced a bug").
 card(git_commands, "branch", "List, create, or delete branches").
