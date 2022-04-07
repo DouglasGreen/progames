@@ -122,6 +122,9 @@ subject(movies, actress_roles, "Movie roles and the actresses who played them").
 subject(music, song_titles, "Pop and rock song titles and bands").
 subject(mythology, greek_and_roman_gods, "The names of Greek gods and goddesses and their roman equivalents").
 subject(mythology, greek_gods, "The names of Greek gods and goddesses and their domains").
+subject(philosophy, cognitive_belief_biases, "Cognitive belief biases, most of which were copied from Wikipedia").
+subject(philosophy, cognitive_memory_biases, "Cognitive memory biases, most of which were copied from Wikipedia").
+subject(philosophy, cognitive_social_biases, "Cognitive social biases, most of which were copied from Wikipedia").
 subject(philosophy, ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
 subject(philosophy, logical_fallacies, "Logical fallacies in English and Latin and their definitions").
 subject(philosophy, philosophers, "Philosophers and their areas of activity").
@@ -1909,6 +1912,200 @@ card(chemical_elements, "Y", "Yttrium (39)").
 card(chemical_elements, "Yb", "Ytterbium (70)").
 card(chemical_elements, "Zn", "Zinc (30)").
 card(chemical_elements, "Zr", "Zirconium (40)").
+card(cognitive_belief_biases, "Ben Franklin effect", "A person who has performed a favor for someone is more likely to do another favor for that person than they would be if they had received a favor from that person.").
+card(cognitive_belief_biases, "Berkson's paradox", "The tendency to misinterpret statistical experiments involving conditional probabilities.").
+card(cognitive_belief_biases, "Dunning-Kruger effect", "The tendency for unskilled individuals to overestimate their own ability and the tendency for experts to underestimate their own ability.").
+card(cognitive_belief_biases, "Forer effect or Barnum effect", "The observation that individuals will give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically for them, but are in fact vague and general enough to apply to a wide range of people. This effect can provide a partial explanation for the widespread acceptance of some beliefs and practices, such as astrology, fortune telling, graphology, and some types of personality tests.").
+card(cognitive_belief_biases, "IKEA effect", "The tendency for people to place a disproportionately high value on objects that they partially assembled themselves, such as furniture from IKEA, regardless of the quality of the end product.").
+card(cognitive_belief_biases, "Parkinson's law of triviality", "The tendency to give disproportionate weight to trivial issues. Also known as bikeshedding, this bias explains why an organization may avoid specialized or complex subjects, such as the design of a nuclear reactor, and instead focus on something easy to grasp or rewarding to the average participant, such as the design of an adjacent bike shed.").
+card(cognitive_belief_biases, "Pygmalion effect", "The phenomenon whereby others' expectations of a target person affect the target person's performance.").
+card(cognitive_belief_biases, "Semmelweis reflex", "The tendency to reject new evidence that contradicts a paradigm.").
+card(cognitive_belief_biases, "Weber-Fechner law", "Difficulty in comparing small differences in large quantities.").
+card(cognitive_belief_biases, "agent detection", "The inclination to presume the purposeful intervention of a sentient or intelligent agent.").
+card(cognitive_belief_biases, "ambiguity effect", "The tendency to avoid options for which the probability of a favorable outcome is unknown.").
+card(cognitive_belief_biases, "anchoring or focalism", "The tendency to rely too heavily, or \"anchor\", on one trait or piece of information when making decisions (usually the first piece of information acquired on that subject).").
+card(cognitive_belief_biases, "anthropocentric thinking", "The tendency to use human analogies as a basis for reasoning about other, less familiar, biological phenomena.").
+card(cognitive_belief_biases, "anthropomorphism or personification", "The tendency to characterize animals, objects, and abstract concepts as possessing human-like traits, emotions, and intentions. The opposite bias, of not attributing feelings or thoughts to another person, is dehumanised perception, a type of objectification.").
+card(cognitive_belief_biases, "attentional bias", "The tendency of perception to be affected by recurring thoughts.").
+card(cognitive_belief_biases, "attribute substitution; substitution bias", "People are content to make a quick judgment from intuition rather than stopping to think and answer correctly").
+card(cognitive_belief_biases, "automation bias", "The tendency to depend excessively on automated systems which can lead to erroneous automated information overriding correct decisions.").
+card(cognitive_belief_biases, "availability cascade", "A self-reinforcing process in which a collective belief gains more and more plausibility through its increasing repetition in public discourse (or \"repeat something long enough and it will become true\").").
+card(cognitive_belief_biases, "availability heuristic", "The tendency to overestimate the likelihood of more memorable events, which can be influenced by how recent the memories are or how unusual or emotionally charged they may be.").
+card(cognitive_belief_biases, "backfire effect", "The reaction to disconfirming evidence by strengthening one's previous beliefs. cf. Continued influence effect.").
+card(cognitive_belief_biases, "bandwagon effect", "The tendency to do (or believe) things because many other people do (or believe) the same. Related to groupthink and herd behavior.").
+card(cognitive_belief_biases, "base rate fallacy or Base rate neglect", "The tendency to ignore general information and focus on information only pertaining to the specific case, even when the general information is more important.").
+card(cognitive_belief_biases, "belief bias", "An effect where someone's evaluation of the logical strength of an argument is biased by the believability of the conclusion.").
+card(cognitive_belief_biases, "bias blind spot", "The tendency to see oneself as less biased than other people, or to be able to identify more cognitive biases in others than in oneself.").
+card(cognitive_belief_biases, "choice-supportive bias", "The tendency to remember one's choices as better than they actually were.").
+card(cognitive_belief_biases, "clustering illusion", "The tendency to overestimate the importance of small runs, streaks, or clusters in large samples of random data (that is, seeing phantom patterns).").
+card(cognitive_belief_biases, "compassion fade", "The predisposition to behave more compassionately towards a small number of identifiable victims than to a large number of anonymous ones.").
+card(cognitive_belief_biases, "confirmation bias", "The tendency to search for, interpret, focus on and remember information in a way that confirms one's preconceptions.").
+card(cognitive_belief_biases, "congruence bias", "The tendency to test hypotheses exclusively through direct testing, instead of testing possible alternative hypotheses.").
+card(cognitive_belief_biases, "conjunction fallacy", "The tendency to assume that specific conditions are more probable than a more general version of those same conditions. For example, subjects in one experiment perceived the probability of a woman being both a bank teller and a feminist as more likely than the probability of her being a bank teller.").
+card(cognitive_belief_biases, "conservatism (belief revision)", "The tendency to revise one's belief insufficiently when presented with new evidence.").
+card(cognitive_belief_biases, "continued influence effect", "The tendency to believe previously learned misinformation even after it has been corrected. Misinformation can still influence inferences one generates after a correction has occurred. cf. Backfire effect").
+card(cognitive_belief_biases, "contrast effect", "The enhancement or reduction of a certain stimulus' perception when compared with a recently observed, contrasting object.").
+card(cognitive_belief_biases, "courtesy bias", "The tendency to give an opinion that is more socially correct than one's true opinion, so as to avoid offending anyone.").
+card(cognitive_belief_biases, "curse of knowledge", "When better-informed people find it extremely difficult to think about problems from the perspective of lesser-informed people.").
+card(cognitive_belief_biases, "declinism", "The predisposition to view the past favorably (rosy retrospection) and future negatively.").
+card(cognitive_belief_biases, "decoy effect", "Preferences for either option A or B change in favor of option B when option C is presented, which is completely dominated by option B (inferior in all respects) and partially dominated by option A.").
+card(cognitive_belief_biases, "default effect", "When given a choice between several options, the tendency to favor the default one.").
+card(cognitive_belief_biases, "denomination effect", "The tendency to spend more money when it is denominated in small amounts (e.g., coins) rather than large amounts (e.g., bills).").
+card(cognitive_belief_biases, "disposition effect", "The tendency to sell an asset that has accumulated in value and resist selling an asset that has declined in value.").
+card(cognitive_belief_biases, "distinction bias", "The tendency to view two options as more dissimilar when evaluating them simultaneously than when evaluating them separately.").
+card(cognitive_belief_biases, "dread aversion", "Just as losses yield double the emotional impact of gains, dread yields double the emotional impact of savouring.").
+card(cognitive_belief_biases, "duration neglect", "The neglect of the duration of an episode in determining its value.").
+card(cognitive_belief_biases, "empathy gap", "The tendency to underestimate the influence or strength of feelings, in either oneself or others.").
+card(cognitive_belief_biases, "end-of-history illusion", "The age-independent belief that one will change less in the future than one has in the past.").
+card(cognitive_belief_biases, "endowment effect", "The tendency for people to demand much more to give up an object than they would be willing to pay to acquire it.").
+card(cognitive_belief_biases, "exaggerated expectation", "The tendency to expect or predict more extreme outcomes than those outcomes that actually happen.").
+card(cognitive_belief_biases, "experimenter's or expectation bias", "The tendency for experimenters to believe, certify, and publish data that agree with their expectations for the outcome of an experiment, and to disbelieve, discard, or downgrade the corresponding weightings for data that appear to conflict with those expectations.").
+card(cognitive_belief_biases, "focusing effect", "The tendency to place too much importance on one aspect of an event.").
+card(cognitive_belief_biases, "form function attribution bias", "In human-robot interaction, the tendency of people to make systematic errors when interacting with a robot. People may base their expectations and perceptions of a robot on its appearance (form) and attribute functions which do not necessarily mirror the true functions of the robot.").
+card(cognitive_belief_biases, "framing effect", "Drawing different conclusions from the same information, depending on how that information is presented.").
+card(cognitive_belief_biases, "frequency illusion or Baader-Meinhof phenomenon", "The frequency illusion is that once something has been noticed then every instance of that thing is noticed, leading to the belief it has a high frequency of occurrence (a form of selection bias). The Baader-Meinhof phenomenon is the illusion where something that has recently come to one's attention suddenly seems to appear with improbable frequency shortly afterwards. The Baader-Meinhof phenomenon is sometimes conflated with frequency illusion and the recency illusion.").
+card(cognitive_belief_biases, "functional fixedness", "Limits a person to using an object only in the way it is traditionally used.").
+card(cognitive_belief_biases, "gambler's fallacy", "The tendency to think that future probabilities are altered by past events, when in reality they are unchanged. The fallacy arises from an erroneous conceptualization of the law of large numbers. For example, \"I've flipped heads with this coin five times consecutively, so the chance of tails coming out on the sixth flip is much greater than heads.\"").
+card(cognitive_belief_biases, "groupthink", "The psychological phenomenon that occurs within a group of people in which the desire for harmony or conformity in the group results in an irrational or dysfunctional decision-making outcome. Group members try to minimize conflict and reach a consensus decision without critical evaluation of alternative viewpoints by actively suppressing dissenting viewpoints, and by isolating themselves from outside influences.").
+card(cognitive_belief_biases, "hard-easy effect", "The tendency to overestimate one's ability to accomplish hard tasks, and underestimate one's ability to accomplish easy tasks").
+card(cognitive_belief_biases, "hindsight bias", "Sometimes called the \"I-knew-it-all-along\" effect, the tendency to see past events as being predictable at the time those events happened.").
+card(cognitive_belief_biases, "hostile attribution bias", "The \"hostile attribution bias\" is the tendency to interpret others' behaviors as having hostile intent, even when the behavior is ambiguous or benign.").
+card(cognitive_belief_biases, "hot-hand fallacy", "The \"hot-hand fallacy\" (also known as the \"hot hand phenomenon\" or \"hot hand\") is the belief that a person who has experienced success with a random event has a greater chance of further success in additional attempts.").
+card(cognitive_belief_biases, "hyperbolic discounting", "Discounting is the tendency for people to have a stronger preference for more immediate payoffs relative to later payoffs. Hyperbolic discounting leads to choices that are inconsistent over time - people make choices today that their future selves would prefer not to have made, despite using the same reasoning. Also known as current moment bias, present-bias, and related to Dynamic inconsistency. A good example of this: a study showed that when making food choices for the coming week, 74% of participants chose fruit, whereas when the food choice was for the current day, 70% chose chocolate.").
+card(cognitive_belief_biases, "illicit transference", "Occurs when a term in the distributive (referring to every member of a class) and collective (referring to the class itself as a whole) sense are treated as equivalent. The two variants of this fallacy are the fallacy of composition and the fallacy of division.").
+card(cognitive_belief_biases, "illusion of control", "The tendency to overestimate one's degree of influence over other external events.").
+card(cognitive_belief_biases, "illusion of validity", "Believing that one's judgments are accurate, especially when available information is consistent or inter-correlated.").
+card(cognitive_belief_biases, "illusory correlation", "Inaccurately perceiving a relationship between two unrelated events.").
+card(cognitive_belief_biases, "illusory truth effect", "A tendency to believe that a statement is true if it is easier to process, or if it has been stated multiple times, regardless of its actual veracity.").
+card(cognitive_belief_biases, "impact bias", "The tendency to overestimate the length or the intensity of the impact of future feeling states.").
+card(cognitive_belief_biases, "implicit association", "The speed with which people can match words depends on how closely they are associated.").
+card(cognitive_belief_biases, "information bias", "The tendency to seek information even when it cannot affect action.").
+card(cognitive_belief_biases, "insensitivity to sample size", "The tendency to under-expect variation in small samples.").
+card(cognitive_belief_biases, "interoceptive bias", "The tendency for sensory input about the body itself to affect one's judgement about external, unrelated circumstances. (As for example, in parole judges who are more lenient when fed and rested.) ").
+card(cognitive_belief_biases, "irrational escalation or Escalation of commitment", "The phenomenon where people justify increased investment in a decision, based on the cumulative prior investment, despite new evidence suggesting that the decision was probably wrong. Also known as the sunk cost fallacy.").
+card(cognitive_belief_biases, "law of the instrument", "An over-reliance on a familiar tool or methods, ignoring or under-valuing alternative approaches. \"If all you have is a hammer, everything looks like a nail.\"").
+card(cognitive_belief_biases, "less-is-better effect", "The tendency to prefer a smaller set to a larger set judged separately, but not jointly.").
+card(cognitive_belief_biases, "look-elsewhere effect", "An apparently statistically significant observation may have actually arisen by chance because of the size of the parameter space to be searched.").
+card(cognitive_belief_biases, "loss aversion", "The perceived disutility of giving up an object is greater than the utility associated with acquiring it. (see also Sunk cost effects and endowment effect).").
+card(cognitive_belief_biases, "mere exposure effect", "The tendency to express undue liking for things merely because of familiarity with them.").
+card(cognitive_belief_biases, "money illusion", "The tendency to concentrate on the nominal value (face value) of money rather than its value in terms of purchasing power.").
+card(cognitive_belief_biases, "moral credential effect", "Occurs when someone who does something good gives themselves permission to be less good in the future.").
+card(cognitive_belief_biases, "negativity bias or negativity effect", "Psychological phenomenon by which humans have a greater recall of unpleasant memories compared with positive memories. (see also actor-observer bias, group attribution error, positivity effect, and negativity effect).").
+card(cognitive_belief_biases, "neglect of probability", "The tendency to completely disregard probability when making a decision under uncertainty.").
+card(cognitive_belief_biases, "normalcy bias", "The refusal to plan for, or react to, a disaster which has never happened before.").
+card(cognitive_belief_biases, "not invented here", "Aversion to contact with or use of products, research, standards, or knowledge developed outside a group. Related to IKEA effect.").
+card(cognitive_belief_biases, "observer-expectancy effect", "When a researcher expects a given result and therefore unconsciously manipulates an experiment or misinterprets data in order to find it (see also subject-expectancy effect).").
+card(cognitive_belief_biases, "omission bias", "The tendency to judge harmful actions (commissions) as worse, or less moral, than equally harmful inactions (omissions).").
+card(cognitive_belief_biases, "optimism bias", "The tendency to be over-optimistic, underestimating greatly the probability of undesirable outcomes and overestimating favorable and pleasing outcomes (see also wishful thinking, valence effect, positive outcome bias).").
+card(cognitive_belief_biases, "ostrich effect", "Ignoring an obvious (negative) situation.").
+card(cognitive_belief_biases, "outcome bias", "The tendency to judge a decision by its eventual outcome instead of based on the quality of the decision at the time it was made.").
+card(cognitive_belief_biases, "overconfidence effect", "Excessive confidence in one's own answers to questions. For example, for certain types of questions, answers that people rate as \"99% certain\" turn out to be wrong 40% of the time.").
+card(cognitive_belief_biases, "pareidolia", "A vague and random stimulus (often an image or sound) is perceived as significant, e.g., seeing images of animals or faces in clouds, the man in the moon, and hearing non-existent hidden messages on records played in reverse.").
+card(cognitive_belief_biases, "pessimism bias", "The tendency for some people, especially those suffering from depression, to overestimate the likelihood of negative things happening to them.").
+card(cognitive_belief_biases, "plan continuation bias", "Failure to recognize that the original plan of action is no longer appropriate for a changing situation or for a situation that is different than anticipated.").
+card(cognitive_belief_biases, "planning fallacy", "The tendency to underestimate task-completion times.").
+card(cognitive_belief_biases, "plant blindness", "The tendency to ignore plants in their environment and a failure to recognize and appreciate the utility of plants to life on earth.").
+card(cognitive_belief_biases, "present bias", "The tendency of people to give stronger weight to payoffs that are closer to the present time when considering trade-offs between two future moments.").
+card(cognitive_belief_biases, "pro-innovation bias", "The tendency to have an excessive optimism towards an invention or innovation's usefulness throughout society, while often failing to identify its limitations and weaknesses.").
+card(cognitive_belief_biases, "projection bias", "The tendency to overestimate how much our future selves share one's current preferences, thoughts and values, thus leading to sub-optimal choices.").
+card(cognitive_belief_biases, "pseudocertainty effect", "The tendency to make risk-averse choices if the expected outcome is positive, but make risk-seeking choices to avoid negative outcomes.").
+card(cognitive_belief_biases, "reactance", "The urge to do the opposite of what someone wants you to do out of a need to resist a perceived attempt to constrain your freedom of choice (see also Reverse psychology).").
+card(cognitive_belief_biases, "reactive devaluation", "Devaluing proposals only because they purportedly originated with an adversary.").
+card(cognitive_belief_biases, "recency illusion", "The illusion that a phenomenon one has noticed only recently is itself recent. Often used to refer to linguistic phenomena; the illusion that a word or language usage that one has noticed only recently is an innovation when it is in fact long-established (see also frequency illusion).").
+card(cognitive_belief_biases, "regressive bias", "A certain state of mind wherein high values and high likelihoods are overestimated while low values and low likelihoods are underestimated.").
+card(cognitive_belief_biases, "restraint bias", "The tendency to overestimate one's ability to show restraint in the face of temptation.").
+card(cognitive_belief_biases, "rhyme as reason effect", "Rhyming statements are perceived as more truthful. A famous example being used in the O.J Simpson trial with the defense's use of the phrase \"If the gloves don't fit, then you must acquit.\"").
+card(cognitive_belief_biases, "risk compensation / Peltzman effect", "The tendency to take greater risks when perceived safety increases.").
+card(cognitive_belief_biases, "salience bias", "The tendency to focus on items that are more prominent or emotionally striking and ignore those that are unremarkable, even though this difference is often irrelevant by objective standards.").
+card(cognitive_belief_biases, "selection bias", "The tendency to notice something more when something causes us to be more aware of it, such as when we buy a car, we tend to notice similar cars more often than we did before. They are not suddenly more common - we just are noticing them more. Also called the Observational Selection Bias.").
+card(cognitive_belief_biases, "selective perception", "The tendency for expectations to affect perception.").
+card(cognitive_belief_biases, "sexual overperception bias / Sexual underperception bias", "The tendency to over-/underestimate sexual interest of another person in oneself.").
+card(cognitive_belief_biases, "social comparison bias", "The tendency, when making decisions, to favour potential candidates who don't compete with one's own particular strengths.").
+card(cognitive_belief_biases, "social desirability bias", "The tendency to over-report socially desirable characteristics or behaviours in oneself and under-report socially undesirable characteristics or behaviours. See also: § Courtesy bias.").
+card(cognitive_belief_biases, "status quo bias", "The tendency to like things to stay relatively the same (see also loss aversion, endowment effect, and system justification).").
+card(cognitive_belief_biases, "stereotyping", "Expecting a member of a group to have certain characteristics without having actual information about that individual.").
+card(cognitive_belief_biases, "subadditivity effect", "The tendency to judge probability of the whole to be less than the probabilities of the parts.").
+card(cognitive_belief_biases, "subjective validation", "Perception that something is true if one's belief demands it to be true. Also assigns perceived connections between coincidences.").
+card(cognitive_belief_biases, "surrogation", "Losing sight of the strategic construct that a measure is intended to represent, and subsequently acting as though the measure is the construct of interest.").
+card(cognitive_belief_biases, "survivorship bias", "Concentrating on the people or things that \"survived\" some process and inadvertently overlooking those that didn't because of their lack of visibility.").
+card(cognitive_belief_biases, "third-person effect", "A hypothesized tendency to believe that mass communicated media messages have a greater effect on others than on themselves.").
+card(cognitive_belief_biases, "time-saving bias", "Underestimations of the time that could be saved (or lost) when increasing (or decreasing) from a relatively low speed and overestimations of the time that could be saved (or lost) when increasing (or decreasing) from a relatively high speed.").
+card(cognitive_belief_biases, "unit bias", "The standard suggested amount of consumption (e.g., food serving size) is perceived to be appropriate, and a person would consume it all even if it is too much for this particular person.").
+card(cognitive_belief_biases, "well travelled road effect", "Underestimation of the duration taken to traverse oft-traveled routes and overestimation of the duration taken to traverse less familiar routes.").
+card(cognitive_belief_biases, "women are wonderful effect", "A tendency to associate more positive attributes with women than with men.").
+card(cognitive_belief_biases, "zero-risk bias", "Preference for reducing a small risk to zero over a greater reduction in a larger risk.").
+card(cognitive_belief_biases, "zero-sum bias", "A bias whereby a situation is incorrectly perceived to be like a zero-sum game (i.e., one person gains at the expense of another).").
+card(cognitive_memory_biases, "Google effect", "The tendency to forget information that can be found readily online by using Internet search engines.").
+card(cognitive_memory_biases, "Zeigarnik effect", "That uncompleted or interrupted tasks are remembered better than completed ones.").
+card(cognitive_memory_biases, "bizarreness effect", "Bizarre material is better remembered than common material.").
+card(cognitive_memory_biases, "conservatism or Regressive bias", "Tendency to remember high values and high likelihoods/probabilities/frequencies as lower than they actually were and low ones as higher than they actually were. Based on the evidence, memories are not extreme enough.").
+card(cognitive_memory_biases, "consistency bias", "Incorrectly remembering one's past attitudes and behaviour as resembling present attitudes and behaviour.").
+card(cognitive_memory_biases, "context effect", "That cognition and memory are dependent on context, such that out-of-context memories are more difficult to retrieve than in-context memories (e.g., recall time and accuracy for a work-related memory will be lower at home, and vice versa).").
+card(cognitive_memory_biases, "cross-race effect", "The tendency for people of one race to have difficulty identifying members of a race other than their own.").
+card(cognitive_memory_biases, "cryptomnesia", "A form of misattribution where a memory is mistaken for imagination, because there is no subjective experience of it being a memory.").
+card(cognitive_memory_biases, "egocentric bias", "Recalling the past in a self-serving manner, e.g., remembering one's exam grades as being better than they were, or remembering a caught fish as bigger than it really was.").
+card(cognitive_memory_biases, "fading affect bias", "A bias in which the emotion associated with unpleasant memories fades more quickly than the emotion associated with positive events.").
+card(cognitive_memory_biases, "false memory", "A form of misattribution where imagination is mistaken for a memory.").
+card(cognitive_memory_biases, "generation effect (Self-generation effect)", "That self-generated information is remembered best. For instance, people are better able to recall memories of statements that they have generated than similar statements generated by others.").
+card(cognitive_memory_biases, "humor effect", "That humorous items are more easily remembered than non-humorous ones, which might be explained by the distinctiveness of humor, the increased cognitive processing time to understand the humor, or the emotional arousal caused by the humor.").
+card(cognitive_memory_biases, "lag effect", "The phenomenon whereby learning is greater when studying is spread out over time, as opposed to studying the same amount of time in a single session.").
+card(cognitive_memory_biases, "leveling and sharpening", "Memory distortions introduced by the loss of details in a recollection over time, often concurrent with sharpening or selective recollection of certain details that take on exaggerated significance in relation to the details or aspects of the experience lost through leveling. Both biases may be reinforced over time, and by repeated recollection or re-telling of a memory.").
+card(cognitive_memory_biases, "levels-of-processing effect", "That different methods of encoding information into memory have different levels of effectiveness.").
+card(cognitive_memory_biases, "list-length effect", "A smaller percentage of items are remembered in a longer list, but as the length of the list increases, the absolute number of items remembered increases as well. For example, consider a list of 30 items (\"L30\") and a list of 100 items (\"L100\"). An individual may remember 15 items from L30, or 50%, whereas the individual may remember 40 items from L100, or 40%. Although the percent of L30 items remembered (50%) is greater than the percent of L100 (40%), more L100 items (40) are remembered than L30 items (15).[further explanation needed]").
+card(cognitive_memory_biases, "misinformation effect", "Memory becoming less accurate because of interference from post-event information.").
+card(cognitive_memory_biases, "modality effect", "That memory recall is higher for the last items of a list when the list items were received via speech than when they were received through writing.").
+card(cognitive_memory_biases, "mood-congruent memory bias", "The improved recall of information congruent with one's current mood.").
+card(cognitive_memory_biases, "next-in-line effect", "When taking turns speaking in a group using a predetermined order (e.g. going clockwise around a room, taking numbers, etc.) people tend to have diminished recall for the words of the person who spoke immediately before them.").
+card(cognitive_memory_biases, "part-list cueing effect", "That being shown some items from a list and later retrieving one item causes it to become harder to retrieve the other items.").
+card(cognitive_memory_biases, "peak-end rule", "That people seem to perceive not the sum of an experience but the average of how it was at its peak (e.g., pleasant or unpleasant) and how it ended.").
+card(cognitive_memory_biases, "picture superiority effect", "The notion that concepts that are learned by viewing pictures are more easily and frequently recalled than are concepts that are learned by viewing their written word form counterparts.").
+card(cognitive_memory_biases, "positivity effect (Socioemotional selectivity theory)", "That older adults favor positive over negative information in their memories.").
+card(cognitive_memory_biases, "primacy effect, recency effect & serial position effect", "That items near the end of a sequence are the easiest to recall, followed by the items at the beginning of a sequence; items in the middle are the least likely to be remembered.").
+card(cognitive_memory_biases, "processing difficulty effect", "That information that takes longer to read and is thought about more (processed with more difficulty) is more easily remembered.").
+card(cognitive_memory_biases, "reminiscence bump", "The recalling of more personal events from adolescence and early adulthood than personal events from other lifetime periods.").
+card(cognitive_memory_biases, "self-relevance effect", "That memories relating to the self are better recalled than similar information relating to others.").
+card(cognitive_memory_biases, "source confusion", "Confusing episodic memories with other information, creating distorted memories.").
+card(cognitive_memory_biases, "spacing effect", "That information is better recalled if exposure to it is repeated over a long span of time rather than a short one.").
+card(cognitive_memory_biases, "spotlight effect", "The tendency to overestimate the amount that other people notice your appearance or behavior.").
+card(cognitive_memory_biases, "stereotypical bias", "Memory distorted towards stereotypes (e.g., racial or gender).").
+card(cognitive_memory_biases, "suffix effect", "Diminishment of the recency effect because a sound item is appended to the list that the subject is not required to recall.").
+card(cognitive_memory_biases, "suggestibility", "A form of misattribution where ideas suggested by a questioner are mistaken for memory.").
+card(cognitive_memory_biases, "tachypsychia", "When time perceived by the individual either lengthens, making events appear to slow down, or contracts.").
+card(cognitive_memory_biases, "telescoping effect", "The tendency to displace recent events backward in time and remote events forward in time, so that recent events appear more remote, and remote events, more recent.").
+card(cognitive_memory_biases, "testing effect", "The fact that you more easily remember information you have read by rewriting it instead of rereading it.").
+card(cognitive_memory_biases, "tip of the tongue phenomenon", "When a subject is able to recall parts of an item, or related information, but is frustratingly unable to recall the whole item. This is thought to be an instance of \"blocking\" where multiple similar memories are being recalled and interfere with each other.").
+card(cognitive_memory_biases, "travis Syndrome", "Overestimating the significance of the present. It is related to chronological snobbery with possibly an appeal to novelty logical fallacy being part of the bias.").
+card(cognitive_memory_biases, "verbatim effect", "That the \"gist\" of what someone has said is better remembered than the verbatim wording. This is because memories are representations, not exact copies.").
+card(cognitive_memory_biases, "von Restorff effect", "That an item that sticks out is more likely to be remembered than other items.").
+card(cognitive_social_biases, "actor-observer bias", "The tendency for explanations of other individuals' behaviors to overemphasize the influence of their personality and underemphasize the influence of their situation, and for explanations of one's own behaviors to do the opposite (that is, to overemphasize the influence of our situation and underemphasize the influence of our own personality).").
+card(cognitive_social_biases, "authority bias", "The tendency to attribute greater accuracy to the opinion of an authority figure (unrelated to its content) and be more influenced by that opinion.").
+card(cognitive_social_biases, "cheerleader effect", "The tendency for people to appear more attractive in a group than in isolation.").
+card(cognitive_social_biases, "defensive attribution hypothesis", "Attributing more blame to a harm-doer as the outcome becomes more severe or as personal or situational similarity to the victim increases.").
+card(cognitive_social_biases, "egocentric bias", "Occurs when people claim more responsibility for themselves for the results of a joint action than an outside observer would credit them with.").
+card(cognitive_social_biases, "extrinsic incentives bias", "An exception to the fundamental attribution error, when people view others as having (situational) extrinsic motivations and (dispositional) intrinsic motivations for oneself").
+card(cognitive_social_biases, "false consensus effect", "The tendency for people to overestimate the degree to which others agree with them.").
+card(cognitive_social_biases, "false uniqueness bias", "The tendency of people to see their projects and themselves as more singular than they actually are.").
+card(cognitive_social_biases, "fundamental attribution error", "The tendency for people to over-emphasize personality-based explanations for behaviors observed in others while under-emphasizing the role and power of situational influences on the same behavior.").
+card(cognitive_social_biases, "group attribution error", "The biased belief that the characteristics of an individual group member are reflective of the group as a whole or the tendency to assume that group decision outcomes reflect the preferences of group members, even when information is available that clearly suggests otherwise.").
+card(cognitive_social_biases, "halo effect", "The tendency for a person's positive or negative traits to \"spill over\" from one personality area to another in others' perceptions of them.").
+card(cognitive_social_biases, "illusion of asymmetric insight", "People perceive their knowledge of their peers to surpass their peers' knowledge of them.").
+card(cognitive_social_biases, "illusion of external agency", "When people view self-generated preferences as instead being caused by insightful, effective and benevolent agents.").
+card(cognitive_social_biases, "illusion of transparency", "People overestimate others' ability to know themselves, and they also overestimate their ability to know others.").
+card(cognitive_social_biases, "illusory superiority", "Overestimating one's desirable qualities, and underestimating undesirable qualities, relative to other people. (Also known as \"Lake Wobegon effect\", \"better-than-average effect\", or \"superiority bias\".)").
+card(cognitive_social_biases, "ingroup bias", "The tendency for people to give preferential treatment to others they perceive to be members of their own groups.").
+card(cognitive_social_biases, "intentionality bias", "Tendency to judge human action to intentional rather than accidental.").
+card(cognitive_social_biases, "just-world hypothesis", "The tendency for people to want to believe that the world is fundamentally just, causing them to rationalize an otherwise inexplicable injustice as deserved by the victim(s).").
+card(cognitive_social_biases, "moral luck", "The tendency for people to ascribe greater or lesser moral standing based on the outcome of an event.").
+card(cognitive_social_biases, "naïve cynicism", "Expecting more egocentric bias in others than in oneself.").
+card(cognitive_social_biases, "naïve realism", "The belief that we see reality as it really is - objectively and without bias; that the facts are plain for all to see; that rational people will agree with us; and that those who don't are either uninformed, lazy, irrational, or biased.").
+card(cognitive_social_biases, "outgroup homogeneity bias", "Individuals see members of their own group as being relatively more varied than members of other groups.").
+card(cognitive_social_biases, "puritanical bias", "Refers to the tendency to attribute cause of an undesirable outcome or wrongdoing by an individual to a moral deficiency or lack of self control rather than taking into account the impact of broader societal determinants .").
+card(cognitive_social_biases, "self-serving bias", "The tendency to claim more responsibility for successes than failures. It may also manifest itself as a tendency for people to evaluate ambiguous information in a way beneficial to their interests.").
+card(cognitive_social_biases, "shared information bias", "Known as the tendency for group members to spend more time and energy discussing information that all members are already familiar with (i.e., shared information), and less time and energy discussing information that only some members are aware of (i.e., unshared information).").
+card(cognitive_social_biases, "system justification", "The tendency to defend and bolster the status quo. Existing social, economic, and political arrangements tend to be preferred, and alternatives disparaged, sometimes even at the expense of individual and collective self-interest.").
+card(cognitive_social_biases, "trait ascription bias", "The tendency for people to view themselves as relatively variable in terms of personality, behavior, and mood while viewing others as much more predictable.").
+card(cognitive_social_biases, "ultimate attribution error", "Similar to the fundamental attribution error, in this error a person is likely to make an internal attribution to an entire group instead of the individuals within the group.").
+card(cognitive_social_biases, "worse-than-average effect", "A tendency to believe ourselves to be worse than others at tasks which are difficult.").
 card(combinations, "C(1, 1)", "1").
 card(combinations, "C(10, 1)", "10").
 card(combinations, "C(10, 10)", "1").
