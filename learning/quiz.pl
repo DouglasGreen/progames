@@ -112,6 +112,7 @@ subject(literature, nonfiction_books, "Nonfictional books and authors").
 subject(literature, poets, "Poems and the poets who wrote them").
 subject(math, combinations, "Calculated values of combinations").
 subject(math, factorials, "Calculated values of factorials").
+subject(math, game_theory, "Terms from game theory").
 subject(math, permutations, "Calculated values of permutations").
 subject(math, powers, "Calculated values of powers").
 subject(math, products, "Calculated values of products").
@@ -3030,6 +3031,44 @@ card(fiction_books, "Women in Love", "D. H. Lawrence").
 card(fiction_books, "Women of Trachis", "Sophocles").
 card(fiction_books, "Wuthering Heights", "Emily Brontë").
 card(fiction_books, "Zorba the Greek", "Nikos Kazantzakis").
+card(game_theory, "Nash equilibrium", "No player can gain by changing strategy if the strategies of others remain unchanged").
+card(game_theory, "asymmetric", "Payoffs for a strategy depend on who is playing them").
+card(game_theory, "bargaining game", "Game in which players must cooperate to request less than the available amount of money").
+card(game_theory, "battle of the sexes", "Game in which two players benefit by sharing a choice but can't remember the other's choice").
+card(game_theory, "combinatorial game", "Finding an optimal strategy is hindered by the large number of possible moves").
+card(game_theory, "constant-sum", "Players can neither increase or decrease total available payoffs").
+card(game_theory, "cooperate", "Show loyalty to a fellow player").
+card(game_theory, "cooperative", "Game in which the players can form binding commitments").
+card(game_theory, "coordination game", "Type of game in which all players can have gains by choosing consistent strategies").
+card(game_theory, "defect", "Betray a fellow player").
+card(game_theory, "diner's dilemma", "N-player version of the prisoner's dilemma").
+card(game_theory, "dollar auction", "Game that causes a bidding war by the second highest bidder losing the amount bid").
+card(game_theory, "equilibrium", "State in which competing influences are balanced, resulting in no net change").
+card(game_theory, "hawk-dove game; chicken", "Game of conflict in which two players decide who must yield").
+card(game_theory, "imperfect information", "Not all players know the moves previously made by all other players").
+card(game_theory, "matching pennies", "Game of simultaneous selection between two alternatives").
+card(game_theory, "maximax", "Selecting the strategy with the highest maximum available payoff; Strategy for risk-seeking or optimistic player").
+card(game_theory, "maximin", "Selecting the strategy with the highest minimum available payoff; Strategy for a cautious player who is minimizing their losses").
+card(game_theory, "minimax", "Selecting the strategy with the lowest maximum possible loss; Strategy for risk-avoiding or pessimistic player").
+card(game_theory, "mixed strategy", "Assignment of a probability to each pure strategy").
+card(game_theory, "non-zero-sum", "Players can increase or decrease total available payoffs").
+card(game_theory, "noncooperative", "Game in which the players can't form binding commitments").
+card(game_theory, "payoff", "Expected reward for following a strategy").
+card(game_theory, "perfect information", "All players know the moves previously made by all other players").
+card(game_theory, "prisoner's dilemma", "Two players who have to make a simultaneous decision that affects each other").
+card(game_theory, "pure strategy", "Provides a complete definition of how a player will play a game").
+card(game_theory, "rock, paper, scissors", "Game of simultaneous selection between three alternatives").
+card(game_theory, "sequential", "Players move at different times and are aware of others' earlier actions").
+card(game_theory, "simultaneous", "Players move at the same time or are unaware of others' earlier actions").
+card(game_theory, "stag game", "Game in which players must cooperate in order to earn a better payoff").
+card(game_theory, "subgame", "Subset of a game that can be considered a game in its own right").
+card(game_theory, "symmetric", "Payoffs for a strategy depend only on the other strategies").
+card(game_theory, "tit for tat", "Player will first cooperate, then replicate an opponent's strategy").
+card(game_theory, "totally mixed strategy", "Mixed strategy in which the player assigns a strictly positive probability to every pure strategy").
+card(game_theory, "traveler's dilemma", "Game in which two players try to outbid each other in estimating a value").
+card(game_theory, "ultimatum game", "Game in which two players must agree how to divide a sum of money").
+card(game_theory, "volunteer's dilemma", "Game in which group members must make a sacrifice for the public good or free ride").
+card(game_theory, "zero-sum", "Constant-sum game where a player benefits only at equal expense to others").
 card(gdpr, "Member State", "Country which belongs to the European Union").
 card(gdpr, "Privacy Shield", "Framework for exchanges of personal data for commercial purposes between the EU and the US").
 card(gdpr, "binding corporate rules (BCRs)", "Personal data protection policies which are adhered to by a group of undertakings").
