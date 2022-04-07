@@ -143,6 +143,7 @@ subject(programming, vim, "Commands for the Vim text editor").
 subject(reference, acronyms, "Acronyms and the terms that they expand into").
 subject(reference, latin_phrases, "A list of phrases in Latin and the English translation").
 subject(reference, phonetic_alphabet, "NATO Phonetic Alphabet").
+subject(religion, church_founders, "Founders of Christian denominations").
 subject(spanish, spanish_vocabulary, "Translations from English to Spanish").
 subject(united_states, state_abbreviations, "Two-letter abbreviations for states of the United States").
 subject(united_states, state_capitals, "State capitals of the USA").
@@ -1914,6 +1915,31 @@ card(chemical_elements, "Y", "Yttrium (39)").
 card(chemical_elements, "Yb", "Ytterbium (70)").
 card(chemical_elements, "Zn", "Zinc (30)").
 card(chemical_elements, "Zr", "Zirconium (40)").
+card(church_founders, "Amish", "Jakob Ammann (Switzerland)").
+card(church_founders, "Anglican Communion", "King Henry 8th (England)").
+card(church_founders, "Baptist Churches", "John Smyth (Holland)").
+card(church_founders, "Brethren", "John Darby (England)").
+card(church_founders, "Calvinism", "John Calvin (Switzerland)").
+card(church_founders, "Christian Science", "Mary Baker Eddy (United States)").
+card(church_founders, "Congregationalism", "John & Charles Wesley (England)").
+card(church_founders, "Dutch Reformed", "Michaelis Jones (Netherlands)").
+card(church_founders, "Jehovah's Witnesses", "Charles Russell (United States)").
+card(church_founders, "Latter-day Saints", "Joseph Smith (United States)").
+card(church_founders, "Lutheranism/Protestantism", "Martin Luther (Germany)").
+card(church_founders, "Mennonites", "No single founder (Switzerland)").
+card(church_founders, "Methodism", "John Wesley (England)").
+card(church_founders, "Moravians", "Count Zinendorf (Germany)").
+card(church_founders, "Orthodox churches", "Peter, Paul (Judea)").
+card(church_founders, "Pentecostalism", "Charles Parham (United States)").
+card(church_founders, "Presbyterianism", "John Knox (Scotland)").
+card(church_founders, "Quakers", "George Fox (England)").
+card(church_founders, "Roman Catholic", "Peter, Paul (Judea)").
+card(church_founders, "Salvation Army", "William Booth (England)").
+card(church_founders, "Seventh Day Adventists", "Ellen White (United States)").
+card(church_founders, "Swedenborg", "Emanuel Swedenborg (Sweden)").
+card(church_founders, "Swiss Reformed Church", "Zwingli (Switzerland)").
+card(church_founders, "Unification Church", "Sun Myung Moon (South Korea)").
+card(church_founders, "Worldwide Church of God", "Herbert W. Armstrong (United States)").
 card(cognitive_belief_biases, "Ben Franklin effect", "A person who has performed a favor for someone is more likely to do another favor for that person than they would be if they had received a favor from that person.").
 card(cognitive_belief_biases, "Berkson's paradox", "The tendency to misinterpret statistical experiments involving conditional probabilities.").
 card(cognitive_belief_biases, "Dunning-Kruger effect", "The tendency for unskilled individuals to overestimate their own ability and the tendency for experts to underestimate their own ability.").
