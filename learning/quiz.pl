@@ -123,6 +123,7 @@ subject(music, song_titles, "Pop and rock song titles and bands").
 subject(mythology, greek_and_roman_gods, "The names of Greek gods and goddesses and their roman equivalents").
 subject(mythology, greek_gods, "The names of Greek gods and goddesses and their domains").
 subject(philosophy, ethics, "Ethical terms and definitions, most of which were adapted from Wiktionary").
+subject(philosophy, logical_fallacies, "Logical fallacies in English and Latin and their definitions").
 subject(philosophy, philosophers, "Philosophers and their areas of activity").
 subject(philosophy, philosophical_writings, "Philosophical books and other writings and their authors").
 subject(programming, design_patterns, "Software design patterns").
@@ -2985,6 +2986,88 @@ card(laws_of_computing, "Tesler's Law of Conservation as Complexity", "You canno
 card(laws_of_computing, "Weibull's Power Law", "The logarithm of failure rates increases linearly with the logarithm of age").
 card(laws_of_computing, "Wirth's Law", "Software gets slower faster than hardware gets faster").
 card(laws_of_computing, "Zawinksi's Law", "Every program attempts to expand until it can read mail").
+card(logical_fallacies, "affirmative conclusion from a negative premise", "Syllogism with a positive conclusion and a negative premise").
+card(logical_fallacies, "affirming a disjunct", "\"P or Q\" is true, and P is true, so Q must be false").
+card(logical_fallacies, "affirming the consequent", "\"If P then Q\" is true, and Q is true, so P must be true").
+card(logical_fallacies, "after this, therefore because of this", "Since event Y followed event X, event Y must have been caused by event X").
+card(logical_fallacies, "appeal to authority", "Claim is made by an expert, so it must be correct").
+card(logical_fallacies, "appeal to common belief", "Claim is widely believed, so it must be correct").
+card(logical_fallacies, "appeal to common sense", "Claim is widely believed, so it must be correct").
+card(logical_fallacies, "appeal to consequences", "Claim has desirable results, so it must be correct").
+card(logical_fallacies, "appeal to emotion", "It feels good to believe a claim, so it must be correct").
+card(logical_fallacies, "appeal to hypocrisy", "Person making a claim behaves inconsistently with it, so it is false").
+card(logical_fallacies, "appeal to ignorance", "Claim has not yet been proven false, so it must be correct").
+card(logical_fallacies, "appeal to moderation", "Claim is not a compromise between opposing positions, so it must be false").
+card(logical_fallacies, "appeal to nature", "Claim is biologically plausible, so it must be correct").
+card(logical_fallacies, "appeal to novelty", "Claim is modern, so it must be true").
+card(logical_fallacies, "appeal to pity", "Claim arouses sympathy, so it must be true").
+card(logical_fallacies, "appeal to poverty", "Claim is made by a poor person, so it must be true").
+card(logical_fallacies, "appeal to probability", "Claim is likely true, so it must be true").
+card(logical_fallacies, "appeal to ridicule", "Claim can be made to appear foolish, so it must be false").
+card(logical_fallacies, "appeal to spite", "Claim arouses memory of bad feelings, so it must be false").
+card(logical_fallacies, "appeal to the majority", "Most people believe a claim, so it must be true").
+card(logical_fallacies, "appeal to the people", "Most people believe a claim, so it must be true").
+card(logical_fallacies, "appeal to the person", "Claim is made by an unworthy person, so it must be false").
+card(logical_fallacies, "appeal to the point of nausea", "Claim has been repeated until critics are exhausted, so it must be true").
+card(logical_fallacies, "appeal to the stick", "Claim is backed up by threat, so it must be true").
+card(logical_fallacies, "appeal to the stone", "Claim is dismissed as absurd without proof").
+card(logical_fallacies, "appeal to tradition", "Claim was held by ancestors, so it must be true").
+card(logical_fallacies, "appeal to wealth", "Claim is made by a rich person, so it must be true").
+card(logical_fallacies, "argument by repetition", "Claim has been repeated often enough, so it must be true").
+card(logical_fallacies, "argument from incredulity", "Hard to imagine that claim is true, so it must be false").
+card(logical_fallacies, "argument from silence", "Historical claim based on an author's failure to mention an event").
+card(logical_fallacies, "argumentum ab absurdo", "Claim can be made to appear foolish, so it must be false").
+card(logical_fallacies, "argumentum ab auctoritate", "Claim is made by an expert, so it must be correct").
+card(logical_fallacies, "argumentum ad antiquitatem", "Claim was held by ancestors, so it must be true").
+card(logical_fallacies, "argumentum ad baculum", "Claim is backed up by threat, so it must be true").
+card(logical_fallacies, "argumentum ad consequentiam", "Claim has desirable results, so it must be correct").
+card(logical_fallacies, "argumentum ad crumenam", "Claim is made by a rich person, so it must be true").
+card(logical_fallacies, "argumentum ad hominem", "Claim is made by an unworthy person, so it must be false").
+card(logical_fallacies, "argumentum ad ignorantiam", "Claim has not yet been proven false, so it must be correct").
+card(logical_fallacies, "argumentum ad infinitum", "Claim has been repeated until critics are exhausted, so it must be true").
+card(logical_fallacies, "argumentum ad lapidem", "Claim is dismissed as absurd without proof").
+card(logical_fallacies, "argumentum ad lazarum", "Claim is made by a poor person, so it must be true").
+card(logical_fallacies, "argumentum ad misericordiam", "Claim arouses sympathy, so it must be true").
+card(logical_fallacies, "argumentum ad naturam", "Claim is biologically plausible, so it must be correct").
+card(logical_fallacies, "argumentum ad nauseam", "Claim has been repeated until critics are exhausted, so it must be true").
+card(logical_fallacies, "argumentum ad novitatem", "Claim is modern, so it must be true").
+card(logical_fallacies, "argumentum ad odium", "Claim arouses memory of bad feelings, so it must be false").
+card(logical_fallacies, "argumentum ad passiones", "It feels good to believe a claim, so it must be correct").
+card(logical_fallacies, "argumentum ad populum", "Most people believe a claim, so it must be true").
+card(logical_fallacies, "argumentum ad temperantiam", "Claim is not a compromise between opposing positions, so it must be false").
+card(logical_fallacies, "argumentum ad verecundiam", "Claim is made by an expert, so it must be correct").
+card(logical_fallacies, "argumentum ex silentio", "Historical claim based on an author's failure to mention an event").
+card(logical_fallacies, "begging the question", "Type of circular reasoning that assumes the conclusion of an argument as its premise").
+card(logical_fallacies, "complex question", "Question contains a hidden assumption that the answerer must agree to").
+card(logical_fallacies, "conjunction fallacy", "Claim has more specific conditions, so it is more probable").
+card(logical_fallacies, "correlation proves causation", "Events typically occur together, so one must have caused the other").
+card(logical_fallacies, "denying the antecedent", "\"If P then Q\" is true, and P is false, so Q is false").
+card(logical_fallacies, "endless appeal", "Claim has been repeated until critics are exhausted, so it must be true").
+card(logical_fallacies, "equivocation", "Argument uses a term with more than one meaning inconsistently").
+card(logical_fallacies, "fallacy of exclusive premises", "If no X are Y, and no Y are Z, then no Z are X").
+card(logical_fallacies, "fallacy of many questions", "Question contains a hidden assumption that the answerer must agree to").
+card(logical_fallacies, "fallacy of relative privation", "Claim should be ignored because there are worse problems in the world").
+card(logical_fallacies, "false analogy", "X and Y are similar, and since X has property P, Y must also have property P").
+card(logical_fallacies, "false dichotomy", "Claim that only two options exist that ignores other options").
+card(logical_fallacies, "false dilemma", "Claim that only two options exist that ignores other options").
+card(logical_fallacies, "false equivalence", "Claim that emphasizes similarities and ignores relevant differences").
+card(logical_fallacies, "formal fallacy", "Argument that is always considered wrong because of its invalid logical form").
+card(logical_fallacies, "hasty generalization", "Argument based on induction that offers insufficient evidence").
+card(logical_fallacies, "ignoratio elenchi", "Argument that fails to address the issue in question").
+card(logical_fallacies, "informal fallacy", "Argument that is wrong despite its use of valid logical form").
+card(logical_fallacies, "irrelevant conclusion", "Argument that fails to address the issue in question").
+card(logical_fallacies, "is-ought fallacy", "Argument that because things are a certain way, they should be that way").
+card(logical_fallacies, "leaping to a conclusion", "Argument based on induction that offers insufficient evidence").
+card(logical_fallacies, "loaded question", "Complex question that contains a hidden accusation").
+card(logical_fallacies, "negative conclusion from affirmative premises", "Syllogism has a negative conclusion but both its premises are positive").
+card(logical_fallacies, "no true Scotsman", "Denying counterexamples to a universal claim on subjective grounds").
+card(logical_fallacies, "petitio principii", "Type of circular reasoning that assumes the conclusion of an argument as its premise").
+card(logical_fallacies, "post hoc ergo propter hoc", "Since event Y followed event X, event Y must have been caused by event X").
+card(logical_fallacies, "proof by assertion", "Claim has been repeated often enough, so it must be true").
+card(logical_fallacies, "slippery slope", "Exaggerated fear that bad results will eventually follow from an action").
+card(logical_fallacies, "straw man", "Refuting an argument that was not presented by that opponent").
+card(logical_fallacies, "tu quoque", "Person making a claim behaves inconsistently with it, so it is false").
+card(logical_fallacies, "you also", "Person making a claim behaves inconsistently with it, so it is false").
 card(moons, "Amalthea", "Jupiter").
 card(moons, "Ariel", "Uranus").
 card(moons, "Callisto", "Jupiter").
