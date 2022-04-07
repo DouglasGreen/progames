@@ -31,6 +31,14 @@ check_cards :-
     fail.
 check_cards :- !.
 
+%! list_decks
+% List the decks and their descriptions.
+list_decks :-
+    format("Here's a list of the deck names and descriptions:~n~n"),
+    subject(Cat, Name, Desc),
+    format("* ~w/~w: ~w\n", [Cat, Name, Desc]),
+    fail.
+
 %! play
 % Pick a random deck to study.
 play :- play(_, _).
@@ -66,14 +74,6 @@ ask([(Q, A)|Qs]) :-
         nl,
         ask(Qs)
     ).
-
-%! list_decks
-% List the decks and their descriptions.
-list_decks :-
-    format("Here's a list of the deck names and descriptions:~n~n"),
-    subject(Cat, Name, Desc),
-    format("* ~w/~w: ~w\n", [Cat, Name, Desc]),
-    fail.
 
 %! pick_subject(Cat:atom, Name:atom, Desc:string)
 pick_subject(Cat, Name, Desc) :-
