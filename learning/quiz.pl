@@ -105,19 +105,19 @@ subject(art, paintings, "Paintings and the artists who created them").
 subject(art, romanticism_paintings, "Romanticism paintings and the artists who created them").
 subject(art, sculptures, "Sculptures and the artists who created them").
 subject(astronomy, moons, "Moons and the planets that they orbit around").
+subject(calculation, combinations, "Calculated values of combinations").
+subject(calculation, factorials, "Calculated values of factorials").
+subject(calculation, permutations, "Calculated values of permutations").
+subject(calculation, powers, "Calculated values of powers").
+subject(calculation, products, "Calculated values of products").
+subject(calculation, square_roots, "Calculated values of square_roots").
+subject(calculation, sums, "Calculated values of sums").
 subject(chemistry, chemical_elements, "Names and numbers of chemical elements").
 subject(geography, national_capitals, "Names of countries and their capitals").
 subject(literature, fiction_books, "Fictional books and authors").
 subject(literature, nonfiction_books, "Nonfictional books and authors").
 subject(literature, poets, "Poems and the poets who wrote them").
-subject(math, combinations, "Calculated values of combinations").
-subject(math, factorials, "Calculated values of factorials").
 subject(math, game_theory, "Terms from game theory").
-subject(math, permutations, "Calculated values of permutations").
-subject(math, powers, "Calculated values of powers").
-subject(math, products, "Calculated values of products").
-subject(math, square_roots, "Calculated values of square_roots").
-subject(math, sums, "Calculated values of sums").
 subject(movies, actor_roles, "Movie roles and the actors who played them").
 subject(movies, actress_roles, "Movie roles and the actresses who played them").
 subject(music, song_titles, "Pop and rock song titles and bands").
