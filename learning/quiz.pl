@@ -120,6 +120,7 @@ subject(literature, poets, "Poems and the poets who wrote them").
 subject(math, game_theory, "Terms from game theory").
 subject(movies, actor_roles, "Movie roles and the actors who played them").
 subject(movies, actress_roles, "Movie roles and the actresses who played them").
+subject(music, composer_eras, "Composers and their eras").
 subject(music, song_titles, "Pop and rock song titles and bands").
 subject(mythology, greek_and_roman_gods, "The names of Greek gods and goddesses and their roman equivalents").
 subject(mythology, greek_gods, "The names of Greek gods and goddesses and their domains").
@@ -2271,6 +2272,101 @@ card(combinations, "C(9, 6)", "84").
 card(combinations, "C(9, 7)", "36").
 card(combinations, "C(9, 8)", "9").
 card(combinations, "C(9, 9)", "1").
+card(composer_eras, "A. R. Rahman", "Contemporary").
+card(composer_eras, "Aaron Copland", "20th Century").
+card(composer_eras, "Alban Berg", "20th Century").
+card(composer_eras, "Andrew Lloyd Webber", "20th Century").
+card(composer_eras, "André Previn", "20th Century").
+card(composer_eras, "Anton Bruckner", "Post-Romantic").
+card(composer_eras, "Antonio Salieri", "Classical").
+card(composer_eras, "Antonio Vivaldi", "Baroque").
+card(composer_eras, "Arnold Schoenberg", "20th Century").
+card(composer_eras, "Bedřich Smetana", "Romantic").
+card(composer_eras, "Benjamin Britten", "20th Century").
+card(composer_eras, "Burt Bacharach", "20th Century").
+card(composer_eras, "Béla Bartók", "20th Century").
+card(composer_eras, "Caetano Veloso", "20th Century").
+card(composer_eras, "Camille Saint-Saëns", "Romantic").
+card(composer_eras, "Carl Maria Von Weber", "Romantic").
+card(composer_eras, "Charles Ives", "20th Century").
+card(composer_eras, "Clara Schumann", "Romantic").
+card(composer_eras, "Claude Debussy", "20th Century").
+card(composer_eras, "Claudio Monteverdi", "Baroque").
+card(composer_eras, "Cole Porter", "20th Century").
+card(composer_eras, "Count Basie", "20th Century").
+card(composer_eras, "César Franck", "Romantic").
+card(composer_eras, "Danny Elfman", "Contemporary").
+card(composer_eras, "Dave Brubeck", "20th Century").
+card(composer_eras, "David Foster", "Contemporary").
+card(composer_eras, "Dmitri Shostakovich", "20th Century").
+card(composer_eras, "Domenico Scarlatti", "Baroque").
+card(composer_eras, "Edvard Grieg", "Post-Romantic").
+card(composer_eras, "Edward Elgar", "20th Century").
+card(composer_eras, "Erik Satie", "20th Century").
+card(composer_eras, "Felix Mendelssohn", "Romantic").
+card(composer_eras, "Frank Zappa", "20th Century").
+card(composer_eras, "Franz Liszt", "Romantic").
+card(composer_eras, "Franz Schubert", "Romantic").
+card(composer_eras, "Frederic Chopin", "Romantic").
+card(composer_eras, "George Enescu", "20th Century").
+card(composer_eras, "George Frideric Handel", "Baroque").
+card(composer_eras, "George Gershwin", "20th Century").
+card(composer_eras, "Georges Bizet", "Romantic").
+card(composer_eras, "Giacomo Puccini", "Post-Romantic").
+card(composer_eras, "Gioachino Rossini", "Romantic").
+card(composer_eras, "Giuseppe Verdi", "Romantic").
+card(composer_eras, "Gustav Holst", "20th Century").
+card(composer_eras, "Gustav Mahler", "Post-Romantic").
+card(composer_eras, "Hans Zimmer", "20th Century").
+card(composer_eras, "Hector Berlioz", "Romantic").
+card(composer_eras, "Henry Mancini", "20th Century").
+card(composer_eras, "Henry Purcell", "Baroque").
+card(composer_eras, "Igor Stravinsky", "20th Century").
+card(composer_eras, "Irving Berlin", "20th Century").
+card(composer_eras, "Jacques Brel", "20th Century").
+card(composer_eras, "James Horner", "20th Century").
+card(composer_eras, "Jean Jacques Rousseau", "Baroque").
+card(composer_eras, "Jean Sibelius", "20th Century").
+card(composer_eras, "Jelly Roll Morton", "20th Century").
+card(composer_eras, "Jerry Goldsmith", "20th Century").
+card(composer_eras, "Johann Pachelbel", "Baroque").
+card(composer_eras, "Johann Sebastian Bach", "Baroque").
+card(composer_eras, "Johannes Brahms", "Romantic").
+card(composer_eras, "John Barry", "20th Century").
+card(composer_eras, "John Cage", "20th Century").
+card(composer_eras, "John Dowland", "Renaissance").
+card(composer_eras, "John Philip Sousa", "20th Century").
+card(composer_eras, "John Powell", "Contemporary").
+card(composer_eras, "John Rutter", "20th Century").
+card(composer_eras, "John Tavener", "20th Century").
+card(composer_eras, "John Williams", "20th Century").
+card(composer_eras, "Joseph Haydn", "Classical").
+card(composer_eras, "Karlheinz Stockhausen", "20th Century").
+card(composer_eras, "Kurt Weill", "20th Century").
+card(composer_eras, "Leonard Bernstein", "20th Century").
+card(composer_eras, "Ludwig Van Beethoven", "Classical").
+card(composer_eras, "Manuel De Falla", "20th Century").
+card(composer_eras, "Maurice Ravel", "20th Century").
+card(composer_eras, "Niccolò Paganini", "Romantic").
+card(composer_eras, "Olivier Messiaen", "20th Century").
+card(composer_eras, "Philip Glass", "20th Century").
+card(composer_eras, "Pierre Boulez", "20th Century").
+card(composer_eras, "Pyotr Ilyich Tchaikovsky", "Romantic").
+card(composer_eras, "Ralph Vaughan Williams", "20th Century").
+card(composer_eras, "Richard Strauss", "Post-Romantic").
+card(composer_eras, "Richard Wagner", "Romantic").
+card(composer_eras, "Robert Schumann", "Romantic").
+card(composer_eras, "Samuel Barber", "20th Century").
+card(composer_eras, "Scott Joplin", "Modern").
+card(composer_eras, "Sergei Prokofiev", "20th Century").
+card(composer_eras, "Stephen Sondheim", "20th Century").
+card(composer_eras, "Steve Reich", "20th Century").
+card(composer_eras, "Thelonious Monk", "20th Century").
+card(composer_eras, "Thomas Tallis", "Renaissance").
+card(composer_eras, "W. C. Handy", "20th Century").
+card(composer_eras, "William Byrd", "Baroque").
+card(composer_eras, "Wolfgang Amadeus Mozart", "Classical").
+card(composer_eras, "Yanni", "Contemporary").
 card(design_patterns, "Abstract Factory", "Define an abstract class and extend it with concrete classes that provide factory methods").
 card(design_patterns, "Adapter", "Modify one interface so that it can be used like another interface").
 card(design_patterns, "Bridge", "Design so that the interface and implementation can differ").
