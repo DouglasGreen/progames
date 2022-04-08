@@ -130,6 +130,7 @@ subject(philosophy, ethics, "Ethical terms and definitions, most of which were a
 subject(philosophy, logical_fallacies, "Logical fallacies in English and Latin and their definitions").
 subject(philosophy, philosophers, "Philosophers and their areas of activity").
 subject(philosophy, philosophical_writings, "Philosophical books and other writings and their authors").
+subject(programming, antipatterns, "Software design antipatterns as defined in Wikipedia").
 subject(programming, design_patterns, "Software design patterns").
 subject(programming, gdpr, "Glossary of terms used in General Data Protection Regulation (GDPR)").
 subject(programming, git_commands, "Git commands with definitions taken from the documentation").
@@ -1741,6 +1742,87 @@ card(actress_roles, "X: First Class", "January Jones").
 card(actress_roles, "Yi dai zong shi", "Ziyi Zhang").
 card(actress_roles, "Zero Dark Thirty", "Jessica Chastain").
 card(actress_roles, "À bout de souffle", "Jean Seberg").
+card(antipatterns, "Abstraction inversion", "Not exposing implemented functionality required by callers of a function/method/constructor, so that the calling code awkwardly re-implements the same functionality in terms of those calls").
+card(antipatterns, "Accidental complexity", "Programming tasks which could be eliminated with better tools (as opposed to essential complexity inherent in the problem being solved)").
+card(antipatterns, "Action at a distance", "Unexpected interaction between widely separated parts of a system").
+card(antipatterns, "Ambiguous viewpoint", "Presenting a model (usually Object-oriented analysis and design (OOAD)) without specifying its viewpoint").
+card(antipatterns, "Analysis paralysis", "A project that has stalled in the analysis phase of development, and is unable to achieve support for any of the potential plans of its implementation").
+card(antipatterns, "Anemic domain model", "The use of the domain model without any business logic. The domain model's objects cannot guarantee their correctness at any moment, because their validation and mutation logic is placed somewhere outside (most likely in multiple places).").
+card(antipatterns, "Bicycle shed", "Giving disproportionate weight to trivial issues").
+card(antipatterns, "Big ball of mud", "A system with no recognizable structure").
+card(antipatterns, "Bleeding edge", "Operating with cutting-edge technologies that are still untested or unstable, leading to cost overruns, under-performance or delayed delivery of the product").
+card(antipatterns, "Boat anchor", "Retaining a part of a system that no longer has any use").
+card(antipatterns, "Brooks's law", "Adding more resources to a project to increase velocity, when the project is already slowed by coordination overhead").
+card(antipatterns, "Busy waiting", "Consuming CPU while waiting for something to happen, usually by repeated checking instead of messaging").
+card(antipatterns, "Bystander apathy", "The phenomenon in which people are less likely to or do not offer help to a person in need when others are present").
+card(antipatterns, "Caching failure", "Forgetting to clear a cache that holds a negative result (error) after the error condition has been corrected").
+card(antipatterns, "Call super", "Requiring subclasses to call a superclass's overridden method").
+card(antipatterns, "Cargo cult programming", "Using patterns and methods without understanding why").
+card(antipatterns, "Cart before the horse", "Focusing too many resources on a stage of a project out of its sequence").
+card(antipatterns, "Cash cow", "A profitable legacy product that often leads to complacency about new products").
+card(antipatterns, "Circle-ellipse problem", "Subtyping variable-types on the basis of value-subtypes").
+card(antipatterns, "Circular dependency", "Introducing unnecessary direct or indirect mutual dependencies between objects or software modules").
+card(antipatterns, "Coding by exception", "Adding new code to handle each special case as it is recognized").
+card(antipatterns, "Constant interface", "Using interfaces to define constants").
+card(antipatterns, "Copy and paste programming", "Copying (and modifying) existing code rather than creating generic solutions").
+card(antipatterns, "DLL hell", "Inadequate management of dynamic-link libraries (DLLs), specifically on Microsoft Windows").
+card(antipatterns, "Database-as-IPC", "Using a database as the message queue for routine interprocess communication where a much more lightweight mechanism would be suitable").
+card(antipatterns, "Death march", "A project whose staff, while expecting it to fail, are compelled to continue, often with much overwork, by management in denial of the project's possible failure").
+card(antipatterns, "Dependency hell", "Problems with versions of required products").
+card(antipatterns, "Design by committee", "The result of having many contributors to a design, but no unifying vision").
+card(antipatterns, "Design pattern", "The use of patterns has itself been called an anti-pattern, a sign that a system is not employing enough abstraction").
+card(antipatterns, "Error hiding", "Catching an error message before it can be shown to the user and either showing nothing or showing a meaningless message.").
+card(antipatterns, "Escalation of commitment", "Failing to revoke a decision when it proves wrong").
+card(antipatterns, "Every fool their own tool", "Failing to use proper software development principles when creating tools to facilitate the software development process itself.").
+card(antipatterns, "Extension conflict", "Problems with different extensions to classic Mac OS attempting to patch the same parts of the operating system").
+card(antipatterns, "God object", "Concentrating too many functions in a single part of the design (class)").
+card(antipatterns, "Gold plating", "Continuing to work on a task or project well past the point at which extra effort is not adding value").
+card(antipatterns, "Golden hammer", "Assuming that a favorite solution is universally applicable").
+card(antipatterns, "Groupthink", "A collective state where group members begin, often unknowingly, to think alike and reject differing viewpoints").
+card(antipatterns, "Hard code", "Embedding assumptions about the environment of a system in its implementation").
+card(antipatterns, "Inner-platform effect", "A system so customizable as to become a poor replica of the software development platform").
+card(antipatterns, "Input kludge", "Failing to specify and implement the handling of possibly invalid input").
+card(antipatterns, "Interface bloat", "Making an interface so powerful that it is extremely difficult to implement").
+card(antipatterns, "Invented here", "The tendency towards dismissing any innovation or less than trivial solution originating from inside the organization, usually because of lack of confidence in the staff").
+card(antipatterns, "JAR hell", "Overutilization of multiple JAR files, usually causing versioning and location problems because of misunderstanding of the Java class loading model").
+card(antipatterns, "Lasagna code", "Programs whose structure consists of too many layers of inheritance").
+card(antipatterns, "Lava flow", "Retaining undesirable (redundant or low-quality) code because removing it is too expensive or has unpredictable consequences").
+card(antipatterns, "Loop-switch sequence", "Encoding a set of sequential steps using a switch within a loop statement").
+card(antipatterns, "Magic numbers", "Including unexplained numbers in algorithms").
+card(antipatterns, "Magic pushbutton", "A form with no dynamic validation or input assistance, such as dropdowns").
+card(antipatterns, "Magic strings", "Implementing presumably unlikely input scenarios, such as comparisons with very specific strings, to mask functionality.").
+card(antipatterns, "Management by objectives", "Management operating with the exclusive focus on quantitative management criteria, such as number of sales, when these are non-essential or cost too much to acquire").
+card(antipatterns, "Micromanagement", "Ineffective results stemming from excessive observation, supervision, or other hands-on involvement from management").
+card(antipatterns, "Moral hazard", "Insulating a decision-maker from the consequences of their decision").
+card(antipatterns, "Mushroom management", "Keeping employees \"in the dark and fed manure\" (also \"left to stew and finally canned\") about decisions being taken by management").
+card(antipatterns, "Ninety-ninety rule", "Tendency to underestimate the amount of time to complete a project when it is \"nearly done\"").
+card(antipatterns, "Not invented here (NIH) syndrome", "The tendency towards reinventing the wheel (failing to adopt an existing, adequate solution)").
+card(antipatterns, "Object cesspool", "Reusing objects whose state does not conform to the (possibly implicit) contract for re-use").
+card(antipatterns, "Object orgy", "Failing to properly encapsulate objects permitting unrestricted access to their internals").
+card(antipatterns, "Overengineering", "Spending resources making a project more robust and complex than is needed").
+card(antipatterns, "Peter principle", "Continually promoting otherwise well-performing employees up to a position they are unsuited for, with responsibilities they are incompetent at completing, where they remain indefinitely").
+card(antipatterns, "Poltergeists", "Objects whose sole purpose is to pass information to another object").
+card(antipatterns, "Premature optimization", "Coding early-on for perceived efficiency, sacrificing good design, maintainability, and sometimes even real-world efficiency").
+card(antipatterns, "Programming by permutation (or \"programming by accident\", or \"programming by coincidence\")", "Trying to approach a solution by successively modifying the code to see if it works").
+card(antipatterns, "Race hazard", "Failing to see the consequences of events that can sometimes interfere with each other").
+card(antipatterns, "Reinventing the square wheel", "Failing to adopt an existing solution and instead adopting a custom solution which performs much worse than the existing one").
+card(antipatterns, "Repeating yourself", "Writing code which contains repetitive patterns and substrings over again; avoid with once and only once (abstraction principle)").
+card(antipatterns, "Scope creep", "Uncontrolled changes or continuous growth in a project's scope, or adding new features to the project after the original requirements have been drafted and accepted (also known as requirement creep and feature creep)").
+card(antipatterns, "Seagull management", "Management in which managers only interact with employees when a problem arises, when they \"fly in, make a lot of noise, dump on everyone, do not solve the problem, then fly out\"").
+card(antipatterns, "Sequential coupling", "A class that requires its methods to be called in a particular order").
+card(antipatterns, "Shooting the messenger", "Throwing exceptions from the scope of a plugin or subscriber in response to legitimate input, especially when this causes the outer scope to fail.").
+card(antipatterns, "Shotgun surgery", "Developer adds features to an application codebase which span a multiplicity of implementors or implementations in a single change").
+card(antipatterns, "Silver bullet", "Assuming that a favorite technical solution can solve a larger process or problem").
+card(antipatterns, "Singleton Pattern", "This design pattern brings coupling and is considered a bad solution").
+card(antipatterns, "Smoke and mirrors", "Demonstrating unimplemented functions as if they were already implemented").
+card(antipatterns, "Soft code", "Storing business logic in configuration files rather than source code").
+card(antipatterns, "Spaghetti code", "Programs whose structure is barely comprehensible, especially because of misuse of code structures").
+card(antipatterns, "Stovepipe or Silos", "An organizational structure of isolated or semi-isolated teams, in which too many communications take place up and down the hierarchy, rather than directly with other teams across the organization").
+card(antipatterns, "Stovepipe system", "A barely maintainable assemblage of ill-related components").
+card(antipatterns, "Tester-driven development", "Software projects in which new requirements are specified in bug reports").
+card(antipatterns, "Typecasting", "Locking successful employees into overly-safe, narrowly defined, predictable roles based on their past successes rather than their potential").
+card(antipatterns, "Vendor lock-in", "Making a system excessively dependent on an externally supplied component").
+card(antipatterns, "Yo-yo problem", "A structure (e.g., of inheritance) that is hard to understand due to excessive fragmentation").
 card(baroque_paintings, "A Fantastic Cave with Odysseus and Calypso", "Jan Brueghel the Elder").
 card(baroque_paintings, "Ahimelech Giving the Sword of Goliath to David", "Aert de Gelder").
 card(baroque_paintings, "Alethea Talbot with her Husband", "Peter Paul Rubens").
@@ -2668,7 +2750,6 @@ card(fiction_books, "Dubliners", "James Joyce").
 card(fiction_books, "Dune", "Frank Herbert").
 card(fiction_books, "Electra", "Sophocles").
 card(fiction_books, "Emma", "Jane Austen").
-card(fiction_books, "Epic of Gilgamesh", "Unknown").
 card(fiction_books, "Ethan Frome", "Edith Wharton").
 card(fiction_books, "Eugenie Grandet", "Honoré de Balzac").
 card(fiction_books, "Fahrenheit 451", "Ray Bradbury").
@@ -4486,7 +4567,6 @@ card(philosophical_writings, "Apology", "Plato").
 card(philosophical_writings, "Being and Nothingness", "Jean-Paul Sartre").
 card(philosophical_writings, "Being and Time", "Martin Heidegger").
 card(philosophical_writings, "Beyond Good and Evil", "Friedrich Wilhelm Nietzsche").
-card(philosophical_writings, "Bhagavad Gita", "Unknown").
 card(philosophical_writings, "Chuang Tzu", "Chuang Chou").
 card(philosophical_writings, "Collected Papers", "Charles Sanders Pierce").
 card(philosophical_writings, "Concluding Unscientific Postscript", "Søren Kierkegaard").
@@ -4534,7 +4614,6 @@ card(philosophical_writings, "Republic", "Plato").
 card(philosophical_writings, "Selected Works", "Karl Marx").
 card(philosophical_writings, "Selections", "William of Ockham").
 card(philosophical_writings, "Summa Theologica", "Saint Thomas Aquinas").
-card(philosophical_writings, "Tao Te Ching", "Unknown").
 card(philosophical_writings, "The Analects of Confucius", "Confucius").
 card(philosophical_writings, "The Book of Salvation", "Avicenna").
 card(philosophical_writings, "The City of God", "Saint Augustine").
